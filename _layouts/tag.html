@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<h2 class="page-title uppercase">All posts tagged "{{ page.tag }}"</h2>
+{% for post in page.posts %}
+{% include list-story.html %}
+{% endfor %}

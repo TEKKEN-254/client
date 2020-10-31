@@ -1,0 +1,45 @@
+---
+    alias: news
+    title: Home
+    description: Read up on all the latest news from within the Kenyan Tekken scene.
+---
+<h2 class="page-title uppercase">News</h2>
+<ul class="guides-tabs nav nav-pills" id="news-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="/news">All posts</a>
+    </li>
+    {% assign sorted_cats = site.categories | sort %}
+    {% for category in sorted_cats %}
+    <li class="nav-item">
+        <a class="nav-link" href="/news/categories/{{ category | first | slugify }}">{{ category | first }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% for post in paginator.posts %}
+{% include list-story.html %}
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<ul class="pagination d-flex justify-content-center">
+    <li class="page-item{% if paginator.page == 1 %} disabled{% endif %}">
+        <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&laquo;</a>
+    </li>
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <li class="page-item active" aria-current="page">
+        <a class="page-link">{{ page }} <span class="sr-only">(current)</span></a>
+    </li>
+    {% elsif page == 1 %}
+    <li class="page-item">
+        <a class="page-link" href="{{ "/news" | relative_url }}">{{ page }}</a>
+    </li>
+    {% else %}
+    <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ":num", page }}">{{ page }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    <li class="page-item{% if paginator.page == paginator.total_pages %} disabled{% endif %}">
+        <a class="page-link" href="{{ paginator.next_page_path }}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&raquo;</a>
+    </li>
+</ul>
+{% endif %}

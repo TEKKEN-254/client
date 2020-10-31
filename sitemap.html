@@ -1,0 +1,68 @@
+---
+    alias: sitemap
+    title: Sitemap
+    description: View a full layout of our website with our sitemap.
+---
+<h2 class="page-title uppercase">Sitemap</h2>
+<p>Use this page to see a full layout of our website.</p>
+<ul class="sitemap">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/galleries/">Galleries</a></li>
+    <li>
+        <a href="/circuit/">Circuit</a>
+        <ul>
+            <li><a href="/circuit/register.html">Registration</a></li>
+            <li><a href="/circuit/payment.html">Payment</a></li>
+            <li><a href="/circuit/rankings.html">Rankings</a></li>
+            <li><a href="/circuit/archive.html">Archive</a></li>
+            <li><a href="/circuit/changelog.html">Rules and Regulations Change Log</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/fight-night/">Fight Night</a>
+        <ul>
+            <li><a href="/fight-night/register.html">Registration</a></li>
+            <li><a href="/fight-night/rankings.html">Rankings</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/guides/">Guides</a>
+        <ul>
+            <li><a href="/guides/movement.html">Movement</a></li>
+            <li><a href="/guides/att-def.html">Attack & Defence</a></li>
+            <li><a href="/guides/characters.html">Characters</a></li>
+            <li><a href="/guides/frame-data.html">Frame Data</a></li>
+            <li><a href="/guides/notations.html">Notations</a></li>
+            <li><a href="/guides/glossary.html">Glossary</a></li>
+        </ul>
+    </li>
+    <li><a href="/about.html">About Us</a></li>
+    <li><a href="/contact.html">Contact Us</a></li>
+</ul>
+<h2 class="page-title">Data Lookup</h2>
+<p></p>
+<div class="row sitemap-search">
+    <form class="col-12 col-lg-6" action="/galleries/event.html" method="GET">
+        <label for="date">Galleries</label><br>
+        <input type="search" name="date" placeholder="Event date (YYYY-MM-DD)&#8230;">
+    </form>
+    <form class="col-12 col-lg-6" action="/guides/character.html" method="GET">
+        <label for="view">Characters <em>(Tekken 7)</em></label><br>
+        <input type="search" name="view" placeholder="Character name&#8230;">
+    </form>
+</div>
+<div class="row sitemap-search">
+    <form class="col-12 col-lg-4" action="/circuit/tekken/profile.html" method="GET">
+        <label for="id">TEKKEN 254 Circuit</label><br>
+        <input type="search" name="id" placeholder="Player ID&#8230;">
+    </form>
+    <form class="col-12 col-lg-4" action="/circuit/mk/profile.html" method="GET">
+        <label for="id">Kenya Kombat Circuit</label><br>
+        <input type="search" name="id" placeholder="Player ID&#8230;">
+    </form>
+    <form class="col-12 col-lg-4" action="/fight-night/profile.html" method="GET">
+        <label for="id">Savanna Fight Night</label><br>
+        <input type="search" name="id" placeholder="Player ID&#8230;">
+    </form>
+</div>

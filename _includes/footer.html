@@ -1,0 +1,50 @@
+</main>
+<footer>
+    <div class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/guides/glossary.html">Glossary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sitemap.html">Sitemap</a>
+            </li>
+        </ul>
+        <p class="d-none d-lg-block">&#169; 2017&ndash;2020 TEKKEN Two-Five-Four Gaming. All rights reserved. TEKKEN Two-Five-Four Gaming is not affiliated with Bandai Namco Entertainment, Inc. or Warner Bros. Entertainment Inc. Tekken and its related content are copyright/registered
+            trademarks of Bandai Namco Entertainment, Inc. Mortal Kombat and its related content are copyright/registered trademarks of Warner Bros. Entertainment Inc.</p>
+        {% if page.alias == "character" %}
+        <p>Flag icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>.</p>
+        {% endif %}
+        <div class="footer-socials d-lg-none">
+            <a href="https://facebook.com/itstekken254" target="_blank"><img src="/assets/img/socials/facebook-white.svg" /></a>
+            <a href="https://twitter.com/itstekken254" target="_blank"><img src="/assets/img/socials/twitter-white.svg" /></a>
+            <a href="https://instagram.com/tekken254" target="_blank"><img src="/assets/img/socials/instagram-white.svg" /></a>
+            <a href="https://youtube.com/tekken254-main" target="_blank"><img src="/assets/img/socials/youtube-white.svg" /></a>
+            <a href="https://twitch.tv/tekken254" target="_blank"><img src="/assets/img/socials/twitch-white.svg" /></a>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Local JS -->
+<script type="text/javascript" src="/assets/js/main.js"></script>
+{% if page.alias == "character" %}
+<script type="module" src="/assets/js/character.js"></script>
+{% elsif page.alias contains "-profile" %}
+<script type="text/javascript" src="/assets/js/profiles.js"></script>
+    {% if page.alias == "circuit-profile" %}
+    <script type="text/javascript" src="/assets/js/stats-circuit.js"></script>
+    {% elsif page.alias == "sfn-profile" %}
+    <script type="text/javascript" src="/assets/js/stats-sfn.js"></script>
+    {% endif %}
+{% endif %}
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.sitemap {
+    margin-bottom: 30px;
+}
+
+.sitemap-search {
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.sitemap-search input[type=search] {
+    margin-top: 5px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .sitemap-search {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .sitemap-search form,
+    .sitemap-search input[type=search] {
+        width: 100%;
+    }
+    .sitemap-search form:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}

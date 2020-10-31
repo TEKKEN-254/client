@@ -1,0 +1,32 @@
+<div class="featured-stories row">
+    {% assign not_top = 0 %}
+    {% for post in site.posts %}
+    {% if post.top != true %}
+    {% assign not_top = not_top | plus: 1 %}
+    <div class="card featured-story col-12 col-lg-4">
+        <a class="blank-link" href="{{ post.url }}">
+            <div class="card-container">
+                <div class="card-img-container">
+                    <div class="card-img-top featured-story-img" style="background-image: url('/{% if post.metaImage %}{{ post.metaImage }}{% else %}assets/img/news/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}/meta.{% if post.metaImageExt %}{{ post.metaImageExt }}{% else %}jpg{% endif %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}{% endif %}"></div>
+                </div>
+                <div class="card-body">
+                    <div class="news-card-info">
+                        <h4 class="card-title semi-bold mt-0">{{ post.title }}</h4>
+                        <p class="card-text light">{{ post.description }}</p>
+                    </div>
+                    <small>    
+                                        <ul class="featured-cat-date card-text">
+                                            <li class="text-muted date">{{ post.date | date_to_long_string }}</li>
+                                            <li class="text-muted category">{{ post.categories | first }}</li>
+                                        </ul>
+                                    </small>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% endif %}
+    {% if not_top == 3 %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+</div>

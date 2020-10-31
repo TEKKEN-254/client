@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<h2 class="page-title uppercase">
+    Author Profile</h2>
+<div class="author-bio col-12">
+    <img src="/{% if page.img %}{{ page.img }}{% else %}assets/img/authors/{{ page.alias }}.{% if page.imgExt %}{{ page.imgExt }}{% else %}jpg{% endif %}{% endif %}" />
+    <div class="author-desc">
+        <h3 class="site-red uppercase">{{ page.name }}</h3>
+        {{ content }}
+    </div>
+</div>
+<br />
+{% assign counter = 0 %}
+{% assign this_author = page.alias %}
+{% for post in site.posts %}
+    {% for author in post.author %}
+        {% if author == this_author %}
+            {% assign counter = counter | plus: 1 %}
+<h3>All posts by {{ page.name }}</h3>
+        {% endif %}
+    {% endfor %}
+    {% if counter == 1 %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+    {% for author in post.author %}
+        {% if author == this_author %}
+{% include list-story.html %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}

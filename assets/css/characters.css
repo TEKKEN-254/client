@@ -1,0 +1,107 @@
+.page-title {
+    margin-bottom: 0;
+}
+
+.char-name,
+.char-nickname {
+    white-space: nowrap;
+}
+
+.char-name {
+    display: flex;
+    color: #ba2025;
+    font-weight: 600;
+    margin-top: 0 !important;
+    margin-bottom: -0.9375rem !important;
+}
+
+.char-nickname {
+    color: #166734;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.flagicon {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    align-self: center;
+}
+
+#flag {
+    width: calc(2/3 * 21px);
+    height: calc(2/3 * 21px);
+}
+
+.char-profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.char-bio {
+    min-height: 560px;
+}
+
+.char-summary ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.char-summary li {
+    list-style-type: none;
+    line-height: 1.25;
+}
+
+#playstyle,
+#notable-players {
+    margin-top: 0 !important;
+}
+
+.char-img img {
+    width: 500px;
+}
+
+.char-img-2 {
+    display: none;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    .char-profile {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .char-img {
+        display: none;
+    }
+    .container-2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .char-img-2 {
+        display: block;
+    }
+    .char-img-2 img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* p {
+        font-size: 0.875rem;
+    } */
+    #flag {
+        width: calc(5/3 * 1.6vw);
+        height: calc(5/3 * 1.6vw);
+    }
+    .char-img img {
+        width: 100%;
+    }
+    .char-summary strong {
+        font-size: calc(5/3 * 2vw) !important;
+    }
+}

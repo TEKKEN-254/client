@@ -1,0 +1,69 @@
+---
+    alias: sfn-profile
+    title: Player Profile
+    description: Learn more about each player and check out all their stats from Savanna Fight Night.
+    # metaImage: img/backgrounds/sfn-banner.png
+---
+<section>
+    <h2 class="page-title uppercase">Player Profile</h2>
+    <div class="player-bio">
+        <div class="player-profile">
+            <figure class="bio-img">
+                <img class="player-img" id="player-img" src="/assets/img/players/placeholder.jpg" />
+                <figcaption>#<span id="sfgc-id">0000000</span></figcaption>
+            </figure>
+            <div class="player-socials">
+                <table>
+                    <tr>
+                        <td id="is-facebook">
+                            <a id="player-facebook" href="" target="_blank"><img src="/assets/img/socials/facebook-white.svg" /></a>
+                        </td>
+                        <td id="is-twitter">
+                            <a id="player-twitter" href="" target="_blank"><img src="/assets/img/socials/twitter-white.svg" /></a>
+                        </td>
+                        <td id="is-instagram">
+                            <a id="player-instagram" href="" target="_blank"><img src="/assets/img/socials/instagram-white.svg" /></a>
+                        </td>
+                        <td id="is-youtube">
+                            <a id="player-youtube" href="" target="_blank"><img src="/assets/img/socials/youtube-white.svg" /></a>
+                        </td>
+                        <td id="is-twitch">
+                            <a id="player-twitch" href="" target="_blank"><img src="/assets/img/socials/twitch-white.svg" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3 class="player-pseudo uppercase"><span id="team-shorthand"></span><span id="pseudonym">Placeholder</span></h3>
+            <h4 class="player-name uppercase"><span id="player-name">Full name</span></h4>
+            <p class="bio-info">Born: <span id="birth-date">Undefined</span></p>
+            <p class="bio-info">Main platform: <span id="platform">Undefined</span></p>
+            <p class="bio-info">Online ID: <span id="online-id">Undefined</span></p>
+            <h4 class="bio-header uppercase">Main character</h4>
+            <p id="main-char">Undefined</p>
+            <h4 class="bio-header uppercase">Other characters used</h4>
+            <p id="other-chars">Add <span data-toggle="tooltip" data-html="true" title="e.g. <code>?id=4092983</code>"><code>?id=[number]</code></span> to the end of the address bar to select a player.</p>
+        </div>
+        <div class="bio-main">
+            <img id="bio-main" src="/assets/img/characters/placeholder.png" />
+        </div>
+        <div class="stats-overview">
+            <h3 class="stat-header uppercase">Fight Night rank</h3>
+            <p class="player-stat uppercase">
+                <span id="current-rank">N/A</span> &mdash; <span id="current-rank-diff">N/A</span></p>
+            <h3 class="stat-header uppercase">Fight Night stats</h3>
+            <p class="player-stat uppercase">Current rank: <span id="current-rank-r">N/A</span></p>
+            <p class="player-stat uppercase">Sets won: <span id="sets-won">0</span></p>
+            <p class="player-stat uppercase">Sets lost: <span id="sets-lost">0</span></p>
+            <p class="player-stat uppercase">Matches won: <span id="matches-won">0</span></p>
+            <p class="player-stat uppercase">Matches lost: <span id="matches-lost">0</span></p>
+            <h3 class="stat-header uppercase">Streaks</h3>
+            <p class="player-stat uppercase">Current win streak: <span id="current-win-streak">0</span></p>
+            <p class="player-stat uppercase">Longest win streak: <span id="longest-win-streak">0</span></p>
+            <p class="player-stat uppercase">Current loss streak: <span id="current-loss-streak">0</span></p>
+            <p class="player-stat uppercase">Longest loss streak: <span id="longest-loss-streak">0</span></p>
+            <h3 class="stat-header uppercase">Last result (SFN <span id="last-sfn">?</span>)</h3>
+            <p class="player-stat"><span id="last-result">N/A</span> &mdash; <span id="last-result-score">0-0</span> vs.
+                <!-- href to reference player ID number -->
+                <a id="last-result-opponent-link" href=""><span id="last-result-opponent">Undefined</span></a></p>
+        </div>
+</section>

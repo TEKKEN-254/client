@@ -1,0 +1,83 @@
+---
+    alias: circuit-rankings
+    title: Rankings
+    description: Find out how competitors are stacking up in the rankings for the current season of the TEKKEN 254 Circuit and the Kenya Kombat Circuit.
+    # metaImage: img/backgrounds/circuit-banner.png
+---
+<h2 class="page-title uppercase">Circuit Rankings</h2>
+<ul class="guides-tabs nav nav-pills" id="rankings-tabs" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="tekken-tab" data-toggle="pill" href="#tekken" role="tab" aria-controls="tekken" aria-selected="true">Tekken 7</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="mk-tab" data-toggle="pill" href="#mk" role="tab" aria-controls="mk" aria-selected="false">Mortal Kombat 11</a>
+    </li>
+</ul>
+<div class="tab-content" id="rankings-tabs-content">
+    <div class="tab-pane fade show active" id="tekken" role="tabpanel" aria-labelledby="tekken-tab">
+        <table class="table rankings-table table-sm table-borderless table-responsive-lg mb-0">
+            <thead>
+                <tr class="border-0">
+                    <th>Pos.</th>
+                    <th>Name</th>
+                    <th>Pseudonym</th>
+                    <th>Pld</th>
+                    <th>SW-L</th>
+                    <th>MW-L</th>
+                    <th>Pts</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% assign j = 32 %}
+                {% for i in (1..32) %}
+                <tr>
+                    <td>{{ i }}</td>
+                    <td>Player Name</td>
+                    <td>
+                        <a href="/circuit/tekken/profile.html?id=" target="_blank">Player {{ i }}</a>
+                    </td>
+                    <td>2</td>
+                    <td>0&ndash;0</td>
+                    <td>0&ndash;0</td>
+                    <td>{{ j }}</td>
+                </tr>
+                {% assign j = j | minus: 1 %}
+                {% endfor %}
+            </tbody>
+            <caption>Updated after Qualifier Two on 29 February 2020. <a href="/assets/docs/circuit/tekken/sn-4/s4-ranking-q2.pdf" target="_blank">Click here</a> to view detailed rankings.</caption>
+        </table>
+    </div>
+    <div class="tab-pane fade" id="mk" role="tabpanel" aria-labelledby="mk-tab">
+        <table class="table rankings-table table-sm table-borderless table-responsive-lg mb-0">
+            <thead>
+                <tr class="border-0">
+                    <th>Pos.</th>
+                    <th>Name</th>
+                    <th>Pseudonym</th>
+                    <th>Pld</th>
+                    <th>SW-L</th>
+                    <th>MW-L</th>
+                    <th>Pts</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% assign j = 32 %}
+                {% for i in (1..32) %}
+                <tr>
+                    <td>{{ i }}</td>
+                    <td>Player Name</td>
+                    <td>
+                        <a href="/circuit/mk/profile.html?id=" target="_blank">Player {{ i }}</a>
+                    </td>
+                    <td>2</td>
+                    <td>0&ndash;0</td>
+                    <td>0&ndash;0</td>
+                    <td>{{ j }}</td>
+                </tr>
+                {% assign j = j | minus: 1 %}
+                {% endfor %}
+            </tbody>
+            <caption>Updated after Qualifier Two on 29 February 2020. <a href="/assets/docs/circuit/mk/sn-1/s1-ranking-q2.pdf" target="_blank">Click here</a> to view detailed rankings.</caption>
+        </table>
+    </div>
+</div>

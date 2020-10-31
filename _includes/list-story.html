@@ -1,0 +1,17 @@
+<div class="news-card media">
+    <a class="blank-link" href="{{ post.url }}">
+        <div class="card-img-container">
+            <div class="news-card-img" style="background-image: url('/{% if post.metaImage %}{{ post.metaImage }}{% else %}assets/img/news/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}/meta.{% if post.metaImageExt %}{{ post.metaImageExt }}{% else %}jpg{% endif %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}{% endif %}">&nbsp;</div>
+        </div>
+        <div class="media-body">
+            <div class="news-card-info">
+                <h2 class="mt-0">{{ post.title }}</h2>
+                <p>{{ post.description }}</p>
+            </div>
+            <ul class="featured-cat-date card-text">
+                <li class="text-muted date">{{ post.date | date_to_long_string }}</li>
+                <li class="text-muted category">{{ post.categories | first }}</li>
+            </ul>
+        </div>
+    </a>
+</div>

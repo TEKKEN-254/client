@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<section id="story">
+    <ul class="post-top mb-0">
+        <li id="date">{{ page.date | date_to_long_string }}</li>
+        <li id="categories"><a href="/news/categories/{{ page.categories | first | downcase }}">{{ page.categories | first }}</a></li>
+        {% assign total_count = content | strip_html | number_of_words %}
+        {% assign approx_read_time = total_count | divided_by: 250 %}
+        {% if approx_read_time < 1 %}
+            {% assign approx_read_time = 1 %}
+        {% endif %}
+        <li><span data-toggle="tooltip" data-html="true" title="This is an approximate figure calculated using the <code>strip_html</code> and <code>number_of_words</code> Liquid filters, and an average adult reading time of 250 words per minute.">{{ approx_read_time }} minute read</span></li>
+    </ul>
+    <h1 class="{% if page.category == "Competitive" %}m-0{% else %}mt-0{% endif %}">{{ page.title }}</h1>{% if page.category == "Competitive" %}
+    <p class="text-left text-lg-center"><em>(Check out our <a href="/guides/glossary.html" target="_blank">glossary</a> as you read this article for definitions of the jargon used)</em></p>{% endif %}
+    <figure>
+        <div class="post-meta-img" style="background-image: url('/{% if page.metaImage %}{{ page.metaImage }}{% else %}assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/meta.{% if page.metaImageExt %}{{ page.metaImageExt }}{% else %}jpg{% endif %}{% endif %}');{% if page.metaImagePosition %} background-position: {{ page.metaImagePosition }};{% else %} background-position: center;{% endif %}{% if page.metaImageSize %} background-size: {{ page.metaImageSize }};{% else %} background-size: cover;{% endif %}"></div>
+        {% if page.caption %}
+        <figcaption>{{ page.caption }}</figcaption>
+        {% endif %}
+    </figure>
+    {% if page.author %}
+        <p class="post-author">by
+        {% assign i = 0 %}
+        {% assign j = 1 %}
+        {% assign this_authors = page.author %}
+        {% assign author_count = this_authors | size %}
+        {% if j == author_count %}
+            {% for this_author in this_authors %}
+                {% assign authors = site.authors | where: 'alias', this_authors[i] %}
+                {% for author in authors %}
+                    <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                {% endfor %}
+            {% endfor %}
+        {% else %}
+            {% for this_author in this_authors %}
+                {% assign authors = site.authors | where: 'alias', this_authors[i] %}
+                {% for author in authors %}
+                    {% assign penultimate = author_count | minus: 1 %}
+                    {% if j == 1 %}
+                        {% if j == penultimate %}
+                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                        {% else %}
+                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a><span class="author-whitespace">
+                        {% endif %}
+                    {% elsif j == author_count %}
+                        and <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                    {% else %}
+                        {% if j == penultimate %}
+                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                        {% else %}
+                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a><span class="author-whitespace">
+                        {% endif %}
+                    {% endif %}
+                    {% assign i = i | plus: 1 %}
+                    {% assign j = j | plus: 1 %}
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+        </p>
+    {% endif %}
+    {{ content }}
+    <div class="d-flex flex-column justify-content-between align-items-center">
+        <!-- AddToAny BEGIN -->
+        <div class="post-share a2a_kit a2a_kit_size_32 a2a_default_style">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_whatsapp"></a>
+            <a class="a2a_button_email"></a>
+        </div>
+        <script>
+            var a2a_config = a2a_config || {};
+            a2a_config.onclick = 1;
+            a2a_config.num_services = 4;
+        </script>
+        <script src="https://static.addtoany.com/menu/page.js" async></script>
+        <!-- AddToAny END -->
+        <ul class="post-top my-0" id="tags">
+            {% for tag in page.tags %}
+            <li><a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% include related-stories.html %}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+
+<head>
+    <title>{% if page.alias contains "circuit-" %}{% if page.alias contains "tekken" %}TEKKEN 254 Circuit{% elsif page.alias contains "mk" %}Kenya Kombat Circuit{% else %}TEKKEN 254 Circuit / Kenya Kombat Circuit{% endif %} | {{ page.title }}{% elsif page.alias contains "sfn-" %}Savanna Fight Night | {{ page.title }}{% elsif page.alias contains "guides-" %}TEKKEN 254 | Guides - {{ page.title }}{% else %}TEKKEN 254 | {% if page.url contains "/news/authors/" %}Author Profile - {{ page.name }}{% elsif page.url contains "/news/" %}News - {% if page.url contains "/news/categories/" %}All posts in "{{ page.title }}"{%elsif page.url contains "/news/tags/" %}All posts tagged "{{ page.tag }}"{% else %}{{ page.title }}{% endif %}{% else %}{{ page.title }}{% endif %}{% endif %}</title>
+    <link rel="icon" type="image/png" href="/assets/img/logos/icon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />{% if page.description %}
+    <meta name="description" content="{{ page.description }}">{% endif %}{% if page.alias == "search" or page.name == "404.html" %}
+    <meta name="robots" content="noindex, nofollow" />{% endif %}
+
+    <!-- OPEN GRAPH / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tekken254.co.ke{{ page.url }}">
+    <meta property="og:title" content='{% if page.alias contains "circuit-" %}{% if page.alias contains "tekken" %}TEKKEN 254 Circuit{% elsif page.alias contains "mk" %}Kenya Kombat Circuit{% else %}TEKKEN 254 Circuit / Kenya Kombat Circuit{% endif %} | {{ page.title }}{% elsif page.alias contains "sfn-" %}Savanna Fight Night | {{ page.title }}{% elsif page.alias contains "guides-" %}TEKKEN 254 | Guides - {{ page.title }}{% else %}TEKKEN 254 | {% if page.url contains "/news/authors/" %}Author Profile - {{ page.name }}{% elsif page.dir contains "/news/" %}News - {% if page.url contains "/news/categories/" %}All posts in "{{ page.title }}"{%elsif page.url contains "/news/tags/" %}All posts tagged "{{ page.tag }}"{% else %}{{ page.title }}{% endif %}{% else %}{{ page.title }}{% endif %}{% endif %}'>{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">{% endif %}
+    <meta property="og:image" content="https://tekken254.co.ke/{% if page.layout == "post" %}assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/meta.{% if page.metaImageExt %}{{ page.metaImageExt }}{% else %}jpg{% endif %}{% elsif page.metaImage %}{{ page.metaImage }}{% else %}assets/img/backgrounds/meta-banner.png{% endif %}">
+
+    <!-- OPEN GRAPH / Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tekken254.co.ke{{ page.url }}">
+    <meta property="twitter:title" content='{% if page.alias contains "circuit-" %}{% if page.alias contains "tekken" %}TEKKEN 254 Circuit{% elsif page.alias contains "mk" %}Kenya Kombat Circuit{% else %}TEKKEN 254 Circuit / Kenya Kombat Circuit{% endif %} | {{ page.title }}{% elsif page.alias contains "sfn-" %}Savanna Fight Night | {{ page.title }}{% elsif page.alias contains "guides-" %}TEKKEN 254 | Guides - {{ page.title }}{% else %}TEKKEN 254 | {% if page.url contains "/news/authors/" %}Author Profile - {{ page.name }}{% elsif page.dir contains "/news/" %}News - {% if page.url contains "/news/categories/" %}All posts in "{{ page.title }}"{%elsif page.url contains "/news/tags/" %}All posts tagged "{{ page.tag }}"{% else %}{{ page.title }}{% endif %}{% else %}{{ page.title }}{% endif %}{% endif %}'>{% if page.description %}
+    <meta property="twitter:description" content="{{ page.description }}">{% endif %}
+    <meta property="twitter:image" content="https://tekken254.co.ke/{% if page.layout == "post" %}assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/meta.{% if page.metaImageExt %}{{ page.metaImageExt }}{% else %}jpg{% endif %}{% elsif page.metaImage %}{{ page.metaImage }}{% else %}assets/img/backgrounds/meta-banner.png{% endif %}">
+
+    <!-- STYLESHEETS / Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
+
+    <!-- STYLESHEETS / Local -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />{% if page.alias == "about" %}
+    <link rel="stylesheet" type="text/css" href="./assets/css/about.css" />{% elsif page.alias == "contact" %}
+    <link rel="stylesheet" type="text/css" href="./assets/css/contact.css" />{% elsif page.alias == "sitemap" %}
+    <link rel="stylesheet" type="text/css" href="./assets/css/sitemap.css" />{% elsif page.alias == "character" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/characters.css" />{% elsif page.alias contains "-profile" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/profiles.css" />{% elsif page.alias contains "circuit-" or page.alias contains "sfn-" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/circuit.css" />{% if page.alias == "circuit-archive" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/guides.css" />{% endif %}{% elsif page.alias contains "guides-" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/guides.css" />{% elsif page.layout == "post" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/post.css" />{% endif %}
+
+    <!-- STYLESHEETS / Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">{% if page.alias == "circuit-changelog" %}
+
+    <!-- Styling for Changelog images -->
+    <style>
+        @media only screen and (max-width: 991px) {
+            .circuit-logo {
+                display: none;
+            }
+        }
+        
+        .circuit-logo {
+            float: right;
+            margin: 15px 30px;
+        }
+    </style>{% endif %}
+</head>
+
+<body>
+    <header>
+        <div class="row top-row mx-auto align-items-center">
+            <div class="col-auto p-0 socials d-none d-lg-block">
+                <div class="follow-us uppercase">Follow us</div>
+                <a href="https://facebook.com/itstekken254" target="_blank"><img src="/assets/img/socials/facebook.svg" /></a>
+                <a href="https://twitter.com/itstekken254" target="_blank"><img src="/assets/img/socials/twitter.svg" /></a>
+                <a href="https://instagram.com/tekken254" target="_blank"><img src="/assets/img/socials/instagram.svg" /></a>
+                <a href="https://youtube.com/tekken254-main" target="_blank"><img src="/assets/img/socials/youtube.svg" /></a>
+                <a href="https://twitch.tv/tekken254" target="_blank"><img src="/assets/img/socials/twitch.svg" /></a>
+            </div>
+            <div class="col-auto p-0 header-img">
+                <img src="/assets/img/logos/t254-logo.svg" />
+                <img id="sfgc" src="/assets/img/logos/sfgc-logo.svg" />
+            </div>
+            <div class="col-3 p-0 search-bar d-none d-lg-block">
+                <form action="/search.html" method="POST">
+                    <input type="search" name="search" placeholder="Search&#8230;">
+                </form>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg p-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-menu" aria-controls="top-menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><img src="/assets/img/menu-icon.svg"/></span>
+            </button>
+            <div class="collapse navbar-collapse" id="top-menu">
+                <ul class="navbar-nav justify-content-around mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link p-0{% if page.alias == "index" %} active{% endif %}" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0{% if page.alias == "news" %} active{% endif %}" href="/news/">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0{% if page.alias == "galleries" %} active{% endif %}" href="/galleries/">Galleries</a>
+                    </li>
+                    <li class="nav-item dropdown justify-items-center">
+                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Circuit</a>
+                        <div class="dropdown-menu dm-override">
+                            <a class="dropdown-item{% if page.alias == "circuit-index" %} active{% endif %}" href="/circuit/">Overview</a>
+                            <a class="dropdown-item{% if page.alias == "circuit-register" %} active{% endif %}" href="/circuit/register.html">Registration</a>
+                            <a class="dropdown-item{% if page.alias == "circuit-payment" %} active{% endif %}" href="/circuit/payment.html">Payment</a>
+                            <a class="dropdown-item{% if page.alias == "circuit-rankings" %} active{% endif %}" href="/circuit/rankings.html">Rankings</a>
+                            <a class="dropdown-item{% if page.alias == "circuit-archive" %} active{% endif %}" href="/circuit/archive/">Archive</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fight Night</a>
+                        <div class="dropdown-menu dm-override">
+                            <a class="dropdown-item{% if page.alias == "sfn-index" %} active{% endif %}" href="/fight-night/">Overview</a>
+                            <a class="dropdown-item{% if page.alias == "sfn-register" %} active{% endif %}" href="/fight-night/register.html">Registration</a>
+                            <a class="dropdown-item{% if page.alias == "sfn-rankings" %} active{% endif %}" href="/fight-night/rankings.html">Rankings</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides</a>
+                        <div class="dropdown-menu dm-override">
+                            <a class="dropdown-item{% if page.alias == "guides-index" %} active{% endif %}" href="/guides/">Introduction</a>
+                            <a class="dropdown-item{% if page.alias == "guides-movement" %} active{% endif %}" href="/guides/movement.html">Movement</a>
+                            <a class="dropdown-item{% if page.alias == "guides-att-def" %} active{% endif %}" href="/guides/att-def.html">Attack & Defence</a>
+                            <a class="dropdown-item{% if page.alias == "guides-characters" %} active{% endif %}" href="/guides/characters.html">Characters</a>
+                            <a class="dropdown-item{% if page.alias == "guides-frame-data" %} active{% endif %}" href="/guides/frame-data.html">Frame Data</a>
+                            <a class="dropdown-item{% if page.alias == "guides-notations" %} active{% endif %}" href="/guides/notations.html">Notations</a>
+                            <a class="dropdown-item{% if page.alias == "guides-glossary" %} active{% endif %}" href="/guides/glossary.html">Glossary</a>
+                        </div>
+                    </li>
+                    <div class="mobile-search">
+                        <form action="/search.html" method="POST">
+                            <input type="search" name="search" placeholder="Search&#8230;">
+                        </form>
+                    </div>
+                    <p class="d-lg-none">&#169; 2017&ndash;2020 TEKKEN Two-Five-Four Gaming. All rights reserved. TEKKEN Two-Five-Four Gaming is not affiliated with Bandai Namco Entertainment, Inc. or Warner Bros. Entertainment Inc. Tekken and its related content are copyright/registered
+                        trademarks of Bandai Namco Entertainment, Inc. Mortal Kombat and its related content are copyright/registered trademarks of Warner Bros. Entertainment Inc.</p>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main{% if page.alias == "index" %} class="home"{% endif %}>

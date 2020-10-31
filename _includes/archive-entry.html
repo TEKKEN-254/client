@@ -1,0 +1,21 @@
+<div class="archive-card media">{% if include.noImg == true %}{% else %}
+    <div class="archive-card-img" style="background-image: url('/{% if include.src %}{{ include.src }}{% else %}assets/img/archive/{% if page.alias contains "tekken" %}tekken{% elsif page.alias contains "mk" %}mk{% endif %}/sn-{{ page.season }}/{{ include.date | date: "%Y-%m-%d" }}/cover.{% if include.ext %}{{ include.ext }}{% else %}jpg{% endif %}');{% if include.position %} background-position: {{ include.position }}{% else %} background-position: center{% endif %};{% if include.imgSize %} background-size {{ include.imgSize }}{% else %} background-size: cover{% endif %};{% endif %}">&nbsp;</div>{% endif %}
+    <div class="media-body">
+        <div class="news-card-info">
+            <h2 class="font-body site-red uppercase mb-1">{{ include.title }}</h2>
+            <h3 class="font-body site-green uppercase m-0">Date</h3>
+            <p class="mt-1">{{ include.date | date_to_long_string }}</p>
+
+            <h3 class="font-body site-green uppercase mb-0">Venue</h3>
+            <p class="mt-1">{{ include.venue }}</p>
+            {% if include.bracket %}
+            <h3 class="font-body site-green uppercase mb-0">Results</h3>
+            <p class="mt-1"><a href="{{ include.bracket }}" target="_blank">Full bracket</a></p>{% endif %}
+        </div>
+        <ul class="archive-links card-text">
+            <h3 class="font-body site-green uppercase mb-0">Match replays</h3>{% if include.pools_list %}
+            <li><a href="https://www.youtube.com/playlist?list={{ include.pools_list }}" target="_blank">Pools</a></li>{% endif %}{% if include.top_8_list %}
+            <li><a href="https://www.youtube.com/playlist?list={{ include.top_8_list }}" target="_blank">Top 8</a></li>{% endif %}
+        </ul>
+    </div>
+</div>

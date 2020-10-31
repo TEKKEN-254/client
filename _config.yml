@@ -1,0 +1,106 @@
+# Where things are
+source              : .
+destination         : ./_site
+plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+collections:
+  posts:
+    title           : Posts
+    output          : true
+    permalink       : /news/:year/:month/:day/:title
+  authors:
+    title           : Authors
+    output          : true
+    permalink       : /news/authors/:title
+    
+category_path       : news/categories
+category_layout     : category.html
+
+tag_page_dir        : news/tags
+tag_page_layout     : tag
+
+# Handling Reading
+safe                : false
+include             : [".htaccess"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files          : [".git", ".svn"]
+encoding            : "utf-8"
+markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter : false
+
+# Filtering Content
+show_drafts         : null
+limit_posts         : 0
+future              : false
+unpublished         : false
+
+# Gems
+gems:
+- jekyll-category-pages
+- jekyll/tagging
+- jekyll-paginate
+
+#Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Conversion
+markdown            : kramdown
+highlighter         : rouge
+lsi                 : false
+excerpt_separator   : "\n\n"
+incremental         : false
+
+# Serving
+detach              : false
+port                : 4000
+host                : 127.0.0.1
+baseurl             : "" # does not include hostname
+show_dir_listing    : false
+
+# Outputting
+paginate            : 5
+paginate_path       : /news/:num
+timezone            : Africa/Nairobi
+
+quiet               : false
+verbose             : false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      top: false
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+liquid:
+  error_mode        : warn
+  strict_filters    : false
+  strict_variables  : false
+
+# Markdown Processors
+kramdown:
+  auto_ids          : true
+  entity_output     : as_char
+  toc_levels        : [1, 2, 3, 4, 5, 6]
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  input             : GFM
+  hard_wrap         : false
+  footnote_nr       : 1
+  show_warnings     : false

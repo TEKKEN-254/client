@@ -1,0 +1,4 @@
+{% include header.html %}{% if page.alias contains "circuit-archive" %}
+<h2 class="page-title uppercase">Circuit Archive{% if page.alias contains "-tekken"%}: Tekken{% elsif page.alias contains "-mk"%}: Mortal Kombat{% endif %}</h2>{% endif %}
+{{ content }}
+{% include footer.html %}

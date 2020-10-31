@@ -1,0 +1,249 @@
+section:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.logo-container {
+    float: right;
+}
+
+.logo-bg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro-logo {
+    width: 200px;
+    padding: 25px;
+    visibility: visible;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.register-button {
+    background-color: #ba2025;
+    width: 200px;
+    border: 1px solid #ba2025;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    transition-property: background, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.register-button:hover {
+    background-color: #166734;
+    border: 1px solid #166734;
+    transition-property: background, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.sponsors {
+    margin-top: 2rem;
+}
+
+.sponsors h3 {
+    color: #ba2025;
+    margin-top: 0 !important;
+    margin-bottom: -1.125rem !important;
+}
+
+.sponsors h4 {
+    color: #166734;
+}
+
+.sponsors h3,
+.sponsors h4 {
+    font-weight: 600;
+}
+
+.sponsor-bio:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+
+.sponsor-logo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sponsor-logo img {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*
+.sponsor-desc {
+    width: 65%;
+} */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-showcase {
+    position: relative;
+    width: 720px;
+    height: 405px;
+}
+
+
+/* Registration accordion */
+
+#circuit-reg {
+    margin: 20px auto;
+}
+
+.reg-accordion {
+    background-color: #ba2025 !important;
+}
+
+.reg-accordion .card-header {
+    cursor: pointer;
+}
+
+.reg-accordion .card-body {
+    background-color: white !important;
+    color: black !important;
+    padding: 0 !important;
+}
+
+
+/* Archive elements */
+
+.archive-card {
+    flex-direction: row-reverse;
+    align-items: center !important;
+}
+
+.archive-card:not(:first-child) {
+    margin-top: 2rem auto;
+}
+
+.archive-card-img {
+    width: 50%;
+    height: 200px;
+}
+
+.archive-links {
+    padding: 0;
+}
+
+.archive-links>li {
+    display: inline-block;
+}
+
+.archive-links>li:not(:last-child)::after {
+    content: " \2014";
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 991px) {
+    section:not(:last-child) {
+        margin-bottom: 0 !important;
+    }
+    .logo-container {
+        display: inline-flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .logo-bg {
+        visibility: visible;
+        width: 50vw;
+        height: 50vw;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin-bottom: 17px;
+    }
+    #circuit {
+        width: 47vw;
+        height: auto;
+    }
+    #sfn {
+        width: 34vw;
+        height: auto;
+    }
+    #circuit-bg {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    #sfn-bg {
+        background-color: rgba(186, 32, 37, 0.25);
+    }
+    .register-button {
+        width: 275px;
+        font-size: 1.3125rem;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    /* .sponsor-bio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsor-bio:last-child {
+        margin-bottom: 25px;
+    } */
+    .sponsor-bio:not(:last-child) {
+        margin-bottom: 1.875rem !important;
+    }
+    .sponsor-logo {
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .sponsor-logo img {
+        max-width: 55vw !important;
+    }
+    /* .sponsor-desc {
+        min-width: 100%;
+    }
+    .sponsor-desc h3,
+    .sponsor-desc h4 {
+        text-align: center;
+    } */
+    .video,
+    .video-container,
+    .video-showcase {
+        display: none;
+    }
+    .archive-card {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .archive-card .media-body,
+    .archive-card-img {
+        width: 100%;
+    }
+    .archive-card-img {
+        height: 40vw;
+        margin: 2rem auto;
+        border: 1.5px solid white;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .logo-bg {
+        visibility: hidden;
+    }
+    .register-button {
+        width: 200px;
+        font-size: 1rem;
+    }
+}

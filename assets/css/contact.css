@@ -1,0 +1,37 @@
+form {
+    font-size: 1rem;
+}
+
+#message {
+    height: 150px;
+    resize: none;
+}
+
+#submit {
+    background-color: #ba2025;
+    width: 200px;
+    border: 1px solid #ba2025;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    font-size: 1.25rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    transition-property: background-color, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#submit:hover {
+    background-color: #166734;
+    border: 1px solid #166734;
+    transition-property: background-color, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+@media only screen and (min-width: 1200px) {
+    form.container {
+        width: 80%;
+    }
+}

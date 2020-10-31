@@ -1,0 +1,146 @@
+---
+    alias: index
+    title: Kenyan Tekken Community
+    description: Get all the latest news and tournament information from the Kenyan Tekken community, as well as guides on how to play the game.
+    category: None
+---
+<section id="home-slideshow" class="carousel slide carousel-fade d-none d-lg-block" data-ride="carousel" data-interval="7000">
+    <ol class="carousel-indicators">
+        <li data-target="#home-slideshow" data-slide-to="0" class="active"></li>
+        <li data-target="#home-slideshow" data-slide-to="1"></li>
+        <li data-target="#home-slideshow" data-slide-to="2"></li>
+        <li data-target="#home-slideshow" data-slide-to="3"></li>
+        <li data-target="#home-slideshow" data-slide-to="4"></li>
+        <li data-target="#home-slideshow" data-slide-to="5"></li>
+        <li data-target="#home-slideshow" data-slide-to="6"></li>
+        <li data-target="#home-slideshow" data-slide-to="7"></li>
+        <li data-target="#home-slideshow" data-slide-to="8"></li>
+        <li data-target="#home-slideshow" data-slide-to="9"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-position: top center;">
+            <!-- 01 -->
+        </div>
+        <div class="carousel-item" style="background-position: top center;">
+            <!-- 02 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 03 -->
+        </div>
+        <div class="carousel-item" style="background-position: top center;">
+            <!-- 04 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 05 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 06 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 07 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 08 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 09 -->
+        </div>
+        <div class="carousel-item">
+            <!-- 10 -->
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#home-slideshow" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#home-slideshow" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</section>
+<div class="home-container">
+    <section id="featured-news">
+        <h1 class="uppercase text-center">Featured News</h1>
+        {% include top-story.html %}
+        {% include featured-stories.html %}
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h2 class="uppercase">Upcoming events</h2>
+                <p>This content is not yet available.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2 class="uppercase">Latest rankings</h2>
+                <div class="tab-content" id="rankings-tabs-content">
+                    <div class="tab-pane fade show active" id="tekken" role="tabpanel" aria-labelledby="tekken-tab">
+                        <table class="table rankings-table home table-sm table-borderless table-responsive-lg mb-0">
+                            <thead>
+                                <tr class="border-0">
+                                    <th>Pos.</th>
+                                    <th>Pseudonym</th>
+                                    <th>Pld</th>
+                                    <th>Pts</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% assign j = 16 %}
+                                {% for i in (1..16) %}
+                                <tr>
+                                    <td>{{ i }}</td>
+                                    <td>
+                                        <a href="/circuit/tekken/profile.html?id=" target="_blank">Player {{ i }}</a>
+                                    </td>
+                                    <td>2</td>
+                                    <td>{{ j }}</td>
+                                </tr>
+                                {% assign j = j | minus: 1 %}
+                                {% endfor %}
+                            </tbody>
+                            <caption>Updated as of Qualifier Two (29 February 2020).</caption>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="mk" role="tabpanel" aria-labelledby="mk-tab">
+                        <table class="table rankings-table home table-sm table-borderless table-responsive-lg mb-0">
+                            <thead>
+                                <tr class="border-0">
+                                    <th>Pos.</th>
+                                    <th>Pseudonym</th>
+                                    <th>Pld</th>
+                                    <th>Pts</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% assign j = 16 %}
+                                {% for i in (1..16) %}
+                                <tr>
+                                    <td>{{ i }}</td>
+                                    <td>
+                                        <a href="/circuit/mk/profile.html?id=" target="_blank">Player {{ i }}</a>
+                                    </td>
+                                    <td>2</td>
+                                    <td>{{ j }}</td>
+                                </tr>
+                                {% assign j = j | minus: 1 %}
+                                {% endfor %}
+                            </tbody>
+                            <caption>Updated as of Qualifier Two (29 February 2020).</caption>
+                        </table>
+                    </div>
+                </div>
+                <ul class="guides-tabs nav nav-pills" id="rankings-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tekken-tab" data-toggle="pill" href="#tekken" role="tab" aria-controls="tekken" aria-selected="true">Tekken 7</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="mk-tab" data-toggle="pill" href="#mk" role="tab" aria-controls="mk" aria-selected="false">Mortal Kombat 11</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="latest-videos">
+        <h2 class="uppercase text-center">Latest videos</h2>
+        <iframe class="video-showcase" src="https://www.youtube.com/embed/videoseries?list=UU-1F3VkReloUOCIa3MC_v5Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+</div>
