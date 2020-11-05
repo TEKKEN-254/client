@@ -186,7 +186,7 @@ header {
 /* Top row */
 
 .top-row {
-    width: 56.5%;
+    width: 60%;
     height: 6.25rem;
     margin-top: 1.125rem;
     margin-bottom: 0.875rem;
@@ -279,7 +279,7 @@ input[type=search]:focus {
 /* Navigation */
 
 nav ul {
-    width: 56.5%;
+    width: 60%;
     text-transform: uppercase;
     font-size: 1.375rem;
     font-weight: 600;
@@ -377,7 +377,7 @@ main {
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     top: 174px;
-    width: 57%;
+    width: 60%;
     min-height: 647px;
     margin: auto;
     padding: 10px 30px;
@@ -921,7 +921,7 @@ footer {
 }
 
 .footer {
-    width: 56.5%;
+    width: 60%;
     margin: 0 auto;
 }
 
