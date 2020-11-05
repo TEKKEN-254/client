@@ -1,3 +1,6 @@
+/* IMPORTING CHARACTERS */
+import { characters } from './character-list.js';
+
 /* DECLARATIONS */
 // Savanna FGC ID
 let playerId = document.getElementById("sfgc-id");
@@ -59,14 +62,18 @@ const display = id => {
     platform.innerHTML = players[id].platform;
     onlineId.innerHTML = players[id].onlineId;
 
-    if (!players[id].mainCharImg) {
-        mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
-    } else {
-        mainCharImg.style.backgroundImage = `url('${players[id].mainCharImg}')`;
-    }
-    mainChar.innerHTML = players[id].mainChar;
-    if (players[id].otherChars) {
-        otherChars.innerHTML = players[id].otherChars;
+    const playerMain = players[id].mainChar;
+    const playerOtherChars = players[id].otherChars;
+    mainChar.innerHTML = characters[playerMain].name;
+    mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
+    if (Array.isArray(playerOtherChars)) {
+        const charList = [];
+        for (const char of playerOtherChars) {
+            charList.push(characters[char].name);
+        }
+        otherChars.innerHTML = charList.join(", ");
+    } else if (playerOtherChars) {
+        otherChars.innerHTML = characters[playerOtherChars].name;
     } else {
         otherChars.innerHTML = "N/A";
     }
@@ -111,9 +118,8 @@ const players = {
         platform: "PSN (PlayStation)",
         onlineId: "DavyK17",
 
-        mainCharImg: "/assets/img/characters/jin.png",
-        mainChar: "Jin Kazama",
-        otherChars: "Miguel Caballero Rojo",
+        mainChar: "jin",
+        otherChars: "miguel",
 
         twitter: "https://twitter.com/DavyK17",
         instagram: "https://instagram.com/davyk17",
@@ -161,9 +167,8 @@ const players = {
         platform: "Platform",
         onlineId: "Online ID",
 
-        mainCharImg: "/assets/img/characters/placeholder.png",
         mainChar: "",
-        otherChars: "",
+        otherChars: [""],
 
         facebook: "https://facebook.com/",
         twitter: "https://twitter.com/",

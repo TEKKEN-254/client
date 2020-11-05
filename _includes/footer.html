@@ -38,10 +38,10 @@
 {% if page.alias == "character" %}
 <script type="module" src="/assets/js/character.js"></script>
 {% elsif page.alias contains "-profile" %}
-<script type="text/javascript" src="/assets/js/profiles.js"></script>
-    {% if page.alias == "circuit-profile" %}
+<script type="module" src="/assets/js/profiles.js"></script>
+    {% if page.alias contains "circuit-profile" %}
     <script type="text/javascript" src="/assets/js/stats-circuit.js"></script>
-    {% elsif page.alias == "sfn-profile" %}
+    {% elsif page.alias contains "sfn-profile" %}
     <script type="text/javascript" src="/assets/js/stats-sfn.js"></script>
     {% endif %}
 {% endif %}
