@@ -6,8 +6,8 @@ const characters = {
         name: "Akuma (Gouki)",
         nickname: "The Raging Demon",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/akuma.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/akuma.png",
 
         age: "Unknown",
         country: "Unknown",
@@ -44,8 +44,8 @@ const characters = {
         name: "Alisa Bosconovitch",
         nickname: "The Steel Maiden",
 
-        flag: "../assets/img/flagicons/russia.svg",
-        image: "../assets/img/characters/alisa-2.png",
+        flag: "/assets/img/flagicons/russia.svg",
+        image: "/assets/img/characters/alisa-2.png",
 
         age: "Unknown",
         country: "Russia",
@@ -79,8 +79,8 @@ const characters = {
         name: "Anna Williams",
         nickname: "The Scarlet Lightning",
 
-        flag: "../assets/img/flagicons/ireland.svg",
-        image: "../assets/img/characters/anna.png",
+        flag: "/assets/img/flagicons/ireland.svg",
+        image: "/assets/img/characters/anna.png",
 
         age: "41 (physically 22 thanks to cryosleep)",
         country: "Republic of Ireland",
@@ -114,8 +114,8 @@ const characters = {
         name: "Armor King",
         nickname: "The Mysterious Masked Wrestler",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/armor-king.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/armor-king.png",
 
         age: "Unknown",
         country: "Unknown",
@@ -167,8 +167,8 @@ const characters = {
         name: "Asuka Kazama",
         nickname: "The Gang Mediator",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/asuka-2.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/asuka-2.png",
 
         age: 17,
         country: "Japan",
@@ -205,8 +205,8 @@ const characters = {
         name: `Robert "Bob" Richards`,
         nickname: "Speed and Weight",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/bob.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/bob.png",
 
         age: 27,
         country: "United States",
@@ -243,8 +243,8 @@ const characters = {
         name: "Bryan Fury",
         nickname: "Snake Eyes",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/bryan-2.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/bryan-2.png",
 
         age: "31 (cyborg)",
         country: "United States",
@@ -284,8 +284,8 @@ const characters = {
         name: "Claudio Serafino",
         nickname: "The Archer of Sirius",
 
-        flag: "../assets/img/flagicons/italy.svg",
-        image: "../assets/img/characters/claudio.png",
+        flag: "/assets/img/flagicons/italy.svg",
+        image: "/assets/img/characters/claudio.png",
 
         age: 27,
         country: "Italy",
@@ -319,8 +319,8 @@ const characters = {
         name: "Devil Jin",
         nickname: "The Heir of the Cursed Blood",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/devil-jin-2.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/devil-jin-2.png",
 
         age: 21,
         country: "Unknown",
@@ -360,8 +360,8 @@ const characters = {
         name: "Sergei Dragunov",
         nickname: "The White Angel of Death",
 
-        flag: "../assets/img/flagicons/russia.svg",
-        image: "../assets/img/characters/dragunov-2.png",
+        flag: "/assets/img/flagicons/russia.svg",
+        image: "/assets/img/characters/dragunov-2.png",
 
         age: 26,
         country: "Russia",
@@ -401,8 +401,8 @@ const characters = {
         name: "Eddy Gordo",
         nickname: "The Capoeira Prodigy",
 
-        flag: "../assets/img/flagicons/brazil.svg",
-        image: "../assets/img/characters/eddy.png",
+        flag: "/assets/img/flagicons/brazil.svg",
+        image: "/assets/img/characters/eddy.png",
 
         age: 29,
         country: "Brazil",
@@ -436,8 +436,8 @@ const characters = {
         name: "Eliza",
         nickname: "The Sleepy Vampire",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/eliza.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/eliza.png",
 
         age: "1,000+",
         country: "Unknown",
@@ -468,8 +468,8 @@ const characters = {
         name: "Fahkumram",
         nickname: "The Humble Hostage",
 
-        flag: "../assets/img/flagicons/thailand.svg",
-        image: "../assets/img/characters/fahkumram.png",
+        flag: "/assets/img/flagicons/thailand.svg",
+        image: "/assets/img/characters/fahkumram.png",
 
         age: 28,
         country: "Thailand",
@@ -503,8 +503,8 @@ const characters = {
         name: "Feng Wei",
         nickname: "The Master of God Fist",
 
-        flag: "../assets/img/flagicons/china.svg",
-        image: "../assets/img/characters/feng-2.png",
+        flag: "/assets/img/flagicons/china.svg",
+        image: "/assets/img/characters/feng-2.png",
 
         age: 26,
         country: "China",
@@ -538,8 +538,8 @@ const characters = {
         name: "Ganryu",
         nickname: "The Sumo Streamer",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/ganryu.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/ganryu.png",
 
         age: 55,
         country: "Japan",
@@ -570,8 +570,8 @@ const characters = {
         name: "Geese Howard",
         nickname: "The Crime Lord of South Town",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/geese.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/geese.png",
 
         age: 43,
         country: "United States",
@@ -605,8 +605,8 @@ const characters = {
         name: "Gigas",
         nickname: "The G Corp Experiment",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/gigas.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/gigas.png",
 
         age: "Data deleted",
         country: "Data deleted",
@@ -637,8 +637,8 @@ const characters = {
         name: "Heihachi Mishima",
         nickname: "The King of Iron Fist",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/heihachi-2.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/heihachi-2.png",
 
         age: 75,
         country: "Japan (citizenship denied by government)",
@@ -675,8 +675,8 @@ const characters = {
         name: "Hwoarang",
         nickname: "The Blood Talon",
 
-        flag: "../assets/img/flagicons/south-korea.svg",
-        image: "../assets/img/characters/hwoarang-2.png",
+        flag: "/assets/img/flagicons/south-korea.svg",
+        image: "/assets/img/characters/hwoarang-2.png",
 
         age: 21,
         country: "South Korea",
@@ -713,8 +713,8 @@ const characters = {
         name: "Jack-7",
         nickname: "The Super Killing Machine",
 
-        flag: "../assets/img/flagicons/russia.svg",
-        image: "../assets/img/characters/jack-7.png",
+        flag: "/assets/img/flagicons/russia.svg",
+        image: "/assets/img/characters/jack-7.png",
 
         age: "N/A",
         country: "Russia",
@@ -754,8 +754,8 @@ const characters = {
         name: "Jin Kazama",
         nickname: "The Child of Destiny",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/jin.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/jin.png",
 
         age: 21,
         country: "Japan",
@@ -792,8 +792,8 @@ const characters = {
         name: "Josie Rizal",
         nickname: "The Crybaby",
 
-        flag: "../assets/img/flagicons/philippines.svg",
-        image: "../assets/img/characters/josie.png",
+        flag: "/assets/img/flagicons/philippines.svg",
+        image: "/assets/img/characters/josie.png",
 
         age: 18,
         country: "Philippines",
@@ -827,8 +827,8 @@ const characters = {
         name: "Julia Chang",
         nickname: "The Nature-Loving Beauty",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/julia.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/julia.png",
 
         age: 20,
         country: "United States",
@@ -862,8 +862,8 @@ const characters = {
         name: "Katarina Alves",
         nickname: "The Cocky Harrier",
 
-        flag: "../assets/img/flagicons/brazil.svg",
-        image: "../assets/img/characters/katarina.png",
+        flag: "/assets/img/flagicons/brazil.svg",
+        image: "/assets/img/characters/katarina.png",
 
         age: 22,
         country: "Brazil",
@@ -900,8 +900,8 @@ const characters = {
         name: "Kazumi Mishima",
         nickname: "The Assassin of Hachijō",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/kazumi.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/kazumi.png",
 
         age: "Unknown (deceased)",
         country: "Japan",
@@ -938,8 +938,8 @@ const characters = {
         name: "Kazuya Mishima",
         nickname: "The Devil's Master",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/kazuya.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/kazuya.png",
 
         age: 49,
         country: "Japan (revoked his nationality)",
@@ -976,8 +976,8 @@ const characters = {
         name: "King",
         nickname: "Anger of Beast",
 
-        flag: "../assets/img/flagicons/mexico.svg",
-        image: "../assets/img/characters/king-2.png",
+        flag: "/assets/img/flagicons/mexico.svg",
+        image: "/assets/img/characters/king-2.png",
 
         age: 30,
         country: "Mexico",
@@ -1008,8 +1008,8 @@ const characters = {
         name: "Kuma and Panda",
         nickname: "The Raging Beast and Xiaoyu's Bodyguard",
 
-        flag: "../assets/img/flagicons/japan-china-kuma-panda.svg",
-        image: "../assets/img/characters/kuma-panda-2.png",
+        flag: "/assets/img/flagicons/japan-china-kuma-panda.svg",
+        image: "/assets/img/characters/kuma-panda-2.png",
 
         age: "10 (Kuma), 9 (Panda)",
         country: "Japan (Kuma), China (Panda)",
@@ -1082,8 +1082,8 @@ const characters = {
         name: "Kunimitsu",
         nickname: "The Treacherous Ninja",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/kunimitsu.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/kunimitsu.png",
 
         age: "Unknown",
         country: "Japan",
@@ -1117,8 +1117,8 @@ const characters = {
         name: "Lars Alexandersson",
         nickname: "The Rebel Leader",
 
-        flag: "../assets/img/flagicons/sweden.svg",
-        image: "../assets/img/characters/lars.png",
+        flag: "/assets/img/flagicons/sweden.svg",
+        image: "/assets/img/characters/lars.png",
 
         age: 28,
         country: "Sweden",
@@ -1152,8 +1152,8 @@ const characters = {
         name: "Marshall Law",
         nickname: "The Dragon Chef",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/law.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/law.png",
 
         age: 48,
         country: "United States",
@@ -1187,8 +1187,8 @@ const characters = {
         name: "Lee Chaolan",
         nickname: "The Silver-Haired Demon",
 
-        flag: "../assets/img/flagicons/china.svg",
-        image: "../assets/img/characters/lee.png",
+        flag: "/assets/img/flagicons/china.svg",
+        image: "/assets/img/characters/lee.png",
 
         age: 48,
         country: "China",
@@ -1225,8 +1225,8 @@ const characters = {
         name: "Lei Wulong",
         nickname: "Super Police",
 
-        flag: "../assets/img/flagicons/hong-kong.svg",
-        image: "../assets/img/characters/lei.png",
+        flag: "/assets/img/flagicons/hong-kong.svg",
+        image: "/assets/img/characters/lei.png",
 
         age: 47,
         country: "Hong Kong",
@@ -1260,8 +1260,8 @@ const characters = {
         name: "Leo Kliesen",
         nickname: "The Spelunker",
 
-        flag: "../assets/img/flagicons/germany.svg",
-        image: "../assets/img/characters/leo-2.png",
+        flag: "/assets/img/flagicons/germany.svg",
+        image: "/assets/img/characters/leo-2.png",
 
         age: 19,
         country: "Germany",
@@ -1295,8 +1295,8 @@ const characters = {
         name: "Leroy Smith",
         nickname: "The Sentinel of New York",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/leroy.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/leroy.png",
 
         age: "Unknown (50+)",
         country: "United States",
@@ -1330,8 +1330,8 @@ const characters = {
         name: `Emilie "Lili" De Rochefort`,
         nickname: "The Magnate's Flower",
 
-        flag: "../assets/img/flagicons/monaco.svg",
-        image: "../assets/img/characters/lili-2.png",
+        flag: "/assets/img/flagicons/monaco.svg",
+        image: "/assets/img/characters/lili-2.png",
 
         age: 16,
         country: "Monaco",
@@ -1371,8 +1371,8 @@ const characters = {
         name: "Lucky Chloe",
         nickname: "The Pop Sensation",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/lucky-chloe.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/lucky-chloe.png",
 
         age: 17,
         country: "Unknown (secret)",
@@ -1412,8 +1412,8 @@ const characters = {
         name: "Craig Marduk",
         nickname: "The Brutal Vale Tudo Fighter",
 
-        flag: "../assets/img/flagicons/australia.svg",
-        image: "../assets/img/characters/marduk.png",
+        flag: "/assets/img/flagicons/australia.svg",
+        image: "/assets/img/characters/marduk.png",
 
         age: 28,
         country: "Australia",
@@ -1450,8 +1450,8 @@ const characters = {
         name: "Master Raven",
         nickname: "The Dark Talon's Boss",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/master-raven.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/master-raven.png",
 
         age: "Unknown",
         country: "Unknown",
@@ -1494,8 +1494,8 @@ const characters = {
         name: "Miguel Caballero Rojo",
         nickname: "The Vengeful Savage",
 
-        flag: "../assets/img/flagicons/spain.svg",
-        image: "../assets/img/characters/miguel.png",
+        flag: "/assets/img/flagicons/spain.svg",
+        image: "/assets/img/characters/miguel.png",
 
         age: 26,
         country: "Spain",
@@ -1535,8 +1535,8 @@ const characters = {
         name: "Negan",
         nickname: "The Leader of the Saviors",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/negan.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/negan.png",
 
         age: "Unknown (early to mid-50s)",
         country: "United States",
@@ -1567,8 +1567,8 @@ const characters = {
         name: "Nina Williams",
         nickname: "The Silent Assassin",
 
-        flag: "../assets/img/flagicons/ireland.svg",
-        image: "../assets/img/characters/nina.png",
+        flag: "/assets/img/flagicons/ireland.svg",
+        image: "/assets/img/characters/nina.png",
 
         age: "43 (physically 24 thanks to cryosleep)",
         country: "Republic of Ireland",
@@ -1602,8 +1602,8 @@ const characters = {
         name: "Noctis Lucis Caelum",
         nickname: "The Chosen King",
 
-        flag: "../assets/img/flagicons/unknown.svg",
-        image: "../assets/img/characters/noctis.png",
+        flag: "/assets/img/flagicons/unknown.svg",
+        image: "/assets/img/characters/noctis.png",
 
         age: 20,
         country: "Kingdom of Lucis",
@@ -1643,8 +1643,8 @@ const characters = {
         name: "Paul Phoenix",
         nickname: "The Hot-Blooded Fighter",
 
-        flag: "../assets/img/flagicons/united-states.svg",
-        image: "../assets/img/characters/paul-2.png",
+        flag: "/assets/img/flagicons/united-states.svg",
+        image: "/assets/img/characters/paul-2.png",
 
         age: 48,
         country: "United States",
@@ -1678,8 +1678,8 @@ const characters = {
         name: "Shaheen",
         nickname: "The Arab Falcon",
 
-        flag: "../assets/img/flagicons/saudi-arabia.svg",
-        image: "../assets/img/characters/shaheen.png",
+        flag: "/assets/img/flagicons/saudi-arabia.svg",
+        image: "/assets/img/characters/shaheen.png",
 
         age: 32,
         country: "Saudi Arabia",
@@ -1710,8 +1710,8 @@ const characters = {
         name: "Steve Fox",
         nickname: "The Stinging Hook",
 
-        flag: "../assets/img/flagicons/united-kingdom.svg",
-        image: "../assets/img/characters/steve-2.png",
+        flag: "/assets/img/flagicons/united-kingdom.svg",
+        image: "/assets/img/characters/steve-2.png",
 
         age: 21,
         country: "United Kingdom",
@@ -1745,8 +1745,8 @@ const characters = {
         name: "Ling Xiaoyu",
         nickname: "The Dancing Phoenix",
 
-        flag: "../assets/img/flagicons/china.svg",
-        image: "../assets/img/characters/xiaoyu-2.png",
+        flag: "/assets/img/flagicons/china.svg",
+        image: "/assets/img/characters/xiaoyu-2.png",
 
         age: 18,
         country: "China",
@@ -1786,8 +1786,8 @@ const characters = {
         name: "Yoshimitsu",
         nickname: "The Inheritor of the Demon Sword",
 
-        flag: "../assets/img/flagicons/japan.svg",
-        image: "../assets/img/characters/yoshimitsu.png",
+        flag: "/assets/img/flagicons/japan.svg",
+        image: "/assets/img/characters/yoshimitsu.png",
 
         age: "Unknown",
         country: "Japan",
@@ -1821,8 +1821,8 @@ const characters = {
         name: "Zafina",
         nickname: "The Guardian of Azazel",
 
-        flag: "../assets/img/flagicons/egypt.svg",
-        image: "../assets/img/characters/zafina.png",
+        flag: "/assets/img/flagicons/egypt.svg",
+        image: "/assets/img/characters/zafina.png",
 
         age: 23,
         country: "Egypt",
@@ -1853,8 +1853,8 @@ const characters = {
         name: "",
         nickname: "",
 
-        flag: "../assets/img/flagicons/.svg",
-        image: "../assets/img/characters/.png",
+        flag: "/assets/img/flagicons/.svg",
+        image: "/assets/img/characters/.png",
 
         age: ,
         country: "",

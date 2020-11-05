@@ -60,9 +60,9 @@ const display = id => {
     onlineId.innerHTML = players[id].onlineId;
 
     if (!players[id].mainCharImg) {
-        mainCharImg.src = "/assets/img/characters/placeholder.png";
+        mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
     } else {
-        mainCharImg.src = players[id].mainCharImg;
+        mainCharImg.style.backgroundImage = `url('${players[id].mainCharImg}')`;
     }
     mainChar.innerHTML = players[id].mainChar;
     if (players[id].otherChars) {
