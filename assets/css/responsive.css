@@ -67,29 +67,29 @@
 
 @media only screen and (max-width: 991px) {
     /* General elements */
-    h1 {
-        font-size: calc(5/3 * 4vw) !important;
+    /* h1 {
+        font-size: 2.5rem !important;
     }
     h2 {
-        font-size: calc(5/3 * 3vw) !important;
+        font-size: 1.875rem !important;
     }
     h3,
     .featured-stories .card-body h5 {
-        font-size: calc(5/3 * 2.25vw) !important;
+        font-size: 1.40625rem !important;
     }
     h4,
     p,
     ul,
     ol,
     table {
-        font-size: calc(5/3 * 2vw) !important;
+        font-size: 1.25rem !important;
     }
     h5,
     figure figcaption {
-        font-size: calc(5/3 * 1.75vw) !important;
+        font-size: 1.09375rem !important;
     }
     h6 {
-        font-size: calc(5/3 * 1.375vw) !important;
+        font-size: 0.859375rem !important;
     }
     h1,
     h2,
@@ -98,7 +98,7 @@
     h5,
     h6 {
         margin: calc(5/3 * 2.5vw) 0 !important;
-    }
+    } */
     /* HEADER ELEMENTS */
     header {
         background-color: rgba(255, 255, 255, 0.75);
@@ -147,7 +147,7 @@
         text-align: center;
     }
     nav p {
-        font-size: 2.5vw !important;
+        /* font-size: 1rem !important; */
         margin-top: 0 !important;
     }
     .guides-tabs {
@@ -159,7 +159,7 @@
         top: 134px;
     }
     main {
-        width: 85%;
+        width: 90%;
     }
     main.home {
         padding: 10px 0;
@@ -223,7 +223,7 @@
         margin: 10px auto;
     }
     .footer ul li {
-        font-size: 2.5vw;
+        font-size: 1rem;
     }
     .footer-socials {
         display: flex;
