@@ -178,14 +178,15 @@
     }
     .news-card a {
         flex-direction: column;
-        height: auto;
     }
     .news-card .card-img-container {
         width: 100%;
-        height: 40vw;
+        min-height: 40vw;
+        height: auto;
     }
     .news-card-img {
         width: inherit;
+        min-height: inherit;
         height: inherit;
     }
     .nb {
