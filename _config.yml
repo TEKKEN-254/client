@@ -36,12 +36,6 @@ limit_posts         : 0
 future              : false
 unpublished         : false
 
-# Gems
-gems:
-- jekyll-category-pages
-- jekyll/tagging
-- jekyll-paginate
-
 #Exclude
 exclude:
   - Gemfile
@@ -50,6 +44,9 @@ exclude:
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-category-pages
+  - jekyll/tagging
+  - jekyll-paginate
 
 # Conversion
 markdown            : kramdown
