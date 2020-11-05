@@ -58,26 +58,6 @@ const display = id => {
     // team.innerHTML = players[id].team;
     teamShorthand.innerHTML = players[id].teamShorthand + " ";
 
-    birthDate.innerHTML = players[id].birthDate;
-    platform.innerHTML = players[id].platform;
-    onlineId.innerHTML = players[id].onlineId;
-
-    const playerMain = players[id].mainChar;
-    const playerOtherChars = players[id].otherChars;
-    mainChar.innerHTML = characters[playerMain].name;
-    mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
-    if (Array.isArray(playerOtherChars)) {
-        const charList = [];
-        for (const char of playerOtherChars) {
-            charList.push(characters[char].name);
-        }
-        otherChars.innerHTML = charList.join(", ");
-    } else if (playerOtherChars) {
-        otherChars.innerHTML = characters[playerOtherChars].name;
-    } else {
-        otherChars.innerHTML = "N/A";
-    }
-
     if (players[id].facebook) {
         isFacebook.style.display = "inline-block";
         facebook.href = players[id].facebook;
@@ -98,12 +78,36 @@ const display = id => {
         isTwitch.style.display = "inline-block";
         twitch.href = players[id].twitch;
     }
+
+    birthDate.innerHTML = players[id].birthDate;
+    platform.innerHTML = players[id].platform;
+    onlineId.innerHTML = players[id].onlineId;
+
+    const playerMain = players[id].mainChar;
+    const playerOtherChars = players[id].otherChars;
+    mainChar.innerHTML = characters[playerMain].name;
+    if (!characters[playerMain].image) {
+        mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
+    } else {
+        mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
+    }
+    if (Array.isArray(playerOtherChars)) {
+        const charList = [];
+        for (const char of playerOtherChars) {
+            charList.push(characters[char].name);
+        }
+        otherChars.innerHTML = charList.join(", ");
+    } else if (playerOtherChars) {
+        otherChars.innerHTML = characters[playerOtherChars].name;
+    } else {
+        otherChars.innerHTML = "N/A";
+    }
 }
 
 /* PROFILES */
 const players = {
     // DVK
-    "4092983": {
+    4092983: {
         playerId: 4092983,
         playerImg: "/assets/img/players/4092983.jpg",
 
@@ -127,7 +131,7 @@ const players = {
         twitch: "https://twitch.tv/davyk17",
     },
     // Frost
-    "4644523": {
+    4644523: {
         playerId: 4644523,
         playerImg: "/assets/img/players/4644523.jpg",
 
@@ -142,9 +146,8 @@ const players = {
         platform: "PSN (PlayStation)",
         onlineId: "dnyasio",
 
-        mainCharImg: "/assets/img/characters/leroy.png",
-        mainChar: "Leroy Smith",
-        otherChars: "Bryan Fury",
+        mainChar: "leroy",
+        otherChars: "bryan",
 
         twitter: "https://twitter.com/nyasio_derrick",
         instagram: "https://instagram.com/__f.rost__",
@@ -152,7 +155,7 @@ const players = {
     },
     /*
     // Template
-    "0000000": {
+    0000000: {
         playerId: 0000000,
         playerImg: "/assets/img/players/0000000.jpg",
 
