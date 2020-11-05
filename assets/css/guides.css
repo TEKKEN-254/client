@@ -85,7 +85,8 @@ p.break {
     transition-timing-function: ease-in-out;
 }
 
-.guide-button:hover {
+.guide-button:hover,
+.guide-button:focus {
     background-color: #166734;
     border: 1px solid #166734;
     transition-property: background, border;

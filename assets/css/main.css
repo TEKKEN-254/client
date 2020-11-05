@@ -221,7 +221,9 @@ header {
 }
 
 .socials img:hover,
-.footer-socials img:hover {
+.socials img:focus,
+.footer-socials img:hover,
+.footer-socials img:focus {
     opacity: 0.75;
     transition: opacity 0.25s ease-in-out;
 }
@@ -291,13 +293,15 @@ nav ul li a {
     transition: color 0.25s ease-in-out;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     color: #ba2025;
     text-decoration: none;
     transition: color 0.25s ease-in-out;
 }
 
-nav .dropdown-item:hover {
+nav .dropdown-item:hover,
+nav .dropdown-item:focus {
     background-color: transparent !important;
 }
 
@@ -309,7 +313,9 @@ nav .active,
 }
 
 nav .active:hover,
-.dropdown-item.active:hover {
+nav .active:focus,
+.dropdown-item.active:hover,
+.dropdown-item.active:focus {
     color: #166734;
     text-decoration: none;
 }
@@ -338,7 +344,8 @@ nav .dm-override a {
     transition: color 0.25s ease-in-out;
 }
 
-nav .dm-override a:hover {
+nav .dm-override a:hover,
+nav .dm-override a:focus {
     color: #ba2025;
     transition: color 0.25s ease-in-out;
 }
@@ -426,7 +433,9 @@ nav p a {
 }
 
 main a:hover,
-nav p a:hover {
+main a:focus,
+nav p a:hover,
+nav p a:focus {
     color: #166734 !important;
     transition: color 0.1s ease-in-out;
 }
@@ -437,7 +446,8 @@ main a.blank-link {
     transition: none;
 }
 
-main a.blank-link:hover {
+main a.blank-link:hover,
+main a.blank-link:focus {
     color: none !important;
     transition: none;
 }
@@ -940,7 +950,8 @@ footer {
     transition: color 0.25s ease-in-out;
 }
 
-.footer ul li a:hover {
+.footer ul li a:hover,
+.footer ul li a:focus {
     color: #c0c0c0;
     transition: color 0.25s ease-in-out;
     cursor: pointer;
@@ -957,7 +968,8 @@ footer {
     transition: color 0.1s ease-in-out;
 }
 
-.footer p a:hover {
+.footer p a:hover,
+.footer p a:focus {
     color: #ba2025;
     text-decoration: none;
     transition: color 0.1s ease-in-out;

@@ -42,7 +42,8 @@ section:not(:last-child) {
     transition-timing-function: ease-in-out;
 }
 
-.register-button:hover {
+.register-button:hover,
+.register-button:focus {
     background-color: #166734;
     border: 1px solid #166734;
     transition-property: background, border;

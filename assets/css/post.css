@@ -31,7 +31,8 @@
     transition: color 0.15s ease-in-out;
 }
 
-.post-top #categories a:hover {
+.post-top #categories a:hover,
+.post-top #categories a:focus {
     color: #166734 !important;
     transition: color 0.15s ease-in-out;
 }

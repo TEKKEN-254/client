@@ -118,7 +118,8 @@ img.player-img {
     transition: opacity 0.25s ease-in-out;
 }
 
-.player-socials img:hover {
+.player-socials img:hover,
+.player-socials img:focus {
     opacity: 0.75;
     transition: opacity 0.25s ease-in-out;
 }
