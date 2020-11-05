@@ -1,42 +1,18 @@
 @media only screen and (orientation: portrait) {
     body {
         background-image: url('/assets/img/backgrounds/bg-portrait.png');
-        background-color: rgb(17, 17, 17);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 }
 
 @media only screen and (max-resolution: 72dpi) {
     body {
         background-image: url('/assets/img/backgrounds/bg-low-res.png');
-        background-color: rgb(17, 17, 17);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 }
 
 @media only screen and (max-resolution: 72dpi) and (orientation: portrait) {
     body {
         background-image: url('/assets/img/backgrounds/bg-portrait-low-res.png');
-        background-color: rgb(17, 17, 17);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 }
 
