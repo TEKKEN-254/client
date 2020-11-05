@@ -26,8 +26,8 @@ const tooltipInit = () => {
 
 /* TRIMMING WHITESPACE IN AUTHOR BOX FOR BLOG POSTS */
 
-const authorSpace = document.getElementsByClassName("author-whitespace");
 const trimAuthorSpace = () => {
+    const authorSpace = document.getElementsByClassName("author-whitespace");
     for (const space of authorSpace) {
         space.innerHTML = null;
     }
