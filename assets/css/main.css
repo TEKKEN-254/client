@@ -40,15 +40,15 @@ body {
 }
 
 .lowercase {
-    text-transform: lowercase;
+    text-transform: lowercase !important;
 }
 
 .uppercase {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
 .capitalize {
-    text-transform: capitalize;
+    text-transform: capitalize !important;
 }
 
 .text-transform-reset {
@@ -56,19 +56,19 @@ body {
 }
 
 .normal {
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
 .light {
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 .regular {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 .medium {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .semi-bold,
@@ -77,16 +77,28 @@ strong {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 .italic,
 em {
-    font-style: italic;
+    font-style: italic !important;
 }
 
 .center {
-    text-align: center;
+    text-align: center !important;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.font-header {
+    font-family: 'Open Sans', 'Bahnschrift', 'Helvetica', sans-serif !important;
 }
 
 .font-body {
@@ -866,62 +878,23 @@ figure figcaption {
 }
 
 
-/* Floating section menu */
+/* GIF toggler */
 
-
-/* 
-.section-links {
+.gif-toggler {
     position: fixed;
     display: flex;
     flex-direction: column;
     z-index: 100;
-    top: 45%;
-    right: 17.5%;
+    top: 50%;
+    right: 10%;
     transition: color, text-shadow;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
 }
 
-.section-links a {
-    color: transparent;
-    transition: color 0.2s ease-in-out;
+.gif-toggler a {
+    cursor: pointer;
 }
-
-.section-links a:hover {
-    color: white;
-    text-shadow: 1px 1px rgba(0, 0, 0, 1);
-    transition: color, text-shadow;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
-}
-
-.section-titles {
-    position: fixed;
-    display: inline-block;
-    margin-left: 1.5625rem;
-    margin-top: -0.1875rem;
-}
-
-.dot {
-    height: 1.0625rem;
-    width: 1.0625rem;
-    background-color: white;
-    border: 1px solid rgba(186, 32, 27, 0.75);
-    border-radius: 50%;
-    display: block;
-    margin: 0.46875rem;
-    transition-property: background-color, border;
-    transition-duration: 0.15s;
-    transition-timing-function: ease-in-out;
-}
-
-.dot:hover {
-    background-color: #ba2025;
-    border: 1px solid rgba(0, 0, 0, 0.75);
-    transition-property: background-color, border;
-    transition-duration: 0.15s;
-    transition-timing-function: ease-in-out;
-} */
 
 
 /* FOOTER ELEMENTS */

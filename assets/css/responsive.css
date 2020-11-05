@@ -216,6 +216,9 @@
     .rankings-table tbody tr td:nth-child(3) {
         padding-left: 0.75rem;
     }
+    .gif-toggler {
+        display: none;
+    }
     /* FOOTER ELEMENTS */
     .footer {
         width: 100%;

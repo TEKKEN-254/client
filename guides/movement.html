@@ -7,6 +7,9 @@
 <p>In fighting game communities, you will likely hear the terms "2D" and "3D" used a lot to classify fighting games. This does not refer to the graphics of the game, but rather its movement options; Tekken is a 3D fighting game, meaning a player can move
     their character forward or backward, up or down and sideways (three dimensions). This differs from a 2D fighting game such as Street Fighter, where a player can only move their character forward or backward and up or down (two dimensions).</p>
 <p>In Tekken, certain notations are given to certain movements: f is forward, b is back, u is up and d is down. Combinations of any of the four may also be used (e.g. d/f is down-forward). See our notation chart for a full guide on movement notations.</p>
+<div class="gif-toggler">
+    <a onclick="toggleGifs()"><button class="guide-button">Toggle GIFs</button></a>
+</div>
 <section>
     <h2 class="page-title">Basic movement</h2>
     <ul class="guides-tabs nav nav-pills" id="movement-tabs" role="tablist">
@@ -24,7 +27,7 @@
         <div class="tab-pane fade show active" id="basic" role="tabpanel" aria-labelledby="basic-tab">
             <p>The following are the basic ways to move your character:</p>
             <div class="row gif-info">
-                <ul class="col-12 col-lg-7">
+                <ul class="col-12">
                     <li><strong>Hold f</strong> to <strong>walk forward</strong></li>
                     <li><strong>Hold b</strong> to <strong>walk backward</strong></li>
                     <li><strong>Tap u</strong> to <strong>sidestep into the background</strong><br />(left on P1 and right on P2)</li>
@@ -35,7 +38,7 @@
                 </figure>
             </div>
             <div class="row gif-info">
-                <ul class="col-12 col-lg-7">
+                <ul class="col-12">
                     <li><strong>Hold u</strong> to <strong>jump</strong></li>
                     <li><strong>Hold u/f</strong> to <strong>jump forward</strong></li>
                     <li><strong>Hold u/b</strong> to <strong>jump backward</strong></li>
@@ -50,7 +53,7 @@
         <div class="tab-pane fade" id="dash-walk" role="tabpanel" aria-labelledby="dash-walk-tab">
             <p class="break">Players can also <strong>dash</strong> to close distance quicker and <strong>sidewalk</strong> to get further round the opponent.</p>
             <div class="row gif-info mb-0">
-                <ul class="col-12 col-lg-7">
+                <ul class="col-12">
                     <li><strong>Double tap f</strong> (f, f) to <strong>dash forward</strong></li>
                     <li><strong>Double tap b</strong> (b, b) to <strong>backdash</strong></li>
                     <li><strong>Tap and hold u</strong> to <strong>sidewalk into the background</strong><br />(left on P1 and right on P2)</li>
@@ -67,7 +70,7 @@
         <div class="tab-pane fade" id="dash-cont" role="tabpanel" aria-labelledby="dash-cont-tab">
             <p class="break"><strong>Dashing forward from a distance</strong> will make the character <strong>run</strong>. A run can be cancelled before reaching the opponent by using any of the movements listed above, except a forward walk or forward dash.</p>
             <div class="row gif-info">
-                <ul class="col-12 col-lg-7">
+                <ul class="col-12">
                     <li><strong>Running two steps</strong> to the opponent will result in an <strong>ultimate tackle</strong>, which can be followed up with various options depending on the character.</li>
                 </ul>
                 <figure class="col-5 inline-fig">
@@ -75,7 +78,7 @@
                 </figure>
             </div>
             <div class="row gif-info">
-                <ul class="col-12 col-lg-7">
+                <ul class="col-12">
                     <li><strong>Running three or more steps</strong> to the opponent will result in a <strong>running tackle</strong>, a mid <strong>power crush</strong> (see <a href="att-def.html">guide on attacking and defending</a> for more on these) that
                         deals decent damage.
                     </li>
@@ -109,7 +112,7 @@
     <div class="tab-content" id="advanced-tabs-content">
         <div class="tab-pane fade show active" id="kbd" role="tabpanel" aria-labelledby="kbd-tab">
             <div class="row gif-info">
-                <p class="col-12 col-lg-7">The <strong>Korean backdash</strong> or <strong>backdash cancel</strong> is a technique used to create distance with the opponent very quickly. This is done by cancelling a backdash by crouching, then repeating the same sequence over and
+                <p class="col-12">The <strong>Korean backdash</strong> or <strong>backdash cancel</strong> is a technique used to create distance with the opponent very quickly. This is done by cancelling a backdash by crouching, then repeating the same sequence over and
                     over again (i.e. b, b, d, b, b, d, b, b, d, b&hellip; / b, b, d/b, b, b, d/b, b, b, d/b, b&hellip;).<br /><br />The Korean backdash can be done with any character, though it is harder to do with characters with back-sways (i.e.
                     <a href="./character.html?view=bryan">Bryan Fury</a>,
                     <a href="./character.html?view=nina">Nina Williams</a> and <a href="./character.html?view=paul">Paul Phoenix</a>).</p>
@@ -120,7 +123,7 @@
         </div>
         <div class="tab-pane fade" id="ss-cancel" role="tabpanel" aria-labelledby="ss-cancel-tab">
             <div class="row gif-info">
-                <p class="col-12 col-lg-7">The <strong>sidestep cancel</strong> is a technique used to get around the opponent or get away from the wall very quickly. This is done by cancelling a sidestep by tapping back, then repeating the same sequence over and over again (i.e.
+                <p class="col-12">The <strong>sidestep cancel</strong> is a technique used to get around the opponent or get away from the wall very quickly. This is done by cancelling a sidestep by tapping back, then repeating the same sequence over and over again (i.e.
                     d, b, d, b, d, b&hellip; / u, b, u, b, u, b&hellip;).<br /><br />The sidestep cancel can be done with any character.</p>
                 <figure class="col-5 inline-fig">
                     <img src="./gif/movement-sidestep-cancel.gif " />
@@ -129,7 +132,7 @@
         </div>
         <div class="tab-pane fade" id="backflip" role="tabpanel" aria-labelledby="backflip-tab">
             <div class="row gif-info">
-                <p class="col-12 col-lg-7">The <strong>backflip</strong> is a technique used to create distance with the opponent, as well as creating whiff punish opportunities in certain situations. This is done with the input u, u/b, b.<br /><br />The backflip can be done by
+                <p class="col-12">The <strong>backflip</strong> is a technique used to create distance with the opponent, as well as creating whiff punish opportunities in certain situations. This is done with the input u, u/b, b.<br /><br />The backflip can be done by
                     all female characters&mdash;except <a href="./character.html?view=josie">Josie Rizal</a>, <a href="./character.html?view=julia">Julia Chang</a>, <a href="./character.html?view=katarina">Katarina Alves</a> and
                     <a href="./character.html?view=kazumi">Kazumi Mishima</a>&mdash;as well as <a href="./character.html?view=eddy">Eddy Gordo</a> (into his Handstand), <a href="./character.html?view=lars">Lars Alexandersson</a>, <a href="./character.html?view=lee">Lee Chaolan</a>                    (into his Hitman stance), <a href="./character.html?view=noctis">Noctis Lucis Caelum</a> and <a href="./character.html?view=yoshimitsu">Yoshimitsu</a>.</p>
                 <figure class="col-5 inline-fig">
@@ -139,7 +142,7 @@
         </div>
         <div class="tab-pane fade" id="wall-run" role="tabpanel" aria-labelledby="wall-run-tab">
             <div class="row gif-info">
-                <p class="col-12 col-lg-7">The <strong>wall run</strong> is a technique used for various purposes at the wall. This is done with the input u, u/b, b with your character's back to the wall.<br /><br />The wall run can be done with any character, though each character's
+                <p class="col-12">The <strong>wall run</strong> is a technique used for various purposes at the wall. This is done with the input u, u/b, b with your character's back to the wall.<br /><br />The wall run can be done with any character, though each character's
                     wall run is different. Be sure to find out what your character's wall run looks like and how you can use it to your advantage.</p>
                 <figure class="col-5 inline-fig">
                     <img src="./gif/movement-wall-run.gif " />
@@ -148,7 +151,7 @@
         </div>
         <div class="tab-pane fade" id="wavedash" role="tabpanel" aria-labelledby="wavedash-tab">
             <div class="row gif-info">
-                <p class="col-12 col-lg-7">The <strong>wavedash</strong> is a technique used to close distance with the opponent very quickly and/or put them in a mix-up. This is done by looping multiple crouch dashes (f, n, d, d/f) together.<br /><br />The only characters capable
+                <p class="col-12">The <strong>wavedash</strong> is a technique used to close distance with the opponent very quickly and/or put them in a mix-up. This is done by looping multiple crouch dashes (f, n, d, d/f) together.<br /><br />The only characters capable
                     of wavedashing are <a href="./character.html?view=armor-king">Armor King</a>, <a href="./character.html?view=bob">Bob Richards</a>, <a href="./character.html?view=devil-jin">Devil Jin</a>, <a href="./character.html?view=heihachi">Heihachi Mishima</a>,
                     <a href="./character.html?view=hwoarang">Hwoarang</a>, <a href="./character.html?view=jin">Jin Kazama</a>,
                     <a href="./character.html?view=kazuya">Kazuya Mishima</a> and <a href="./character.html?view=king">King</a> (whose wavedash is more difficult, consisting of the initial aforementioned input and then subsequent inputs of f, d, d/f,

@@ -32,3 +32,12 @@ const trimAuthorSpace = () => {
         space.innerHTML = null;
     }
 }
+
+/* GIF TOGGLER */
+const toggleGifs = () => {
+    const $gifs = $("figure.inline-fig, .gif-row")
+    const $infoText = $(".gif-info>ul, .gif-info>p")
+
+    $gifs.toggleClass("flex");
+    $infoText.toggleClass("col-lg-7");
+}
