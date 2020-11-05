@@ -69,10 +69,6 @@
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
-    .char-profile {
-        flex-direction: column;
-        justify-content: center;
-    }
     .char-img {
         display: none;
     }
@@ -91,6 +87,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .char-profile {
+        flex-direction: column;
+        justify-content: center;
+    }
     /* p {
         font-size: 0.875rem;
     } */
@@ -101,7 +101,7 @@
     .char-img img {
         width: 100%;
     }
-    .char-summary strong {
+    /* .char-summary strong {
         font-size: calc(5/3 * 2vw) !important;
-    }
+    } */
 }

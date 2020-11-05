@@ -62,20 +62,20 @@ section:first-child p:last-child {
         align-items: center;
         align-content: center;
     }
-    .about-img figcaption {
+    /* .about-img figcaption {
         font-size: 2vw;
-    }
+    } */
     /* .team {
         display: flex;
         width: 100%;
         flex-direction: column;
     } */
     .team-name {
-        font-size: 4.5vw !important;
+        /* font-size: 4.5vw !important; */
         margin: 0;
     }
     .team-title {
-        font-size: 3.375vw !important;
+        /* font-size: 3.375vw !important; */
         margin-top: 0;
     }
     /* .team-member {

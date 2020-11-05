@@ -280,9 +280,9 @@ p {
         width: 100% !important;
     }
     /* Glossary */
-    .glossary {
+    /* .glossary {
         font-size: calc(5/3 * 2vw) !important;
-    }
+    } */
     .glossary dt:not(:first-child) {
         margin-top: calc(5/3 * 2vw);
     }

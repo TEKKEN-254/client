@@ -195,7 +195,7 @@ img.player-img {
         position: relative;
         text-align: center;
         margin: 0.25rem auto;
-        font-size: calc(5/3 * 2.25vw);
+        /* font-size: calc(5/3 * 2.25vw); */
     }
     .player-socials {
         position: static;
@@ -217,19 +217,19 @@ img.player-img {
         width: 100%;
     }
     .player-pseudo {
-        font-size: calc(5/3 * 2.5vw) !important;
+        /* font-size: calc(5/3 * 2.5vw) !important; */
         margin-top: 0 !important;
     }
     .player-name {
         margin-top: 1.25rem !important;
     }
-    .player-name,
+    /* .player-name,
     .bio-header,
     .stat-header,
     .bio-info,
     .player-stat {
         font-size: calc(5/3 * 2.25vw) !important;
-    }
+    } */
     .stats-overview {
         margin-bottom: 0.875rem;
     }

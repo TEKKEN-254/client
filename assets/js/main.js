@@ -1,3 +1,13 @@
+/* READY DOCUMENT FUNCTION CALLS */
+
+const main = () => {
+    carouselInit();
+    tooltipInit();
+    trimAuthorSpace();
+}
+
+$(document).ready(main);
+
 /* CAROUSEL BACKGROUND IMAGES */
 
 const carouselInit = () => {
@@ -22,14 +32,3 @@ const trimAuthorSpace = () => {
         space.innerHTML = null;
     }
 }
-
-
-/* READY DOCUMENT FUNCTION CALLS */
-
-const main = () => {
-    carouselInit();
-    tooltipInit();
-    trimAuthorSpace();
-}
-
-$(document).ready(main);
