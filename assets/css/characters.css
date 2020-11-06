@@ -87,21 +87,25 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .char-profile {
-        flex-direction: column;
-        justify-content: center;
+    .char-img {
+        display: none;
     }
-    /* p {
-        font-size: 0.875rem;
-    } */
+    .container-2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .char-img-2 {
+        display: block;
+    }
+    .char-img-2 img {
+        width: 100%;
+    }
     #flag {
-        width: calc(5/3 * 1.6vw);
-        height: calc(5/3 * 1.6vw);
+        width: 1rem;
+        height: 1rem;
     }
     .char-img img {
         width: 100%;
     }
-    /* .char-summary strong {
-        font-size: calc(5/3 * 2vw) !important;
-    } */
 }

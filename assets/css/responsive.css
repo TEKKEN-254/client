@@ -84,7 +84,7 @@
         max-width: 85%;
     }
     .header-img {
-        height: 2.75rem;
+        height: 3.125rem;
         margin: auto;
     }
     .socials,
@@ -113,6 +113,7 @@
     nav .dm-override {
         position: initial;
         background-color: initial;
+        border-top: initial;
         border-left: initial;
         border-right: initial;
         border-bottom: initial;
