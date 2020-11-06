@@ -29,8 +29,8 @@
 }
 
 #flag {
-    width: calc(2/3 * 21px);
-    height: calc(2/3 * 21px);
+    width: 0.875rem;
+    height: 0.875rem;
 }
 
 .char-profile {
@@ -70,14 +70,14 @@
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
-    .char-img {
-        display: none;
-    }
     .container-2 {
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
+    }
+    .char-img {
+        display: none;
     }
     .char-img-2 {
         display: block;
@@ -88,9 +88,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .char-img {
-        display: none;
-    }
     .char-name,
     .char-nickname {
         white-space: initial;
@@ -100,17 +97,13 @@
         width: 100%;
         flex-direction: column-reverse;
     }
+    .char-img {
+        display: none;
+    }
     .char-img-2 {
         display: block;
     }
     .char-img-2 img {
-        width: 100%;
-    }
-    #flag {
-        width: 1rem;
-        height: 1rem;
-    }
-    .char-img img {
         width: 100%;
     }
 }
