@@ -189,17 +189,19 @@
     }
     .rankings-table caption {
         text-align: center;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
-    .rankings-table thead tr th:nth-child(2),
-    .rankings-table thead tr th:nth-child(5),
-    .rankings-table thead tr th:nth-child(6),
-    .rankings-table tbody tr td:nth-child(2),
-    .rankings-table tbody tr td:nth-child(5),
-    .rankings-table tbody tr td:nth-child(6) {
+    .rankings-table:not(.home) thead tr th:nth-child(2),
+    .rankings-table:not(.home) thead tr th:nth-child(5),
+    .rankings-table:not(.home) thead tr th:nth-child(6),
+    .rankings-table:not(.home) tbody tr td:nth-child(2),
+    .rankings-table:not(.home) tbody tr td:nth-child(5),
+    .rankings-table:not(.home) tbody tr td:nth-child(6) {
         display: none;
     }
-    .rankings-table thead tr th:nth-child(3),
-    .rankings-table tbody tr td:nth-child(3) {
+    .rankings-table:not(.home) thead tr th:nth-child(3),
+    .rankings-table:not(.home) tbody tr td:nth-child(3) {
         padding-left: 0.75rem;
     }
     .gif-toggler {
