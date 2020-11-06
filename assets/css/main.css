@@ -252,7 +252,7 @@ header {
 
 .mobile-search {
     display: none;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 input[type=search] {
