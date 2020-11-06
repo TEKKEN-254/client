@@ -42,6 +42,7 @@
 
 .char-bio {
     min-height: 560px;
+    width: inherit;
 }
 
 .char-summary ul {
@@ -89,6 +90,10 @@
 @media only screen and (max-width: 991px) {
     .char-img {
         display: none;
+    }
+    .char-name,
+    .char-nickname {
+        white-space: initial;
     }
     .container-2 {
         display: flex;
