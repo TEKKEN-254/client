@@ -28,14 +28,14 @@
                 {% for this_author in this_authors %}
                     {% assign authors = site.authors | where: 'alias', this_authors[i] %}
                     {% for author in authors %}
-                        <meta property="article:author" content="{{ author.url }}">
+                        <meta property="article:author" content="{{ author.url | absolute_url }}">
                     {% endfor %}
                 {% endfor %}
             {% else %}
                 {% for this_author in this_authors %}
                     {% assign authors = site.authors | where: 'alias', this_authors[i] %}
                     {% for author in authors %}
-                        <meta property="article:author" content="{{ author.url }}">
+                        <meta property="article:author" content="{{ author.url | absolute_url }}">
                         {% assign i = i | plus: 1 %}
                         {% assign j = j | plus: 1 %}
                     {% endfor %}
