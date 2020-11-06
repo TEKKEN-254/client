@@ -10,7 +10,7 @@ let playerImg = document.getElementById("player-img");
 let playerName = document.getElementById("player-name");
 let pseudonym = document.getElementById("pseudonym");
 
-let team = document.getElementById("team-name");
+// let team = document.getElementById("team-name");
 let teamShorthand = document.getElementById("team-shorthand");
 
 let birthDate = document.getElementById("birth-date");
@@ -86,11 +86,13 @@ const display = id => {
     const playerMain = players[id].mainChar;
     const playerOtherChars = players[id].otherChars;
     mainChar.innerHTML = characters[playerMain].name;
+
     if (!characters[playerMain].image) {
         mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
     } else {
         mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
     }
+
     if (Array.isArray(playerOtherChars)) {
         const charList = [];
         for (const char of playerOtherChars) {

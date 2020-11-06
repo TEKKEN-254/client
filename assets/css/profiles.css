@@ -180,10 +180,8 @@ img.player-img {
 @media only screen and (max-width: 991px) {
     .player-bio,
     .stats {
+        /* position: relative; */
         flex-direction: column;
-    }
-    .stats-overview {
-        margin-bottom: 10px;
     }
     .bio-img {
         display: flex;
@@ -226,14 +224,28 @@ img.player-img {
     .player-name {
         margin-top: 1.25rem !important;
     }
-    .stats-overview {
-        margin-top: 1rem;
-        margin-bottom: 0.875rem;
-    }
     .bio-info {
         line-height: 0.75;
         margin: 5px auto;
     }
+    .stats-overview {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    /* .stats-overview::before {
+        content: ' ';
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.25;
+    } */
     .stats-box:not(:last-child) {
         width: 100%;
         margin-bottom: 25px;

@@ -267,6 +267,7 @@ DEPENDENCIES
   github-pages
   jekyll-category-pages
   jekyll-feed (~> 0.12)
+  jekyll-github-metadata
   jekyll-paginate
   jekyll-tagging
   minima (~> 2.5)
