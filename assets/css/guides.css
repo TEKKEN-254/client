@@ -274,7 +274,7 @@ p {
     }
     /* Characters */
     .characters-search {
-        width: 100%;
+        width: 60%;
     }
     /* Glossary */
     .glossary dt:not(:first-child) {
@@ -283,5 +283,12 @@ p {
     #mishima,
     #mishima li:last-child {
         margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    /* Characters */
+    .characters-search {
+        width: 100%;
     }
 }
