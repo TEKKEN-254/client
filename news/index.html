@@ -16,30 +16,6 @@
     {% endfor %}
 </ul>
 {% for post in paginator.posts %}
-{% include list-story.html %}
+    {% include list-story.html %}
 {% endfor %}
-{% if paginator.total_pages > 1 %}
-<ul class="pagination d-flex justify-content-center">
-    <li class="page-item{% if paginator.page == 1 %} disabled{% endif %}">
-        <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&laquo;</a>
-    </li>
-    {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <li class="page-item active" aria-current="page">
-        <a class="page-link">{{ page }} <span class="sr-only">(current)</span></a>
-    </li>
-    {% elsif page == 1 %}
-    <li class="page-item">
-        <a class="page-link" href="{{ "/news" | relative_url }}">{{ page }}</a>
-    </li>
-    {% else %}
-    <li class="page-item">
-        <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ":num", page }}">{{ page }}</a>
-    </li>
-    {% endif %}
-    {% endfor %}
-    <li class="page-item{% if paginator.page == paginator.total_pages %} disabled{% endif %}">
-        <a class="page-link" href="{{ paginator.next_page_path }}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&raquo;</a>
-    </li>
-</ul>
-{% endif %}
+{% include news-paginator.html %}

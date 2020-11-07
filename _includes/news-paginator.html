@@ -1,0 +1,83 @@
+{% assign prev_page = paginator.page | minus: 1 %}
+{% assign next_page = paginator.page | plus: 1 %}{% if include.type == "category" %}
+{% assign page_link_path = "/news/categories/" | append: this_cat | downcase %}{% endif %}
+{% if paginator.total_pages > 1 and paginator.total_pages <= 5 %}
+    <ul class="pagination d-flex justify-content-center">
+        <li class="page-item{% if paginator.page == 1 or prev_page == 1 %} disabled{% endif %}">
+            <a class="page-link" href="{% if include.type == "category" %}{{ page_link_path | relative_url }}{% else %}{{ "/news" | relative_url }}{% endif %}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&laquo;</a>
+        </li>
+        <li class="page-item{% if paginator.page == 1 %} disabled{% endif %}">
+            <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&lsaquo;</a>
+        </li>
+        {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            <li class="page-item active" aria-current="page">
+                <a class="page-link">{{ page }} <span class="sr-only">(current)</span></a>
+            </li>
+            {% elsif page == 1 %}
+            <li class="page-item">
+                <a class="page-link" href="{% if include.type == "category" %}{{ page_link_path | relative_url }}{% else %}{{ "/news/" | relative_url }}{% endif %}">{{ page }}</a>
+            </li>
+            {% else %}
+            <li class="page-item">
+                <a class="page-link" href="{% if include.type == "category" %}{{ paginator.paginate_path | relative_url }}page{{ page }}.html{% else %}{{ site.paginate_path | relative_url | replace: ":num", page }}{% endif %}">{{ page }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+        <li class="page-item{% if paginator.page == paginator.total_pages %} disabled{% endif %}">
+            <a class="page-link" href="{{ paginator.next_page_path }}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&rsaquo;</a>
+        </li>
+        <li class="page-item{% if paginator.page == paginator.total_pages or next_page == paginator.total_pages %} disabled{% endif %}">
+            <a class="page-link" href="{% if include.type == "category" %}{{ paginator.paginate_path | relative_url }}page{{ paginator.total_pages }}.html{% else %}{{ site.paginate_path | relative_url | replace: ":num", paginator.total_pages }}{% endif %}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&raquo;</a>
+        </li>
+    </ul>
+{% elsif paginator.total_pages > 5 %}
+    <ul class="pagination d-flex justify-content-center">
+        <li class="page-item{% if paginator.page == 1 or prev_page == 1 %} disabled{% endif %}">
+            <a class="page-link" href="{% if include.type == "category" %}{{ page_link_path | relative_url }}{% else %}{{ "/news" | relative_url }}{% endif %}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&laquo;</a>
+        </li>
+        <li class="page-item{% if paginator.page == 1 %} disabled{% endif %}">
+            <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1"{% if paginator.page == 1 %} aria-disabled="true"{% endif %}>&lsaquo;</a>
+        </li>
+        {% assign range_min = paginator.page | minus: 4 %}
+        {% if (1..5) contains paginator.page %}
+            {% for page in (1..5) %}
+                {% if page == paginator.page %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link">{{ page }} <span class="sr-only">(current)</span></a>
+                </li>
+                {% elsif page == 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="{% if include.type == "category" %}{{ page_link_path | relative_url }}{% else %}{{ "/news/" | relative_url }}{% endif %}">{{ page }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="{% if include.type == "category" %}{{ paginator.paginate_path | relative_url }}page{{ page }}.html{% else %}{{ site.paginate_path | relative_url | replace: ":num", page }}{% endif %}">{{ page }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        {% elsif (range_min..paginator.page) contains paginator.page %}
+            {% for page in (range_min..paginator.page) %}
+                {% if page == paginator.page %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link">{{ page }} <span class="sr-only">(current)</span></a>
+                </li>
+                {% elsif page == 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="{% if include.type == "category" %}{{ page_link_path | relative_url }}{% else %}{{ "/news/" | relative_url }}{% endif %}">{{ page }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="{% if include.type == "category" %}{{ paginator.paginate_path | relative_url }}page{{ page }}.html{% else %}{{ site.paginate_path | relative_url | replace: ":num", page }}{% endif %}">{{ page }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        <li class="page-item{% if paginator.page == paginator.total_pages %} disabled{% endif %}">
+            <a class="page-link" href="{{ paginator.next_page_path }}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&rsaquo;</a>
+        </li>
+        <li class="page-item{% if paginator.page == paginator.total_pages or next_page == paginator.total_pages %} disabled{% endif %}">
+            <a class="page-link" href="{% if include.type == "category" %}{{ paginator.paginate_path | relative_url }}page{{ paginator.total_pages }}.html{% else %}{{ site.paginate_path | relative_url | replace: ":num", paginator.total_pages }}{% endif %}"{% if paginator.page == paginator.total_pages %} aria-disabled="true"{% endif %}>&raquo;</a>
+        </li>
+    </ul>
+{% endif %}
