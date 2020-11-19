@@ -10,7 +10,7 @@ let playerImg = document.getElementById("player-img");
 let playerName = document.getElementById("player-name");
 let pseudonym = document.getElementById("pseudonym");
 
-// let team = document.getElementById("team-name");
+let team = document.getElementById("team-name");
 let teamShorthand = document.getElementById("team-shorthand");
 
 let birthDate = document.getElementById("birth-date");
@@ -53,10 +53,14 @@ const display = id => {
     }
 
     playerName.innerHTML = players[id].playerName;
-    pseudonym.innerHTML = players[id].pseudonym;
+    if (team) {
+        pseudonym.innerHTML = " " + players[id].pseudonym;
+    } else {
+        pseudonym.innerHTML = players[id].pseudonym;
+    }
 
-    // team.innerHTML = players[id].team;
-    teamShorthand.innerHTML = players[id].teamShorthand + " ";
+    team.setAttribute("title", players[id].team);
+    teamShorthand.innerHTML = players[id].teamShorthand;
 
     if (players[id].facebook) {
         isFacebook.style.display = "inline-block";

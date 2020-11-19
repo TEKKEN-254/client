@@ -55,8 +55,12 @@ img.player-img {
     margin-bottom: 1.5625rem !important;
 }
 
-#team-shorthand {
+#team-name {
     color: #ba2025;
+}
+
+#team-name[data-toggle="tooltip"] {
+    border-bottom: none;
 }
 
 .bio-info {
