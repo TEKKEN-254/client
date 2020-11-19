@@ -101,10 +101,18 @@ const display = id => {
     if (Array.isArray(playerOtherChars)) {
         const charList = [];
         for (const char of playerOtherChars) {
-            const charUrl = `<a href="/guides/character.html?view=${char}" target="_blank">${characters[char].name}</a>`;
-            charList.push(charUrl);
+            if (!charList.includes(char)) {
+                charList.push(char);
+            }
         }
-        otherChars.innerHTML = charList.join("&nbsp;&ndash;&nbsp;");
+        charList.sort();
+
+        const charLinks = [];
+        for (const char of charList) {
+            const charUrl = `<a href="/guides/character.html?view=${char}" target="_blank">${characters[char].name}</a>`;
+            charLinks.push(charUrl);
+        }
+        otherChars.innerHTML = charLinks.join(", ");
     } else if (playerOtherChars) {
         otherChars.innerHTML = `<a href="/guides/character.html?view=${players[id].otherChars}" target="_blank">${characters[playerOtherChars].name}</a>`;
     } else {
@@ -134,7 +142,7 @@ const players = {
         onlineId: "DavyK17",
 
         mainChar: "jin",
-        otherChars: "miguel",
+        otherChars: ["miguel", "geese"],
 
         twitter: "https://twitter.com/DavyK17",
         instagram: "https://instagram.com/davyk17",
@@ -158,8 +166,8 @@ const players = {
         platform: "PSN (PlayStation)",
         onlineId: "dnyasio",
 
-        mainChar: "leroy",
-        otherChars: ["bryan", "claudio"],
+        mainChar: "bryan",
+        otherChars: ["lars", "dragunov", "claudio"],
 
         twitter: "https://twitter.com/nyasio_derrick",
         instagram: "https://instagram.com/__f.rost__",
