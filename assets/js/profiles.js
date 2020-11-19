@@ -79,7 +79,12 @@ const display = id => {
         twitch.href = players[id].twitch;
     }
 
-    birthDate.innerHTML = players[id].birthDate;
+    if (!players[id].displayBirthDate) {
+        birthDate.innerHTML = "<em>Classified</em>";
+    } else {
+        birthDate.innerHTML = players[id].birthDate;
+    }
+
     platform.innerHTML = players[id].platform;
     onlineId.innerHTML = players[id].onlineId;
 
@@ -123,6 +128,8 @@ const players = {
         teamShorthand: "WTCH",
 
         birthDate: new Date("1997-08-10").toLocaleDateString("en-KE", dobOptions),
+        displayBirthDate: true,
+
         platform: "PSN (PlayStation)",
         onlineId: "DavyK17",
 
@@ -146,6 +153,8 @@ const players = {
         teamShorthand: "MM",
 
         birthDate: new Date("2000-03-02").toLocaleDateString("en-KE", dobOptions),
+        displayBirthDate: false,
+
         platform: "PSN (PlayStation)",
         onlineId: "dnyasio",
 
@@ -169,6 +178,8 @@ const players = {
         teamShorthand: "",
 
         birthDate: new Date("YYYY-MM-DD").toLocaleDateString("en-KE", dobOptions),
+        displayBirthDate: true,
+
         platform: "Platform",
         onlineId: "Online ID",
 
