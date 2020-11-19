@@ -54,21 +54,24 @@ const display = id => {
         playerImg.src = players[id].playerImg;
     }
 
-    playerName.innerHTML = players[id].playerName;
     if (!players[id].team) {
         team.remove();
         if (!players[id].pseudonym) {
             pseudonym.innerHTML = players[id].playerName;
+            playerName.remove();
         } else {
             pseudonym.innerHTML = players[id].pseudonym;
+            playerName.innerHTML = players[id].playerName;
         }
     } else {
         team.setAttribute("data-original-title", players[id].team);
         teamShorthand.innerHTML = players[id].teamShorthand;
         if (!players[id].pseudonym) {
             pseudonym.innerHTML = " " + players[id].playerName;
+            playerName.remove();
         } else {
             pseudonym.innerHTML = " " + players[id].pseudonym;
+            playerName.innerHTML = players[id].playerName;
         }
     }
 
