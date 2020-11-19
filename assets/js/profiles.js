@@ -41,7 +41,9 @@ let twitch = document.getElementById("player-twitch");
 
 /* DISPLAY FUNCTION */
 const display = id => {
-    if (players[id].pseudonym) {
+    if (!players[id].pseudonym) {
+        document.title = `${document.title} - ${players[id].playerName}`;
+    } else {
         document.title = `${document.title} - ${players[id].pseudonym}`;
     }
 
@@ -55,11 +57,19 @@ const display = id => {
     playerName.innerHTML = players[id].playerName;
     if (!players[id].team) {
         team.remove();
-        pseudonym.innerHTML = players[id].pseudonym;
+        if (!players[id].pseudonym) {
+            pseudonym.innerHTML = players[id].playerName;
+        } else {
+            pseudonym.innerHTML = players[id].pseudonym;
+        }
     } else {
         team.setAttribute("data-original-title", players[id].team);
         teamShorthand.innerHTML = players[id].teamShorthand;
-        pseudonym.innerHTML = " " + players[id].pseudonym;
+        if (!players[id].pseudonym) {
+            pseudonym.innerHTML = " " + players[id].playerName;
+        } else {
+            pseudonym.innerHTML = " " + players[id].pseudonym;
+        }
     }
 
     if (players[id].facebook) {
