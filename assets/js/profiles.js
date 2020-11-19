@@ -167,7 +167,7 @@ const players = {
         onlineId: "dnyasio",
 
         mainChar: "bryan",
-        otherChars: ["lars", "dragunov", "claudio"],
+        otherChars: ["dragunov", "lars", "claudio"],
 
         twitter: "https://twitter.com/nyasio_derrick",
         instagram: "https://instagram.com/__f.rost__",
