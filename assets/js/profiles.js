@@ -53,14 +53,14 @@ const display = id => {
     }
 
     playerName.innerHTML = players[id].playerName;
-    if (team) {
-        pseudonym.innerHTML = " " + players[id].pseudonym;
-    } else {
+    if (!players[id].team) {
+        team.remove();
         pseudonym.innerHTML = players[id].pseudonym;
+    } else {
+        team.setAttribute("data-original-title", players[id].team);
+        teamShorthand.innerHTML = players[id].teamShorthand;
+        pseudonym.innerHTML = " " + players[id].pseudonym;
     }
-
-    team.setAttribute("title", players[id].team);
-    teamShorthand.innerHTML = players[id].teamShorthand;
 
     if (players[id].facebook) {
         isFacebook.style.display = "inline-block";
