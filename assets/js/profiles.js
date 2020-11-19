@@ -85,7 +85,7 @@ const display = id => {
 
     const playerMain = players[id].mainChar;
     const playerOtherChars = players[id].otherChars;
-    mainChar.innerHTML = characters[playerMain].name;
+    mainChar.innerHTML = `<a href="/guides/character.html?view=${players[id].mainChar}" target="_blank">${characters[playerMain].name}</a>`;
 
     if (!characters[playerMain].image) {
         mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
@@ -96,17 +96,20 @@ const display = id => {
     if (Array.isArray(playerOtherChars)) {
         const charList = [];
         for (const char of playerOtherChars) {
-            charList.push(characters[char].name);
+            const charUrl = `<a href="/guides/character.html?view=${char}" target="_blank">${characters[char].name}</a>`;
+            charList.push(charUrl);
         }
-        otherChars.innerHTML = charList.join(", ");
+        otherChars.innerHTML = charList.join("&nbsp;&ndash;&nbsp;");
     } else if (playerOtherChars) {
-        otherChars.innerHTML = characters[playerOtherChars].name;
+        otherChars.innerHTML = `<a href="/guides/character.html?view=${players[id].otherChars}" target="_blank">${characters[playerOtherChars].name}</a>`;
     } else {
         otherChars.innerHTML = "N/A";
     }
 }
 
 /* PROFILES */
+const dobOptions = { day: "numeric", month: "long", year: "numeric" };
+
 const players = {
     // DVK
     4092983: {
@@ -119,8 +122,7 @@ const players = {
         team: "Watchmen Esports",
         teamShorthand: "WTCH",
 
-        // birthDate: new Date("10 August 1997"),
-        birthDate: "10 August 1997",
+        birthDate: new Date("1997-08-10").toLocaleDateString("en-KE", dobOptions),
         platform: "PSN (PlayStation)",
         onlineId: "DavyK17",
 
@@ -143,13 +145,12 @@ const players = {
         team: "Masters of Mayhem",
         teamShorthand: "MM",
 
-        // birthDate: new Date("2 March 2000"),
-        birthDate: "2 March 2000",
+        birthDate: new Date("2000-03-02").toLocaleDateString("en-KE", dobOptions),
         platform: "PSN (PlayStation)",
         onlineId: "dnyasio",
 
         mainChar: "leroy",
-        otherChars: "bryan",
+        otherChars: ["bryan", "claudio"],
 
         twitter: "https://twitter.com/nyasio_derrick",
         instagram: "https://instagram.com/__f.rost__",
@@ -167,8 +168,7 @@ const players = {
         team: "",
         teamShorthand: "",
 
-        // birthDate: new Date("DD Month YYYY"),
-        birthDate: "DD Month YYYY",
+        birthDate: new Date("YYYY-MM-DD").toLocaleDateString("en-KE", dobOptions),
         platform: "Platform",
         onlineId: "Online ID",
 
