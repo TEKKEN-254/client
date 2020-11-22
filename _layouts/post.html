@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section id="story">
+<article id="story">
     <ul class="post-top mb-0">
         <li id="date">{{ page.date | date_to_long_string }}</li>
         <li id="categories"><a href="/news/categories/{{ page.categories | first | downcase }}">{{ page.categories | first }}</a></li>
@@ -83,5 +83,5 @@ layout: default
             {% endfor %}
         </ul>
     </div>
-</section>
+</article>
 {% include related-stories.html %}
