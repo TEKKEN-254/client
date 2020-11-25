@@ -1,3 +1,6 @@
+/* IMPORTING PLAYERS */
+import { players } from "./player-list.js";
+
 /* DECLARATIONS */
 // Current season
 let currentSeason = document.getElementById("current-season");
@@ -425,6 +428,23 @@ const playerStats = {
 
 
 /* CALLING DISPLAY FUNCTION */
-let statsParams = (new URL(document.location)).searchParams;
-let statsId = statsParams.get("id");
-displayStats(statsId);
+let params = (new URL(document.location)).searchParams;
+let id = params.get("id");
+
+if (typeof id !== "number") {
+    id = id.toLowerCase();
+    for (const player in players) {
+        let playerId = players[player]["playerId"];
+        let playerName = players[player]["playerName"].toLowerCase();
+        let pseudonym = players[player]["pseudonym"].toLowerCase();
+
+        if (id === playerName || id === pseudonym) {
+            id = playerId;
+        }
+    }
+}
+
+let uniqueId = Number.parseInt(id);
+if (Number.isInteger(uniqueId)) {
+    displayStats(uniqueId);
+}

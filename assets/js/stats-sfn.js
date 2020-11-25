@@ -1,3 +1,6 @@
+/* IMPORTING PLAYERS */
+import { players } from "./player-list.js";
+
 /* DECLARATIONS */
 let currentRank = document.getElementById("current-rank");
 let currentRankR = document.getElementById("current-rank-r");
@@ -72,7 +75,7 @@ const displayStats = id => {
 /* PLAYER STATS */
 const playerStats = {
     // DVK
-    "4092983": {
+    4092983: {
         currentRank: "1st",
         currentRankDiff: "Same",
         // previousRank: ,
@@ -94,7 +97,7 @@ const playerStats = {
         lastResultOppId: 2907096,
     },
     // Frost
-    "4644523": {
+    4644523: {
         currentRank: "3rd",
         currentRankDiff: "Same",
         // previousRank: ,
@@ -117,7 +120,7 @@ const playerStats = {
     },
     /*
     // Template
-    "0000000": {
+    0000000: {
         currentRank: ,
         currentRankDiff: ,
         previousRank: ,
@@ -143,6 +146,23 @@ const playerStats = {
 
 
 /* CALLING DISPLAY FUNCTION */
-let statsParams = (new URL(document.location)).searchParams;
-let statsId = statsParams.get("id");
-displayStats(statsId);
+let params = (new URL(document.location)).searchParams;
+let id = params.get("id");
+
+if (typeof id !== "number") {
+    id = id.toLowerCase();
+    for (const player in players) {
+        let playerId = players[player]["playerId"];
+        let playerName = players[player]["playerName"].toLowerCase();
+        let pseudonym = players[player]["pseudonym"].toLowerCase();
+
+        if (id === playerName || id === pseudonym) {
+            id = playerId;
+        }
+    }
+}
+
+let uniqueId = Number.parseInt(id);
+if (Number.isInteger(uniqueId)) {
+    displayStats(uniqueId);
+}
