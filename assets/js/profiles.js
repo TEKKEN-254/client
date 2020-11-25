@@ -140,7 +140,22 @@ const display = id => {
 
 /* CALLING DISPLAY FUNCTION */
 let params = (new URL(document.location)).searchParams;
-let uniqueId = Number.parseInt(params.get("id"));
+let id = params.get("id");
+
+if (typeof id !== "number") {
+    id = id.toLowerCase();
+    for (const player in players) {
+        let playerId = players[player]["playerId"];
+        let playerName = players[player]["playerName"].toLowerCase();
+        let pseudonym = players[player]["pseudonym"].toLowerCase();
+
+        if (id === playerName || id === pseudonym) {
+            id = playerId;
+        }
+    }
+}
+
+let uniqueId = Number.parseInt(id);
 if (Number.isInteger(uniqueId)) {
     display(uniqueId);
 }
