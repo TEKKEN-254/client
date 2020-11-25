@@ -71,7 +71,7 @@ section:not(:last-child) {
 }
 
 .sponsor-bio:not(:last-child) {
-    margin-bottom: 1.25rem;
+    margin-bottom: 2rem;
 }
 
 .sponsor-logo {
@@ -132,8 +132,8 @@ section:not(:last-child) {
     align-items: center !important;
 }
 
-.archive-card:not(:first-child) {
-    margin-top: 2rem auto;
+.archive-card:not(:first-of-type) {
+    margin-top: 1.5rem;
 }
 
 .archive-card-img {
