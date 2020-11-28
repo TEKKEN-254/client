@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* General elements */
+
+html {
+    font-size: 16px !important;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('/assets/img/backgrounds/bg.png');
+    background-color: rgb(17, 17, 17);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Barlow', 'Bahnschrift Light', 'Helvetica', sans-serif;
+    color: white;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.background {
+    display: grid;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    min-width: inherit;
+    min-height: inherit;
+    grid-template: repeat(3, auto) / 1fr 60% 1fr;
+    grid-template-areas: "header header header" ". main ." ". footer .";
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem !important;
+}
+
+h2 {
+    font-size: 1.5rem !important;
+}
+
+h3 {
+    font-size: 1.125rem !important;
+}
+
+h4 {
+    font-size: 1rem !important;
+}
+
+h5 {
+    font-size: 0.875rem !important;
+}
+
+h6 {
+    font-size: 0.6875rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.25rem 0 !important;
+}
+
+p {
+    margin: 0.875rem 0 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #808080;
+    transition: color 0.1s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: #166734;
+    transition: color 0.1s ease-in-out;
+}
+
+strong {
+    font-weight: 600;
+}
+
+li {
+    margin: 0.125rem 0;
+}
+
+
+/* HEADER ELEMENTS */
+
+header {
+    grid-area: header;
+    justify-self: center;
+    align-self: center;
+}
+
+.header-img {
+    position: relative;
+    height: 6.25rem;
+    margin: 2rem auto;
+}
+
+.header-img img {
+    display: inline-block;
+    height: inherit;
+    width: auto;
+    margin: auto 25px;
+}
+
+.header-img img#sfgc {
+    opacity: 0.5;
+}
+
+
+/* MAIN ELEMENTS */
+
+main {
+    grid-area: main;
+}
+
+main h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Bahnschrift', 'Helvetica', sans-serif;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+main p {
+    line-height: 1.25;
+}
+
+.content {
+    width: 60%;
+    text-align: center;
+}
+
+.char-img {
+    display: flex;
+    justify-content: center;
+}
+
+.char-img img {
+    width: 400px;
+    margin: 0 -60px;
+}
+
+
+/* FOOTER ELEMENTS */
+
+footer {
+    grid-area: footer;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer .container>p {
+    font-size: 0.875rem;
+    margin-top: 0;
+}
+
+footer .container>p a:hover,
+footer .container>p a:focus {
+    color: #ba2025;
+    transition: color 0.1s ease-in-out;
+}
+
+.socials {
+    display: flex;
+    position: relative;
+    height: 53px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    display: inline-block;
+    margin: 0.4375rem;
+    height: 1.75rem;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.socials img:hover,
+.socials img:focus {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (orientation: portrait) {
+    body {
+        background-image: url('/assets/img/backgrounds/bg-portrait.png');
+        background-color: rgb(17, 17, 17);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-resolution: 72dpi) {
+    body {
+        background-image: url('/assets/img/backgrounds/bg-low-res.png');
+        background-color: rgb(17, 17, 17);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-resolution: 72dpi) and (orientation: portrait) {
+    body {
+        background-image: url('/assets/img/backgrounds/bg-portrait-low-res.png');
+        background-color: rgb(17, 17, 17);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .background {
+        grid-template-columns: 1fr 80% 1fr;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .char-img {
+        display: none;
+    }
+    .background {
+        grid-template: repeat(3, auto) / 1fr;
+        grid-template-areas: "header" "main" "footer";
+        padding: 0 1.5rem;
+    }
+    .header-img {
+        height: 5rem;
+    }
+    .socials {
+        justify-content: space-around;
+    }
+}
