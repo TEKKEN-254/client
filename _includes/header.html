@@ -103,9 +103,7 @@
                 <img id="sfgc" src="/assets/img/logos/sfgc-logo.svg" />
             </div>
             <div class="col-3 p-0 search-bar d-none d-lg-block">
-                <form action="/search.html" method="POST">
-                    <input type="search" name="search" placeholder="Search&#8230;">
-                </form>
+                {% include top-search.html %}
             </div>
         </div>
         <nav class="navbar navbar-expand-lg p-0">
@@ -154,9 +152,7 @@
                         </div>
                     </li>
                     <div class="mobile-search">
-                        <form id="top-search" action="/search.html">
-                            <input type="search" name="search" placeholder="Search&#8230;">
-                        </form>
+                        {% include top-search.html %}
                     </div>
                     <div class="nav-socials d-lg-none">
                         <a href="https://facebook.com/itstekken254" target="_blank"><img src="/assets/img/socials/facebook.svg" /></a>
