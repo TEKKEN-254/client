@@ -4,9 +4,14 @@ const main = () => {
     carouselInit();
     tooltipInit();
     trimAuthorSpace();
+    searchValidation();
 }
 
 $(document).ready(main);
+
+/* IMPORTING PLAYER AND CHARACTER DATA */
+import { players } from "./player-list.js";
+import { characters } from "./character-list.js";
 
 /* CAROUSEL BACKGROUND IMAGES */
 
@@ -40,4 +45,24 @@ const toggleGifs = () => {
 
     $gifs.toggleClass("flex");
     $infoText.toggleClass("col-lg-7");
+}
+
+/* SEARCH VALIDATION (CHECKS FOR PLAYER OR CHARACTER INPUT) */
+
+const searchValidation = () => {
+    const $searchBar = $(".top-search");
+    const $field = $(".top-search>input");
+    const $value = $field.val().toLowerCase().replace(/\s/g, "");
+
+    const params = (new URL(document.location)).searchParams;
+    const query = params.get("q");
+
+    const circuitWords = ["circuit", "savannacircuit", "tekken254circuit"];
+    const sfnWords = ["fightnight", "sfn", "savannafightnight", "savannahfightnight"];
+
+    const validate = () => {
+        $searchBar.attr("action", "./search.html");
+    }
+
+    $searchBar.submit(validate);
 }
