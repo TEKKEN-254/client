@@ -183,6 +183,14 @@ header {
     z-index: 1;
 }
 
+header ::-moz-selection {
+    background: #707070;
+}
+
+header ::selection {
+    background: #707070;
+}
+
 
 /* Top row */
 
