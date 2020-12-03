@@ -175,16 +175,9 @@ img.player-img {
     }
 }
 
-@media only screen and (max-width: 1199px) {
-    #bio-main {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 991px) {
     .player-bio,
     .stats {
-        /* position: relative; */
         flex-direction: column;
     }
     .bio-img {
@@ -194,9 +187,6 @@ img.player-img {
         height: auto;
         flex-direction: column;
         align-items: center;
-    }
-    img.player-img {
-        width: 40vw;
     }
     .bio-img figcaption {
         position: relative;
@@ -224,9 +214,6 @@ img.player-img {
     }
     .player-pseudo {
         margin-top: 0 !important;
-    }
-    .player-name {
-        margin-top: 1.25rem !important;
     }
     .bio-info {
         line-height: 0.75;
