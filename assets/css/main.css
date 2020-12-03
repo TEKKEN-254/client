@@ -901,18 +901,20 @@ figure figcaption {
 
 .gif-toggler {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-    top: 50%;
-    right: 8%;
+    bottom: 50vh;
+    right: 1vw;
     transition: color, text-shadow;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
+    z-index: 100;
 }
 
 .gif-toggler a {
     cursor: pointer;
+}
+
+.gif-toggler .guide-button {
+    margin: auto !important;
 }
 
 
