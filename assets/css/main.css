@@ -195,7 +195,7 @@ header ::selection {
 /* Top row */
 
 .top-row {
-    width: 60%;
+    width: 1150px;
     height: 6.25rem;
     margin-top: 1.125rem;
     margin-bottom: 0.875rem;
@@ -932,7 +932,7 @@ footer {
 }
 
 .footer {
-    width: 60%;
+    width: 1150px;
     margin: 0 auto;
 }
 
