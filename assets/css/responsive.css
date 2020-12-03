@@ -20,10 +20,10 @@
     .top-row,
     nav ul,
     .footer {
-        width: 78%;
+        width: 900px;
     }
     main {
-        width: 800px;
+        width: 900px;
     }
     .featured-story-img {
         height: 150px;
