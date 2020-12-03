@@ -9,10 +9,6 @@ const main = () => {
 
 $(document).ready(main);
 
-/* IMPORTING PLAYER AND CHARACTER DATA */
-import { players } from "./player-list.js";
-import { characters } from "./character-list.js";
-
 /* CAROUSEL BACKGROUND IMAGES */
 
 const carouselInit = () => {
