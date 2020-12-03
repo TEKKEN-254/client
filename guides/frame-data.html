@@ -6,14 +6,12 @@
 <h2 class="page-title uppercase" id="introduction">Introduction to Frame Data</h2>
 <p>Frames are a measure of time. Most fighting games in recent years, including <em>Tekken 7</em>, run at 60 frames per second. Frame data tells us the speed of moves in the game in various aspects: <strong>how long they take to hit the opponent</strong>,
     <strong>how much of an advantage/disadvantage​ the player gets</strong> after the move successfully connects/is blocked and much more.</p>
-<div class="gif-toggler">
-    <a onclick="toggleGifs()"><button class="guide-button">Toggle GIFs</button></a>
-</div>
 <p>When two players in a match are both moving around without using any attacks, they are in <strong>neutral frames</strong>, meaning neither player is at a frame advantage or disadvantage. When a move is used, the attacker will then be at <strong>neutral frames (0)</strong>,
     <strong>plus (+) frames</strong> (frame advantage) or <strong>minus (-) frames</strong> (frame disadvantage) depending on the move's properties.</p>
 <div class="nb">
     <p><strong>Note:</strong> This guide was created during Season 1 of <em>Tekken 7</em>, so some frame data on this page may be outdated. However, info on <strong>general punishment guidelines</strong> has been updated for Season 4.</p>
 </div>
+{% include gif-toggler.html %}
 <ul class="guides-tabs nav nav-pills" id="frame-data-tabs" role="tablist">
     <li class="nav-item">
         <a class="nav-link active" id="frame-advantage-tab" data-toggle="pill" href="#frame-advantage" role="tab" aria-controls="frame-advantage" aria-selected="true">Frame advantage</a>
