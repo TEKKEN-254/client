@@ -1,5 +1,5 @@
-<figure>
-    <div class="post-img mx-auto" style="background-image: url('{% if include.external == "true" %}{{ include.src }}{% else %}/assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/{{ include.src }}{% endif %}');{% if include.position %} background-position: {{ include.position }};{% else %} background-position: center;{% endif %}{% if include.imgSize %} background-size: {{ include.imgSize }};{% else %} background-size: cover;{% endif %}"></div>
+<figure role="complementary">
+    <div class="post-img mx-auto" style="background-image: url('{% if include.external == "true" %}{{ include.src }}{% else %}/assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/{{ include.src }}{% endif %}');{% if include.position %} background-position: {{ include.position }};{% else %} background-position: center;{% endif %}{% if include.imgSize %} background-size: {{ include.imgSize }};{% else %} background-size: cover;{% endif %}" aria-label="{{ include.caption }}"></div>
     {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>
     {% endif %}

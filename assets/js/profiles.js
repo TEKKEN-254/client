@@ -60,9 +60,13 @@ const display = id => {
         if (!players[id].pseudonym) {
             pseudonym.innerHTML = players[id].playerName;
             playerName.remove();
+
+            playerImg.alt = `Close-up of ${players[id].playerName}`;
         } else {
             pseudonym.innerHTML = players[id].pseudonym;
             playerName.innerHTML = players[id].playerName;
+
+            playerImg.alt = `Close-up of ${players[id].pseudonym}`;
         }
     } else {
         team.setAttribute("data-original-title", players[id].team);
@@ -70,9 +74,13 @@ const display = id => {
         if (!players[id].pseudonym) {
             pseudonym.innerHTML = " " + players[id].playerName;
             playerName.remove();
+
+            playerImg.alt = `Close-up of ${players[id].playerName}`;
         } else {
             pseudonym.innerHTML = " " + players[id].pseudonym;
             playerName.innerHTML = players[id].playerName;
+
+            playerImg.alt = `Close-up of ${players[id].pseudonym}`;
         }
     }
 
@@ -114,6 +122,11 @@ const display = id => {
         mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
     } else {
         mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
+        if (!players[id].pseudonym) {
+            mainCharImg.setAttribute("aria-label", `Image of ${players[id].playerName}'s main character, ${characters[playerMain].name}`);
+        } else {
+            mainCharImg.setAttribute("aria-label", `Image of ${players[id].pseudonym}'s main character, ${characters[playerMain].name}`);
+        }
     }
 
     if (Array.isArray(playerOtherChars)) {

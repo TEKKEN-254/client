@@ -5,6 +5,7 @@ const characters = {
         // Profile
         name: "Akuma (Gouki)",
         nickname: "The Raging Demon",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/akuma.png",
@@ -43,6 +44,7 @@ const characters = {
         // Profile
         name: "Alisa Bosconovitch",
         nickname: "The Steel Maiden",
+        sex: "female",
 
         flag: "/assets/img/flagicons/russia.svg",
         image: "/assets/img/characters/alisa-2.png",
@@ -78,6 +80,7 @@ const characters = {
         // Profile
         name: "Anna Williams",
         nickname: "The Scarlet Lightning",
+        sex: "female",
 
         flag: "/assets/img/flagicons/ireland.svg",
         image: "/assets/img/characters/anna.png",
@@ -113,6 +116,7 @@ const characters = {
         // Profile
         name: "Armor King",
         nickname: "The Mysterious Masked Wrestler",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/armor-king.png",
@@ -166,6 +170,7 @@ const characters = {
         // Profile
         name: "Asuka Kazama",
         nickname: "The Gang Mediator",
+        sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/asuka-2.png",
@@ -204,6 +209,7 @@ const characters = {
         // Profile
         name: `Robert "Bob" Richards`,
         nickname: "Speed and Weight",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/bob.png",
@@ -242,6 +248,7 @@ const characters = {
         // Profile
         name: "Bryan Fury",
         nickname: "Snake Eyes",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/bryan-2.png",
@@ -283,6 +290,7 @@ const characters = {
         // Profile
         name: "Claudio Serafino",
         nickname: "The Archer of Sirius",
+        sex: "male",
 
         flag: "/assets/img/flagicons/italy.svg",
         image: "/assets/img/characters/claudio.png",
@@ -318,6 +326,7 @@ const characters = {
         // Profile
         name: "Devil Jin",
         nickname: "The Heir of the Cursed Blood",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/devil-jin-2.png",
@@ -359,6 +368,7 @@ const characters = {
         // Profile
         name: "Sergei Dragunov",
         nickname: "The White Angel of Death",
+        sex: "male",
 
         flag: "/assets/img/flagicons/russia.svg",
         image: "/assets/img/characters/dragunov-2.png",
@@ -400,6 +410,7 @@ const characters = {
         // Profile
         name: "Eddy Gordo",
         nickname: "The Capoeira Prodigy",
+        sex: "male",
 
         flag: "/assets/img/flagicons/brazil.svg",
         image: "/assets/img/characters/eddy.png",
@@ -435,6 +446,7 @@ const characters = {
         // Profile
         name: "Eliza",
         nickname: "The Sleepy Vampire",
+        sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/eliza.png",
@@ -467,6 +479,7 @@ const characters = {
         // Profile
         name: "Fahkumram",
         nickname: "The Humble Hostage",
+        sex: "male",
 
         flag: "/assets/img/flagicons/thailand.svg",
         image: "/assets/img/characters/fahkumram.png",
@@ -502,6 +515,7 @@ const characters = {
         // Profile
         name: "Feng Wei",
         nickname: "The Master of God Fist",
+        sex: "male",
 
         flag: "/assets/img/flagicons/china.svg",
         image: "/assets/img/characters/feng-2.png",
@@ -537,6 +551,7 @@ const characters = {
         // Profile
         name: "Ganryu",
         nickname: "The Sumo Streamer",
+        sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/ganryu.png",
@@ -569,6 +584,7 @@ const characters = {
         // Profile
         name: "Geese Howard",
         nickname: "The Crime Lord of South Town",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/geese.png",
@@ -604,6 +620,7 @@ const characters = {
         // Profile
         name: "Gigas",
         nickname: "The G Corp Experiment",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/gigas.png",
@@ -636,6 +653,7 @@ const characters = {
         // Profile
         name: "Heihachi Mishima",
         nickname: "The King of Iron Fist",
+        sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/heihachi-2.png",
@@ -674,6 +692,7 @@ const characters = {
         // Profile
         name: "Hwoarang",
         nickname: "The Blood Talon",
+        sex: "male",
 
         flag: "/assets/img/flagicons/south-korea.svg",
         image: "/assets/img/characters/hwoarang-2.png",
@@ -712,6 +731,7 @@ const characters = {
         // Profile
         name: "Jack-7",
         nickname: "The Super Killing Machine",
+        sex: "male",
 
         flag: "/assets/img/flagicons/russia.svg",
         image: "/assets/img/characters/jack-7.png",
@@ -753,6 +773,7 @@ const characters = {
         // Profile
         name: "Jin Kazama",
         nickname: "The Child of Destiny",
+        sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/jin.png",
@@ -791,6 +812,7 @@ const characters = {
         // Profile
         name: "Josie Rizal",
         nickname: "The Crybaby",
+        sex: "female",
 
         flag: "/assets/img/flagicons/philippines.svg",
         image: "/assets/img/characters/josie.png",
@@ -826,6 +848,7 @@ const characters = {
         // Profile
         name: "Julia Chang",
         nickname: "The Nature-Loving Beauty",
+        sex: "female",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/julia.png",
@@ -861,6 +884,7 @@ const characters = {
         // Profile
         name: "Katarina Alves",
         nickname: "The Cocky Harrier",
+        sex: "female",
 
         flag: "/assets/img/flagicons/brazil.svg",
         image: "/assets/img/characters/katarina.png",
@@ -899,6 +923,7 @@ const characters = {
         // Profile
         name: "Kazumi Mishima",
         nickname: "The Assassin of Hachijō",
+        sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/kazumi.png",
@@ -937,6 +962,7 @@ const characters = {
         // Profile
         name: "Kazuya Mishima",
         nickname: "The Devil's Master",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/kazuya.png",
@@ -975,6 +1001,7 @@ const characters = {
         // Profile
         name: "King",
         nickname: "Anger of Beast",
+        sex: "male",
 
         flag: "/assets/img/flagicons/mexico.svg",
         image: "/assets/img/characters/king-2.png",
@@ -1007,6 +1034,7 @@ const characters = {
         // Profile
         name: "Kuma and Panda",
         nickname: "The Raging Beast and Xiaoyu's Bodyguard",
+        sex: "male and female",
 
         flag: "/assets/img/flagicons/japan-china-kuma-panda.svg",
         image: "/assets/img/characters/kuma-panda-2.png",
@@ -1081,6 +1109,7 @@ const characters = {
         // Profile
         name: "Kunimitsu",
         nickname: "The Treacherous Ninja",
+        sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/kunimitsu.png",
@@ -1116,6 +1145,7 @@ const characters = {
         // Profile
         name: "Lars Alexandersson",
         nickname: "The Rebel Leader",
+        sex: "male",
 
         flag: "/assets/img/flagicons/sweden.svg",
         image: "/assets/img/characters/lars.png",
@@ -1151,6 +1181,7 @@ const characters = {
         // Profile
         name: "Marshall Law",
         nickname: "The Dragon Chef",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/law.png",
@@ -1186,6 +1217,7 @@ const characters = {
         // Profile
         name: "Lee Chaolan",
         nickname: "The Silver-Haired Demon",
+        sex: "male",
 
         flag: "/assets/img/flagicons/china.svg",
         image: "/assets/img/characters/lee.png",
@@ -1224,6 +1256,7 @@ const characters = {
         // Profile
         name: "Lei Wulong",
         nickname: "Super Police",
+        sex: "male",
 
         flag: "/assets/img/flagicons/hong-kong.svg",
         image: "/assets/img/characters/lei.png",
@@ -1259,6 +1292,7 @@ const characters = {
         // Profile
         name: "Leo Kliesen",
         nickname: "The Spelunker",
+        sex: "ambiguous",
 
         flag: "/assets/img/flagicons/germany.svg",
         image: "/assets/img/characters/leo-2.png",
@@ -1294,6 +1328,7 @@ const characters = {
         // Profile
         name: "Leroy Smith",
         nickname: "The Sentinel of New York",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/leroy.png",
@@ -1329,6 +1364,7 @@ const characters = {
         // Profile
         name: `Emilie "Lili" De Rochefort`,
         nickname: "The Magnate's Flower",
+        sex: "female",
 
         flag: "/assets/img/flagicons/monaco.svg",
         image: "/assets/img/characters/lili-2.png",
@@ -1370,6 +1406,7 @@ const characters = {
         // Profile
         name: "Lucky Chloe",
         nickname: "The Pop Sensation",
+        sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/lucky-chloe.png",
@@ -1411,6 +1448,7 @@ const characters = {
         // Profile
         name: "Craig Marduk",
         nickname: "The Brutal Vale Tudo Fighter",
+        sex: "male",
 
         flag: "/assets/img/flagicons/australia.svg",
         image: "/assets/img/characters/marduk.png",
@@ -1449,6 +1487,7 @@ const characters = {
         // Profile
         name: "Master Raven",
         nickname: "The Dark Talon's Boss",
+        sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/master-raven.png",
@@ -1493,6 +1532,7 @@ const characters = {
         // Profile
         name: "Miguel Caballero Rojo",
         nickname: "The Vengeful Savage",
+        sex: "male",
 
         flag: "/assets/img/flagicons/spain.svg",
         image: "/assets/img/characters/miguel.png",
@@ -1534,6 +1574,7 @@ const characters = {
         // Profile
         name: "Negan",
         nickname: "The Leader of the Saviors",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/negan.png",
@@ -1566,6 +1607,7 @@ const characters = {
         // Profile
         name: "Nina Williams",
         nickname: "The Silent Assassin",
+        sex: "female",
 
         flag: "/assets/img/flagicons/ireland.svg",
         image: "/assets/img/characters/nina.png",
@@ -1601,6 +1643,7 @@ const characters = {
         // Profile
         name: "Noctis Lucis Caelum",
         nickname: "The Chosen King",
+        sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
         image: "/assets/img/characters/noctis.png",
@@ -1642,6 +1685,7 @@ const characters = {
         // Profile
         name: "Paul Phoenix",
         nickname: "The Hot-Blooded Fighter",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
         image: "/assets/img/characters/paul-2.png",
@@ -1677,6 +1721,7 @@ const characters = {
         // Profile
         name: "Shaheen",
         nickname: "The Arab Falcon",
+        sex: "male",
 
         flag: "/assets/img/flagicons/saudi-arabia.svg",
         image: "/assets/img/characters/shaheen.png",
@@ -1709,6 +1754,7 @@ const characters = {
         // Profile
         name: "Steve Fox",
         nickname: "The Stinging Hook",
+        sex: "male",
 
         flag: "/assets/img/flagicons/united-kingdom.svg",
         image: "/assets/img/characters/steve-2.png",
@@ -1744,6 +1790,7 @@ const characters = {
         // Profile
         name: "Ling Xiaoyu",
         nickname: "The Dancing Phoenix",
+        sex: "female",
 
         flag: "/assets/img/flagicons/china.svg",
         image: "/assets/img/characters/xiaoyu-2.png",
@@ -1785,6 +1832,7 @@ const characters = {
         // Profile
         name: "Yoshimitsu",
         nickname: "The Inheritor of the Demon Sword",
+        sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
         image: "/assets/img/characters/yoshimitsu.png",
@@ -1820,6 +1868,7 @@ const characters = {
         // Profile
         name: "Zafina",
         nickname: "The Guardian of Azazel",
+        sex: "female",
 
         flag: "/assets/img/flagicons/egypt.svg",
         image: "/assets/img/characters/zafina.png",
@@ -1852,6 +1901,7 @@ const characters = {
         // Profile
         name: "",
         nickname: "",
+        sex: "male/female/ambiguous",
 
         flag: "/assets/img/flagicons/.svg",
         image: "/assets/img/characters/.png",

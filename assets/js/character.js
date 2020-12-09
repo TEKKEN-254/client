@@ -46,6 +46,18 @@ const display = character => {
     charImg.src = characters[character].image;
     charImg2.src = characters[character].image;
 
+    let charSex = characters[character].sex;
+    let charAppears;
+    if (charSex === "male") {
+        charAppears = "he appears";
+    } else if (charSex === "female") {
+        charAppears = "she appears";
+    } else {
+        charAppears = "they appear";
+    }
+    charImg.alt = `${characters[character].name}, as ${charAppears} in Tekken 7`;
+    charImg2.alt = `${characters[character].name}, as ${charAppears} in Tekken 7`;
+
     charAge.innerHTML = characters[character].age;
     charCountry.innerHTML = characters[character].country;
     charFightingStyle.innerHTML = characters[character].fightingStyle;
