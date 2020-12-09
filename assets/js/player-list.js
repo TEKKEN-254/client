@@ -40,7 +40,7 @@ const players = {
         teamShorthand: "MM",
 
         birthDate: new Date("2000-03-02").toLocaleDateString("en-KE", dobOptions),
-        displayBirthDate: false,
+        displayBirthDate: true,
 
         platform: "PSN (PlayStation)",
         onlineId: "dnyasio",
