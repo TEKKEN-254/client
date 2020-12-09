@@ -1,4 +1,4 @@
 <form class="top-search">
-    <label class="sr-only" for="site-top-search">Search the TEKKEN 254 website</label>
-    <input type="search" id="site-top-search" name="q" placeholder="Search&#8230;">
+    <label class="sr-only" for="site-{% if include.mobile %}mobile{% else %}top{% endif %}-search">Search the TEKKEN 254 website</label>
+    <input type="search" id="site-{% if include.mobile %}mobile{% else %}top{% endif %}-search" name="q" placeholder="Search&#8230;">
 </form>

@@ -50,7 +50,8 @@
         Toggle through the tiers below and click one of the links, or type a name in the search box provided and press the Return key to view a brief introduction to a given character.</p>
     <div class="characters-search mx-auto">
         <form action="/guides/character.html" target="_blank" autocomplete="off" method="GET">
-            <input type="search" name="view" placeholder="Character name&#8230;">
+            <label class="sr-only" id="character-search">Search for a character</label>
+            <input type="search" id="character-search" name="view" placeholder="Character name&#8230;">
         </form>
     </div>
     <ul class="guides-tabs nav nav-pills justify-content-center" id="tier-list-tabs" role="tablist">
