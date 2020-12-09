@@ -10,6 +10,7 @@
 .char-name {
     display: flex;
     color: #ba2025;
+    font-size: 1.125rem !important;
     font-weight: 600;
     margin-top: 0 !important;
     margin-bottom: -0.9375rem !important;
@@ -17,6 +18,7 @@
 
 .char-nickname {
     color: #166734;
+    font-size: 1rem !important;
     font-weight: 600;
     margin-bottom: 0 !important;
 }
