@@ -26,18 +26,23 @@ let otherChars = document.getElementById("other-chars");
 // Socials
 let isFacebook = document.getElementById("is-facebook");
 let facebook = document.getElementById("player-facebook");
+let facebookImg = document.querySelector("#player-facebook > img");
 
 let isTwitter = document.getElementById("is-twitter");
 let twitter = document.getElementById("player-twitter");
+let twitterImg = document.querySelector("#player-twitter > img");
 
 let isInstagram = document.getElementById("is-instagram");
 let instagram = document.getElementById("player-instagram");
+let instagramImg = document.querySelector("#player-instagram > img");
 
 let isYouTube = document.getElementById("is-youtube");
 let youtube = document.getElementById("player-youtube");
+let youtubeImg = document.querySelector("#player-youtube > img");
 
 let isTwitch = document.getElementById("is-twitch");
 let twitch = document.getElementById("player-twitch");
+let twitchImg = document.querySelector("#player-twitch > img");
 
 
 /* DISPLAY FUNCTION */
@@ -87,22 +92,47 @@ const display = id => {
     if (players[id].facebook) {
         isFacebook.style.display = "inline-block";
         facebook.href = players[id].facebook;
+        if (!players[id].pseudonym) {
+            facebookImg.alt = `${players[id].playerName}'s Facebook page`;
+        } else {
+            facebookImg.alt = `${players[id].pseudonym}'s Facebook page`;
+        }
     }
     if (players[id].twitter) {
         isTwitter.style.display = "inline-block";
         twitter.href = players[id].twitter;
+        if (!players[id].pseudonym) {
+            twitterImg.alt = `${players[id].playerName}'s Twitter page`;
+        } else {
+            twitterImg.alt = `${players[id].pseudonym}'s Twitter page`;
+        }
     }
     if (players[id].instagram) {
         isInstagram.style.display = "inline-block";
         instagram.href = players[id].instagram;
+        if (!players[id].pseudonym) {
+            instagramImg.alt = `${players[id].playerName}'s Instagram page`;
+        } else {
+            instagramImg.alt = `${players[id].pseudonym}'s Instagram page`;
+        }
     }
     if (players[id].youtube) {
         isYouTube.style.display = "inline-block";
         youtube.href = players[id].youtube;
+        if (!players[id].pseudonym) {
+            youtubeImg.alt = `${players[id].playerName}'s YouTube channel`;
+        } else {
+            youtubeImg.alt = `${players[id].pseudonym}'s YouTube channel`;
+        }
     }
     if (players[id].twitch) {
         isTwitch.style.display = "inline-block";
         twitch.href = players[id].twitch;
+        if (!players[id].pseudonym) {
+            twitchImg.alt = `${players[id].playerName}'s Twitch channel`;
+        } else {
+            twitchImg.alt = `${players[id].pseudonym}'s Twitch channel`;
+        }
     }
 
     if (!players[id].displayBirthDate) {
