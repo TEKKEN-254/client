@@ -121,9 +121,9 @@
                     <li class="nav-item">
                         <a class="nav-link p-0{% if page.alias == "galleries" %} active{% endif %}" href="/galleries/">Galleries</a>
                     </li>
-                    <li class="nav-item dropdown justify-items-center">
-                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Circuit</a>
-                        <div class="dropdown-menu dm-override">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-0 dropdown-toggle" id="dropdown-circuit" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Circuit</a>
+                        <div class="dropdown-menu dm-override" aria-labelledby="dropdown-circuit">
                             <a class="dropdown-item{% if page.alias == "circuit-index" %} active{% endif %}" href="/circuit/">Overview</a>
                             <a class="dropdown-item{% if page.alias == "circuit-register" %} active{% endif %}" href="/circuit/register.html">Registration</a>
                             <a class="dropdown-item{% if page.alias == "circuit-payment" %} active{% endif %}" href="/circuit/payment.html">Payment</a>
@@ -132,16 +132,16 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fight Night</a>
-                        <div class="dropdown-menu dm-override">
+                        <a class="nav-link p-0 dropdown-toggle" id="dropdown-sfn" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fight Night</a>
+                        <div class="dropdown-menu dm-override" aria-lablledby="dropdown-sfn">
                             <a class="dropdown-item{% if page.alias == "sfn-index" %} active{% endif %}" href="/fight-night/">Overview</a>
                             <a class="dropdown-item{% if page.alias == "sfn-register" %} active{% endif %}" href="/fight-night/register.html">Registration</a>
                             <a class="dropdown-item{% if page.alias == "sfn-rankings" %} active{% endif %}" href="/fight-night/rankings.html">Rankings</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link p-0 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides</a>
-                        <div class="dropdown-menu dm-override">
+                        <a class="nav-link p-0 dropdown-toggle" id="dropdown-guides" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides</a>
+                        <div class="dropdown-menu dm-override" aria-labelledby="dropdown-guides">
                             <a class="dropdown-item{% if page.alias == "guides-index" %} active{% endif %}" href="/guides/">Introduction</a>
                             <a class="dropdown-item{% if page.alias == "guides-movement" %} active{% endif %}" href="/guides/movement.html">Movement</a>
                             <a class="dropdown-item{% if page.alias == "guides-att-def" %} active{% endif %}" href="/guides/att-def.html">Attack & Defence</a>
