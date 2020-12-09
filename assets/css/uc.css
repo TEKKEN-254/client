@@ -77,7 +77,8 @@ h2 {
     font-size: 1.5rem !important;
 }
 
-h3 {
+h3,
+p.notice {
     font-size: 1.125rem !important;
 }
 
@@ -160,11 +161,12 @@ main {
 }
 
 main h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+p.notice {
     font-family: 'Open Sans', 'Bahnschrift', 'Helvetica', sans-serif;
     font-weight: normal;
     opacity: 0.9;
