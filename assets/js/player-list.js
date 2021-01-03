@@ -80,10 +80,6 @@ const players = {
         twitch: "https://twitch.tv/",
     },
     */
-    /* PLAYERS OBJECT SIZE */
-    get numberOf() {
-        return (Object.keys(this).length - 1);
-    }
 };
 
 
