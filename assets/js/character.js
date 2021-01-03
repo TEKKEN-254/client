@@ -1,5 +1,6 @@
 /* IMPORTING CHARACTERS */
 import { characters } from './character-list.js';
+import { players } from "./player-list.js";
 
 /* DECLARATIONS */
 // Profile
@@ -74,7 +75,37 @@ const display = character => {
 
     charPlaystyle.innerHTML = characters[character].playstyle;
     charIntro.innerHTML = characters[character].introduction;
-    notablePlayers.innerHTML = characters[character].notablePlayers.join(", ");
+
+    const charNotablePlayers = characters[character].notablePlayers;
+
+    if (Array.isArray(charNotablePlayers)) {
+        const playerList = [];
+        for (const player of charNotablePlayers) {
+            if (!playerList.includes(player)) {
+                playerList.push(player);
+            }
+        }
+        // playerList.sort();
+
+        const playerLinks = [];
+        for (const player of playerList) {
+            for (const ind in players) {
+                if (players[ind].pseudonym === player || players[ind].playerName === player) {
+                    const playerUrl = `<a href="/circuit/tekken/profile.html?id=${players[ind].playerId}" target="_blank">${player}</a>`;
+                    playerLinks.push(playerUrl);
+                }
+            }
+        }
+        notablePlayers.innerHTML = playerLinks.join(", ");
+    } else if (charNotablePlayers) {
+        for (const ind in players) {
+            if (players[ind].pseudonym === charNotablePlayers || players[ind].playerName === charNotablePlayers) {
+                notablePlayers.innerHTML = `<a href="/circuit/tekken/profile.html?id=${players[ind].playerId}" target="_blank">${charNotablePlayers}</a>`;
+            }
+        }
+    } else {
+        notablePlayers.innerHTML = "N/A";
+    }
 }
 
 
