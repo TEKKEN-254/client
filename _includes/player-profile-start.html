@@ -1,6 +1,6 @@
 <section>
     <h2 class="page-title uppercase">Player Profile</h2>
-    <div class="player-bio circuit-bio">
+    <div class="player-bio{% if page.alias contains "circuit-" %} circuit-bio{% endif %}">
         <div class="player-profile">
             <figure class="bio-img">
                 <img class="player-img" id="player-img" src="/assets/img/players/placeholder.jpg" alt="" />
