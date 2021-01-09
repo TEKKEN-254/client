@@ -1134,7 +1134,7 @@ const characters = {
         introduction: "<p>Character overview coming soon.</p>",
 
         // Notable players 
-        notablePlayers: ["N/A"],
+        notablePlayers: [],
     },
     get kuni() {
         return this.kunimitsu;
