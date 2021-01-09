@@ -8,8 +8,6 @@ category: Reports
 tags: [Mickey, Watchmen Esports]
 metaImagePosition: top center
 caption: Mickey poses for a photo after finishing second at Season Four, Qualifier One of the TEKKEN 254 Circuit on 29 January 2020
-
-top: true
 ---
 <p>Local Kenyan esports team <strong>Watchmen Esports</strong> have announced Michael Muhoro, better known by his pseudonym <a href="/circuit/tekken/profile.html?id=2907096" target="_blank">Mickey</a>, as the newest player on their fighting game roster. The reigning
     TEKKEN 254 Circuit champion was previously a member of AlphaPlay, who had signed him in 2018 following Season One of the Circuit. The Watchmen announced the news on their <a href="https://www.instagram.com/xthewatchmen/" target="_blank">Instagram page</a>.</p>
