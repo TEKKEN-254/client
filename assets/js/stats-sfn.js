@@ -16,6 +16,8 @@ let currentWinStreak = document.getElementById("current-win-streak");
 let longestWinStreak = document.getElementById("longest-win-streak");
 let currentLossStreak = document.getElementById("current-loss-streak");
 let longestLossStreak = document.getElementById("longest-loss-streak");
+let highestRank = document.getElementById("highest-rank");
+let highestRankEdition = document.getElementById("hr-edition");
 
 let lastSFN = document.getElementById("last-sfn");
 let lastResult = document.getElementById("last-result");
@@ -52,6 +54,8 @@ const displayStats = id => {
     longestWinStreak.innerHTML = playerStats[id].longestWinStreak;
     currentLossStreak.innerHTML = playerStats[id].currentLossStreak;
     longestLossStreak.innerHTML = playerStats[id].longestLossStreak;
+    highestRank.innerHTML = playerStats[id].highestRank;
+    highestRankEdition.innerHTML = playerStats[id].hrEdition;
 
     lastSFN.innerHTML = playerStats[id].lastSFN;
     if (!(playerStats[id].lastResult === "Win")) {
@@ -89,6 +93,8 @@ const playerStats = {
         longestWinStreak: 2,
         currentLossStreak: 0,
         longestLossStreak: 1,
+        highestRank: "1st",
+        hrEdition: 5,
 
         lastSFN: 8,
         lastResult: "Win",
@@ -111,6 +117,8 @@ const playerStats = {
         longestWinStreak: 3,
         currentLossStreak: 0,
         longestLossStreak: 2,
+        highestRank: "2nd",
+        hrEdition: 4,
 
         lastSFN: 7,
         lastResult: "Win",
@@ -134,6 +142,8 @@ const playerStats = {
         longestWinStreak: ,
         currentLossStreak: ,
         longestLossStreak: ,
+        highestRank: "",
+        hrEdition: ,
 
         lastSFN: ,
         lastResult: ,
