@@ -4,7 +4,7 @@ description: Following a successful Season 3 of the TEKKEN 254 Circuit, the Keny
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Circuit (Season Four), BulBul by Cheza, Savanna FGC]
 metaImageSize: contain
 ---

@@ -4,7 +4,7 @@ description: Having already sealed the Circuit championship after Round Three wi
 author: 
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season One), Mickey, Vega, Tiz]
 
 caption: Mickey finished the Circuit with a record of 25-0 in sets, having lost just 4 matches all season

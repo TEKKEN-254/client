@@ -4,7 +4,7 @@ description: Three-time (and reigning) TEKKEN 254 Circuit champion Mickey is gea
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [Mickey, Rox n Roll Dubai, United Arab Emirates, Tekken World Tour]
 
 caption: AP | Mickey at Season Three, Qualifier Four of the TEKKEN 254 Circuit on 4 May 2019

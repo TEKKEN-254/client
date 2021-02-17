@@ -4,7 +4,7 @@ description: The rankings have been established based on each player's points-pe
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Fight Night, Hall of Pain, Online]
 metaImageExt: png
 ---

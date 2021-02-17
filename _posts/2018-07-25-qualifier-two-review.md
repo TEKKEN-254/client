@@ -4,7 +4,7 @@ description: Coming into the tournament in third place overall, DVK conjured wha
 author: 
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Two), Mickey, DVK, Frost]
 
 caption: "Top 3 from left to right: DVK (second), AlphaPlay | Mickey (first) and Frost (third)"

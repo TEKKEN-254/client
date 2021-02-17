@@ -4,7 +4,7 @@ description: Going into the six-week break that is set to end with Qualifier Fou
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, DVK]
 
 caption: The crowd looks on and reacts during a set at Qualifier Two of the TEKKEN 254 Circuit this season on 23 February 2019

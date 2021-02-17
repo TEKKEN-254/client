@@ -4,7 +4,7 @@ description: After some surprises in Qualifier One, the TEKKEN 254 Circuit conti
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Shoryuken, Furious Monkey, Frost, DVK]
 
 caption: Spectators watch on during a set at Qualifier Two of the TEKKEN 254 Circuit this season on 23 February 2019

@@ -4,7 +4,7 @@ description: It seemed to be yet another case of déjà vu at Qualifier Four on 
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, DVK]
 ---
 <p>It seemed to be yet another case of déjà vu at Qualifier Four on 4 May, with defending Circuit champion <a href="/circuit/tekken/profile.html?id=2907096" target="_blank">AP | Mickey</a> winning the tournament ahead of <a href="/circuit/tekken/profile.html?id=4644523" target="_blank">Frost</a> and <a href="/circuit/tekken/profile.html?id=4092983" target="_blank">DVK</a> for the third consecutive tournament this season. <a href="/circuit/tekken/profile.html?id=1998890" target="_blank">Stanley Styler</a> finished in the Top 8 for the first time, becoming the fourth player to join that club this season, as the Top 16 begins to shape up in the run-up to the Circuit Finals.</p>

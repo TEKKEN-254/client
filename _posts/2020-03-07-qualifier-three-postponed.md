@@ -4,7 +4,7 @@ description: Qualifier Three of the TEKKEN 254 Circuit and the Rampage Series wi
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Circuit (Season Four), Rampage Series]
 caption: Spectators look on during a set at Season Four, Qualifier One of the TEKKEN 254 Circuit on 29 January 2020
 ---

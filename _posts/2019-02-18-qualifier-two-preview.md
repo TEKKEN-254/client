@@ -4,7 +4,7 @@ description: The TEKKEN 254 Circuit returned with Season Three on 26 January 201
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Darktempest, Battousai, PR1EST, DVK]
 
 caption: Darktempest at the Season Two Finals of the TEKKEN 254 Circuit on 1 September 2018

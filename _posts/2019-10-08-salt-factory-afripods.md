@@ -4,7 +4,7 @@ description: Our new monthly interview series, The Salt Factory, is now availabl
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [The Salt Factory, Afripods, Podcast]
 
 metaImageExt: png

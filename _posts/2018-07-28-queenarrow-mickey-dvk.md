@@ -4,7 +4,7 @@ description: XiT | QueenArrow and reigning champion AlphaPlay | Mickey joined TE
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [Citizen TV, 10 Over 10, QueenArrow, Mickey, DVK]
 
 caption: "Left to right: XiT | QueenArrow, AlphaPlay | Mickey and DVK on the set of the Citizen TV show <em>10 Over 10</em> on 27 July 2018"

@@ -4,7 +4,7 @@ description: TEKKEN 254 is excited to announce that Dell EMC Kenya has joined th
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Circuit (Season Two), Dell EMC Kenya, Windows 10]
 metaImageExt: png
 metaImageSize: contain

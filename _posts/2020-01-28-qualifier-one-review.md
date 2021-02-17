@@ -4,7 +4,7 @@ description: A tournament that started three hours late thanks to a host of tech
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Four), Frost, Mr Stacks, Mickey, Baraza, DVK, Sultan]
 
 caption: MoM | Frost reacts after his win against AP | Mickey in the Grand Final of Qualifier One on 25 January 2020

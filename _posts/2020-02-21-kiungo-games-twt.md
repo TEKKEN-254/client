@@ -4,7 +4,7 @@ description: With the release of Fahkumram as the final character for Tekken 7 S
 author:
 - dvk
 
-category: Reports
+category: reports
 tags: [Kiungo Games, Ivory Coast, Tekken World Tour]
 
 caption: Kiungo Games was among the new tournaments revealed for the 2020 Tekken World Tour

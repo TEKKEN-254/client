@@ -4,7 +4,7 @@ description: In light of the ongoing COVID-19 pandemic, Season Four of the TEKKE
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Circuit (Season Four), Rampage Series, COVID-19]
 metaImageSize: contain
 ---

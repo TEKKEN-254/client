@@ -4,7 +4,7 @@ description: Nakuru-based player Darktempest is set to compete in Cape Town Show
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [Darktempest, Cape Town Showdown, South Africa, Tekken World Tour]
 
 caption: SU | Darktempest at Round Three of Season One of the TEKKEN 254 Circuit on 10 March 2018

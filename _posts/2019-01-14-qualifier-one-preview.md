@@ -4,7 +4,7 @@ description: Season Three of the TEKKEN 254 Circuit is poised to be a long and t
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Mickey, PR1EST, DVK, Frost, Xstar]
 
 caption: "From back to front: Flurryfists, DVK, AlphaPlay | Mickey and In4red competing in the Season Two Finals at the Savanna Majors on 1 September 2018"

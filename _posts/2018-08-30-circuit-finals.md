@@ -4,7 +4,7 @@ description: The final tournament for Season Two of the TEKKEN 254 Circuit will 
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [Circuit (Season Two), Savanna Majors]
 ---
 <p>The final tournament for Season Two of the TEKKEN 254 Circuit will be taking place at the Kenya Cultural Centre, along Harry Thuku Road in the Nairobi CBD on Saturday, 1 September 2018. The tournament will see the Top 16 players from the Qualifiers battle it out for prizes provided by our sponsors for the season, Dell EMC Kenya. The winner of the Finals will be going home with a brand new gaming laptop, while second and third place will receive an Alienware headset and a gaming backpack, respectively.</p>

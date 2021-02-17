@@ -4,7 +4,7 @@ description: American eSports team XiT Woundz announced today that they complete
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [QueenArrow, XiT Woundz, XiT Gaming, United States]
 
 caption: "QueenArrow in action during Season One, Round Three of the TEKKEN 254 Circuit on 10 March 2018"

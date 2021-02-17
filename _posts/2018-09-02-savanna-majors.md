@@ -4,7 +4,7 @@ description: The final event for Season Two of the TEKKEN 254 Circuit, dubbed th
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Two), Savanna Majors, Mickey, PR1EST, Xstar]
 
 caption: "Left to right: Xstar, AlphaPlay | Mickey and AlphaPlay | PR1EST pose with their prizes, which were presented by Peter Mbiti, Dell's Brand & Category Manager for Central and Eastern Africa"

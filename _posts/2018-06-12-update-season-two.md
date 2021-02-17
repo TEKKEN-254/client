@@ -4,7 +4,7 @@ description: As many of you are aware, planning for Season Two is ongoing and ha
 author:
 - dvk
 
-category: Statements
+category: statements
 tags: [Circuit (Season Two)]
 ---
 As many of you are aware, planning for Season Two is ongoing and has been even before the conclusion of Season One earlier this year. We the organisers were pleased with the support we got from the players and spectators who came to our tournaments and we are doing everything we can to make Season Two even better. 

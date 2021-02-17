@@ -4,7 +4,7 @@ description: After two weeks of FIFA 19 at the Kenya National Qualifiers of the 
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [Africa Esports Championship, What's Good Studios, K1 Klub House]
 
 caption: "A game of FIFA 19 taking place during the AEC Kenya National Qualifiers at K1 Klub House in Westlands, Nairobi.<br />(Photo: Africa eSports Championship Kenya)"

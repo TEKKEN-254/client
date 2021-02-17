@@ -4,7 +4,7 @@ description: It was an extremely one-sided affair between the teams representing
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Team Battle, Tanzania, Bandar Services, Mickey, Ghost, Vega]
 
 metaImageExt: jpg

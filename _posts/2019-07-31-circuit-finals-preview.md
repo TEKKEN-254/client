@@ -4,7 +4,7 @@ description: Qualifier Six on 6 July saw AP | Mickey continue his tournament win
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Circuit Finals, Xstar, PR1EST]
 
 caption: Players look on during a set at Qualifier Six of the TEKKEN 254 Circuit this season on 6 July 2019

@@ -4,7 +4,7 @@ description: With a view to making our events and the organisation as a whole mo
 author:
 - tekken254
 
-category: Statements
+category: statements
 tags: [TEKKEN 254, Ace Pro Gaming, Recruitment]
 
 caption: "Left to right: Davy Kamanzi and Nathan Amba of TEKKEN 254 with Ace Pro Gaming's Fanuel Opiyo at the Season Two Finals of the TEKKEN 254 Circuit on 1 September 2018"

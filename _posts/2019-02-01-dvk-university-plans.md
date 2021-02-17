@@ -4,7 +4,7 @@ description: TEKKEN 254 founder and president DVK announced in a tweet today tha
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [DVK, University, United States]
 
 caption: DVK during a match at the Finals for Season Two of the TEKKEN 254 Circuit on 1 September 2018

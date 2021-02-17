@@ -4,7 +4,7 @@ description: As AP | Mickey won with MoM | Frost in second place for the third c
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, Furious Monkey]
 
 caption: Players in action during Qualifier Four of the TEKKEN 254 Circuit this season on 4 May 2019

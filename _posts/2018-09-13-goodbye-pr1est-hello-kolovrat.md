@@ -4,7 +4,7 @@ description: William Omondi, better known (previously) as PR1EST, announced in a
 author:
 - dvk
 
-category: Reports
+category: reports
 tags: [PR1EST, Kolovrat, AlphaPlay]
 
 caption: AlphaPlay | PR1EST in action during the Finals for Season Two of the TEKKEN 254 Circuit on 1 September 2018

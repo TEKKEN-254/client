@@ -4,7 +4,7 @@ description: After failing to win Qualifier One in January, defending TEKKEN 254
 author:
 - tekken254
 
-category: Competitive 
+category: competitive 
 tags: [Circuit (Season Four), Rampage Series, Mickey, Mr Stacks, DVK, Shizzle Maniax, Frost, Bobgranthill] 
 caption: AP | Mickey poses for a photo after his win over WTCH | DVK in the Grand Final of Qualifier Two on 29 February 2020
 ---

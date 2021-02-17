@@ -4,7 +4,7 @@ description: The South African FGC was given something to cheer for Saturday eve
 author: 
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Team Battle, South Africa, Pro Series Gaming, DVK, Mickey, Shoryuken, Darktempest, PR1EST]
 
 metaImageExt: jpeg

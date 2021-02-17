@@ -4,7 +4,7 @@ description: TEKKEN 254 Circuit defending champion AlphaPlay | Mickey claimed vi
 author:
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Circuit (Season Two), Mickey, Xstar, Frost]
 
 caption: "Top 3 from left to right: Frost (third), AlphaPlay | Mickey (first) and Xstar (second)"

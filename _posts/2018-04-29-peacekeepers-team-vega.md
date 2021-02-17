@@ -4,7 +4,7 @@ description: It was a one-man show at the MJX (Movie Jabber Expo) Tekken showcas
 author: 
 - tekken254
 
-category: Competitive
+category: competitive
 tags: [Movie Jabber Expo, Simba, Mickey, mugiwaraMunyi, Vega, Proto-G, Xstar]
 
 caption: "Peacekeepers from left to right: Simba, team captain Mickey and mugiwaraMunyi"

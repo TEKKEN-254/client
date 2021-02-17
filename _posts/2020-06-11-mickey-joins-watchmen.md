@@ -4,7 +4,7 @@ description: Local Kenyan esports team Watchmen Esports have announced Mickey as
 author:
 - tekken254
 
-category: Reports
+category: reports
 tags: [Mickey, Watchmen Esports]
 metaImagePosition: top center
 caption: Mickey poses for a photo after finishing second at Season Four, Qualifier One of the TEKKEN 254 Circuit on 29 January 2020
