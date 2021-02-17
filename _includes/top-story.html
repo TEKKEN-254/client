@@ -11,7 +11,7 @@
                 <p class="lead my-2">{{ post.description }}</p>
                     <ul class="featured-cat-date light">
                         <li class="date">{{ post.date | date_to_long_string }}</li>
-                        <li class="category">{{ post.categories | first}}</li>
+                        <li class="category capitalize">{{ post.categories | first}}</li>
                     </ul>
             </div>
         </div>

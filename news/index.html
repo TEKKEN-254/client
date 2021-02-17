@@ -11,7 +11,7 @@
     {% assign sorted_cats = site.categories | sort %}
     {% for category in sorted_cats %}
     <li class="nav-item">
-        <a class="nav-link" href="/news/categories/{{ category | first | slugify }}">{{ category | first }}</a>
+        <a class="nav-link capitalize" href="/news/categories/{{ category | first | slugify }}">{{ category | first }}</a>
         </li>
     {% endfor %}
 </ul>
