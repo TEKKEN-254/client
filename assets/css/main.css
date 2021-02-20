@@ -661,7 +661,7 @@ figure figcaption {
 .jumbotron>.container {
     position: relative;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     top: -300px;
     flex-direction: column;
@@ -672,7 +672,7 @@ figure figcaption {
 
 .jumbotron-anchor:hover .jumbotron>.container,
 .jumbotron-anchor:focus .jumbotron>.container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
     transition: background-color 0.2s linear;
 }
 
