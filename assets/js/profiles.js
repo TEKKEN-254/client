@@ -1,5 +1,6 @@
 /* IMPORTING CHARACTERS */
-import { characters } from "./character-list.js";
+import { characters as charactersTK } from "./character-list-tk.js";
+import { characters as charactersMK } from "./character-list-mk.js";
 import { players } from "./player-list.js";
 
 /* DECLARATIONS */
@@ -43,6 +44,17 @@ let youtubeImg = document.querySelector("#player-youtube > img");
 let isTwitch = document.getElementById("is-twitch");
 let twitch = document.getElementById("player-twitch");
 let twitchImg = document.querySelector("#player-twitch > img");
+
+
+/* GET GAME FUNCTION */
+const getGame = () => {
+    let url = window.location.href;
+    if (url.includes("/circuit/tekken")) {
+        return "tekken";
+    } else if (url.includes("/circuit/mk")) {
+        return "mk";
+    }
+}
 
 
 /* DISPLAY FUNCTION */
@@ -144,9 +156,33 @@ const display = id => {
     platform.innerHTML = players[id].platform;
     onlineId.innerHTML = players[id].onlineId;
 
+
+    let characters = {};
+    const populateCharacters = object => {
+        for (let char in object) {
+            characters[char] = object[char];
+        }
+    }
+
+    let division = getGame();
+    switch (division) {
+        case "tekken":
+            populateCharacters(charactersTK);
+            break;
+        case "mk":
+            populateCharacters(charactersMK);
+            break;
+        default:
+            console.log(`Sorry, the division "${division}" does not exist.`);
+    }
+
     const playerMain = players[id].mainChar;
     const playerOtherChars = players[id].otherChars;
-    mainChar.innerHTML = `<a href="/guides/character.html?view=${players[id].mainChar}" target="_blank">${characters[playerMain].name}</a>`;
+    if (division === "tekken") {
+        mainChar.innerHTML = `<a href="/guides/character.html?view=${players[id].mainChar}" target="_blank">${characters[playerMain].name}</a>`;
+    } else {
+        mainChar.innerHTML = characters[playerMain].name;
+    }
 
     if (!characters[playerMain].image) {
         mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
