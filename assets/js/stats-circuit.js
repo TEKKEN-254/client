@@ -1,5 +1,7 @@
 /* IMPORTING PLAYERS */
-import { players } from "./player-list.js";
+import { players as playersTK } from "./player-list-tk.js";
+import { players as playersMK } from "./player-list-mk.js";
+import { duplicateObject, getGame } from "./helper-functions.js";
 
 /* DECLARATIONS */
 // Current season
@@ -98,333 +100,147 @@ let s4MatchesLost = document.getElementById("season-4-matches-lost");
 let s4HighestFinish = document.getElementById("season-4-highest-finish");
 let s4HFtourney = document.getElementById("season-4-hf-tourney");
 
+/* DEFINING PERTINENT DATA */
+
+// Getting division
+let division = getGame();
+
+// Duplicating player objects
+let players = {};
+switch (division) {
+    case "tekken":
+        duplicateObject(playersTK, players);
+        break;
+    case "mk":
+        duplicateObject(playersMK, players);
+        break;
+    default:
+        console.log(`Sorry, the division "${division}" does not exist.`);
+}
+
 
 /* DISPLAY FUNCTION */
 const displayStats = id => {
     currentSeason.innerHTML = "Season Four";
-    if (playerStats[id].isFinalistSeason4) {
+    if (players[id]["stats"]["circuit"].isFinalistSeason4) {
         currentNormal.style.display = "none";
         currentFinalist.style.display = "inline";
-        currentRankF.innerHTML = playerStats[id].s4RankF;
-        currentRankQ.innerHTML = playerStats[id].s4Rank;
-        currentPointsQ.innerHTML = playerStats[id].s4Points;
+        currentRankF.innerHTML = players[id]["stats"]["circuit"].s4RankF;
+        currentRankQ.innerHTML = players[id]["stats"]["circuit"].s4Rank;
+        currentPointsQ.innerHTML = players[id]["stats"]["circuit"].s4Points;
     }
     // Adjust values to match current season
-    currentRank.innerHTML = playerStats[id].s4Rank;
-    currentRankR.innerHTML = playerStats[id].s4Rank;
-    currentPoints.innerHTML = playerStats[id].s4Points;
-    currentPointsR.innerHTML = playerStats[id].s4Points;
+    currentRank.innerHTML = players[id]["stats"]["circuit"].s4Rank;
+    currentRankR.innerHTML = players[id]["stats"]["circuit"].s4Rank;
+    currentPoints.innerHTML = players[id]["stats"]["circuit"].s4Points;
+    currentPointsR.innerHTML = players[id]["stats"]["circuit"].s4Points;
 
-    currentTourneys.innerHTML = playerStats[id].s4Tourneys;
-    currentSetsWon.innerHTML = playerStats[id].s4SetsWon;
-    currentSetsLost.innerHTML = playerStats[id].s4SetsLost;
-    currentMatchesWon.innerHTML = playerStats[id].s4MatchesWon;
-    currentMatchesLost.innerHTML = playerStats[id].s4MatchesLost;
+    currentTourneys.innerHTML = players[id]["stats"]["circuit"].s4Tourneys;
+    currentSetsWon.innerHTML = players[id]["stats"]["circuit"].s4SetsWon;
+    currentSetsLost.innerHTML = players[id]["stats"]["circuit"].s4SetsLost;
+    currentMatchesWon.innerHTML = players[id]["stats"]["circuit"].s4MatchesWon;
+    currentMatchesLost.innerHTML = players[id]["stats"]["circuit"].s4MatchesLost;
 
-    totalTourneys.innerHTML = playerStats[id].totalTourneys;
-    totalSetsWon.innerHTML = playerStats[id].totalSetsWon;
-    totalSetsLost.innerHTML = playerStats[id].totalSetsLost;
-    totalMatchesWon.innerHTML = playerStats[id].totalMatchesWon;
-    totalMatchesLost.innerHTML = playerStats[id].totalMatchesLost;
-    totalHighestFinish.innerHTML = playerStats[id].totalHighestFinish;
+    totalTourneys.innerHTML = players[id]["stats"]["circuit"].totalTourneys;
+    totalSetsWon.innerHTML = players[id]["stats"]["circuit"].totalSetsWon;
+    totalSetsLost.innerHTML = players[id]["stats"]["circuit"].totalSetsLost;
+    totalMatchesWon.innerHTML = players[id]["stats"]["circuit"].totalMatchesWon;
+    totalMatchesLost.innerHTML = players[id]["stats"]["circuit"].totalMatchesLost;
+    totalHighestFinish.innerHTML = players[id]["stats"]["circuit"].totalHighestFinish;
 
 
-    if (playerStats[id].isSeason1) {
+    if (players[id]["stats"]["circuit"].isSeason1) {
         isSeason1.style.display = "block";
     }
-    s1Rank.innerHTML = playerStats[id].s1Rank;
-    s1Points.innerHTML = playerStats[id].s1Points;
-    s1Tourneys.innerHTML = playerStats[id].s1Tourneys;
-    s1SetsWon.innerHTML = playerStats[id].s1SetsWon;
-    s1SetsLost.innerHTML = playerStats[id].s1SetsLost;
-    s1MatchesWon.innerHTML = playerStats[id].s1MatchesWon;
-    s1MatchesLost.innerHTML = playerStats[id].s1MatchesLost;
-    s1HighestFinish.innerHTML = playerStats[id].s1HighestFinish;
-    s1HFtourney.innerHTML = playerStats[id].s1HFtourney;
+    if (division !== "tekken") {
+        if (players[id]["stats"]["circuit"].isFinalistSeason1) {
+            isNormalSeason1.style.display = "none";
+            isFinalistSeason1.style.display = "inline";
+            s1RankF.innerHTML = players[id]["stats"]["circuit"].s1RankF;
+            s1RankQ.innerHTML = players[id]["stats"]["circuit"].s1Rank;
+            s1PointsQ.innerHTML = players[id]["stats"]["circuit"].s1Points;
+        }
+    }
+    s1Rank.innerHTML = players[id]["stats"]["circuit"].s1Rank;
+    s1Points.innerHTML = players[id]["stats"]["circuit"].s1Points;
+    s1Tourneys.innerHTML = players[id]["stats"]["circuit"].s1Tourneys;
+    s1SetsWon.innerHTML = players[id]["stats"]["circuit"].s1SetsWon;
+    s1SetsLost.innerHTML = players[id]["stats"]["circuit"].s1SetsLost;
+    s1MatchesWon.innerHTML = players[id]["stats"]["circuit"].s1MatchesWon;
+    s1MatchesLost.innerHTML = players[id]["stats"]["circuit"].s1MatchesLost;
+    s1HighestFinish.innerHTML = players[id]["stats"]["circuit"].s1HighestFinish;
+    s1HFtourney.innerHTML = players[id]["stats"]["circuit"].s1HFtourney;
 
 
-    if (playerStats[id].isSeason2) {
+
+    if (players[id]["stats"]["circuit"].isSeason2) {
         isSeason2.style.display = "block";
     }
-    if (playerStats[id].isFinalistSeason2) {
+    if (players[id]["stats"]["circuit"].isFinalistSeason2) {
         isNormalSeason2.style.display = "none";
         isFinalistSeason2.style.display = "inline";
-        s2RankF.innerHTML = playerStats[id].s2RankF;
-        s2RankQ.innerHTML = playerStats[id].s2Rank;
-        s2PointsQ.innerHTML = playerStats[id].s2Points;
+        s2RankF.innerHTML = players[id]["stats"]["circuit"].s2RankF;
+        s2RankQ.innerHTML = players[id]["stats"]["circuit"].s2Rank;
+        s2PointsQ.innerHTML = players[id]["stats"]["circuit"].s2Points;
     }
-    s2Division.innerHTML = playerStats[id].s2Division;
-    s2Rank.innerHTML = playerStats[id].s2Rank;
-    s2Points.innerHTML = playerStats[id].s2Points;
-    s2Tourneys.innerHTML = playerStats[id].s2Tourneys;
-    s2SetsWon.innerHTML = playerStats[id].s2SetsWon;
-    s2SetsLost.innerHTML = playerStats[id].s2SetsLost;
-    s2MatchesWon.innerHTML = playerStats[id].s2MatchesWon;
-    s2MatchesLost.innerHTML = playerStats[id].s2MatchesLost;
-    s2HighestFinish.innerHTML = playerStats[id].s2HighestFinish;
-    s2HFtourney.innerHTML = playerStats[id].s2HFtourney;
+    if (division === "tekken") {
+        s2Division.innerHTML = players[id]["stats"]["circuit"].s2Division;
+    }
+    s2Rank.innerHTML = players[id]["stats"]["circuit"].s2Rank;
+    s2Points.innerHTML = players[id]["stats"]["circuit"].s2Points;
+    s2Tourneys.innerHTML = players[id]["stats"]["circuit"].s2Tourneys;
+    s2SetsWon.innerHTML = players[id]["stats"]["circuit"].s2SetsWon;
+    s2SetsLost.innerHTML = players[id]["stats"]["circuit"].s2SetsLost;
+    s2MatchesWon.innerHTML = players[id]["stats"]["circuit"].s2MatchesWon;
+    s2MatchesLost.innerHTML = players[id]["stats"]["circuit"].s2MatchesLost;
+    s2HighestFinish.innerHTML = players[id]["stats"]["circuit"].s2HighestFinish;
+    s2HFtourney.innerHTML = players[id]["stats"]["circuit"].s2HFtourney;
 
 
-    if (playerStats[id].isSeason3) {
+    if (players[id]["stats"]["circuit"].isSeason3) {
         isSeason3.style.display = "block";
     }
-    if (playerStats[id].isFinalistSeason3) {
+    if (players[id]["stats"]["circuit"].isFinalistSeason3) {
         isNormalSeason3.style.display = "none";
         isFinalistSeason3.style.display = "inline";
-        s3RankF.innerHTML = playerStats[id].s3RankF;
-        s3RankQ.innerHTML = playerStats[id].s3Rank;
-        s3PointsQ.innerHTML = playerStats[id].s3Points;
+        s3RankF.innerHTML = players[id]["stats"]["circuit"].s3RankF;
+        s3RankQ.innerHTML = players[id]["stats"]["circuit"].s3Rank;
+        s3PointsQ.innerHTML = players[id]["stats"]["circuit"].s3Points;
     }
-    s3Division.innerHTML = playerStats[id].s3Division;
-    s3Rank.innerHTML = playerStats[id].s3Rank;
-    s3Points.innerHTML = playerStats[id].s3Points;
-    s3Tourneys.innerHTML = playerStats[id].s3Tourneys;
-    s3SetsWon.innerHTML = playerStats[id].s3SetsWon;
-    s3SetsLost.innerHTML = playerStats[id].s3SetsLost;
-    s3MatchesWon.innerHTML = playerStats[id].s3MatchesWon;
-    s3MatchesLost.innerHTML = playerStats[id].s3MatchesLost;
-    s3HighestFinish.innerHTML = playerStats[id].s3HighestFinish;
-    s3HFtourney.innerHTML = playerStats[id].s3HFtourney;
+    if (division === "tekken") {
+        s3Division.innerHTML = players[id]["stats"]["circuit"].s3Division;
+    }
+    s3Rank.innerHTML = players[id]["stats"]["circuit"].s3Rank;
+    s3Points.innerHTML = players[id]["stats"]["circuit"].s3Points;
+    s3Tourneys.innerHTML = players[id]["stats"]["circuit"].s3Tourneys;
+    s3SetsWon.innerHTML = players[id]["stats"]["circuit"].s3SetsWon;
+    s3SetsLost.innerHTML = players[id]["stats"]["circuit"].s3SetsLost;
+    s3MatchesWon.innerHTML = players[id]["stats"]["circuit"].s3MatchesWon;
+    s3MatchesLost.innerHTML = players[id]["stats"]["circuit"].s3MatchesLost;
+    s3HighestFinish.innerHTML = players[id]["stats"]["circuit"].s3HighestFinish;
+    s3HFtourney.innerHTML = players[id]["stats"]["circuit"].s3HFtourney;
 
 
-    if (playerStats[id].isSeason4) {
+    if (players[id]["stats"]["circuit"].isSeason4) {
         isSeason4.style.display = "block";
     }
-    if (playerStats[id].isFinalistSeason4) {
+    if (players[id]["stats"]["circuit"].isFinalistSeason4) {
         isNormalSeason4.style.display = "none";
         isFinalistSeason4.style.display = "inline";
-        s4RankF.innerHTML = playerStats[id].s4RankF;
-        s4RankQ.innerHTML = playerStats[id].s4Rank;
-        s4PointsQ.innerHTML = playerStats[id].s4Points;
+        s4RankF.innerHTML = players[id]["stats"]["circuit"].s4RankF;
+        s4RankQ.innerHTML = players[id]["stats"]["circuit"].s4Rank;
+        s4PointsQ.innerHTML = players[id]["stats"]["circuit"].s4Points;
     }
-    s4Rank.innerHTML = playerStats[id].s4Rank;
-    s4Points.innerHTML = playerStats[id].s4Points;
-    s4Tourneys.innerHTML = playerStats[id].s4Tourneys;
-    s4SetsWon.innerHTML = playerStats[id].s4SetsWon;
-    s4SetsLost.innerHTML = playerStats[id].s4SetsLost;
-    s4MatchesWon.innerHTML = playerStats[id].s4MatchesWon;
-    s4MatchesLost.innerHTML = playerStats[id].s4MatchesLost;
-    s4HighestFinish.innerHTML = playerStats[id].s4HighestFinish;
-    s4HFtourney.innerHTML = playerStats[id].s4HFtourney;
+    s4Rank.innerHTML = players[id]["stats"]["circuit"].s4Rank;
+    s4Points.innerHTML = players[id]["stats"]["circuit"].s4Points;
+    s4Tourneys.innerHTML = players[id]["stats"]["circuit"].s4Tourneys;
+    s4SetsWon.innerHTML = players[id]["stats"]["circuit"].s4SetsWon;
+    s4SetsLost.innerHTML = players[id]["stats"]["circuit"].s4SetsLost;
+    s4MatchesWon.innerHTML = players[id]["stats"]["circuit"].s4MatchesWon;
+    s4MatchesLost.innerHTML = players[id]["stats"]["circuit"].s4MatchesLost;
+    s4HighestFinish.innerHTML = players[id]["stats"]["circuit"].s4HighestFinish;
+    s4HFtourney.innerHTML = players[id]["stats"]["circuit"].s4HFtourney;
 }
-
-
-/* PLAYER STATS */
-
-const playerStats = {
-    // DVK
-    "4092983": {
-        // Totals
-        totalTourneys: 17,
-        totalSetsWon: 87,
-        totalSetsLost: 40,
-        totalMatchesWon: 211,
-        totalMatchesLost: 149,
-        totalHighestFinish: "2nd",
-
-        // Season One
-        isSeason1: true,
-
-        s1Rank: "4th",
-        s1Points: 97,
-        s1Tourneys: 4,
-        s1SetsWon: 16,
-        s1SetsLost: 7,
-        s1MatchesWon: 51,
-        s1MatchesLost: 40,
-        s1HighestFinish: "2nd",
-        s1HFtourney: "R2",
-
-        // Season Two
-        isSeason2: true,
-        isFinalistSeason2: true,
-
-        s2Division: "Premier",
-        s2RankF: "4th",
-        s2Rank: "2nd",
-        s2Points: 65,
-        s2Tourneys: 4,
-        s2SetsWon: 25,
-        s2SetsLost: 10,
-        s2MatchesWon: 55,
-        s2MatchesLost: 30,
-        s2HighestFinish: "2nd",
-        s2HFtourney: "Q2",
-
-        // Season Three
-        isSeason3: true,
-        isFinalistSeason3: true,
-
-        s3Division: "Premier",
-        s3RankF: "T-9th",
-        s3Rank: "3rd",
-        s3Points: 121,
-        s3Tourneys: 7,
-        s3SetsWon: 39,
-        s3SetsLost: 20,
-        s3MatchesWon: 88,
-        s3MatchesLost: 64,
-        s3HighestFinish: "2nd",
-        s3HFtourney: "Q2, Q6",
-
-        // Season Four
-        isSeason4: true,
-        // isFinalistSeason4: ,
-
-        // s4RankF: "",
-        s4Rank: "3rd",
-        s4Points: 16,
-        s4Tourneys: 2,
-        s4SetsWon: 7,
-        s4SetsLost: 4,
-        s4MatchesWon: 17,
-        s4MatchesLost: 15,
-        s4HighestFinish: "2nd",
-        s4HFtourney: "Q2",
-    },
-    // Frost
-    "4644523": {
-        // Totals
-        totalTourneys: 15,
-        totalSetsWon: 80,
-        totalSetsLost: 37,
-        totalMatchesWon: 197,
-        totalMatchesLost: 120,
-        totalHighestFinish: "1st",
-
-        // Season One
-        isSeason1: true,
-
-        s1Rank: "11th",
-        s1Points: 20,
-        s1Tourneys: 3,
-        s1SetsWon: 5,
-        s1SetsLost: 6,
-        s1MatchesWon: 20,
-        s1MatchesLost: 21,
-        s1HighestFinish: "7th",
-        s1HFtourney: "R2, R3",
-
-        // Season Two
-        isSeason2: true,
-        isFinalistSeason2: true,
-        s2RankF: "T-5th",
-
-        s2Division: "Premier",
-        s2Rank: "6th",
-        s2Points: 55,
-        s2Tourneys: 4,
-        s2SetsWon: 17,
-        s2SetsLost: 12,
-        s2MatchesWon: 41,
-        s2MatchesLost: 31,
-        s2HighestFinish: "3rd",
-        s2HFtourney: "Q2, Q3",
-
-        // Season Three
-        isSeason3: true,
-        isFinalistSeason3: true,
-        s3RankF: "3rd",
-
-        s3Division: "Premier",
-        s3Rank: "2nd",
-        s3Points: 135,
-        s3Tourneys: 7,
-        s3SetsWon: 48,
-        s3SetsLost: 16,
-        s3MatchesWon: 113,
-        s3MatchesLost: 53,
-        s3HighestFinish: "2nd",
-        s3HFtourney: "Q3, Q4, Q5",
-
-        // Season Four
-        isSeason4: true,
-        // isFinalistSeason4: ,
-        // s4RankF: "",
-
-        s4Rank: "2nd",
-        s4Points: 17,
-        s4Tourneys: 2,
-        s4SetsWon: 10,
-        s4SetsLost: 3,
-        s4MatchesWon: 23,
-        s4MatchesLost: 15,
-        s4HighestFinish: "1st",
-        s4HFtourney: "Q1",
-    },
-    /*
-    // Template
-    "0000000": {
-        // Totals
-        totalTourneys: ,
-        totalSetsWon: ,
-        totalSetsLost: ,
-        totalMatchesWon: ,
-        totalMatchesLost: ,
-        totalHighestFinish: "",
-
-        // Season One
-        isSeason1: , // Use boolean value
-
-        s1Rank: "",
-        s1Points: ,
-        s1Tourneys: ,
-        s1SetsWon: ,
-        s1SetsLost: ,
-        s1MatchesWon: ,
-        s1MatchesLost: ,
-        s1HighestFinish: "",
-        s1HFtourney: "",
-
-        // Season Two
-        isSeason2: , // Use boolean value
-        isFinalistSeason2: , // Use boolean value
-        s2RankF: "",
-        
-        s2Division: "",
-        s2Rank: "",
-        s2Points: ,
-        s2Tourneys: ,
-        s2SetsWon: ,
-        s2SetsLost: ,
-        s2MatchesWon: ,
-        s2MatchesLost: ,
-        s2HighestFinish: "",
-        s2HFtourney: "",
-
-        // Season Three
-        isSeason3: , // Use boolean value
-        isFinalistSeason3: , // Use boolean value
-        s3RankF: "",
-
-        s3Division: "",
-        s3Rank: "",
-        s3Points: ,
-        s3Tourneys: ,
-        s3SetsWon: ,
-        s3SetsLost: ,
-        s3MatchesWon: ,
-        s3MatchesLost: ,
-        s3HighestFinish: "",
-        s3HFtourney: "",
-
-        // Season Four
-        isSeason4: , // Use boolean value
-        isFinalistSeason4: , // Use boolean value
-        s4RankF: "",
-
-        s4Rank: "",
-        s4Points: ,
-        s4Tourneys: ,
-        s4SetsWon: ,
-        s4SetsLost: ,
-        s4MatchesWon: ,
-        s4MatchesLost: ,
-        s4HighestFinish: "",
-        s4HFtourney: "",
-    },
-     */
-};
 
 
 /* CALLING DISPLAY FUNCTION */
