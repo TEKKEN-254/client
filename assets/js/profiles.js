@@ -1,7 +1,9 @@
 /* IMPORTING CHARACTERS */
 import { characters as charactersTK } from "./character-list-tk.js";
 import { characters as charactersMK } from "./character-list-mk.js";
-import { players } from "./player-list.js";
+import { players as playersTK } from "./player-list-tk.js";
+import { players as playersMK } from "./player-list-mk.js";
+import { duplicateObject, getGame } from "./helper-functions.js";
 
 /* DECLARATIONS */
 // Savanna FGC ID
@@ -45,20 +47,32 @@ let isTwitch = document.getElementById("is-twitch");
 let twitch = document.getElementById("player-twitch");
 let twitchImg = document.querySelector("#player-twitch > img");
 
+/* DEFINING PERTINENT DATA */
 
-/* GET GAME FUNCTION */
-const getGame = () => {
-    let url = window.location.href;
-    if (url.includes("/circuit/tekken")) {
-        return "tekken";
-    } else if (url.includes("/circuit/mk")) {
-        return "mk";
-    }
+// Getting division
+let division = getGame();
+
+// Duplicating player and character objects
+let players = {};
+let characters = {};
+switch (division) {
+    case "tekken":
+        duplicateObject(playersTK, players);
+        duplicateObject(charactersTK, characters);
+        break;
+    case "mk":
+        duplicateObject(playersMK, players);
+        duplicateObject(charactersMK, characters);
+        break;
+    default:
+        console.log(`Sorry, the division "${division}" does not exist.`);
 }
 
 
 /* DISPLAY FUNCTION */
 const display = id => {
+
+    // Setting bio
     if (!players[id].pseudonym) {
         document.title = `${document.title} - ${players[id].playerName}`;
     } else {
@@ -101,6 +115,16 @@ const display = id => {
         }
     }
 
+    if (!players[id].displayBirthDate) {
+        birthDate.innerHTML = "<em>Classified</em>";
+    } else {
+        birthDate.innerHTML = players[id].birthDate;
+    }
+
+    platform.innerHTML = players[id].platform;
+    onlineId.innerHTML = players[id].onlineId;
+
+    // Setting social media
     if (players[id].facebook) {
         isFacebook.style.display = "inline-block";
         facebook.href = players[id].facebook;
@@ -147,35 +171,7 @@ const display = id => {
         }
     }
 
-    if (!players[id].displayBirthDate) {
-        birthDate.innerHTML = "<em>Classified</em>";
-    } else {
-        birthDate.innerHTML = players[id].birthDate;
-    }
-
-    platform.innerHTML = players[id].platform;
-    onlineId.innerHTML = players[id].onlineId;
-
-
-    let characters = {};
-    const populateCharacters = object => {
-        for (let char in object) {
-            characters[char] = object[char];
-        }
-    }
-
-    let division = getGame();
-    switch (division) {
-        case "tekken":
-            populateCharacters(charactersTK);
-            break;
-        case "mk":
-            populateCharacters(charactersMK);
-            break;
-        default:
-            console.log(`Sorry, the division "${division}" does not exist.`);
-    }
-
+    // Rendering characters played
     const playerMain = players[id].mainChar;
     const playerOtherChars = players[id].otherChars;
     if (division === "tekken") {
