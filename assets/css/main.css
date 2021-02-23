@@ -265,7 +265,7 @@ header ::selection {
 }
 
 input[type=search] {
-    background-image: url('/assets/img/search-icon.svg');
+    background-image: url('/assets/img/icons/search.svg');
     background-size: 1rem;
     background-position: 0.5625rem 0.625rem;
     background-repeat: no-repeat;
