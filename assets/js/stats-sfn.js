@@ -1,5 +1,5 @@
 /* IMPORTING PLAYERS */
-import { players } from "./player-list.js";
+import { players } from "./player-list-tk.js";
 
 /* DECLARATIONS */
 let currentRank = document.getElementById("current-rank");
@@ -28,130 +28,51 @@ let lastResultOppId = document.getElementById("last-result-opponent-link");
 
 /* DISPLAY FUNCTION */
 const displayStats = id => {
-    currentRank.innerHTML = playerStats[id].currentRank;
-    currentRankR.innerHTML = playerStats[id].currentRank;
-    if (!(playerStats[id].currentRankDiff === "Same")) {
-        if (!(playerStats[id].currentRankDiff === "Up")) {
-            if (!(playerStats[id].currentRankDiff === "Down")) {
+    currentRank.innerHTML = players[id]["stats"]["sfn"].currentRank;
+    currentRankR.innerHTML = players[id]["stats"]["sfn"].currentRank;
+    if (!(players[id]["stats"]["sfn"].currentRankDiff === "Same")) {
+        if (!(players[id]["stats"]["sfn"].currentRankDiff === "Up")) {
+            if (!(players[id]["stats"]["sfn"].currentRankDiff === "Down")) {
                 console.log(`Error: currentRankDiff must be set to "Up", "Down" or "Same"`);
             } else {
-                currentRankDiff.innerHTML = `${playerStats[id].currentRankDiff} from ${playerStats[id].previousRank}`;
+                currentRankDiff.innerHTML = `${players[id]["stats"]["sfn"].currentRankDiff} from ${players[id]["stats"]["sfn"].previousRank}`;
             }
         } else {
-            currentRankDiff.innerHTML = `${playerStats[id].currentRankDiff} from ${playerStats[id].previousRank}`;
+            currentRankDiff.innerHTML = `${players[id]["stats"]["sfn"].currentRankDiff} from ${players[id]["stats"]["sfn"].previousRank}`;
         }
     } else {
         currentRankDiff.innerHTML = "No change";
-        playerStats[id].previousRank = null;
+        players[id]["stats"]["sfn"].previousRank = null;
     }
 
-    setsWon.innerHTML = playerStats[id].setsWon;
-    setsLost.innerHTML = playerStats[id].setsLost;
-    matchesWon.innerHTML = playerStats[id].matchesWon;
-    matchesLost.innerHTML = playerStats[id].matchesLost;
+    setsWon.innerHTML = players[id]["stats"]["sfn"].setsWon;
+    setsLost.innerHTML = players[id]["stats"]["sfn"].setsLost;
+    matchesWon.innerHTML = players[id]["stats"]["sfn"].matchesWon;
+    matchesLost.innerHTML = players[id]["stats"]["sfn"].matchesLost;
 
-    currentWinStreak.innerHTML = playerStats[id].currentWinStreak;
-    longestWinStreak.innerHTML = playerStats[id].longestWinStreak;
-    currentLossStreak.innerHTML = playerStats[id].currentLossStreak;
-    longestLossStreak.innerHTML = playerStats[id].longestLossStreak;
-    highestRank.innerHTML = playerStats[id].highestRank;
-    highestRankEdition.innerHTML = playerStats[id].hrEdition;
+    currentWinStreak.innerHTML = players[id]["stats"]["sfn"].currentWinStreak;
+    longestWinStreak.innerHTML = players[id]["stats"]["sfn"].longestWinStreak;
+    currentLossStreak.innerHTML = players[id]["stats"]["sfn"].currentLossStreak;
+    longestLossStreak.innerHTML = players[id]["stats"]["sfn"].longestLossStreak;
+    highestRank.innerHTML = players[id]["stats"]["sfn"].highestRank;
+    highestRankEdition.innerHTML = players[id]["stats"]["sfn"].hrEdition;
 
-    lastSFN.innerHTML = playerStats[id].lastSFN;
-    if (!(playerStats[id].lastResult === "Win")) {
-        if (!(playerStats[id].lastResult === "Loss")) {
+    lastSFN.innerHTML = players[id]["stats"]["sfn"].lastSFN;
+    if (!(players[id]["stats"]["sfn"].lastResult === "Win")) {
+        if (!(players[id]["stats"]["sfn"].lastResult === "Loss")) {
             console.log(`
                     Error: lastResult must be set to "Win"
                     or "Loss"
                     `);
         } else {
-            lastResult.innerHTML = playerStats[id].lastResult;
+            lastResult.innerHTML = players[id]["stats"]["sfn"].lastResult;
         }
     } else {
-        lastResult.innerHTML = playerStats[id].lastResult;
+        lastResult.innerHTML = players[id]["stats"]["sfn"].lastResult;
     }
-    lastResultScore.innerHTML = playerStats[id].lastResultScore;
-    lastResultOpp.innerHTML = playerStats[id].lastResultOpp;
-    lastResultOppId.href = "./profile.html?id=" + playerStats[id].lastResultOppId;
-}
-
-
-/* PLAYER STATS */
-const playerStats = {
-    // DVK
-    4092983: {
-        currentRank: "1st",
-        currentRankDiff: "Same",
-        // previousRank: ,
-
-        setsWon: 4,
-        setsLost: 1,
-        matchesWon: 19,
-        matchesLost: 10,
-
-        currentWinStreak: 2,
-        longestWinStreak: 2,
-        currentLossStreak: 0,
-        longestLossStreak: 1,
-        highestRank: "1st",
-        hrEdition: 5,
-
-        lastSFN: 8,
-        lastResult: "Win",
-        lastResultScore: "5-3",
-        lastResultOpp: "WTCH | Mickey",
-        lastResultOppId: 2907096,
-    },
-    // Frost
-    4644523: {
-        currentRank: "3rd",
-        currentRankDiff: "Same",
-        // previousRank: ,
-
-        setsWon: 3,
-        setsLost: 2,
-        matchesWon: 18,
-        matchesLost: 16,
-
-        currentWinStreak: 3,
-        longestWinStreak: 3,
-        currentLossStreak: 0,
-        longestLossStreak: 2,
-        highestRank: "2nd",
-        hrEdition: 4,
-
-        lastSFN: 7,
-        lastResult: "Win",
-        lastResultScore: "3-2",
-        lastResultOpp: "Vega",
-        lastResultOppId: 7167649,
-    },
-    /*
-    // Template
-    0000000: {
-        currentRank: ,
-        currentRankDiff: ,
-        previousRank: ,
-
-        setsWon: ,
-        setsLost: ,
-        matchesWon: ,
-        matchesLost: ,
-
-        currentWinStreak: ,
-        longestWinStreak: ,
-        currentLossStreak: ,
-        longestLossStreak: ,
-        highestRank: "",
-        hrEdition: ,
-
-        lastSFN: ,
-        lastResult: ,
-        lastResultScore: ,
-        lastResultOpp: ,
-        lastResultOppLink: ,
-    },
-    */
+    lastResultScore.innerHTML = players[id]["stats"]["sfn"].lastResultScore;
+    lastResultOpp.innerHTML = players[id]["stats"]["sfn"].lastResultOpp;
+    lastResultOppId.href = "./profile.html?id=" + players[id]["stats"]["sfn"].lastResultOppId;
 }
 
 
