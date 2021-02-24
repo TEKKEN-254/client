@@ -21,7 +21,7 @@ const players = {
         onlineId: "Jay25flow_MK",
 
         mainChar: "cassie",
-        otherChars: ["cetrion", "jacqui", "johnny", "liu kang"],
+        otherChars: ["cetrion", "jacqui", "johnny", "liu-kang"],
 
         twitter: "https://twitter.com/Baraza_Snr",
         instagram: "https://instagram.com/baraza_snr",
