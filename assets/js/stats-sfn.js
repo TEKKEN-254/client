@@ -5,7 +5,6 @@ import { players } from "./player-list-tk.js";
 let currentRank = document.getElementById("current-rank");
 let currentRankR = document.getElementById("current-rank-r");
 let currentRankDiff = document.getElementById("current-rank-diff");
-// let previousRank = document.getElementById("previous-rank");
 
 let setsWon = document.getElementById("sets-won");
 let setsLost = document.getElementById("sets-lost");
@@ -31,12 +30,8 @@ const displayStats = id => {
     currentRank.innerHTML = players[id]["stats"]["sfn"].currentRank;
     currentRankR.innerHTML = players[id]["stats"]["sfn"].currentRank;
     if (!(players[id]["stats"]["sfn"].currentRankDiff === "Same")) {
-        if (!(players[id]["stats"]["sfn"].currentRankDiff === "Up")) {
-            if (!(players[id]["stats"]["sfn"].currentRankDiff === "Down")) {
-                console.log(`Error: currentRankDiff must be set to "Up", "Down" or "Same"`);
-            } else {
-                currentRankDiff.innerHTML = `${players[id]["stats"]["sfn"].currentRankDiff} from ${players[id]["stats"]["sfn"].previousRank}`;
-            }
+        if (!(players[id]["stats"]["sfn"].currentRankDiff === "Up") && !(players[id]["stats"]["sfn"].currentRankDiff === "Down")) {
+            console.log(`Error: currentRankDiff must be set to "Up", "Down" or "Same"`);
         } else {
             currentRankDiff.innerHTML = `${players[id]["stats"]["sfn"].currentRankDiff} from ${players[id]["stats"]["sfn"].previousRank}`;
         }
