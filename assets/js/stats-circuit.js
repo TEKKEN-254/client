@@ -1,7 +1,7 @@
 /* IMPORTING PLAYERS */
 import { players as playersTK } from "./player-list-tk.js";
 import { players as playersMK } from "./player-list-mk.js";
-import { duplicateObject, getGame } from "./helper-functions.js";
+import { duplicateObject, getGame, numToWords, capitalize } from "./helper-functions.js";
 
 /* DECLARATIONS */
 // Current season
@@ -33,9 +33,14 @@ let totalHighestFinish = document.getElementById("total-highest-finish");
 
 // Season One
 let isSeason1 = document.getElementById("season-1-stats");
+let isNormalSeason1 = document.getElementById("season-1-normal");
+let isFinalistSeason1 = document.getElementById("season-1-finalist");
 
 let s1Rank = document.getElementById("season-1-rank");
+let s1RankQ = document.getElementById("season-1-rank-q");
+let s1RankF = document.getElementById("season-1-rank-f");
 let s1Points = document.getElementById("season-1-points");
+let s1PointsQ = document.getElementById("season-1-points-q");
 let s1Tourneys = document.getElementById("season-1-tourneys-played");
 let s1SetsWon = document.getElementById("season-1-sets-won");
 let s1SetsLost = document.getElementById("season-1-sets-lost");
@@ -118,29 +123,46 @@ switch (division) {
         console.log(`Sorry, the division "${division}" does not exist.`);
 }
 
+/* CURRENT SEASON FUNCTION */
+const showCurrentSeason = num => {
+    let word = numToWords(num);
+    word = capitalize(word);
+
+    currentSeason.innerHTML = `Season ${word}`;
+    if (players[id]["stats"]["circuit"][`isFinalistSeason${num}`]) {
+        currentNormal.style.display = "none";
+        currentFinalist.style.display = "inline";
+        currentRankF.innerHTML = players[id]["stats"]["circuit"][`s${num}RankF`];
+        currentRankQ.innerHTML = players[id]["stats"]["circuit"][`s${num}Rank`];
+        currentPointsQ.innerHTML = players[id]["stats"]["circuit"][`s${num}Points`];
+    }
+    // Adjust values to match current season
+    currentRank.innerHTML = players[id]["stats"]["circuit"][`s${num}Rank`];
+    currentRankR.innerHTML = players[id]["stats"]["circuit"][`s${num}Rank`];
+    currentPoints.innerHTML = players[id]["stats"]["circuit"][`s${num}Points`];
+    currentPointsR.innerHTML = players[id]["stats"]["circuit"][`s${num}Points`];
+
+    currentTourneys.innerHTML = players[id]["stats"]["circuit"][`s${num}Tourneys`];
+    currentSetsWon.innerHTML = players[id]["stats"]["circuit"][`s${num}SetsWon`];
+    currentSetsLost.innerHTML = players[id]["stats"]["circuit"][`s${num}SetsLost`];
+    currentMatchesWon.innerHTML = players[id]["stats"]["circuit"][`s${num}MatchesWon`];
+    currentMatchesLost.innerHTML = players[id]["stats"]["circuit"][`s${num}MatchesLost`];
+}
+
 
 /* DISPLAY FUNCTION */
 const displayStats = id => {
-    currentSeason.innerHTML = "Season Four";
-    if (players[id]["stats"]["circuit"].isFinalistSeason4) {
-        currentNormal.style.display = "none";
-        currentFinalist.style.display = "inline";
-        currentRankF.innerHTML = players[id]["stats"]["circuit"].s4RankF;
-        currentRankQ.innerHTML = players[id]["stats"]["circuit"].s4Rank;
-        currentPointsQ.innerHTML = players[id]["stats"]["circuit"].s4Points;
+    // Current season logic
+    switch (division) {
+        case "tekken":
+            showCurrentSeason(4);
+            break;
+        case "mk":
+            showCurrentSeason(1);
+            break;
     }
-    // Adjust values to match current season
-    currentRank.innerHTML = players[id]["stats"]["circuit"].s4Rank;
-    currentRankR.innerHTML = players[id]["stats"]["circuit"].s4Rank;
-    currentPoints.innerHTML = players[id]["stats"]["circuit"].s4Points;
-    currentPointsR.innerHTML = players[id]["stats"]["circuit"].s4Points;
 
-    currentTourneys.innerHTML = players[id]["stats"]["circuit"].s4Tourneys;
-    currentSetsWon.innerHTML = players[id]["stats"]["circuit"].s4SetsWon;
-    currentSetsLost.innerHTML = players[id]["stats"]["circuit"].s4SetsLost;
-    currentMatchesWon.innerHTML = players[id]["stats"]["circuit"].s4MatchesWon;
-    currentMatchesLost.innerHTML = players[id]["stats"]["circuit"].s4MatchesLost;
-
+    // Totals
     totalTourneys.innerHTML = players[id]["stats"]["circuit"].totalTourneys;
     totalSetsWon.innerHTML = players[id]["stats"]["circuit"].totalSetsWon;
     totalSetsLost.innerHTML = players[id]["stats"]["circuit"].totalSetsLost;
@@ -149,18 +171,18 @@ const displayStats = id => {
     totalHighestFinish.innerHTML = players[id]["stats"]["circuit"].totalHighestFinish;
 
 
+    // Season One
     if (players[id]["stats"]["circuit"].isSeason1) {
         isSeason1.style.display = "block";
     }
-    if (division !== "tekken") {
-        if (players[id]["stats"]["circuit"].isFinalistSeason1) {
-            isNormalSeason1.style.display = "none";
-            isFinalistSeason1.style.display = "inline";
-            s1RankF.innerHTML = players[id]["stats"]["circuit"].s1RankF;
-            s1RankQ.innerHTML = players[id]["stats"]["circuit"].s1Rank;
-            s1PointsQ.innerHTML = players[id]["stats"]["circuit"].s1Points;
-        }
+    if (division !== "tekken" && players[id]["stats"]["circuit"].isFinalistSeason1) {
+        isNormalSeason1.style.display = "none";
+        isFinalistSeason1.style.display = "inline";
+        s1RankF.innerHTML = players[id]["stats"]["circuit"].s1RankF;
+        s1RankQ.innerHTML = players[id]["stats"]["circuit"].s1Rank;
+        s1PointsQ.innerHTML = players[id]["stats"]["circuit"].s1Points;
     }
+
     s1Rank.innerHTML = players[id]["stats"]["circuit"].s1Rank;
     s1Points.innerHTML = players[id]["stats"]["circuit"].s1Points;
     s1Tourneys.innerHTML = players[id]["stats"]["circuit"].s1Tourneys;
@@ -172,7 +194,7 @@ const displayStats = id => {
     s1HFtourney.innerHTML = players[id]["stats"]["circuit"].s1HFtourney;
 
 
-
+    // Season Two
     if (players[id]["stats"]["circuit"].isSeason2) {
         isSeason2.style.display = "block";
     }
@@ -197,6 +219,7 @@ const displayStats = id => {
     s2HFtourney.innerHTML = players[id]["stats"]["circuit"].s2HFtourney;
 
 
+    // Season Three
     if (players[id]["stats"]["circuit"].isSeason3) {
         isSeason3.style.display = "block";
     }
@@ -221,6 +244,7 @@ const displayStats = id => {
     s3HFtourney.innerHTML = players[id]["stats"]["circuit"].s3HFtourney;
 
 
+    // Season Four
     if (players[id]["stats"]["circuit"].isSeason4) {
         isSeason4.style.display = "block";
     }
