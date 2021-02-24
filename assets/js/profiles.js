@@ -64,8 +64,6 @@ switch (division) {
         duplicateObject(playersMK, players);
         duplicateObject(charactersMK, characters);
         break;
-    default:
-        console.log(`Sorry, the division "${division}" does not exist.`);
 }
 
 
