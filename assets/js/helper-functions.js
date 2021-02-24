@@ -8,7 +8,7 @@ const duplicateObject = (object, duplicate) => {
 /* GET GAME FUNCTION */
 const getGame = () => {
     let url = window.location.href;
-    if (url.includes("/circuit/tekken")) {
+    if (url.includes("/circuit/tekken") || url.includes("/fight-night")) {
         return "tekken";
     } else if (url.includes("/circuit/mk")) {
         return "mk";
