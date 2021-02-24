@@ -200,14 +200,27 @@ const display = id => {
         }
         charList.sort();
 
-        const charLinks = [];
-        for (const char of charList) {
-            const charUrl = `<a href="/guides/character.html?view=${char}" target="_blank">${characters[char].name}</a>`;
-            charLinks.push(charUrl);
+        if (division === "tekken") {
+            const charLinks = [];
+            for (const char of charList) {
+                const charUrl = `<a href="/guides/character.html?view=${char}" target="_blank">${characters[char].name}</a>`;
+                charLinks.push(charUrl);
+            }
+            otherChars.innerHTML = charLinks.join(", ");
+        } else {
+            const charNames = [];
+            for (const char of charList) {
+                const charName = characters[char].name;
+                charNames.push(charName);
+            }
+            otherChars.innerHTML = charNames.join(", ");
         }
-        otherChars.innerHTML = charLinks.join(", ");
     } else if (playerOtherChars) {
-        otherChars.innerHTML = `<a href="/guides/character.html?view=${players[id].otherChars}" target="_blank">${characters[playerOtherChars].name}</a>`;
+        if (division === "tekken") {
+            otherChars.innerHTML = `<a href="/guides/character.html?view=${players[id].otherChars}" target = "_blank">${characters[playerOtherChars].name}</a>`;
+        } else {
+            otherChars.innerHTML = characters[playerOtherChars].name;
+        }
     } else {
         otherChars.innerHTML = "N/A";
     }
