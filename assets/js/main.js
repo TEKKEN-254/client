@@ -57,7 +57,7 @@ const searchValidation = () => {
     const sfnWords = ["fightnight", "sfn", "savannafightnight", "savannahfightnight"];
 
     const validate = () => {
-        $searchBar.attr("action", "./search.html");
+        $searchBar.attr("action", "/search.html");
     }
 
     $searchBar.submit(validate);
