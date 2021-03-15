@@ -216,7 +216,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    nokogiri (1.11.1-x64-mingw32)
+    nokogiri (1.11.2-x64-mingw32)
       racc (~> 1.4)
     nuggets (1.6.0)
     octokit (4.20.0)
