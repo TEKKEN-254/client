@@ -1359,6 +1359,42 @@ const characters = {
         return this.leroy;
     },
 
+    // Lidia Sobieska
+    lidia: {
+        // Profile
+        name: "Lidia Sobieska",
+        nickname: "The Polish Prime Minister",
+        sex: "female",
+
+        flag: "/assets/img/flagicons/poland.svg",
+        image: "/assets/img/characters/tk7/lidia.png",
+
+        age: 29,
+        country: "Poland",
+        fightingStyle: "Traditional karate",
+        debut: "<em>Tekken 7</em>",
+
+        // Scores
+        offense: "?",
+        defence: "?",
+        range: "?",
+        punishment: "?",
+
+        gimmicks: "?",
+        execution: "?",
+        hurtbox: "?",
+
+        // Playstyle
+        playstyle: "TBD",
+        introduction: "<p>Character overview coming soon</p>",
+
+        // Notable players 
+        notablePlayers: [],
+    },
+    get "lidia sobieska" () {
+        return this.lidia;
+    },
+
     // Lili De Rochefort
     lili: {
         // Profile
