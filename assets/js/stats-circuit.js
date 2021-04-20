@@ -1,7 +1,8 @@
 /* IMPORTING PLAYERS */
 import { players as playersTK } from "./player-list-tk.js";
 import { players as playersMK } from "./player-list-mk.js";
-import { duplicateObject, getGame, numToWords, capitalize } from "./helper-functions.js";
+import helperFunctions from "./helper-functions.js";
+const { duplicateObject, getGame, numToWords, capitalize } = helperFunctions;
 
 /* DECLARATIONS */
 // Current season

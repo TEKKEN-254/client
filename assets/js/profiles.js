@@ -3,7 +3,8 @@ import { characters as charactersTK } from "./character-list-tk.js";
 import { characters as charactersMK } from "./character-list-mk.js";
 import { players as playersTK } from "./player-list-tk.js";
 import { players as playersMK } from "./player-list-mk.js";
-import { duplicateObject, getGame } from "./helper-functions.js";
+import helperFunctions from "./helper-functions.js";
+const { duplicateObject, getGame } = helperFunctions;
 
 /* DECLARATIONS */
 // Savanna FGC ID
