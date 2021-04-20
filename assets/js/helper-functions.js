@@ -62,5 +62,11 @@ const capitalize = str => {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-/* EXPORTING FUNCTIONS */
-export { duplicateObject, getGame, numToWords, capitalize };
+/* DEFAULT OBJECT */
+const helperFunctions = {
+    duplicateObject,
+    getGame,
+    numToWords,
+    capitalize
+}
+export default helperFunctions;
