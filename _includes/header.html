@@ -4,6 +4,7 @@
 <head>
     <title>{% if page.alias contains "circuit-" %}Savanna Circuit{% if page.alias contains "tekken" %}: Tekken{% elsif page.alias contains "mk" %}: Mortal Kombat{% endif %} | {{ page.title }}{% elsif page.alias contains "sfn-" %}Savanna Fight Night | {{ page.title }}{% elsif page.alias contains "guides-" %}TEKKEN 254 | Guides - {{ page.title }}{% else %}TEKKEN 254 | {% if page.url contains "/news/authors/" %}Author Profile - {{ page.name }}{% elsif page.url contains "/news/" %}News - {% if page.url contains "/news/categories/" %}All posts in "{{ page.title }}"{%elsif page.url contains "/news/tags/" %}All posts tagged "{{ page.tag }}"{% else %}{{ page.title }}{% endif %}{% else %}{{ page.title }}{% endif %}{% endif %}</title>
     <link rel="icon" type="image/png" href="/assets/img/logos/icon.png" />
+    {% feed_meta %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
