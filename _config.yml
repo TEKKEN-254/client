@@ -4,7 +4,6 @@ description         : Kenyan Tekken Community
 # url                 : https://tekken254.co.ke
 email               : info@tekken254.co.ke
 twitter_username    : itstekken254
-repository          : DavyK17/davyk17.github.io
 
 # Where things are
 source              : .
@@ -110,5 +109,3 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
-
-github: [metadata]
