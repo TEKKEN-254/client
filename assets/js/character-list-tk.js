@@ -1386,7 +1386,7 @@ const characters = {
 
         // Playstyle
         playstyle: "TBD",
-        introduction: "<p>Character overview coming soon</p>",
+        introduction: "<p>Character overview coming soon.</p>",
 
         // Notable players 
         notablePlayers: [],
