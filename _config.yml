@@ -54,7 +54,6 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-category-pages
-  - jekyll/tagging
   - jekyll-paginate
   # - jekyll-github-metadata
 
