@@ -79,7 +79,7 @@ layout: default
         <!-- AddToAny END -->
         <ul class="post-top my-0" id="tags">
             {% for tag in page.tags %}
-            <li><a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a></li>
+            <li><a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}.html">{{ tag }}</a></li>
             {% endfor %}
         </ul>
     </div>
