@@ -1,4 +1,4 @@
-{% include header.html %}{% if page.alias contains "circuit-archive" %}
-<h1 class="page-title uppercase">Circuit Archive{% if page.alias contains "-tekken"%}: Tekken{% elsif page.alias contains "-mk"%}: Mortal Kombat{% endif %}</h1>{% endif %}
+{% include header.html %}{% if page.alias contains "circuit-archive" or page.alias contains "circuit-changelog" %}
+<h1 class="page-title uppercase">{% if page.alias contains "circuit-archive" %}Circuit Archive{% elsif page.alias contains "circuit-changelog" %}Circuit Rules and Regulations Changelog{% endif %}{% if page.alias contains "-tekken"%}: Tekken{% elsif page.alias contains "-mk"%}: Mortal Kombat{% endif %}</h1>{% endif %}
 {{ content }}
 {% include footer.html %}
