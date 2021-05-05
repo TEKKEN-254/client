@@ -65,13 +65,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/sitemap.css" />{% elsif page.alias == "character" %}
     <link rel="stylesheet" type="text/css" href="/assets/css/characters.css" />{% elsif page.alias contains "-profile" %}
     <link rel="stylesheet" type="text/css" href="/assets/css/profiles.css" />{% elsif page.alias contains "circuit-" or page.alias contains "sfn-" %}
-    <link rel="stylesheet" type="text/css" href="/assets/css/circuit.css" />{% if page.alias == "circuit-archive" %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/circuit.css" />{% if page.alias == "circuit-archive" or page.alias == "circuit-changelog" %}
     <link rel="stylesheet" type="text/css" href="/assets/css/guides.css" />{% endif %}{% elsif page.alias contains "guides-" %}
     <link rel="stylesheet" type="text/css" href="/assets/css/guides.css" />{% elsif page.layout == "post" %}
     <link rel="stylesheet" type="text/css" href="/assets/css/post.css" />{% endif %}
 
     <!-- STYLESHEETS / Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">{% if page.alias == "circuit-changelog" %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">{% if page.alias contains "circuit-changelog" %}
 
     <!-- Styling for Changelog images -->
     <style>
