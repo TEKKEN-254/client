@@ -22,12 +22,12 @@ collections:
     output          : true
     permalink       : /news/authors/:title
     
-category_path       : /news/categories
+category_path       : news/categories
 category_layout     : category.html
 
 
-tag_feed_dir        : /news/tags
-tag_page_dir        : /news/tags
+tag_feed_dir        : news/tags
+tag_page_dir        : news/tags
 tag_page_layout     : tag
 
 # Handling Reading
