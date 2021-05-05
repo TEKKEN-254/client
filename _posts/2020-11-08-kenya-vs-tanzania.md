@@ -9,8 +9,6 @@ tags: [Team Battle, Tanzania, Bandar Services, Mickey, Ghost, Vega]
 
 metaImageExt: jpg
 metaImageSize: contain
-
-featured: true
 ---
 <p>It was an extremely one-sided affair between the teams representing the Tekken communities of Kenya and Tanzania on Sunday afternoon as the former steamrolled their way to a massive 9-0 win, with the latter only managing 2 match wins out of 29 in total and a huge gulf in quality highlighted between the two sides. The event was organised by Ace Pro Gaming under the Savanna FGC brand, in partnership with Tanzanian company <a href="https://www.bandarservice.com/" target="_blank">Bandar Service</a>.</p>
 
