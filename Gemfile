@@ -12,6 +12,7 @@ gem "jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap"
   gem "jekyll-category-pages"
   gem "jekyll-tagging"
   gem "jekyll-paginate"

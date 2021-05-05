@@ -53,6 +53,7 @@ exclude:
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-category-pages
   - jekyll-paginate
 
