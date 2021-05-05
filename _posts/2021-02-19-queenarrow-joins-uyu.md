@@ -9,8 +9,6 @@ tags: [QueenArrow, UYU, United States]
 
 metaImageExt: jfif
 metaImageSize: contain
-
-top: true
 ---
 American eSports organisation UYU have announced Sylvia Wahome, better known in the community as [QueenArrow](/circuit/tekken/profile.html?id=4455946), as the newest member of their content team on their [Twitter page](https://twitter.com/UYU/status/1362814560751747074). The team is widely recognised in the fighting game community, with some of the world's top talent across multiple titles currently on their roster, including Tekken players LowHigh and Jeondding (South Korea), and YUYU (Japan).
 
