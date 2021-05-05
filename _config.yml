@@ -5,11 +5,6 @@ description         : Kenyan Tekken Community
 email               : info@tekken254.co.ke
 twitter_username    : itstekken254
 
-title:
-  - main: TEKKEN 254
-  - circuit: Savanna Circuit
-  - sfn: Savanna Fight Night
-
 # Where things are
 source              : .
 destination         : ./_site
