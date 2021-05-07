@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct adopted across Savanna FGC forums and competitions
-description: Following consultations with members of the community, Savanna FGC has introduced a Code of Conduct across its community forums and competitions with the aim of making the community safer and more inclusive for all.
+description: Following consultations with members of the community, an expanded Code of Conduct has been introduced with the aim of making the community safer and more inclusive for all.
 author:
 - tekken254
 
@@ -10,7 +10,7 @@ tags: [Savanna FGC]
 metaImageExt: png
 top: true
 ---
-Savanna FGC has introduced a Code of Conduct (CoC) to govern the behaviour of players and wider community members across its forums and competitions, with the aim of making the community safer and more inclusive for all. The move was necessitated following an incident between three current competitors of Savanna Fight Night (SFN) that resulted in a temporary ban. The CoC was adapted from the [Fighting Game Community (FGCTO) Code of Conduct](https://docs.google.com/document/d/1jWtS4uoKCR4IbQ-7_QKeWoshwXicycm2pejwFuNUgPA/edit) as updated at 3 pm ET on 29 January 2021, with modifications made in consultation with members of the community.
+Savanna FGC has introduced an expanded Code of Conduct (CoC) to govern the behaviour of players and wider community members across its forums and competitions, with the aim of making the community safer and more inclusive for all. The move was necessitated following an incident between three current competitors of Savanna Fight Night (SFN) that resulted in a temporary ban. The CoC was adapted from the [Fighting Game Community (FGCTO) Code of Conduct](https://docs.google.com/document/d/1jWtS4uoKCR4IbQ-7_QKeWoshwXicycm2pejwFuNUgPA/edit) as updated at 3 pm ET on 29 January 2021, with modifications made in consultation with members of the community.
 
 The consultation process also saw the establishment of a Disciplinary Committee, which is tasked with investigating violations of the CoC and making recommendations for disciplinary action. It consists of seven members who were elected by community vote. The members are as follows:
 
