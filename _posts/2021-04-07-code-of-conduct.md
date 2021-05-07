@@ -5,9 +5,11 @@ author:
 - tekken254
 
 category: statements
-tags: [Savanna FGC]
+tags: [Code of Conduct, Savanna FGC]
 
 metaImageExt: png
+metaImageSize: contain
+
 top: true
 ---
 Savanna FGC has introduced an expanded Code of Conduct (CoC) to govern the behaviour of players and wider community members across its forums and competitions, with the aim of making the community safer and more inclusive for all. The move was necessitated following an incident between three current competitors of Savanna Fight Night (SFN) that resulted in a temporary ban. The CoC was adapted from the [Fighting Game Community (FGCTO) Code of Conduct](https://docs.google.com/document/d/1jWtS4uoKCR4IbQ-7_QKeWoshwXicycm2pejwFuNUgPA/edit) as updated at 3 pm ET on 29 January 2021, with modifications made in consultation with members of the community.
