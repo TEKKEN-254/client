@@ -1116,7 +1116,7 @@ const characters = {
 
         age: "Unknown",
         country: "Japan",
-        fightingStyle: "Manji Ninjutsu",
+        fightingStyle: "Manji ninjutsu",
         debut: "<em>Tekken 7</em> (Kunimitsu II; the first Kunimitsu debuted in <em>Tekken</em>)",
 
         // Scores
