@@ -1,4 +1,5 @@
 _site
+_templates
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
