@@ -3,4 +3,5 @@ _templates
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+scraper
 vendor
