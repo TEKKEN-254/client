@@ -36,8 +36,28 @@ let notablePlayers = document.getElementById("notable-players");
 
 /* DISPLAY FUNCTION */
 const display = character => {
+    let charSex = characters[character].sex;
+
     if (characters[character].name) {
         document.title = `${document.title} - ${characters[character].name}`;
+
+        let pronoun;
+        if (charSex === "male") {
+            pronoun = "his";
+        } else if (charSex === "female") {
+            pronoun = "her";
+        } else {
+            pronoun = "their";
+        }
+
+        let metaDesc = [
+            document.querySelector(`meta[name="description"]`),
+            document.querySelector(`meta[property="og:description"]`),
+            document.querySelector(`meta[name="twitter:description"]`),
+        ];
+        metaDesc.forEach(e => {
+            e.setAttribute("content", `Learn more about ${characters[character].name} and ${pronoun} playstyle in Tekken 7.`)
+        })
     }
 
     charName.innerHTML = characters[character].name;
@@ -47,7 +67,6 @@ const display = character => {
     charImg.src = characters[character].image;
     charImg2.src = characters[character].image;
 
-    let charSex = characters[character].sex;
     let charAppears;
     if (charSex === "male") {
         charAppears = "he appears";

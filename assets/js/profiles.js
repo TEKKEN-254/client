@@ -70,14 +70,46 @@ switch (division) {
 
 /* DISPLAY FUNCTION */
 const display = id => {
+    // Setting meta tags
+    document.title = `${document.title} - ${players[id].pseudonym || players[id].playerName}`;
 
-    // Setting bio
-    if (!players[id].pseudonym) {
-        document.title = `${document.title} - ${players[id].playerName}`;
+    let playerPronouns = players[id].playerPronouns;
+    let pronoun;
+    if (playerPronouns === "male") {
+        pronoun = "his";
+    } else if (playerPronouns === "female") {
+        pronoun = "her";
     } else {
-        document.title = `${document.title} - ${players[id].pseudonym}`;
+        pronoun = "their";
     }
 
+    let competition;
+    const circuitRegex = /(\/circuit)\b/g;
+    const sfnRegex = /(\/sfn)\b/g;
+
+    if (document.location.href.match(circuitRegex)) {
+        const tkRegex = /(\/tekken)\b/g;
+        const mkRegex = /(\/mk)\b/g;
+
+        if (document.location.href.match(tkRegex)) {
+            competition = "Tekken division of the Savanna Circuit";
+        } else if (document.location.href.match(mkRegex)) {
+            competition = "Mortal Kombat division of the Savanna Circuit";
+        }
+    } else if (document.location.href.match(sfnRegex)) {
+        competition = "Savanna Fight Night";
+    }
+
+    let metaDesc = [
+        document.querySelector(`meta[name="description"]`),
+        document.querySelector(`meta[property="og:description"]`),
+        document.querySelector(`meta[name="twitter:description"]`),
+    ];
+    metaDesc.forEach(e => {
+        e.setAttribute("content", `Learn more about ${players[id].pseudonym || players[id].playerName} and check out all ${pronoun} stats from the ${competition}.`)
+    })
+
+    // Setting bio
     playerId.innerHTML = players[id].playerId;
     if (!players[id].playerImg || players[id].playerImg === "/assets/img/players/0000000.jpg") {
         playerImg.src = "/assets/img/players/placeholder.jpg";
@@ -234,7 +266,7 @@ if (typeof id !== "number") {
     for (const player in players) {
         let playerId = players[player]["playerId"];
         let playerName = players[player]["playerName"].toLowerCase();
-        let pseudonym = players[player]["pseudonym"].toLowerCase();
+        let pseudonym = players[player]["pseudonym"] ? players[player]["pseudonym"].toLowerCase() : null;
 
         if (id === playerName || id === pseudonym) {
             id = playerId;
