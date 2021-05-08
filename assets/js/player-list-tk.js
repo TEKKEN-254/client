@@ -7,6 +7,7 @@ const players = {
     4092983: {
         playerId: 4092983,
         playerImg: "/assets/img/players/4092983.jpg",
+        playerPronouns: "male",
 
         playerName: "Davy Kamanzi",
         pseudonym: "DVK",
@@ -127,6 +128,7 @@ const players = {
     4644523: {
         playerId: 4644523,
         playerImg: "/assets/img/players/4644523.jpg",
+        playerPronouns: "male",
 
         playerName: "Cassey Nyasio",
         pseudonym: "Frost",
@@ -247,6 +249,7 @@ const players = {
     0000000: {
         playerId: 0000000,
         playerImg: "/assets/img/players/0000000.jpg",
+        playerPronouns: "male/female/neutral",
 
         playerName: "Full name",
         pseudonym: "Pseudonym",

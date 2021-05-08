@@ -7,6 +7,7 @@ const players = {
     3502487: {
         playerId: 3502487,
         playerImg: "/assets/img/players/3502487.jpg",
+        playerPronouns: "male",
 
         playerName: "Yunus Baraza",
         pseudonym: "Baraza",
@@ -84,6 +85,7 @@ const players = {
     1717441: {
         playerId: 1717441,
         playerImg: "/assets/img/players/1717441.jpg",
+        playerPronouns: "male",
 
         playerName: "Abdiqani Rashid",
         pseudonym: "Mr Stacks",
@@ -160,6 +162,7 @@ const players = {
     0000000: {
         playerId: 0000000,
         playerImg: "/assets/img/players/0000000.jpg",
+        playerPronouns: "male/female/neutral",
 
         playerName: "Full name",
         pseudonym: "Pseudonym",
