@@ -2,6 +2,25 @@
 <html lang="en-KE">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PMGK68F');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <title>{% if page.alias contains "circuit-" %}{{ site.data.titles.circuit }}{% if page.alias contains "tekken" %}: Tekken{% elsif page.alias contains "mk" %}: Mortal Kombat{% endif %} | {{ page.title }}{% elsif page.alias contains "sfn-" %}{{ site.data.titles.sfn }} | {{ page.title }}{% elsif page.alias contains "guides-" %}{{ site.data.titles.main }} | Guides - {{ page.title }}{% else %}{{ site.data.titles.main }} | {% if page.url contains "/news/authors/" %}Author Profile - {{ page.name }}{% elsif page.url contains "/news/" %}News - {% if page.url contains "/news/categories/" %}All posts in "{{ page.title }}"{%elsif page.url contains "/news/tags/" %}All posts tagged "{{ page.tag }}"{% else %}{{ page.title }}{% endif %}{% else %}{{ page.title }}{% endif %}{% endif %}</title>
     <link rel="icon" type="image/png" href="/assets/img/logos/icon.png" />
     {% feed_meta %}
@@ -89,6 +108,11 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMGK68F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <header role="banner">
         <div class="row top-row mx-auto align-items-center">
             <div class="col-auto p-0 socials d-none d-lg-block">
