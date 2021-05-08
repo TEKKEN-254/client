@@ -277,7 +277,7 @@ if (typeof id !== "number") {
     for (const player in players) {
         let playerId = players[player]["playerId"];
         let playerName = players[player]["playerName"].toLowerCase();
-        let pseudonym = players[player]["pseudonym"].toLowerCase();
+        let pseudonym = players[player]["pseudonym"] ? players[player]["pseudonym"].toLowerCase() : null;
 
         if (id === playerName || id === pseudonym) {
             id = playerId;
