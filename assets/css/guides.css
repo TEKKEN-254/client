@@ -8,6 +8,14 @@ p.break {
     margin-top: 0.5rem;
 }
 
+.gif-text {
+    color: #ad383c !important;
+}
+
+.gif-text-open {
+    color: #5e9a74 !important;
+}
+
 .gif-row {
     display: none;
     width: 100%;

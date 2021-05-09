@@ -37,9 +37,11 @@ const trimAuthorSpace = () => {
 /* GIF TOGGLER */
 const toggleGifs = () => {
     const $gifs = $("figure.inline-fig, .gif-row")
+    const $gifText = $(".gif-text");
     const $infoText = $(".gif-info>ul, .gif-info>p")
 
     $gifs.toggleClass("flex");
+    $gifText.toggleClass("gif-text-open");
     $infoText.toggleClass("col-lg-7");
 }
 
