@@ -8,14 +8,6 @@ p.break {
     margin-top: 0.5rem;
 }
 
-.gif-text {
-    color: #ad383c !important;
-}
-
-.gif-text-open {
-    color: #5e9a74 !important;
-}
-
 .gif-row {
     display: none;
     width: 100%;
@@ -262,6 +254,15 @@ p {
 
 
 /* Media queries */
+
+@media only screen and (min-width: 992px) {
+    .gif-text {
+        color: #ad383c !important;
+    }
+    .gif-text-open {
+        color: #5e9a74 !important;
+    }
+}
 
 @media only screen and (max-width: 991px) {
     /* General */
