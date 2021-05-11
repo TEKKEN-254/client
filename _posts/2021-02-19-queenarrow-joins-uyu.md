@@ -1,6 +1,6 @@
 ---
 title: QueenArrow joins UYU
-description: The American eSports organisation announced Sylvia Wahome, better known in the community as QueenArrow, as the newest member of their content team.
+description: The American eSports organisation announced Sylvia Gathoni, better known in the community as QueenArrow, as the newest member of their content team.
 author:
 - tekken254
 
@@ -10,7 +10,7 @@ tags: [QueenArrow, UYU, United States]
 metaImageExt: jfif
 metaImageSize: contain
 ---
-American eSports organisation UYU have announced Sylvia Wahome, better known in the community as [QueenArrow](/circuit/tekken/profile.html?id=4455946), as the newest member of their content team on their [Twitter page](https://twitter.com/UYU/status/1362814560751747074). The team is widely recognised in the fighting game community, with some of the world's top talent across multiple titles currently on their roster, including Tekken players LowHigh and Jeondding (South Korea), and YUYU (Japan).
+American eSports organisation UYU have announced Sylvia Gathoni, better known in the community as [QueenArrow](/circuit/tekken/profile.html?id=4455946), as the newest member of their content team on their [Twitter page](https://twitter.com/UYU/status/1362814560751747074). The team is widely recognised in the fighting game community, with some of the world's top talent across multiple titles currently on their roster, including Tekken players LowHigh and Jeondding (South Korea), and YUYU (Japan).
 
 QueenArrow, who primarily plays [Lars](/guides/character.html?view=lars), [Xiaoyu](/guides/character.html?view=xiaoyu), [Leo](/guides/character.html?view=leo) and [Asuka](/guides/character.html?view=asuka), became the first Kenyan Tekken player and the first female gamer in East Africa to be signed by an eSports team when she [joined XiT Woundz (now XiT Gaming)](/news/2018/05/14/queenarrow-xit-woundz) in 2018. She later left the team to join defunct British outfit Brutal Democracy Esports in 2019, before leaving the following year to focus on her studies.
 

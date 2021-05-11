@@ -20,7 +20,7 @@ The consultation process also saw the establishment of a Disciplinary Committee,
 * [Mawira Nyaga (Darktempest)](/circuit/tekken/profile.html?id=0749083)
 * [Edwin Obare (Chuma Mzee)](/circuit/tekken/profile.html?id=4241790)
 * [Davy Kamanzi (DVK)](/circuit/tekken/profile.html?id=4092983)
-* [Sylvia Wahome (QueenArrow)](/circuit/tekken/profile.html?id=4455946)
+* [Sylvia Gathoni (QueenArrow)](/circuit/tekken/profile.html?id=4455946)
 * [Duncan Gacheru (Battousai)](/circuit/tekken/profile.html?id=0145831)
 * [Robert Mathu (Poker Face)](/circuit/tekken/profile.html?id=4291033)
 
