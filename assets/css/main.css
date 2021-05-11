@@ -242,7 +242,8 @@ header ::selection {
     margin: auto;
 }
 
-.header-img img {
+.header-img img,
+.header-img a {
     display: inline-block;
     height: inherit;
     width: auto;
