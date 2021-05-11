@@ -1,7 +1,7 @@
 # Site info
 name                : TEKKEN 254
 description         : Kenyan Tekken Community
-# url                 : https://tekken254.co.ke
+url                 : https://tekken254.co.ke
 email               : info@tekken254.co.ke
 twitter_username    : itstekken254
 
@@ -68,7 +68,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "" # does not include hostname
+# baseurl             : "" # does not include hostname
 show_dir_listing    : false
 
 # Outputting
