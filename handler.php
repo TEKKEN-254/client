@@ -14,13 +14,13 @@ use FormGuide\Handlx\FormHandler;
 $pp = new FormHandler(); 
 
 $validator = $pp->getValidator();
-$validator->fields(['name','email','message'])->areRequired();
+$validator->fields(['service','source-lang','target-lang','name','email'])->areRequired();
 $validator->field('email')->isEmail();
-$validator->field('message')->maxLength(6000);
+$validator->field('notes')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('6LfL9NQZAAAAANo-S72YiqOuUaPlTtpRraRDrppY');
+$pp->getReCaptcha()->initSecretKey('6Ld9M9AaAAAAAM3GDrtm3Jv6gNVBvJzLGTLlT74g');
 
 
 $pp->sendEmailTo('info@tekken254.co.ke');
