@@ -12,7 +12,7 @@ layout: default
         {% endif %}
         <li><span data-toggle="tooltip" data-html="true" title="This is an approximate figure calculated using the <code>strip_html</code> and <code>number_of_words</code> Liquid filters, and an average adult reading time of 250 words per minute.">{{ approx_read_time }} minute read</span></li>
     </ul>
-    <h1 class="{% if page.category == "competitive" %}m-0{% else %}mt-0{% endif %}">{{ page.title }}</h1>{% if page.category == "competitive" %}
+    <h1 class="{% if page.category == "competitive" or page.category == "guides" %}m-0{% else %}mt-0{% endif %}">{{ page.title }}</h1>{% if page.category == "competitive" or page.category == "guides" %}
     <p class="text-left text-lg-center"><em>(Check out our <a href="/guides/glossary.html" target="_blank">glossary</a> as you read this article for definitions of the jargon used)</em></p>{% endif %}
     <figure role="complementary">
         <div class="post-meta-img" style="background-image: url('/{% if page.metaImage %}{{ page.metaImage }}{% else %}assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/meta.{% if page.metaImageExt %}{{ page.metaImageExt }}{% else %}jpg{% endif %}{% endif %}');{% if page.metaImagePosition %} background-position: {{ page.metaImagePosition }};{% else %} background-position: center;{% endif %}{% if page.metaImageSize %} background-size: {{ page.metaImageSize }};{% else %} background-size: cover;{% endif %}" aria-label="{{ page.caption }}"></div>
