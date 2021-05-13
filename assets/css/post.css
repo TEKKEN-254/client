@@ -6,6 +6,10 @@
     padding-bottom: 1.5rem;
 }
 
+#story hr {
+    border-top: 1px dotted rgba(128, 128, 128, 0.5);
+}
+
 .post-top {
     margin: 1.25rem 0 !important;
     padding: 0.5rem 0;
@@ -94,6 +98,10 @@
 
 .post-table tr:hover {
     background-color: rgba(40, 40, 40, 0.8);
+}
+
+.post-table td {
+    padding: 10px;
 }
 
 .post-share {
