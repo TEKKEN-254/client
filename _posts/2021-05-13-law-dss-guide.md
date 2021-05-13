@@ -1,13 +1,13 @@
 ﻿---
 title: The Truth About DSS
-description: For players looking to pick up Marshall Law or take him to the next level, I'm going to type out all I've learned about DSS (Dragon Sign Stance) that took way too much more time than necessary going through videos, posts and experimenting.
+description: For players looking to pick up Marshall Law or take him to the next level, I'm going to type out all I've learned about DSS (Dragon Sign Stance).
 author: 
 - mickey
 
 category: guides
 tags: [Marshall Law, Tekken 7]
 ---
-For players looking to pick up **Marshall Law** or take him to the next level, I'm going to type out all I've learned about DSS (Dragon Sign Stance) that took way to much more time than necessary going through videos, posts and experimenting. Everything I've learned has been tested on a **Dualshock 4**; other input devices may have a different experience.
+For players looking to pick up [Marshall Law](/guides/character.html?view=law) or take him to the next level, I'm going to type out all I've learned about DSS (Dragon Sign Stance) that took way to much more time than necessary going through videos, posts and experimenting. Everything I've learned has been tested on a **DualShock 4**; other input devices may have a different experience.
 
 As much as I don't take credit for this information, I can't recall who to properly credit because I obtained this from all over the place. I will however credit [C-Krizzle](https://www.youtube.com/user/CKrizzel) as a majority of the info came from his channel, whether from his videos or the YouTube comment section. Shout out to [LegendKicker](https://www.youtube.com/watch?v=H1UhtgdSBL0) as well for his extensive video guides on the character.
 
