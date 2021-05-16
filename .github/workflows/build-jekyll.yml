@@ -1,4 +1,4 @@
-name: Jekyll Deploy Action
+name: Jekyll Build and Deploy
 
 on:
   push:
