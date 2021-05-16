@@ -11,7 +11,7 @@ For players looking to pick up [Marshall Law](/guides/character.html?view=law) o
 
 As much as I don't take credit for this information, I can't recall who to properly credit because I obtained this from all over the place. I will however credit [C-Krizzle](https://www.youtube.com/user/CKrizzel) as a majority of the info came from his channel, whether from his videos or the YouTube comment section. Shout out to [LegendKicker](https://www.youtube.com/watch?v=H1UhtgdSBL0) as well for his extensive video guides on the character.
 
-**I cannot stress enough how important VISUAL CUES are** when it comes to doing DSS from attacks. However, with time, the rhythm will start to stick and you'll no longer need to keep an eye on Marshall's stance every time (but it certainly always helps). This is especially important for WS 4 into DSS or doing his 4, 3 DSS combos online
+**I cannot stress enough how important VISUAL CUES are** when it comes to doing DSS from attacks. However, with time, the rhythm will start to stick and you'll no longer need to keep an eye on Marshall's stance every time (but it certainly always helps). This is especially important for WS 4 into DSS or doing his 4, 3 DSS combos online.
 
 This is all just to help you get used to the timing involved in the DSS. How you master it can be up to you, but these are the training wheels.
 
