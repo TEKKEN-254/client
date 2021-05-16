@@ -26,7 +26,8 @@ There are 5 key variations when it comes to DSS:
 
 ***
 
-## **1. Raw DSS (d+1+2)**
+## 1. Raw DSS (d+1+2)
+{:.site-red}
 
 You can do attacks from DSS as soon as you do the input.
 
@@ -42,7 +43,8 @@ You can use a raw legend kick (DSS f+4) to end some combos quickly.
 
 ***
 
-## **2. DSS after punches**
+## 2. DSS after punches
+{:.site-red}
 
 Can be done by pressing **b, f** from the following:
 
@@ -64,6 +66,7 @@ DSS from 1, 2 and WS 1, 2 is mostly used if you want to armor through any retali
 If you get that to connect, you're on the right track.
 
 ***Note:** DSS transitions from punches don't cut down Law's recovery frames by much save for a few:*
+{:.site-green}
 
 {:.post-table}
 | Input | Window | Recovery
@@ -83,7 +86,8 @@ If you get that to connect, you're on the right track.
 
 ***  
 
-## **3. DSS after kicks**
+## 3. DSS after kicks
+{:.site-red}
 
 {:.post-table}
 | Input | Window | Recovery
@@ -134,7 +138,8 @@ This is very important when it comes to his wall combo and his combo ender.
 
 **TEST 2:** In practice mode (guard off), try b+2, 3, 4 = DSS 3.
 
-*Remember: b, f done at any time during the attack. Press another f as soon as his right leg lands and follow up quickly with a 3. If you do it perfectly, DSS 3 will actually go under the opponent because you did it too fast; look at you go!*
+***Remember:** b, f done at any time during the attack. Press another f as soon as his right leg lands and follow up quickly with a 3. If you do it perfectly, DSS 3 will actually go under the opponent because you did it too fast; look at you go!*
+{:.site-green}
 
 **TEST 3:** 3+4, 4 = dash b+2, 4, 3 = DSS f+4
 
@@ -143,7 +148,8 @@ This is very important when it comes to his wall combo and his combo ender.
 
 ***
 
-## **4. DSS after a parry**
+## 4. DSS after a parry
+{:.site-red}
 
 Marshall can do DSS from his generic parry (b+2+4_b+1+3). This will give him enough frames to get DSS 1 (and its follow-ups) or DSS 2 for free.  
 
@@ -154,7 +160,8 @@ It'll seem hard at first, but you have enough time to get that b, f into DSS 1. 
 
 ***  
 
-## **5. DSS after a WS 3**
+## 5. DSS after a WS 3
+{:.site-red}
 
 A rather interesting one. This move requires no input to cancel and it goes straight into the proper version of DFS.
 
@@ -171,13 +178,15 @@ The difficulty in the last one comes in the placement of your 3+4 button-bind, i
 
 ***
 
-## **6. Auto DSS from SS 2**
+## 6. Auto DSS from SS 2
+{:.site-red}
 
 Every hit of his SS 2, 1, 2, 1 string will transition automatically into DSS except the last hit. It's not a particularly good string, but now you know it's there.
 
 ***
 
-## **7. DSS after WS 4**
+## 7. DSS after WS 4
+{:.site-red}
 
 I gave this its own section because it'll be easier once you familiarize yourself with the first 6 steps.
 
@@ -203,5 +212,6 @@ After that, now go for the big guns and attempt CH WS 4 into DSS 3+4, 4 and you'
 That's it for this guide. Hope it helps!
 
 ***Side note**: Moves from raw fake step (b+1+2 if it doesn't parry anything) can be done earliest in-between the third and fourth hops (when Law is at his farthest point back).*
+{:.site-green}
 
 
