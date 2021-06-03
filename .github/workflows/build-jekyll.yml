@@ -24,4 +24,4 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }}
-          branch: 'gh-pages'
+          branch: 'jekyll'
