@@ -8,8 +8,6 @@ category: Reports
 tags: [Tekken Online Challenge, Tekken World Tour]
 
 metaImageExt: png
-
-top: true
 ---
 Following its creation and first season last year in the wake of the COVID-19 pandemic, the Tekken Online Challenge (TOC) is set to return for its second season from 1 June 2021, with Bandai Namco Entertainment [announcing the news](https://twitter.com/BNEesports/status/1396073360233172996) on Saturday. The competition sees the introduction of the Dojo system previously used on the Tekken World Tour, with one Master event for each region and an overall prize pool of $100,000 also unveiled for the entire season.
 
