@@ -4,7 +4,7 @@ description: The second season of the Tekken Online Challenge is set to begin on
 author: 
 - dvk
 
-category: Reports
+category: reports
 tags: [Tekken Online Challenge, Tekken World Tour]
 
 metaImageExt: png

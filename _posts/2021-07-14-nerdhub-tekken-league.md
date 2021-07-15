@@ -4,7 +4,7 @@ description: The newly-opened gaming establishment in Karen, Nairobi will be sta
 author: 
 - dvk
 
-category: Reports
+category: reports
 tags: [Nerd Hub Kenya, Tekken 7]
 
 caption: "Gamers playing on a PlayStation 5 console at Nerd Hub Kenya in Karen, Nairobi. (Photo: Nerd Hub Kenya)"
