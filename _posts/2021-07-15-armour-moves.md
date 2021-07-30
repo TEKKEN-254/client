@@ -7,6 +7,7 @@ author:
 category: guides
 tags: [Lists, Tekken 7]
 
+caption: Heihachi Mishima absorbing Claudio Serafino's WR 2 with his power crush (d/f+1+2)
 metaImageExt: png
 ---
 
