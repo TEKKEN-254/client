@@ -8,7 +8,7 @@
             <div class="jumbotron-img" style="background-image: url('/{% if post.metaImage %}{{ post.metaImage }}{% else %}assets/img/news/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}/meta.{% if post.metaImageExt %}{{ post.metaImageExt }}{% else %}jpg{% endif %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}{% endif %}"></div>
             <div class="container">
                 <div class="top-story-info">
-                    <h2 class="font-body medium my-2">{{ post.title }}</h2>
+                    <p class="story-title font-header fs-h2 font-body medium my-2">{{ post.title }}</p>
                     <p class="lead my-2">{{ post.description }}</p>
                 </div>
                 <ul class="featured-cat-date light">

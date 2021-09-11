@@ -6,7 +6,7 @@ layout: default
 <div class="author-bio col-12">
     <img src="/{% if page.img %}{{ page.img }}{% else %}assets/img/authors/{{ page.alias }}.{% if page.imgExt %}{{ page.imgExt }}{% else %}jpg{% endif %}{% endif %}" alt="{% if page.name == "TEKKEN 254" %}{{ page.name }} logo{% else %}Close-up of {{ page.name }}{% endif %}" />
     <div class="author-desc">
-        <h3 class="site-red uppercase">{{ page.name }}</h3>
+        <p class="author-name font-header fs-h3 site-red uppercase">{{ page.name }}</p>
         {{ content }}
     </div>
 </div>

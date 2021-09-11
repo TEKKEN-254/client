@@ -708,12 +708,12 @@ figure figcaption {
     transition: background-color 0.2s linear;
 }
 
-.jumbotron>.container h2 {
+.jumbotron>.container .story-title {
     transition: color 0.2s linear;
 }
 
-.jumbotron-anchor:hover .jumbotron>.container h2,
-.jumbotron-anchor:focus .jumbotron>.container h2 {
+.jumbotron-anchor:hover .jumbotron>.container .story-title,
+.jumbotron-anchor:focus .jumbotron>.container .story-title {
     color: #ba2025;
     transition: color 0.2s linear;
 }
@@ -767,7 +767,7 @@ figure figcaption {
 
 .featured-cat-date .date,
 .featured-cat-date .category,
-.featured-stories .card-body h5 {
+.featured-stories .card-body .story-title {
     transition: color 0.2s linear;
 }
 
@@ -783,8 +783,8 @@ figure figcaption {
     transition: color 0.2s linear;
 }
 
-.featured-stories .card a:hover .card-body h4,
-.featured-stories .card a:focus .card-body h4 {
+.featured-stories .card a:hover .card-body .story-title,
+.featured-stories .card a:focus .card-body .story-title {
     color: #ba2025;
     transition: color 0.2s linear;
 }
@@ -886,12 +886,12 @@ figure figcaption {
     justify-content: space-between;
 }
 
-.news-card .media-body h2 {
+.news-card .media-body .story-title {
     transition: color 0.2s linear;
 }
 
-.news-card a:hover .media-body h2,
-.news-card a:focus .media-body h2 {
+.news-card a:hover .media-body .story-title,
+.news-card a:focus .media-body .story-title {
     color: #ba2025;
     transition: color 0.2s linear;
 }
@@ -924,7 +924,7 @@ figure figcaption {
     padding: 0 1rem;
 }
 
-.author-desc h3 {
+.author-desc .author-name {
     margin-top: 0.375rem !important;
 }
 
