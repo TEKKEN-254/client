@@ -7,16 +7,15 @@
 <p>Got any questions, comments or complaints? Get in touch with us by filling in the form below.</p>
 <p>If you would like to use one of our brand assets for press or other purposes, kindly refer to our <a href="/media.html" target="_blank">media kit</a>.</p>
 <p>If you would like to report an issue with the website, kindly send an email to <a href="mailto:webmaster@tekken254.co.ke" target="_blank">webmaster@tekken254.co.ke</a>.</p>
-<form class="container">
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+<form class="container" id="contact-form" action="https://formspree.io/f/xyyllrlz" method="POST">
     <div class="row form-group">
         <div class="col-12 col-lg-6">
             <label class="sr-only" for="contact-name">Full name</label>
             <input class="form-control" type="text" id="contact-name" name="contact-name" placeholder="Full name*" required/>
         </div>
         <div class="col-12 mt-3 col-lg-6 mt-lg-0">
-            <label class="sr-only" for="contact-email">Email address</label>
-            <input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="Email*" required/>
+            <label class="sr-only" for="_replyto">Email address</label>
+            <input class="form-control" type="email" id="contact-email" name="_replyto" placeholder="Email*" required/>
         </div>
     </div>
     <div class="form-group">
@@ -29,10 +28,8 @@
     </div>
     <div class="row w-100 justify-content-center align-items-center">
         <div class="col-12 col-md-auto">
-            <div class="g-recaptcha" data-sitekey="6LfL9NQZAAAAAGcEACPDyWtO5iNE_rLlfRZCV-sR"></div>
-        </div>
-        <div class="col-12 col-md-auto">
             <input type="submit" id="contact-submit" name="submit" value="Submit" />
         </div>
     </div>
 </form>
+<p class="fs-h3 text-center" id="contact-form-status"></p>
