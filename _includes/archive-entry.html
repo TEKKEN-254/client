@@ -2,18 +2,18 @@
     <div class="archive-card-img" style="background-image: url('/{% if include.src %}{{ include.src }}{% else %}assets/img/archive/{% if page.alias contains "tekken" %}tekken{% elsif page.alias contains "mk" %}mk{% endif %}/sn-{{ page.season }}/{{ include.date | date: "%Y-%m-%d" }}/cover.{% if include.ext %}{{ include.ext }}{% else %}jpg{% endif %}');{% if include.position %} background-position: {{ include.position }}{% else %} background-position: center{% endif %};{% if include.imgSize %} background-size {{ include.imgSize }}{% else %} background-size: cover{% endif %};{% endif %}" aria-label="The top three players from {{ include.title | strip_html }}">&nbsp;</div>{% endif %}
     <div class="media-body">
         <div class="news-card-info">
-            <h2 class="font-body site-red uppercase mb-1">{{ include.title }}</h2>
-            <h3 class="font-body site-green uppercase m-0">Date</h3>
+            <p class="site-red uppercase mb-1">{{ include.title }}</p>
+            <p class="site-green uppercase m-0">Date</p>
             <p class="mt-1">{{ include.date | date_to_long_string }}</p>
 
-            <h3 class="font-body site-green uppercase mb-0">Venue</h3>
+            <p class="site-green uppercase mb-0">Venue</p>
             <p class="mt-1">{{ include.venue }}</p>
             {% if include.bracket %}
-            <h3 class="font-body site-green uppercase mb-0">Results</h3>
+            <p class="site-green uppercase mb-0">Results</p>
             <p class="mt-1"><a href="{{ include.bracket }}" target="_blank">Full bracket</a></p>{% endif %}
         </div>
         <ul class="archive-links card-text">
-            <h3 class="font-body site-green uppercase mb-0">Match replays</h3>{% if include.pools_list %}
+            <p class="site-green uppercase mb-0">Match replays</p>{% if include.pools_list %}
             <li><a href="https://www.youtube.com/playlist?list={{ include.pools_list }}" target="_blank">Pools</a></li>{% endif %}{% if include.top_8_list %}
             <li><a href="https://www.youtube.com/playlist?list={{ include.top_8_list }}" target="_blank">Top 8</a></li>{% endif %}{% if include.top_3_list %}
             <li><a href="https://www.youtube.com/playlist?list={{ include.top_3_list }}" target="_blank">Top 3</a></li>{% endif %}

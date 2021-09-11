@@ -2,15 +2,15 @@
     <div class="archive-card-img" style="background-image: url('/{% if include.src %}{{ include.src }}{% else %}assets/img/archive/tekken/sn-{{ page.season }}/{{ include.date | date: "%Y-%m-%d" }}/cover.{% if include.ext %}{{ include.ext }}{% else %}jpg{% endif %}');{% if include.position %} background-position: {{ include.position }}{% else %} background-position: center{% endif %};{% if include.imgSize %} background-size {{ include.imgSize }}{% else %} background-size: cover{% endif %};{% endif %}" aria-label="The top three players from {{ include.title | strip_html }}">&nbsp;</div>{% endif %}
     <div class="media-body">
         <div class="news-card-info">
-            <h2 class="font-body site-red uppercase mb-1">{{ include.title }}</h2>
-            <h3 class="font-body site-green uppercase m-0">Date</h3>
+            <p class="site-red uppercase mb-1">{{ include.title }}</p>
+            <p class="site-green uppercase m-0">Date</p>
             <p class="mt-1">{{ include.date | date_to_long_string }}</p>
 
-            <h3 class="font-body site-green uppercase mb-0">Venue</h3>
+            <p class="site-green uppercase mb-0">Venue</p>
             <p class="mt-1">{{ include.venue }}</p>
             {% if include.premier_bracket or include.challenger_bracket or include.rankings or include.playoffs_bracket or include.finals_bracket %}
             <ul class="archive-links card-text">
-                <h3 class="font-body site-green uppercase mb-0">Results</h3>
+                <p class="site-green uppercase mb-0">Results</p>
                 {% if include.premier_bracket or include.challenger_bracket or include.rankings %}
                     {% if include.premier_bracket %}
                     <li><a href="{{ include.premier_bracket }}" target="_blank">Premier</a></li>{% endif %}{% if include.challenger_bracket %}
@@ -25,7 +25,7 @@
         </div>
         {% if include.pool_a_list or include.pool_b_list or include.pool_c_list or include.pool_d_list or include.playoffs_list or include.top_8_list or include.challenger_list or include.prem_playoffs_list or include.finals_list %}
         <div class="links-container">
-            <h3 class="font-body site-green uppercase{% if include.pool_a_list or include.pool_b_list or include.pool_c_list or include.pool_d_list or include.playoffs_list or include.top_8_list or include.challenger_list %} mb-2{% else %} mb-0{% endif %}">Match replays</h3>
+            <p class="site-green uppercase{% if include.pool_a_list or include.pool_b_list or include.pool_c_list or include.pool_d_list or include.playoffs_list or include.top_8_list or include.challenger_list %} mb-2{% else %} mb-0{% endif %}">Match replays</p>
             {% if include.pool_a_list or include.pool_b_list or include.pool_c_list or include.pool_d_list or include.playoffs_list or include.top_8_list or include.challenger_list %}
                 {% if include.pool_a_list or include.pool_b_list or include.pool_c_list or include.pool_d_list or include.playoffs_list or include.top_8_list %}
                 <ul class="archive-links card-text{% if include.challenger_list %} mb-2{% endif %}">
