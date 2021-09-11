@@ -118,27 +118,33 @@ em {
     color: #808080 !important;
 }
 
-h1 {
+h1,
+.fs-h1 {
     font-size: 2rem !important;
 }
 
-h2 {
+h2,
+.fs-h2 {
     font-size: 1.5rem !important;
 }
 
-h3 {
+h3,
+.fs-h3 {
     font-size: 1.125rem !important;
 }
 
-h4 {
+h4,
+.fs-h4 {
     font-size: 1rem !important;
 }
 
-h5 {
+h5,
+.fs-h5 {
     font-size: 0.875rem !important;
 }
 
-h6 {
+h6,
+.fs-h6 {
     font-size: 0.6875rem !important;
 }
 
