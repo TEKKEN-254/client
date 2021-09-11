@@ -9,18 +9,21 @@
 
 .char-name {
     display: flex;
+    align-items: center;
+}
+
+.char-name h2 {
     color: #ba2025;
-    font-size: 1.125rem !important;
+    font-size: 1.25rem !important;
     font-weight: 600;
-    margin-top: 0 !important;
-    margin-bottom: -0.9375rem !important;
+    margin: unset !important;
 }
 
 .char-nickname {
     color: #166734;
     font-size: 1rem !important;
     font-weight: 600;
-    margin-bottom: 0 !important;
+    margin: unset !important;
 }
 
 .flagicon {
@@ -45,6 +48,10 @@
 .char-bio {
     min-height: 560px;
     width: inherit;
+}
+
+.char-summary h3 {
+    margin: unset !important;
 }
 
 .char-summary ul {
