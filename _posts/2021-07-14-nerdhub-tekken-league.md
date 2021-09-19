@@ -9,8 +9,6 @@ tags: [Nerd Hub Kenya, Tekken 7]
 
 caption: "Gamers playing on a PlayStation 5 console at Nerd Hub Kenya in Karen, Nairobi. (Photo: Nerd Hub Kenya)"
 metaImageExt: jpeg
-
-top: true
 ---
 <p>Competitive Tekken players in Nairobi have some offline Tekken to look forward to in the near future. Recently opened and branding itself as "Kenya's first eSports center," Nerd Hub Kenya has announced competitions for both <em>Tekken 7</em> and <em>FIFA 21</em>,
     both taking place on the weekend of 24&ndash;25 July. The gaming establishment, based in the affluent suburban area of Karen, announced a sizeable prize pool of Ksh. 140,000 for each competition; the winner, runner-up and second runner-up will be
