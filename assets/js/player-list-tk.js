@@ -21,8 +21,8 @@ const players = {
         platform: "PSN (PlayStation)",
         onlineId: "DavyK17",
 
-        mainChar: "jin",
-        otherChars: ["miguel", "geese"],
+        mainChar: "miguel",
+        otherChars: ["jin", "geese"],
 
         twitter: "https://twitter.com/DavyK17",
         instagram: "https://instagram.com/davyk17",
