@@ -30,7 +30,7 @@ layout: default
             {% for this_author in this_authors %}
                 {% assign authors = site.authors | where: 'alias', this_authors[i] %}
                 {% for author in authors %}
-                    <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                    <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a>
                 {% endfor %}
             {% endfor %}
         {% else %}
@@ -40,17 +40,17 @@ layout: default
                     {% assign penultimate = author_count | minus: 1 %}
                     {% if j == 1 %}
                         {% if j == penultimate %}
-                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a>
                         {% else %}
-                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a><span class="author-whitespace">
+                            <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a><span class="author-whitespace">
                         {% endif %}
                     {% elsif j == author_count %}
-                        and <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                        and <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a>
                     {% else %}
                         {% if j == penultimate %}
-                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a>
                         {% else %}
-                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.name }}</a><span class="author-whitespace">
+                            </span>, <a class="uppercase" href="{{ author.url }}" target="_blank">{{ author.display_name }}</a><span class="author-whitespace">
                         {% endif %}
                     {% endif %}
                     {% assign i = i | plus: 1 %}

@@ -5,8 +5,28 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'news'
+    label: 'News'
     folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
     fields:
-      - { name: Title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'authors'
+  label: 'Authors'
+  folder: '_authors/'
+  create: true
+  editor:
+    preview: false
+  fields:
+    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+    - { label: 'Alias', name: 'alias', widget: 'string' }
+    - { label: 'Name', name: 'display_name', widget: 'string' }
+    - { label: 'Image', name: 'img', widget: 'string' }
+    - { label: 'Image extension', name: 'imgExt', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }
