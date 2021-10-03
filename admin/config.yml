@@ -6,16 +6,15 @@ site_url: https://tekken254.co.ke
 
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
-public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
+# public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
 
 collections:
   - name: 'news'
     label: 'Posts'
     folder: '_posts/'
     create: true
-    identifier_field: identifier
     slug: '{{slug}}'
-    preview_path: '{{permalink}}'
+    # preview_path: '{{permalink}}'
     editor:
       preview: false
     fields:
@@ -30,6 +29,7 @@ collections:
           display_fields: [display_name],
           search_fields: [display_name],
           value_field: 'display_name',
+          multiple: true,
         }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Category', name: 'category', widget: 'string' }
