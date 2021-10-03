@@ -89,7 +89,6 @@ defaults:
     values:
       layout: "post"
       top: false
-      id: :title
   - scope:
       path: ""
       type: "authors"
