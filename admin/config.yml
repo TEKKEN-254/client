@@ -6,15 +6,15 @@ site_url: https://tekken254.co.ke
 
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
-public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
 
 collections:
   - name: 'news'
     label: 'Posts'
     folder: '_posts/'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
-    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{fields.slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{title}}'
     editor:
       preview: false
     fields:
@@ -26,7 +26,7 @@ collections:
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{fields.slug}}/meta.jpg" }
+      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}/meta.jpg" }
       - { label: 'Caption', name: 'caption', widget: 'string' }
       # - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', default: "jpg" }
       # - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center" }
