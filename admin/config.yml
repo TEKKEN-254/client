@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://tekken254.co.ke
+
 publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -12,6 +14,7 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{slug}}'
     editor:
       preview: false
     fields:
@@ -20,15 +23,15 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'authors'
-  label: 'Authors'
-  folder: '_authors/'
-  create: true
-  editor:
-    preview: false
-  fields:
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
-    - { label: 'Alias', name: 'alias', widget: 'string' }
-    - { label: 'Name', name: 'display_name', widget: 'string' }
-    - { label: 'Image', name: 'img', widget: 'string' }
-    - { label: 'Image extension', name: 'imgExt', widget: 'string' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
+    label: 'Authors'
+    folder: '_authors/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Alias', name: 'alias', widget: 'string' }
+      - { label: 'Name', name: 'display_name', widget: 'string' }
+      - { label: 'Image', name: 'img', widget: 'string' }
+      - { label: 'Image extension', name: 'imgExt', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
