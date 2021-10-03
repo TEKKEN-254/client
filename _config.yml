@@ -88,6 +88,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      identifier: ":title"
       top: false
   - scope:
       path: ""
