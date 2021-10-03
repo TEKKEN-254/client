@@ -1,15 +1,24 @@
 ---
-title: "Tekken Online Challenge: DVK finishes third at South Africa Online Masters"
-description: The TEKKEN 254 founder was one of seven Kenyans participating in the event. 
-author: 
-- tekken254
+caption: "DVK poses for a photo following his run at the Tekken Online
+  Challenge: South Africa Online Masters (Photo: Davy Kamanzi / Instagram)"
+author:
+  - TEKKEN 254
 date: 2021-09-18T21:00:00.000Z
-
-category: competitive
-tags: [DVK, Xstar, Frost, Darktempest, Furious Monkey, Vega, Mickey, Tekken Online Challenge, South Africa, Tekken World Tour]
-
-caption: "DVK poses for a photo following his run at the Tekken Online Challenge: South Africa Online Masters (Photo: Davy Kamanzi / Instagram)"
 top: true
+title: "Tekken Online Challenge: DVK finishes third at South Africa Online Masters"
+description: The TEKKEN 254 founder was one of seven Kenyans participating in the event.
+category: competitive
+tags:
+  - DVK
+  - Xstar
+  - Frost
+  - Darktempest
+  - Furious Monkey
+  - Vega
+  - Mickey
+  - Tekken Online Challenge
+  - South Africa
+  - Tekken World Tour
 ---
 <p>There were two Kenyan flags in the final Top 8 bracket shown live to thousands of viewers online for the South Africa Online Masters of the Tekken Online Challenge (TOC) on 18 September 2021. TEKKEN 254 founder Davy Kamanzi, better known by his pseudonym <a href="/circuit/tekken/profile.html?id=4092983" target="_blank">DVK</a>, valiantly fought his way to third place while his counterpart Peter Mungai, better known by his pseudonym <a href="/circuit/tekken/profile.html?id=4183920" target="_blank">Xstar</a>, finished joint fifth. The two players' results leave them in fourth and fifth place in the regional leaderboard respectively, and with no further events scheduled at the time of writing, also likely guarantee them spots in the Regional Finals scheduled for 6 November 2021.
 
