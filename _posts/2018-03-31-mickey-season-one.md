@@ -1,13 +1,19 @@
 ---
+caption: Mickey finished the Circuit with a record of 25-0 in sets, having lost
+  just 4 matches all season
+author:
+  - tekken254
 title: Mickey finishes Season One of TEKKEN 254 Circuit with perfect record
-description: Having already sealed the Circuit championship after Round Three with an insurmountable point gap, Mickey returned for the Final Round at EAGC to test out his new character, Heihachi Mishima.
-author: 
-- tekken254
-
+date: 2018-03-30T21:00:13.549Z
+tags:
+  - Circuit (Season One)
+  - Mickey
+  - Vega
+  - Tiz
+description: Having already sealed the Circuit championship after Round Three
+  with an insurmountable point gap, Mickey returned for the Final Round at EAGC
+  to test out his new character, Heihachi Mishima.
 category: competitive
-tags: [Circuit (Season One), Mickey, Vega, Tiz]
-
-caption: Mickey finished the Circuit with a record of 25-0 in sets, having lost just 4 matches all season
 metaImagePosition: top center
 ---
 <p>Another day, another tournament win for Kenya's best Tekken player. Having already sealed the Circuit championship after Round Three with an insurmountable point lead, <a href="/circuit/tekken/profile.html?id=2907096" target="_blank">Mickey</a> returned for the Final Round at the East African Gaming Convention (EAGC) taking place at Thika Road Mall to test out his new character, Heihachi Mishima.</p>
