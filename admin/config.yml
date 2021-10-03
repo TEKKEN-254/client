@@ -8,13 +8,18 @@ publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 # public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 collections:
   - name: 'news'
     label: 'Posts'
     folder: '_posts/'
     create: true
-    slug: '{{slug}}'
-    # preview_path: '{{permalink}}'
+    sortable_fields: ['date', 'title', 'author']
+    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{title}}'
     editor:
       preview: false
     fields:
@@ -35,12 +40,12 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      # - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{identifier_field}}/meta.jpg" }
-      # - { label: 'Caption', name: 'caption', widget: 'string' }
-      # - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', default: "jpg" }
-      # - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center" }
-      # - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover" }
-      # - { label: 'Top Story', name: 'top', widget: 'boolean', default: false }
+      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{identifier_field}}/meta.jpg", required: false }
+      - { label: 'Caption', name: 'caption', widget: 'string', required: false }
+      - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', default: "jpg", required: false }
+      - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center", required: false }
+      - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover", required: false }
+      - { label: 'Top Story', name: 'top', widget: 'boolean', default: false, required: false }
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
