@@ -14,8 +14,8 @@ collections:
     folder: '_posts/'
     create: true
     identifier_field: identifier
-    slug: '{{year}}-{{month}}-{{day}}-{{identifier_field}}'
-    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{identifier_field}}'
+    slug: '{{slug}}'
+    preview_path: '{{permalink}}'
     editor:
       preview: false
     fields:
@@ -29,7 +29,7 @@ collections:
           collection: 'authors',
           display_fields: [display_name],
           search_fields: [display_name],
-          value_field: 'name',
+          value_field: 'display_name',
         }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Category', name: 'category', widget: 'string' }
