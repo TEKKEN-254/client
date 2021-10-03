@@ -3,6 +3,7 @@ title: "Qualifier Two: DVK sends Mickey to the losers' bracket in Top 8 but fall
 description: Coming into the tournament in third place overall, DVK conjured what was probably the surprise of the season so far when he sent reigning champion AlphaPlay | Mickey to the losers' bracket in the first round of Top 8.
 author: 
 - tekken254
+date: 2018-07-24T21:00:00.000Z
 
 category: competitive
 tags: [Circuit (Season Two), Mickey, DVK, Frost]

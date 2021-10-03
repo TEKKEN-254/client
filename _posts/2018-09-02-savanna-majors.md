@@ -3,6 +3,7 @@ title: "Savanna Majors: Mickey defends Circuit title in all-AlphaPlay Grand Fina
 description: The final event for Season Two of the TEKKEN 254 Circuit, dubbed the Savanna Majors, saw the community's number one player AlphaPlay | Mickey defend his title against his team-mate AlphaPlay | PR1EST.
 author:
 - tekken254
+date: 2018-09-01T21:00:00.000Z
 
 category: competitive
 tags: [Circuit (Season Two), Savanna Majors, Mickey, PR1EST, Xstar]

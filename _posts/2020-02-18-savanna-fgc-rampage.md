@@ -3,6 +3,7 @@ title: Savanna FGC to partner with Rampage Esports
 description: Savanna FGC is pleased to welcome Rampage Esports (RMP) as a community partner for the 2020 calendar year.
 author:
 - tekken254
+date: 2020-02-17T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series, Rampage Esports, Savanna FGC]

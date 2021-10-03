@@ -3,6 +3,7 @@ title: Savanna FGC to unite Kenyan Tekken and Mortal Kombat communities
 description: Following a successful Season 3 of the TEKKEN 254 Circuit, the Kenya Kombat Circuit has been created to engage the Mortal Kombat community under a new brand known as Savanna FGC.
 author:
 - tekken254
+date: 2019-11-10T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Four), BulBul by Cheza, Savanna FGC]

@@ -3,6 +3,7 @@ title: XiT Gaming to sponsor prize pool for Qualifier 2
 description: Savanna FGC is pleased to welcome XiT Gaming as the official prize pool sponsor for Qualifier 2 of the TEKKEN 254 Circuit and Rampage Series. The New Jersey-based esports team will cover the Ksh. 10,000 to be split across the top four players of both games on 29 February 2020.
 author:
 - tekken254
+date: 2020-02-24T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series, XiT Gaming, Savanna FGC]

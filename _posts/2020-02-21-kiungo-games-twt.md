@@ -3,6 +3,7 @@ title: Kiungo Games announced as second African TWT stop for 2020 season
 description: With the release of Fahkumram as the final character for Tekken 7 Season 3 also around the corner, Bandai Namco Entertainment and Twitch revealed the locations for the 2020 season of the Tekken World Tour (TWT).
 author:
 - dvk
+date: 2020-02-20T21:00:00.000Z
 
 category: reports
 tags: [Kiungo Games, Ivory Coast, Tekken World Tour]

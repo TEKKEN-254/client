@@ -3,6 +3,7 @@ title: Mickey set for Tekken World Tour event in United Arab Emirates
 description: Three-time (and reigning) TEKKEN 254 Circuit champion Mickey is gearing up for a trip to the United Arab Emirates, where he is set to compete at Rox n Roll Dubai, a Tekken World Tour (TWT) Master event taking place on 8–9 November.
 author:
 - tekken254
+date: 2019-11-02T21:00:00.000Z
 
 category: reports
 tags: [Mickey, Rox n Roll Dubai, United Arab Emirates, Tekken World Tour]

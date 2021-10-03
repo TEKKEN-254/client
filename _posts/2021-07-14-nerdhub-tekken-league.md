@@ -3,6 +3,7 @@ title: Nerd Hub Kenya announces Tekken 7 competition
 description: The newly-opened gaming establishment in Karen, Nairobi will be staging its first Tekken tournament towards the end of July.
 author: 
 - dvk
+date: 2021-07-13T21:00:00.000Z
 
 category: reports
 tags: [Nerd Hub Kenya, Tekken 7]

@@ -3,6 +3,7 @@ title: Season Two of the TEKKEN 254 Circuit to kick off on 7 July
 description: After much waiting, TEKKEN 254 can officially announce that Season Two of our tournament series, the TEKKEN 254 Circuit, will finally be kicking off on 7 July 2018.
 author:
 - tekken254
+date: 2018-06-14T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Two)]

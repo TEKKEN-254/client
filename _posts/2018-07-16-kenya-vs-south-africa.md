@@ -3,6 +3,7 @@ title: Kenya comes up short against South Africa in inaugural 5 v 5 team battle
 description: The South African FGC was given something to cheer for Saturday evening after their team of Tekken representatives managed to scrape a win against the opposing Kenyan team in the inaugural 5 v 5 Team Battle between the two countries, organised under the auspices of Pro Series Gaming (PSG).
 author: 
 - tekken254
+date: 2018-07-15T21:00:00.000Z
 
 category: competitive
 tags: [Team Battle, South Africa, Pro Series Gaming, DVK, Mickey, Shoryuken, Darktempest, PR1EST]

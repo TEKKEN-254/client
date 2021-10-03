@@ -3,6 +3,7 @@ title: "Qualifier 2 review: Mickey returns to form; Stacks still on top"
 description: After failing to win Qualifier One in January, defending TEKKEN 254 Circuit champion AP | Mickey reminded everyone why he's the best in the community with a fairly dominant run at Qualifier Two.
 author:
 - tekken254
+date: 2020-03-08T21:00:00.000Z
 
 category: competitive 
 tags: [Circuit (Season Four), Rampage Series, Mickey, Mr Stacks, DVK, Shizzle Maniax, Frost, Bobgranthill] 

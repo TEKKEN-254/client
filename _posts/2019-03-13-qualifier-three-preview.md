@@ -3,6 +3,7 @@ title: "Qualifier Three preview: Five previous Top 8 finishers drawn in Pool D"
 description: After some surprises in Qualifier One, the TEKKEN 254 Circuit continued with Qualifier Two this past Saturday and produced some more milestones for some of its players.
 author:
 - tekken254
+date: 2019-03-12T21:00:00.000Z
 
 category: competitive
 tags: [Circuit (Season Three), Shoryuken, Furious Monkey, Frost, DVK]

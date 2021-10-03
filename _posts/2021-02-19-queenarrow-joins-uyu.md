@@ -3,6 +3,7 @@ title: QueenArrow joins UYU
 description: The American eSports organisation announced Sylvia Gathoni, better known in the community as QueenArrow, as the newest member of their content team.
 author:
 - tekken254
+date: 2021-02-18T21:00:00.000Z
 
 category: reports
 tags: [QueenArrow, UYU, United States]

@@ -3,6 +3,7 @@ title: Dell EMC Kenya joins TEKKEN 254 Circuit as a sponsor
 description: TEKKEN 254 is excited to announce that Dell EMC Kenya has joined the TEKKEN 254 Circuit as an official sponsor, supported by Windows 10.
 author:
 - tekken254
+date: 2018-07-05T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Two), Dell EMC Kenya, Windows 10]

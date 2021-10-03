@@ -3,6 +3,7 @@ title: 'Qualifier Two preview: Draw tees up "groups of death" in Pools C and D'
 description: The TEKKEN 254 Circuit returned with Season Three on 26 January 2019 and the draw for Qualifier Two saw some of the Premier Division's top players bundled together to make for some feisty encounters in the pool stage.
 author:
 - tekken254
+date: 2019-02-17T21:00:00.000Z
 
 category: competitive
 tags: [Circuit (Season Three), Darktempest, Battousai, PR1EST, DVK]

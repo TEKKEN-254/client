@@ -3,6 +3,7 @@ title: TEKKEN 254 restructuring; recruiting volunteer judges
 description: With a view to making our events and the organisation as a whole more efficient, TEKKEN 254 has seen a slight change in its organisational structure that has taken place with immediate effect.
 author:
 - tekken254
+date: 2019-05-07T21:00:00.000Z
 
 category: statements
 tags: [TEKKEN 254, Ace Pro Gaming, Recruitment]

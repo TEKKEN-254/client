@@ -3,6 +3,7 @@ title: "Qualifier Five preview: Pools set for consecutive tournament meetings be
 description: It seemed to be yet another case of déjà vu at Qualifier Four on 4 May, with defending Circuit champion AP | Mickey winning the tournament ahead of Frost and DVK for the third consecutive tournament this season.
 author:
 - tekken254
+date: 2019-05-31T21:00:00.000Z
 
 category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, DVK]

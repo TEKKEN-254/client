@@ -3,6 +3,7 @@ title: Circuit Finals to take place at the Kenya Cultural Centre
 description: The final tournament for Season Two of the TEKKEN 254 Circuit will be taking place at the Kenya Cultural Centre on Saturday, 1 September 2018.
 author:
 - tekken254
+date: 2018-08-29T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Two), Savanna Majors]

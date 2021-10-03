@@ -3,6 +3,7 @@ title: Qualifier Three postponed
 description: Qualifier Three of the TEKKEN 254 Circuit and the Rampage Series will be taking place on 25 April 2020 and not on 28 March 2020 as previously scheduled.
 author:
 - tekken254
+date: 2020-03-06T21:00:00.000Z
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series]

@@ -4,7 +4,7 @@ caption: Mickey finished the Circuit with a record of 25-0 in sets, having lost
 author:
   - tekken254
 title: Mickey finishes Season One of TEKKEN 254 Circuit with perfect record
-date: 2018-03-30T21:00:13.549Z
+date: 2018-03-30T21:00:00.000Z
 tags:
   - Circuit (Season One)
   - Mickey

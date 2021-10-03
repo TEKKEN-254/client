@@ -3,6 +3,7 @@ title: Code of Conduct adopted across Savanna FGC forums and competitions
 description: Following consultations with members of the community, an expanded Code of Conduct has been introduced with the aim of making the community safer and more inclusive for all.
 author:
 - tekken254
+date: 2021-04-06T21:00:00.000Z
 
 category: statements
 tags: [Code of Conduct, Savanna FGC]

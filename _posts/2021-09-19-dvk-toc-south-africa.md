@@ -3,6 +3,7 @@ title: "Tekken Online Challenge: DVK finishes third at South Africa Online Maste
 description: The TEKKEN 254 founder was one of seven Kenyans participating in the event. 
 author: 
 - tekken254
+date: 2021-09-18T21:00:00.000Z
 
 category: competitive
 tags: [DVK, Xstar, Frost, Darktempest, Furious Monkey, Vega, Mickey, Tekken Online Challenge, South Africa, Tekken World Tour]
