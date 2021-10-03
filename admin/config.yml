@@ -1,9 +1,11 @@
-# config.yml
-
 backend:
-  - name: git-gateway
-    branch: main # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
+public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{slug}}'
+
 collections:
   - name: 'news'
     label: 'News'
