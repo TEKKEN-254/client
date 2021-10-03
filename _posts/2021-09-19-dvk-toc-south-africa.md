@@ -2,7 +2,7 @@
 caption: "DVK poses for a photo following his run at the Tekken Online
   Challenge: South Africa Online Masters (Photo: Davy Kamanzi / Instagram)"
 author:
-  - TEKKEN 254
+  - tekken254
 date: 2021-09-18T21:00:00.000Z
 top: true
 title: "Tekken Online Challenge: DVK finishes third at South Africa Online Masters"
