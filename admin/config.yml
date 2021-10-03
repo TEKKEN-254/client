@@ -18,8 +18,8 @@ collections:
     folder: '_posts/'
     create: true
     sortable_fields: ['date', 'title', 'author']
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.id}}'
-    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{fields.id}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    # preview_path: '/news/{{year}}/{{month}}/{{day}}/{{title}}'
     editor:
       preview: false
     fields:
