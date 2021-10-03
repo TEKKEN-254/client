@@ -13,22 +13,44 @@ collections:
     label: 'Posts'
     folder: '_posts/'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
-    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{title}}'
+    identifier_field: identifier
+    slug: '{{year}}-{{month}}-{{day}}-{{identifier_field}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{identifier_field}}'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Author', name: 'author', widget: 'list' }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          display_fields: [display_name],
+          search_fields: [display_name],
+          value_field: 'name',
+        }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}/meta.jpg" }
+      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{year}}-{{month}}-{{day}}-{{identifier_field}}/meta.jpg" }
       - { label: 'Caption', name: 'caption', widget: 'string' }
       # - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', default: "jpg" }
       # - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center" }
       # - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover" }
       # - { label: 'Top Story', name: 'top', widget: 'boolean', default: false }
+  - name: 'authors'
+    label: 'Authors'
+    folder: '_authors/'
+    create: false
+    # editor:
+    #   preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Alias', name: 'alias', widget: 'string' }
+      - { label: 'Name', name: 'display_name', widget: 'string' }
+      - { label: 'Image', name: 'img', widget: 'image', default: "assets/img/authors/{{fields.alias}}.{{fields.imgExt}}" }
+      - { label: 'Image extension', name: 'imgExt', widget: 'string', default: "jpg" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
