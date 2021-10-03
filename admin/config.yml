@@ -28,7 +28,7 @@ collections:
           collection: 'authors',
           display_fields: [display_name],
           search_fields: [display_name],
-          value_field: 'display_name',
+          value_field: 'alias',
           multiple: true,
         }
       - { label: 'Date', name: 'date', widget: 'datetime' }
