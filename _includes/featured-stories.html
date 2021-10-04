@@ -7,7 +7,7 @@
         <a class="blank-link" href="{{ post.url }}">
             <div class="card-container">
                 <div class="card-img-container">
-                    <div class="card-img-top featured-story-img" style="background-image: url('/{% if post.metaImage %}{{ post.metaImage }}{% else %}assets/img/news/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}/meta.{% if post.metaImageExt %}{{ post.metaImageExt }}{% else %}jpg{% endif %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}{% endif %}"></div>
+                    <div class="card-img-top featured-story-img" style="background-image: url('{% include post-meta-image-url.html %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}"></div>
                 </div>
                 <div class="card-body">
                     <div class="news-card-info">
