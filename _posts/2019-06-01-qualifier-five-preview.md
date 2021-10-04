@@ -4,6 +4,7 @@ description: It seemed to be yet another case of déjà vu at Qualifier Four on 
 author:
 - tekken254
 date: 2019-05-31T21:00:00.000Z
+slug: qualifier-five-preview
 
 category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, DVK]

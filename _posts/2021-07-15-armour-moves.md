@@ -4,6 +4,7 @@ description: A comprehensive list of every single armour move in the game, and h
 author: 
 - mickey
 date: 2021-07-14T21:00:00.000Z
+slug: armour-moves
 
 category: guides
 tags: [Lists, Tekken 7]

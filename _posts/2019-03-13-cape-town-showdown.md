@@ -4,6 +4,7 @@ description: Following the recent return of Julia Chang and the introduction of 
 author:
 - dvk
 date: 2019-03-12T21:00:00.000Z
+slug: cape-town-showdown
 
 category: reports
 tags: [Cape Town Showdown, South Africa, Tekken World Tour]

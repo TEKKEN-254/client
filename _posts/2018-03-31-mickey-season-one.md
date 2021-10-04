@@ -15,6 +15,7 @@ description: Having already sealed the Circuit championship after Round Three
   to test out his new character, Heihachi Mishima.
 category: competitive
 metaImagePosition: top center
+slug: mickey-season-one
 ---
 <p>Another day, another tournament win for Kenya's best Tekken player. Having already sealed the Circuit championship after Round Three with an insurmountable point lead, <a href="/circuit/tekken/profile.html?id=2907096" target="_blank">Mickey</a> returned for the Final Round at the East African Gaming Convention (EAGC) taking place at Thika Road Mall to test out his new character, Heihachi Mishima.</p>
 <p>The day's proceedings began with Pool A, with <a href="/circuit/tekken/profile.html?id=4449622" target="_blank">Tiz</a> advancing to the winners' bracket in top 8 with a 3-0 record while <a href="/circuit/tekken/profile.html?id=4183920" target="_blank">Xstar2010</a> scraped through to the losers' bracket in second place with a 2-1 record. Pool B kicked off with a tense match between <a href="/circuit/tekken/profile.html?id=7167649" target="_blank">Vega</a> and <a href="/circuit/tekken/profile.html?id=8665351" target="_blank">PRIEST</a>, two of the community's top players, with Vega grinding out a 3-2 win before both players made light work of <a href="/circuit/tekken/profile.html?id=7479116" target="_blank">mugiwaraMunyi</a> to advance to the winners' and losers' brackets respectively.</p>

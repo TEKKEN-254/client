@@ -4,6 +4,7 @@ description: Qualifier Three of the TEKKEN 254 Circuit and the Rampage Series wi
 author:
 - tekken254
 date: 2020-03-06T21:00:00.000Z
+slug: qualifier-three-postponed
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series]

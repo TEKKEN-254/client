@@ -4,6 +4,7 @@ description: Following a successful Season 3 of the TEKKEN 254 Circuit, the Keny
 author:
 - tekken254
 date: 2019-11-10T21:00:00.000Z
+slug: savanna-fgc-launch
 
 category: statements
 tags: [Circuit (Season Four), BulBul by Cheza, Savanna FGC]

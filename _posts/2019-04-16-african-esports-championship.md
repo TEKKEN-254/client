@@ -4,6 +4,7 @@ description: After two weeks of FIFA 19 at the Kenya National Qualifiers of the 
 author:
 - tekken254
 date: 2019-04-15T21:00:00.000Z
+slug: african-esports-championship
 
 category: reports
 tags: [Africa Esports Championship, What's Good Studios, K1 Klub House]

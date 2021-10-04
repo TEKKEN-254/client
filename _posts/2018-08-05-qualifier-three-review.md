@@ -4,6 +4,7 @@ description: TEKKEN 254 Circuit defending champion AlphaPlay | Mickey claimed vi
 author:
 - tekken254
 date: 2018-08-04T21:00:00.000Z
+slug: qualifier-three-review
 
 category: competitive
 tags: [Circuit (Season Two), Mickey, Xstar, Frost]

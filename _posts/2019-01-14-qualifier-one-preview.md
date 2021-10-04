@@ -4,6 +4,7 @@ description: Season Three of the TEKKEN 254 Circuit is poised to be a long and t
 author:
 - tekken254
 date: 2019-01-13T21:00:00.000Z
+slug: qualifier-one-preview
 
 category: competitive
 tags: [Circuit (Season Three), Mickey, PR1EST, DVK, Frost, Xstar]

@@ -4,6 +4,7 @@ description: It was an extremely one-sided affair between the teams representing
 author:
 - tekken254
 date: 2020-11-07T21:00:00.000Z
+slug: kenya-vs-tanzania
 
 category: competitive
 tags: [Team Battle, Tanzania, Bandar Services, Mickey, Ghost, Vega]

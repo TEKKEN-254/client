@@ -4,6 +4,7 @@ description: As many of you are aware, planning for Season Two is ongoing and ha
 author:
 - dvk
 date: 2018-06-11T21:00:00.000Z
+slug: update-season-two
 
 category: statements
 tags: [Circuit (Season Two)]

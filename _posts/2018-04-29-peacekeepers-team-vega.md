@@ -17,6 +17,7 @@ description: It was a one-man show at the MJX (Movie Jabber Expo) Tekken
   and win the showcase and bragging rights for his team, the Peacekeepers.
 category: competitive
 metaImagePosition: top center
+slug: peacekeepers-team-vega
 ---
 <p>It was a one-man show at the MJX (Movie Jabber Expo) Tekken showcase on Sunday as <a href="/circuit/tekken/profile.html?id=2685183" target="_blank">Simba</a>, who finished ninth overall in Season One of the TEKKEN 254 Circuit, stepped up to eliminate <strong>Team Vega</strong> all on his own and win the showcase and bragging rights for his team, the <strong>Peacekeepers</strong>. The showcase went ahead despite a number of technical difficulties, with the players having to play on a TV due to problems connecting the console to a projector meant to display the games on the MJX main stage.</p>
 

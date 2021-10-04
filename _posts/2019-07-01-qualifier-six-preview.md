@@ -4,6 +4,7 @@ description: As AP | Mickey won with MoM | Frost in second place for the third c
 author:
 - tekken254
 date: 2019-06-30T21:00:00.000Z
+slug: qualifier-six-preview
 
 category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, Furious Monkey]

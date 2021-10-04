@@ -4,6 +4,7 @@ description: American eSports team XiT Woundz announced today that they complete
 author:
 - tekken254
 date: 2018-05-13T21:00:00.000Z
+slug: queenarrow-xit-woundz
 
 category: reports
 tags: [QueenArrow, XiT Woundz, XiT Gaming, United States]

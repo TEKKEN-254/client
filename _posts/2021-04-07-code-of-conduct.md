@@ -4,6 +4,7 @@ description: Following consultations with members of the community, an expanded 
 author:
 - tekken254
 date: 2021-04-06T21:00:00.000Z
+slug: code-of-conduct
 
 category: statements
 tags: [Code of Conduct, Savanna FGC]

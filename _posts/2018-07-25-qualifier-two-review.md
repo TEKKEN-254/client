@@ -4,6 +4,7 @@ description: Coming into the tournament in third place overall, DVK conjured wha
 author: 
 - tekken254
 date: 2018-07-24T21:00:00.000Z
+slug: qualifier-two-review
 
 category: competitive
 tags: [Circuit (Season Two), Mickey, DVK, Frost]

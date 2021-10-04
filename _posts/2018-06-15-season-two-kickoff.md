@@ -4,6 +4,7 @@ description: After much waiting, TEKKEN 254 can officially announce that Season 
 author:
 - tekken254
 date: 2018-06-14T21:00:00.000Z
+slug: season-two-kickoff
 
 category: statements
 tags: [Circuit (Season Two)]

@@ -4,6 +4,7 @@ description: TEKKEN 254 founder and president DVK announced in a tweet today tha
 author:
 - tekken254
 date: 2019-01-31T21:00:00.000Z
+slug: dvk-university-plans
 
 category: reports
 tags: [DVK, University, United States]

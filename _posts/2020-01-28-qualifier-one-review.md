@@ -4,6 +4,7 @@ description: A tournament that started three hours late thanks to a host of tech
 author:
 - tekken254
 date: 2020-01-27T21:00:00.000Z
+slug: qualifier-one-review
 
 category: competitive
 tags: [Circuit (Season Four), Frost, Mr Stacks, Mickey, Baraza, DVK, Sultan]

@@ -4,6 +4,7 @@ description: In light of the ongoing COVID-19 pandemic, Season Four of the TEKKE
 author:
 - tekken254
 date: 2020-04-12T21:00:00.000Z
+slug: circuit-suspended
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series, COVID-19]

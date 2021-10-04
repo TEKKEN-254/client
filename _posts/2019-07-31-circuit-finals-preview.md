@@ -4,6 +4,7 @@ description: Qualifier Six on 6 July saw AP | Mickey continue his tournament win
 author:
 - tekken254
 date: 2019-07-30T21:00:00.000Z
+slug: circuit-finals-preview
 
 category: competitive
 tags: [Circuit (Season Three), Circuit Finals, Xstar, PR1EST]

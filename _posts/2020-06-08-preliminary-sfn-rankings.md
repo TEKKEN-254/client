@@ -4,6 +4,7 @@ description: The rankings have been established based on each player's points-pe
 author:
 - tekken254
 date: 2020-06-07T21:00:00.000Z
+slug: preliminary-sfn-rankings
 
 category: statements
 tags: [Fight Night, Hall of Pain, Online]

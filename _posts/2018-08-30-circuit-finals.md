@@ -4,6 +4,7 @@ description: The final tournament for Season Two of the TEKKEN 254 Circuit will 
 author:
 - tekken254
 date: 2018-08-29T21:00:00.000Z
+slug: circuit-finals
 
 category: statements
 tags: [Circuit (Season Two), Savanna Majors]

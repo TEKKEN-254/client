@@ -4,6 +4,7 @@ description: For players looking to pick up Marshall Law or take him to the next
 author: 
 - mickey
 date: 2021-05-12T21:00:00.000Z
+slug: law-dss-guide
 
 category: guides
 tags: [Marshall Law, Tekken 7]

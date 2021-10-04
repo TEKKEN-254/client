@@ -4,6 +4,7 @@ description: Savanna FGC is pleased to welcome XiT Gaming as the official prize 
 author:
 - tekken254
 date: 2020-02-24T21:00:00.000Z
+slug: xit-gaming-sponsor
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series, XiT Gaming, Savanna FGC]

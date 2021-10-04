@@ -4,6 +4,7 @@ description: Local Kenyan esports team Watchmen Esports have announced Mickey as
 author:
 - tekken254
 date: 2020-06-10T21:00:00.000Z
+slug: mickey-joins-watchmen
 
 category: reports
 tags: [Mickey, Watchmen Esports]

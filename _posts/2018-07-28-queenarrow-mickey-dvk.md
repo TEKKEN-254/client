@@ -4,6 +4,7 @@ description: XiT | QueenArrow and reigning champion AlphaPlay | Mickey joined TE
 author:
 - tekken254
 date: 2018-07-27T21:00:00.000Z
+slug: queenarrow-mickey-dvk
 
 category: reports
 tags: [Citizen TV, 10 Over 10, QueenArrow, Mickey, DVK]

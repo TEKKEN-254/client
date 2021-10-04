@@ -4,6 +4,7 @@ description: The TEKKEN 254 Circuit returned with Season Three on 26 January 201
 author:
 - tekken254
 date: 2019-02-17T21:00:00.000Z
+slug: qualifier-two-preview
 
 category: competitive
 tags: [Circuit (Season Three), Darktempest, Battousai, PR1EST, DVK]

@@ -4,6 +4,7 @@ description: The American eSports organisation announced Sylvia Gathoni, better 
 author:
 - tekken254
 date: 2021-02-18T21:00:00.000Z
+slug: queenarrow-joins-uyu
 
 category: reports
 tags: [QueenArrow, UYU, United States]

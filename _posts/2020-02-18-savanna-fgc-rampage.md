@@ -4,6 +4,7 @@ description: Savanna FGC is pleased to welcome Rampage Esports (RMP) as a commun
 author:
 - tekken254
 date: 2020-02-17T21:00:00.000Z
+slug: savanna-fgc-rampage
 
 category: statements
 tags: [Circuit (Season Four), Rampage Series, Rampage Esports, Savanna FGC]

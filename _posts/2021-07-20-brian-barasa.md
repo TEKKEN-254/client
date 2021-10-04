@@ -4,6 +4,7 @@ description: The NAICCON and Pro Series Gaming co-founder met his sudden demise 
 author: 
 - tekken254
 date: 2021-07-19T21:00:00.000Z
+slug: brian-barasa
 
 category: statements
 tags: [Brian Barasa, Naiccon, Pro Series Gaming]

@@ -4,6 +4,7 @@ description: With a view to making our events and the organisation as a whole mo
 author:
 - tekken254
 date: 2019-05-07T21:00:00.000Z
+slug: tekken-254-restructuring
 
 category: statements
 tags: [TEKKEN 254, Ace Pro Gaming, Recruitment]

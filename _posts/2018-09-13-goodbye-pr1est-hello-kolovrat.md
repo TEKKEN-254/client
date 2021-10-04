@@ -4,6 +4,7 @@ description: William Omondi, better known (previously) as PR1EST, announced in a
 author:
 - dvk
 date: 2018-09-12T21:00:00.000Z
+slug: goodbye-pr1est-hello-kolovrat
 
 category: reports
 tags: [PR1EST, Kolovrat, AlphaPlay]

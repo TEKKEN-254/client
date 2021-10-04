@@ -4,6 +4,7 @@ description: The final event for Season Two of the TEKKEN 254 Circuit, dubbed th
 author:
 - tekken254
 date: 2018-09-01T21:00:00.000Z
+slug: savanna-majors
 
 category: competitive
 tags: [Circuit (Season Two), Savanna Majors, Mickey, PR1EST, Xstar]

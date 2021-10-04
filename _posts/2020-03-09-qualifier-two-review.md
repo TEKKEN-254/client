@@ -4,6 +4,7 @@ description: After failing to win Qualifier One in January, defending TEKKEN 254
 author:
 - tekken254
 date: 2020-03-08T21:00:00.000Z
+slug: qualifier-two-review
 
 category: competitive 
 tags: [Circuit (Season Four), Rampage Series, Mickey, Mr Stacks, DVK, Shizzle Maniax, Frost, Bobgranthill] 

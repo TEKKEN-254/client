@@ -4,6 +4,7 @@ description: Going into the six-week break that is set to end with Qualifier Fou
 author:
 - tekken254
 date: 2019-04-29T21:00:00.000Z
+slug: qualifier-four-preview
 
 category: competitive
 tags: [Circuit (Season Three), Mickey, Frost, DVK]

@@ -4,6 +4,7 @@ description: The newly-opened gaming establishment in Karen, Nairobi will be sta
 author: 
 - dvk
 date: 2021-07-13T21:00:00.000Z
+slug: nerdhub-tekken-league
 
 category: reports
 tags: [Nerd Hub Kenya, Tekken 7]

@@ -4,6 +4,7 @@ description: The South African FGC was given something to cheer for Saturday eve
 author: 
 - tekken254
 date: 2018-07-15T21:00:00.000Z
+slug: kenya-vs-south-africa
 
 category: competitive
 tags: [Team Battle, South Africa, Pro Series Gaming, DVK, Mickey, Shoryuken, Darktempest, PR1EST]
