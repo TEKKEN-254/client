@@ -44,7 +44,17 @@ collections:
           time_format: "HH:mm",
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Category', name: 'category', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'select',
+          options:
+            - { label: "Competitive", value: "competitive" }
+            - { label: "Reports", value: "reports" }
+            - { label: "Interviews", value: "interviews" }
+            - { label: "Guides", value: "guides" }
+            - { label: "Statements", value: "statements" }
+        }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{slug}}/meta.jpg", required: false }
       - { label: 'Caption', name: 'caption', widget: 'string', required: false }
