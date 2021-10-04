@@ -5,7 +5,7 @@ backend:
 site_url: https://tekken254.co.ke
 
 publish_mode: editorial_workflow
-media_folder: 'assets/uploads'
+media_folder: 'assets/netlify-cms/uploads'
 # public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
 
 slug:
@@ -18,8 +18,8 @@ collections:
     folder: '_posts/'
     create: true
     sortable_fields: ['date', 'title', 'author']
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    # preview_path: '/news/{{year}}/{{month}}/{{day}}/{{title}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{fields.slug}}'
     editor:
       preview: false
     fields:
@@ -46,11 +46,12 @@ collections:
       - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center", required: false }
       - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover", required: false }
       - { label: 'Top Story', name: 'top', widget: 'boolean', default: false, required: false }
-      - { label: 'Identifier', name: 'id', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
     create: false
+    slug: '{{fields.alias}}'
     # editor:
     #   preview: false
     fields:
