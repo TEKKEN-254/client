@@ -3,7 +3,7 @@ title: QueenArrow, Mickey and DVK interviewed on Citizen TV
 description: XiT | QueenArrow and reigning champion AlphaPlay | Mickey joined TEKKEN 254 founder and fellow player DVK on the set of Citizen TV's late night entertainment show 10 Over 10.
 author:
 - tekken254
-date: 2018-07-27T21:00:00.000Z
+date: 2018-07-28T00:00:00.000Z
 slug: queenarrow-mickey-dvk
 
 category: reports

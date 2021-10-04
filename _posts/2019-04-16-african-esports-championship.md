@@ -3,7 +3,7 @@ title: Tekken action set to begin at the AEC Kenya National Qualifiers
 description: After two weeks of FIFA 19 at the Kenya National Qualifiers of the newly-formed African eSports Championship (AEC), the competition for Tekken 7 is set to begin this Saturday, 20 April at the K1 Klub House in Westlands, Nairobi.
 author:
 - tekken254
-date: 2019-04-15T21:00:00.000Z
+date: 2019-04-16T00:00:00.000Z
 slug: african-esports-championship
 
 category: reports

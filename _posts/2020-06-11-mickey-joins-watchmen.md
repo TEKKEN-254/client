@@ -3,7 +3,7 @@ title: Mickey joins the Watchmen
 description: Local Kenyan esports team Watchmen Esports have announced Mickey as their newest fighting game player on their Instagram page.
 author:
 - tekken254
-date: 2020-06-10T21:00:00.000Z
+date: 2020-06-11T00:00:00.000Z
 slug: mickey-joins-watchmen
 
 category: reports

@@ -3,7 +3,7 @@ title: Tekken 7 Armour Moves
 description: A comprehensive list of every single armour move in the game, and how to punish them.
 author: 
 - mickey
-date: 2021-07-14T21:00:00.000Z
+date: 2021-07-15T00:00:00.000Z
 slug: armour-moves
 
 category: guides

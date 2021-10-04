@@ -3,7 +3,7 @@ title: QueenArrow signs with XiT Woundz
 description: American eSports team XiT Woundz announced today that they completed the signing of Sylvia Gathoni, better known in the community as QueenArrow.
 author:
 - tekken254
-date: 2018-05-13T21:00:00.000Z
+date: 2018-05-14T00:00:00.000Z
 slug: queenarrow-xit-woundz
 
 category: reports

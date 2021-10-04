@@ -3,7 +3,7 @@ title: Brian Barasa passes away
 description: The NAICCON and Pro Series Gaming co-founder met his sudden demise this past weekend.
 author: 
 - tekken254
-date: 2021-07-19T21:00:00.000Z
+date: 2021-07-20T00:00:00.000Z
 slug: brian-barasa
 
 category: statements

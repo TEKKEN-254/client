@@ -3,7 +3,7 @@ title: Tanzania outclassed as Kenya romp to victory in 3 v 3 team battle
 description: It was an extremely one-sided affair between the teams representing the Tekken communities of Kenya and Tanzania as the former steamrolled their way to a massive 9-0 win.
 author:
 - tekken254
-date: 2020-11-07T21:00:00.000Z
+date: 2020-11-08T00:00:00.000Z
 slug: kenya-vs-tanzania
 
 category: competitive

@@ -3,7 +3,7 @@ title: The Salt Factory now available on Afripods
 description: Our new monthly interview series, The Salt Factory, is now available for listening on the African podcasting platform Afripods. Episodes are streamed live on Twitch every second Tuesday of the month, and will now be going up on Afripods and YouTube one week after the live stream.
 author:
 - tekken254
-date: 2019-10-07T21:00:00.000Z
+date: 2019-10-08T00:00:00.000Z
 slug: salt-factory-afripods
 
 category: statements

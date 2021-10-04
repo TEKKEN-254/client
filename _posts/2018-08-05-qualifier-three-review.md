@@ -3,7 +3,7 @@ title: "Qualifier Three: Xstar reaches Grand Final for the first time; Top 16 de
 description: TEKKEN 254 Circuit defending champion AlphaPlay | Mickey claimed victory yet again at Qualifier Three of Season Two, this time beating the community's resident King loyalist Xstar.
 author:
 - tekken254
-date: 2018-08-04T21:00:00.000Z
+date: 2018-08-05T00:00:00.000Z
 slug: qualifier-three-review
 
 category: competitive

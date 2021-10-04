@@ -3,7 +3,7 @@ title: Darktempest to compete at Tekken World Tour event in South Africa
 description: Nakuru-based player Darktempest is set to compete in Cape Town Showdown 7, the first Tekken World Tour event to be held on the African continent, taking place on 7–8 September 2019.
 author:
 - tekken254
-date: 2019-09-02T21:00:00.000Z
+date: 2019-09-03T00:00:00.000Z
 slug: darktempest-twt-south-africa
 
 category: reports

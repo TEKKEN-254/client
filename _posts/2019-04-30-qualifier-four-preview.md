@@ -3,7 +3,7 @@ title: "Qualifier Four preview: Pool A set for AlphaPlay team kill; stacked draw
 description: Going into the six-week break that is set to end with Qualifier Four next Saturday, defending Circuit champion AP | Mickey secured yet another tournament win at Qualifier Three last month ahead of Frost and DVK, who finished second and third respectively.
 author:
 - tekken254
-date: 2019-04-29T21:00:00.000Z
+date: 2019-04-30T00:00:00.000Z
 slug: qualifier-four-preview
 
 category: competitive

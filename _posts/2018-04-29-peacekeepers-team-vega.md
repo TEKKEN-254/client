@@ -3,7 +3,7 @@ caption: "Peacekeepers from left to right: Simba, team captain Mickey and mugiwa
 author:
   - tekken254
 title: Peacekeepers see off Team Vega at MJX
-date: 2018-04-28T21:00:00.000Z
+date: 2018-04-29T00:00:00.000Z
 tags:
   - Movie Jabber Expo
   - Simba

@@ -3,7 +3,7 @@ title: Tekken Online Challenge returns for 2021 with African involvement
 description: The second season of the Tekken Online Challenge is set to begin on 1 June 2021, with Dojo and Master events for all 14 regions.
 author: 
 - dvk
-date: 2021-05-25T21:00:00.000Z
+date: 2021-05-26T00:00:00.000Z
 slug: tekken-online-challenge
 
 category: reports

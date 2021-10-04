@@ -3,7 +3,7 @@ title: "Qualifier One preview: AlphaPlay boys to meet in Pool A; DVK and Frost f
 description: Season Three of the TEKKEN 254 Circuit is poised to be a long and tough road as players tussle for points to qualify for the Circuit Finals in August.
 author:
 - tekken254
-date: 2019-01-13T21:00:00.000Z
+date: 2019-01-14T00:00:00.000Z
 slug: qualifier-one-preview
 
 category: competitive

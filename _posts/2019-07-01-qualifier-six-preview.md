@@ -3,7 +3,7 @@ title: "Qualifier Six preview: Battle for Top 16 down to the wire"
 description: As AP | Mickey won with MoM | Frost in second place for the third consecutive tournament this season, Furious Monkey pulled out his best tournament performance to date to earn his first ever Top 3 finish on the Circuit at Qualifier Five on 8 June.
 author:
 - tekken254
-date: 2019-06-30T21:00:00.000Z
+date: 2019-07-01T00:00:00.000Z
 slug: qualifier-six-preview
 
 category: competitive

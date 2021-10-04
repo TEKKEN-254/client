@@ -3,7 +3,7 @@ title: DVK scraps US university plans; opts to remain in Kenya
 description: TEKKEN 254 founder and president DVK announced in a tweet today that his plans to go to university in the United States, which had long been known within the community, "have changed."
 author:
 - tekken254
-date: 2019-01-31T21:00:00.000Z
+date: 2019-02-01T00:00:00.000Z
 slug: dvk-university-plans
 
 category: reports

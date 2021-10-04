@@ -3,7 +3,7 @@ title: TEKKEN 254 Circuit, Rampage Series suspended until further notice
 description: In light of the ongoing COVID-19 pandemic, Season Four of the TEKKEN 254 Circuit and Season One of the Rampage Series are to remain suspended as we continue to monitor the situation.
 author:
 - tekken254
-date: 2020-04-12T21:00:00.000Z
+date: 2020-04-13T00:00:00.000Z
 slug: circuit-suspended
 
 category: statements

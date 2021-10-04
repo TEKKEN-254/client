@@ -3,7 +3,7 @@ title: Goodbye PR1EST, Hello Kolovrat
 description: William Omondi, better known (previously) as PR1EST, announced in an Instagram post that he will be known henceforth as Kolovrat (or AlphaPlay | Kolovrat).
 author:
 - dvk
-date: 2018-09-12T21:00:00.000Z
+date: 2018-09-13T00:00:00.000Z
 slug: goodbye-pr1est-hello-kolovrat
 
 category: reports

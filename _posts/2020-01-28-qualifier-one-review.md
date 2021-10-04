@@ -3,7 +3,7 @@ title: "Qualifier 1 review: Frost topples Mickey; Stacks stays winning"
 description: A tournament that started three hours late thanks to a host of technical issues ended in sheer excitement at the DeCodEd Africa space, with defending TEKKEN 254 Circuit champion AP | Mickey failing to win a tournament for the first time since we began running them in November 2017.
 author:
 - tekken254
-date: 2020-01-27T21:00:00.000Z
+date: 2020-01-28T00:00:00.000Z
 slug: qualifier-one-review
 
 category: competitive

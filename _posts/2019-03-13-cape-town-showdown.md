@@ -3,7 +3,7 @@ title: TWT set for first ever African stop as Cape Town Showdown is announced fo
 description: Following the recent return of Julia Chang and the introduction of Negan to Tekken 7, fans had even more to be excited about Tuesday as Bandai Namco Entertainment and Twitch jointly announced the return of the Tekken World Tour (TWT) for 2019.
 author:
 - dvk
-date: 2019-03-12T21:00:00.000Z
+date: 2019-03-13T00:00:00.000Z
 slug: cape-town-showdown
 
 category: reports

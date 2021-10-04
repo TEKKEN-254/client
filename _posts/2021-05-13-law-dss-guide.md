@@ -3,7 +3,7 @@ title: The Truth About DSS
 description: For players looking to pick up Marshall Law or take him to the next level, I'm going to type out all I've learned about DSS (Dragon Sign Stance).
 author: 
 - mickey
-date: 2021-05-12T21:00:00.000Z
+date: 2021-05-13T00:00:00.000Z
 slug: law-dss-guide
 
 category: guides

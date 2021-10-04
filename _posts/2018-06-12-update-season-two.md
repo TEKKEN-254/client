@@ -3,7 +3,7 @@ title: "Update: Season Two of the TEKKEN 254 Circuit"
 description: As many of you are aware, planning for Season Two is ongoing and has been even before the conclusion of Season One earlier this year.
 author:
 - dvk
-date: 2018-06-11T21:00:00.000Z
+date: 2018-06-12T00:00:00.000Z
 slug: update-season-two
 
 category: statements

@@ -3,7 +3,7 @@ title: Preliminary Fight Night rankings released
 description: The rankings have been established based on each player's points-per-tournament ratio on the TEKKEN 254 Circuit, with new players starting from the bottom and establishing themselves within the lineal ranking system going forward.
 author:
 - tekken254
-date: 2020-06-07T21:00:00.000Z
+date: 2020-06-08T00:00:00.000Z
 slug: preliminary-sfn-rankings
 
 category: statements

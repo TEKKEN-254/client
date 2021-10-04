@@ -3,7 +3,7 @@ title: "Circuit Finals preview: Xstar and PR1EST set for Season Two runback"
 description: Qualifier Six on 6 July saw AP | Mickey continue his tournament winning streak as many expected, with DVK—recently recruited by The Watchmen (WTCH) eSports team alongside PR1EST—beating MoM | Frost to second place for the first time since Qualifier Two on 23 February.
 author:
 - tekken254
-date: 2019-07-30T21:00:00.000Z
+date: 2019-07-31T00:00:00.000Z
 slug: circuit-finals-preview
 
 category: competitive
