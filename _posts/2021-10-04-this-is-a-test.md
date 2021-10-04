@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Test article
-description: This is a test article
+description: This is a test article, innit
 author:
   - dvk
 date: 2021-10-04T19:03:46.519Z
