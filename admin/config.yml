@@ -36,7 +36,13 @@ collections:
           value_field: 'alias',
           multiple: true,
         }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          date_format: "DD-MM-YYYY",
+          time_format: "HH:mm",
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
