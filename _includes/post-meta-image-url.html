@@ -1,0 +1,1 @@
+{% if post.metaImage %}{{ post.metaImage }}{% else %}/assets/img/news/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}/meta.{% if post.metaImageExt %}{{ post.metaImageExt }}{% else %}jpg{% endif %}{% endif %}
