@@ -5,8 +5,8 @@ backend:
 site_url: https://tekken254.co.ke
 
 publish_mode: editorial_workflow
-media_folder: 'assets/netlify-cms/uploads'
-# public_folder: 'assets/img/news/{{year}}-{{month}}-{{day}}-{{title}}'
+media_folder: '/assets/netlify-cms/uploads'
+public_folder: '/assets/img/news/{{year}}-{{month}}-{{day}}-{{slug}}'
 
 slug:
   encoding: "ascii"
@@ -51,7 +51,7 @@ collections:
           options: [ { label: "Competitive", value: "competitive" }, { label: "Reports", value: "reports" }, { label: "Interviews", value: "interviews" }, { label: "Guides", value: "guides" }, { label: "Statements", value: "statements" } ],
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "assets/img/news/{{slug}}/meta.jpg", required: false }
+      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, default: "/assets/img/news/{{slug}}/meta.jpg", required: false }
       - { label: 'Caption', name: 'caption', widget: 'string', required: false }
       - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', default: "jpg", required: false }
       - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center", required: false }
@@ -69,6 +69,6 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
       - { label: 'Alias', name: 'alias', widget: 'string' }
       - { label: 'Name', name: 'display_name', widget: 'string' }
-      - { label: 'Image', name: 'img', widget: 'image', default: "assets/img/authors/{{fields.alias}}.{{fields.imgExt}}" }
-      - { label: 'Image extension', name: 'imgExt', widget: 'string', default: "jpg" }
+      - { label: 'Image', name: 'img', widget: 'image', default: "/assets/img/authors/{{fields.alias}}.{{fields.imgExt}}" }
+      - { label: 'Image extension', name: 'imgExt', widget: 'string', default: "jpg", required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
