@@ -47,7 +47,7 @@ collections:
           label: 'Category',
           name: 'category',
           widget: 'select',
-          options: [ { label: "Competitive", value: "competitive" }, { label: "Reports", value: "reports" }, { label: "Interviews", value: "interviews" }, { label: "Guides", value: "guides" }, { label: "Statements", value: "statements" } ],
+          options: [ { label: "Competitive", value: "competitive" }, { label: "Reports", value: "reports" }, { label: "Interviews", value: "interviews" }, { label: "Guides", value: "guides" } ] # { label: "Statements", value: "statements" }
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, required: false }
