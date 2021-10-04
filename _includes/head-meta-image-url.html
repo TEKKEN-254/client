@@ -1,0 +1,1 @@
+{{ site.url }}{% if page.layout == "post" %}{% if page.metaImage %}{{ page.metaImage }}{% else %}/assets/img/news/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}/meta.{% if page.metaImageExt %}{{ page.metaImageExt }}{% else %}jpg{% endif %}{% endif %}{% elsif page.metaImage %}{{ page.metaImage }}{% else %}/assets/img/backgrounds/meta-banner.png{% endif %}
