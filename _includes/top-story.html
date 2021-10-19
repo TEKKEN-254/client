@@ -1,6 +1,6 @@
 {% assign top = 0 %}
 {% for post in site.posts %}
-{% if post.top == true %}
+{% if post.top == true or if post.advanced.top == true %}
 {% assign top = top | plus: 1 %}
 <a class="jumbotron-anchor blank-link" href="{{ post.url }}">
     <div class="jumbotron-container">
