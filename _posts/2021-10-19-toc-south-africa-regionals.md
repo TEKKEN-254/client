@@ -20,8 +20,8 @@ tags:
   - South Africa
   - Tekken Online Challenge
   - Tekken World Tour
-caption: The Top 8 players on the 2021 Tekken Online Challenge leaderboard for
-  the "South Africa" region.
+caption: 'The Top 8 players on the 2021 Tekken Online Challenge leaderboard for
+  the "South Africa" region. (Photo: Bandai Namco Esports / Twitter)'
 metaImageExt: jfif
 metaImagePosition: center
 metaImageSize: contain
