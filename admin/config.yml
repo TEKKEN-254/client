@@ -52,15 +52,16 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, required: false }
       - { label: 'Meta Image Caption', name: 'caption', widget: 'string', required: false }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
       - label: "Advanced"
         name: "advanced"
         widget: "object"
+        collapsed: true
         summary: 'Advanced options'
         fields:
           - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', required: false }
           - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center", required: false }
           - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover", required: false }
-          - { label: 'Slug', name: 'slug', widget: 'string' }
           # - { label: 'Top Story', name: 'top', widget: 'boolean', default: false, required: false }
   - name: 'authors'
     label: 'Authors'
