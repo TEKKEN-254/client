@@ -1,7 +1,7 @@
 ---
 advanced:
   metaImageExt: jfif
-  metaImagePosition: ""
+  metaImagePosition: center
   metaImageSize: contain
   slug: toc-south-africa-regionals
   top: false
@@ -21,11 +21,7 @@ tags:
   - Tekken Online Challenge
   - Tekken World Tour
 caption: 'The Top 8 players on the 2021 Tekken Online Challenge leaderboard for
-  the "South Africa" region (Photo: Bandai Namco Esports / Twitter)'
-metaImageExt: jfif
-metaImagePosition: center
-metaImageSize: contain
-slug: toc-south-africa-regionals
+  the South Africa region (Photo: Bandai Namco Esports / Twitter)'
 ---
 The South Africa Regional Finals are set to feature three Kenyan representatives in what is promising to be a nail-biting event. [Finishing third and joint-fifth at the Online Masters](/news/2021/09/19/dvk-toc-south-africa), [DVK](/circuit/tekken/profile.html?id=4092983) and [Xstar](/circuit/tekken/profile.html?id=4183920) had already earned enough points to qualify, but the former went a step further with a win at [Get Washed: Dojo #2](https://smash.gg/tournament/get-washed-dojo-2/event/get-washed-dojo-2-1/brackets/1004279/1584418/) to cement his place at fourth overall with 175 points on the leaderboard.
 
