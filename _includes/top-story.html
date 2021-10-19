@@ -5,7 +5,7 @@
 <a class="jumbotron-anchor blank-link" href="{{ post.url }}">
     <div class="jumbotron-container">
         <div class="jumbotron mx-auto my-0">
-            <div class="jumbotron-img" style="background-image: url('{% include post-meta-image-url.html %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}"></div>
+            <div class="jumbotron-img" style="background-image: url('{% include post-meta-image-url.html %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% elsif post.advanced.metaImagePosition %} background-position: {{ post.advanced.metaImagePosition }};{% else %} background-position: center;{% endif %}"></div>
             <div class="container">
                 <div class="top-story-info">
                     <p class="story-title font-header fs-h2 font-body medium my-2">{{ post.title }}</p>

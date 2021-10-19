@@ -1,7 +1,7 @@
 <div class="news-card media">
     <a class="blank-link" href="{{ post.url }}">
         <div class="card-img-container">
-            <div class="news-card-img" style="background-image: url('{% include post-meta-image-url.html %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% else %} background-position: center;{% endif %}">&nbsp;</div>
+            <div class="news-card-img" style="background-image: url('{% include post-meta-image-url.html %}');{% if post.metaImagePosition %} background-position: {{ post.metaImagePosition }};{% elsif post.advanced.metaImagePosition %} background-position: {{ post.advanced.metaImagePosition }};{% else %} background-position: center;{% endif %}">&nbsp;</div>
         </div>
         <div class="media-body">
             <div class="news-card-info">
