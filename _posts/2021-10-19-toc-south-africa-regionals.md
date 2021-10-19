@@ -21,7 +21,7 @@ advanced:
   metaImagePosition: ""
   metaImageSize: contain
   slug: toc-south-africa-regionals
-  top: true
+  top: false
 slug: toc-south-africa-regionals
 metaImageSize: contain
 metaImagePosition: center
