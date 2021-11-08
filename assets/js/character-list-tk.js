@@ -1608,7 +1608,7 @@ const characters = {
     // Negan
     negan: {
         // Profile
-        name: "Negan",
+        name: "Negan Smith",
         nickname: "The Leader of the Saviors",
         sex: "male",
 
