@@ -21,7 +21,7 @@ advanced:
   metaImageSize: cover
 top: true
 ---
-<p>TEKKEN 254 founder Davy Kamanzi, better known as <a href="/circuit/tekken/profile.html?id=4092983" target="_blank">DVK</a>, finished in third place in the South Africa Regional Finals of the Tekken Online Challenge (TOC), matching <a href="/news/2021/09/19/dvk-toc-south-africa" target="_blank">his run from the Online Masters</a> over two months prior in front of thousands of viewers once again. To earn that placing, he first had to participate in the elimination of his compatriots <a href="/circuit/tekken/profile.html?id=4644523" target="_blank">Frost</a> and <a href="/circuit/tekken/profile.html?id=4183920" target="_blank">Xstar</a>, who finished the tournament in joint-fifth and joint-seventh place, respectively.</p>
+<p>TEKKEN 254 founder Davy Kamanzi, better known as <a href="/circuit/tekken/profile.html?id=4092983" target="_blank">DVK</a>, finished in third place at the South Africa Regional Finals of the Tekken Online Challenge (TOC), matching <a href="/news/2021/09/19/dvk-toc-south-africa" target="_blank">his run from the Online Masters</a> over two months prior, in front of thousands of viewers once again. To earn that placing, he first had to participate in the elimination of his compatriots <a href="/circuit/tekken/profile.html?id=4644523" target="_blank">Frost</a> and <a href="/circuit/tekken/profile.html?id=4183920" target="_blank">Xstar</a>, who finished the tournament in joint-fifth and joint-seventh place, respectively.</p>
 
 <section>
     <h2 class="site-red uppercase">Pools</h2>
