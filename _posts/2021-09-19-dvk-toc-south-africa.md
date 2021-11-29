@@ -5,7 +5,6 @@ author:
   - tekken254
 date: 2021-09-19T00:00:00.000Z
 slug: dvk-toc-south-africa
-top: true
 title: "Tekken Online Challenge: DVK finishes third at South Africa Online Masters"
 description: The TEKKEN 254 founder was one of seven Kenyans participating in the event.
 category: competitive
