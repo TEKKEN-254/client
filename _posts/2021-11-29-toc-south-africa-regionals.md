@@ -16,13 +16,12 @@ tags:
 caption: "DVK takes a selfie following his run at the Tekken Online Challenge:
   South Africa Regional Finals (Photo: Davy Kamanzi / Instagram)"
 slug: toc-south-africa-regionals
+top: true
 advanced:
   metaImagePosition: center
   metaImageSize: cover
 ---
 <p>TEKKEN 254 founder Davy Kamanzi, better known as <a href="/circuit/tekken/profile.html?id=4092983" target="_blank">DVK</a>, finished third place in the South Africa Regional Finals of the Tekken Online Challenge (TOC), matching <a href="/news/2021/09/19/dvk-toc-south-africa" target="_blank">his run from the Online Masters</a> over two months prior in front of thousands of viewers once again. To earn that placing, he first had to participate in the elimination of his compatriots <a href="/circuit/tekken/profile.html?id=4644523" target="_blank">Frost</a> and <a href="/circuit/tekken/profile.html?id=4183920" target="_blank">Xstar</a>, who finished the tournament in joint-fifth and joint-seventh place, respectively.</p>
-
-
 
 <section>
     <h2 class="site-red uppercase">Pools</h2>
@@ -52,8 +51,6 @@ advanced:
     {% include post-img.html src="2.png" caption="Results from the final stage of the tournament" imgSize="contain" %}
     <p>With his run, DVK earned himself US$ 780 in prize money, with Frost and Xstar earning themselves US$ 180 and US$ 120, respectively.</p>
 </section>
-
-
 
 <aside>
     <p>Once again, we would like to thank Bandai Namco Entertainment for putting together an exciting event that gave the three Kenyans and the rest of the participants an opportunity to show off their skills to the global Tekken community. You can watch VODs of each pool, as well as each set from the final stage, from the Bandai Namco Esports YouTube channel below.</p>
