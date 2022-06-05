@@ -10,6 +10,8 @@ tags:
   - QueenArrow
   - Forbes
 metaImage: /assets/netlify-cms/uploads/queenarrow-forbes.jpg
+caption: "QueenArrow's announcement poster for the Forbes Africa 30 Under 30
+  Class of 2022 (Photo: Sylvia Gathoni / Twitter)"
 slug: queen-arrow-forbes-africa
 advanced:
   metaImagePosition: center top
