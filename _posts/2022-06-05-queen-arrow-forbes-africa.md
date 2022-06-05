@@ -16,6 +16,7 @@ slug: queen-arrow-forbes-africa
 advanced:
   metaImagePosition: center top
   metaImageSize: contain
+top: true
 ---
 Sylvia Gathoni, better known by her pseudonym [QueenArrow](/circuit/tekken/profile.html?id=4455946), announced on Friday her inclusion to the *Forbes Africa* 30 Under 30 Class of 2022, calling it "one of the biggest affirmations of my esports career thus far." She features on the list alongside two other Kenyan women: comedian and social media star Elsa Majimbo, and medical doctor Joan Ruguru Kimani, who is the CEO and founder of [*Exciting Parenting*](https://excitingparenting.com/).
 
