@@ -15,7 +15,7 @@ advanced:
   metaImagePosition: center top
   metaImageSize: contain
 ---
-Sylvia Gathoni, better known by her pseudonym [QueenArrow](/circuit/tekken/profile.html?id=4455946), announced on Friday her inclusion to the Forbes Africa 30 Under 30 Class of 2022, calling it "one of the biggest affirmations of my esports career thus far." She features on the list alongside two other Kenyan women: comedian and social media star Elsa Majimbo, and medical doctor Joan Ruguru Kimani, who is the CEO and founder of [Exciting Parenting](https://excitingparenting.com/).
+Sylvia Gathoni, better known by her pseudonym [QueenArrow](/circuit/tekken/profile.html?id=4455946), announced on Friday her inclusion to the *Forbes Africa* 30 Under 30 Class of 2022, calling it "one of the biggest affirmations of my esports career thus far." She features on the list alongside two other Kenyan women: comedian and social media star Elsa Majimbo, and medical doctor Joan Ruguru Kimani, who is the CEO and founder of [*Exciting Parenting*](https://excitingparenting.com/).
 
 <div class="d-flex justify-content-center">
     <blockquote class="twitter-tweet">
@@ -25,4 +25,4 @@ Sylvia Gathoni, better known by her pseudonym [QueenArrow](/circuit/tekken/profi
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-In a follow-up tweet, QueenArrow thanked numerous people for their assistance with her application, including co-founder and PR manager of South African esports organisation Goliath Gaming Gabbi Brondani, South African esports commentator Sam Wright, and UYU CEO Jinhee Kim. The accolade comes as she continues to gain recognition globally for her efforts as an advocate of esports in Kenya since [joining American esports organisation UYU](https://tekken254.co.ke/news/2021/02/19/queenarrow-joins-uyu) in early 2021.
+In a follow-up tweet, QueenArrow thanked numerous people for their assistance with her application, including co-founder and PR manager of South African esports organisation Goliath Gaming Gabbi Brondani, South African esports commentator Sam Wright, and CEO of American esports organisation UYU Jinhee Kim. The accolade comes as she continues to gain recognition globally for her efforts as an advocate of esports in Kenya since [joining UYU](https://tekken254.co.ke/news/2021/02/19/queenarrow-joins-uyu) as a content creator in early 2021.
