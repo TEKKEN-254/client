@@ -1,7 +1,7 @@
 ---
 layout: post
 title: QueenArrow featured in Forbes Africa 30 Under 30 Class of 2022
-description: The law student was among three Kenyan women included on the list
+description: The law student was among three Kenyan women included on the list.
 author:
   - tekken254
 date: 2022-06-03T10:11:23.864Z
