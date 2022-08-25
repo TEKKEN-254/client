@@ -253,6 +253,31 @@ p {
 }
 
 
+/* Custom */
+
+.parries-reversals-sabakis th,
+.parries-reversals-sabakis tr td:first-child {
+    font-weight: 600;
+}
+
+.parries-reversals-sabakis th:first-child {
+    width: calc(100% / 10);
+}
+
+.parries-reversals-sabakis th:not(:first-child) {
+    width: calc(100% / 3);
+}
+
+.parries-reversals-sabakis th [data-toggle="tooltip"] {
+    border-bottom: 1px dotted #166734;
+}
+
+.parries-reversals-sabakis tr th:not(:first-child),
+.parries-reversals-sabakis tr td:not(:first-child) {
+    text-align: center;
+}
+
+
 /* Media queries */
 
 @media only screen and (min-width: 992px) {
