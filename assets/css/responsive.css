@@ -1,18 +1,21 @@
 @media only screen and (orientation: portrait) {
     body {
         background-image: url('/assets/img/backgrounds/bg-portrait.png');
+        background-image: -webkit-image-set( url('/assets/img/backgrounds/bg-portrait.webp') 1x, url('/assets/img/backgrounds/bg-portrait.png') 1x);
     }
 }
 
 @media only screen and (max-resolution: 72dpi) {
     body {
         background-image: url('/assets/img/backgrounds/bg-low-res.png');
+        background-image: -webkit-image-set( url('/assets/img/backgrounds/bg-low-res.webp') 1x, url('/assets/img/backgrounds/bg-low-res.png') 1x);
     }
 }
 
 @media only screen and (max-resolution: 72dpi) and (orientation: portrait) {
     body {
         background-image: url('/assets/img/backgrounds/bg-portrait-low-res.png');
+        background-image: -webkit-image-set( url('/assets/img/backgrounds/bg-portrait-low-res.webp') 1x, url('/assets/img/backgrounds/bg-portrait-low-res.png') 1x);
     }
 }
 
