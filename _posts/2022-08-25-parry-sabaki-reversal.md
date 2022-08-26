@@ -32,11 +32,19 @@ advanced:
 
     <div class="row gif-row">
         <figure class="col-6 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/1.gif" alt="Jin Kazama performing a parry">
+            <picture>
+                <source srcset="{{ asset_path }}/1.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/1.gif" type="image/gif">
+                <img src="{{ asset_path }}/1.gif" alt="Jin Kazama performing a parry">
+            </picture>
             <figcaption>Jin performing a parry</figcaption>
         </figure>
         <figure class="col-6 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/2.gif" alt="Jin Kazama successfully parrying an attack from Kazuya Mishima">
+            <picture>
+                <source srcset="{{ asset_path }}/2.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/2.gif" type="image/gif">
+                <img src="{{ asset_path }}/2.gif" alt="Jin Kazama successfully parrying an attack from Kazuya Mishima">
+            </picture>
             <figcaption>Jin successfully parrying an attack</figcaption>
         </figure>
     </div>
@@ -54,15 +62,27 @@ advanced:
 
     <div class="row gif-row">
         <figure class="col-4 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/3.gif" alt="Asuka Kazama performing a reversal">
+            <picture>
+                <source srcset="{{ asset_path }}/3.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/3.gif" type="image/gif">
+                <img src="{{ asset_path }}/3.gif" alt="Asuka Kazama performing a reversal">
+            </picture>
             <figcaption>Asuka performing a reversal</figcaption>
         </figure>
         <figure class="col-4 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/4.gif" alt="Asuka Kazama successfully reversing a punch from Lili De Rochefort">
+            <picture>
+                <source srcset="{{ asset_path }}/4.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/4.gif" type="image/gif">
+                <img src="{{ asset_path }}/4.gif" alt="Asuka Kazama successfully reversing a punch from Lili De Rochefort">
+            </picture>
             <figcaption>Asuka successfully reversing a punch</figcaption>
         </figure>
         <figure class="col-4 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/5.gif" alt="Asuka Kazama successfully reversing a kick from Lili De Rochefort">
+            <picture>
+                <source srcset="{{ asset_path }}/5.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/5.gif" type="image/gif">
+                <img src="{{ asset_path }}/5.gif" alt="Asuka Kazama successfully reversing a kick from Lili De Rochefort">
+            </picture>
             <figcaption>Asuka successfully reversing a kick</figcaption>
         </figure>
     </div>
@@ -79,11 +99,19 @@ advanced:
 
     <div class="row gif-row">
         <figure class="col-6 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/6.gif" alt="Feng Wei performing his sabaki">
+            <picture>
+                <source srcset="{{ asset_path }}/6.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/6.gif" type="image/gif">
+                <img src="{{ asset_path }}/6.gif" alt="Feng Wei performing his sabaki">
+            </picture>
             <figcaption>Feng performing a sabaki</figcaption>
         </figure>
         <figure class="col-6 inline-fig smaller" role="complementary">
-            <img src="{{ asset_path }}/7.gif" alt="Feng Wei successfully countering an attack from Marshall Law with a sabaki">
+            <picture>
+                <source srcset="{{ asset_path }}/7.webp" type="image/webp">
+                <source srcset="{{ asset_path }}/7.gif" type="image/gif">
+                <img src="{{ asset_path }}/7.gif" alt="Feng Wei successfully countering an attack from Marshall Law with a sabaki">
+            </picture>
             <figcaption>Feng successfully countering an attack with a sabaki</figcaption>
         </figure>
     </div>
