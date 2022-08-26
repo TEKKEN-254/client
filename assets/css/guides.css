@@ -40,15 +40,20 @@ p.break {
     margin: 20px auto;
 }
 
-.inline-fig img {
+.inline-fig picture {
     width: 100%;
     max-width: 375px;
     height: auto;
     margin: 0 auto;
 }
 
-.inline-fig.smaller img {
+.inline-fig.smaller picture {
     max-width: 300px;
+}
+
+.inline-fig img {
+    width: inherit;
+    max-width: inherit;
 }
 
 .inline-fig figcaption#plain {
@@ -293,7 +298,7 @@ p {
     /* General */
     figure,
     .inline-fig,
-    .inline-fig img,
+    .inline-fig picture,
     .inline-fig figcaption,
     .gif-row,
     .desktop-tip {
