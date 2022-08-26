@@ -1,4 +1,5 @@
 ---
+    layout: plain
     sitemap: false
 ---
 <!DOCTYPE html>
@@ -48,11 +49,10 @@
             <h1 class="bold uppercase">We're back in the lab!</h1>
             <p class="font-head notice">The website is currently undergoing a major rebuild for an improved user experience.</p>
             <p class="notice">Stay tuned to our social media to find out when it is relaunched.</p>
-            <p class="notice"><span class="bold">Savanna Fight Night</span>: <a href="/assets/docs/fight-night/sfn-10-rankings.pdf" target="_blank">Rankings</a> /
-                <a href="javascript:void( window.open( 'https://form.jotform.com/201524844468560', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Sign up</a> &mdash; <a href="https://tekken254.wixsite.com/tekkenn254">Back to the old website</a></p>
+            <p class="notice"><span class="bold">Savanna Fight Night</span>: <a href="/assets/docs/fight-night/sfn-10-rankings.pdf" target="_blank">Rankings</a> &mdash; <a href="javascript:void( window.open( 'https://form.jotform.com/201524844468560', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Sign up</a></p>
             <div class="char-img">
-                <img src="/assets/img/characters/katarina.png" alt="Katarina Alves, as she appears in Tekken 7" />
-                <img src="/assets/img/characters/miguel.png" alt="Miguel Caballero Rojo, as he appears in Tekken 7" />
+                {% include fallback_picture.html file="/assets/img/characters/tk7/katarina" primary_ext="webp" fallback_ext="png" alt="Katarina Alves, as she appears in Tekken 7" %}
+                {% include fallback_picture.html file="/assets/img/characters/tk7/miguel" primary_ext="webp" fallback_ext="png" alt="Miguel Caballero Rojo, as he appears in Tekken 7" %}
             </div>
         </main>
         <footer>
@@ -64,8 +64,8 @@
                     <a href="https://youtube.com/tekken254-main" target="_blank"><img src="/assets/img/socials/youtube-white.svg" /></a>
                     <a href="https://twitch.tv/tekken254" target="_blank"><img src="/assets/img/socials/twitch-white.svg" /></a>
                 </div>
-                <p>&#169; 2017&ndash;2020 TEKKEN Two-Five-Four Gaming. All rights reserved. TEKKEN Two-Five-Four Gaming is not affiliated with Bandai Namco Entertainment, Inc. or Warner Bros. Entertainment Inc. Tekken and its related content are copyright/registered
-                    trademarks of Bandai Namco Entertainment, Inc. Mortal Kombat and its related content are copyright/registered trademarks of Warner Bros. Entertainment Inc.</p>
+                <p>&#169; {{ "now" | date: "%Y" }} Ace Pro Sports Technologies Ltd. All rights reserved. Ace Pro Sports Technologies is not affiliated with Bandai Namco Entertainment, Inc. or Warner Bros. Entertainment Inc. Tekken and its related content are copyright/registered
+                trademarks of Bandai Namco Entertainment, Inc. Mortal Kombat and its related content are copyright/registered trademarks of Warner Bros. Entertainment Inc.</p>
             </div>
         </footer>
     </div>
