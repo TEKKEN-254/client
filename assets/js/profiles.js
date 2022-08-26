@@ -212,9 +212,9 @@ const display = id => {
     }
 
     if (!characters[playerMain].image) {
-        mainCharImg.style.backgroundImage = `url('/assets/img/characters/placeholder.png')`;
+        mainCharImg.style = `background-image: url('/assets/img/characters/placeholder.png'); background-image: -webkit-image-set( url('/assets/img/characters/placeholder.webp') 1x, url('/assets/img/characters/placeholder.png') 1x);`;
     } else {
-        mainCharImg.style.backgroundImage = `url('${characters[playerMain].image}')`;
+        mainCharImg.style = `background-image: url('${characters[playerMain].image}.png'); background-image: -webkit-image-set( url('${characters[playerMain].image}.webp') 1x, url('${characters[playerMain].image}.png') 1x);`;
         if (!players[id].pseudonym) {
             mainCharImg.setAttribute("aria-label", `Image of ${players[id].playerName}'s main character, ${characters[playerMain].name}`);
         } else {
