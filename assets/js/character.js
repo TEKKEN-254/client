@@ -64,8 +64,14 @@ const display = character => {
     charNickname.innerHTML = characters[character].nickname;
 
     charFlag.src = characters[character].flag;
-    charImg.src = characters[character].image;
-    charImg2.src = characters[character].image;
+
+    charImg.children[0].srcset = `${characters[character].image}.webp`;
+    charImg.children[1].srcset = `${characters[character].image}.png`;
+    charImg.children[2].src = `${characters[character].image}.png`;
+
+    charImg2.children[0].srcset = `${characters[character].image}.webp`;
+    charImg2.children[1].srcset = `${characters[character].image}.png`;
+    charImg2.children[2].src = `${characters[character].image}.png`;
 
     let charAppears;
     if (charSex === "male") {
