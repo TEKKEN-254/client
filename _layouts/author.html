@@ -1,10 +1,13 @@
 ---
 layout: default
 ---
-<h2 class="page-title uppercase">
-    Author Profile</h2>
+<h2 class="page-title uppercase">Author Profile</h2>
 <div class="author-bio col-12">
-    <img src="{% if page.img %}{{ page.img }}{% else %}/assets/img/authors/{{ page.alias }}.{% if page.imgExt %}{{ page.imgExt }}{% else %}jpg{% endif %}{% endif %}" alt="{% if page.display_name == "TEKKEN 254" %}{{ page.display_name }} logo{% else %}Close-up of {{ page.display_name }}{% endif %}" />
+    <picture>{% unless page.img %}
+        <source srcset="/assets/img/authors/{{ page.alias }}.webp" type="image/webp" />{% endunless %}
+        <source srcset="{% if page.img %}{{ page.img }}{% else %}/assets/img/authors/{{ page.alias }}.{% if page.imgExt %}{{ page.imgExt }}{% else %}jpg{% endif %}{% endif %}" type="image/{% if page.imgExt %}{{ page.imgExt }}{% elsif page.imgExt == "jpg" %}jpeg{% else %}jpeg{% endif %}" />
+        <img src="{% if page.img %}{{ page.img }}{% else %}/assets/img/authors/{{ page.alias }}.{% if page.imgExt %}{{ page.imgExt }}{% else %}jpg{% endif %}{% endif %}" alt="{% if page.display_name == "TEKKEN 254" %}{{ page.display_name }} logo{% else %}Close-up of {{ page.display_name }}{% endif %}" />
+    </picture>
     <div class="author-desc">
         <p class="author-name font-header fs-h3 site-red uppercase">{{ page.display_name }}</p>
         {{ content }}
