@@ -47,11 +47,11 @@
                 <p id="notable-players">Undefined</p>
             </section>
             <div class="char-img-2">
-                <img id="image-2" src="/assets/img/characters/placeholder.png" alt="" />
+                {% include fallback_picture.html id="image-2" file="/assets/img/characters/placeholder" primary_ext="webp" fallback_ext="png" alt="" %}
             </div>
         </div>
     </div>
     <div class="char-img">
-        <img id="image" src="/assets/img/characters/placeholder.png" alt="" />
+        {% include fallback_picture.html id="image" file="/assets/img/characters/placeholder" primary_ext="webp" fallback_ext="png" alt="" %}
     </div>
 </div>
