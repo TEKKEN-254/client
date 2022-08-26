@@ -1,5 +1,5 @@
 <picture>
     <source srcset="{{ include.file }}.{{ include.primary_ext }}" type="image/{% if include.primary_ext == "jpg" %}jpeg{% else %}{{ include.primary_ext }}{% endif %}">
     <source srcset="{{ include.file }}.{{ include.fallback_ext }}" type="image/{% if include.fallback_ext == "jpg" %}jpeg{% else %}{{ include.fallback_ext }}{% endif %}">
-    <img src="{{ include.file }}.{{ include.fallback_ext }}" alt="{{ include.alt }}">
+    <img src="{{ include.file }}.{{ include.fallback_ext }}"{% if include.class %} class="{{ include.class}}"{% endif %}{% if include.id %} id="{{ include.id }}"{% endif %}{% if include.alt %} alt="{{ include.alt }}"{% endif %}>
 </picture>
