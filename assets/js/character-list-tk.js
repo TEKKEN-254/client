@@ -8,7 +8,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/akuma.png",
+        image: "/assets/img/characters/tk7/akuma",
 
         age: "Unknown",
         country: "Unknown",
@@ -47,7 +47,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/russia.svg",
-        image: "/assets/img/characters/tk7/alisa-2.png",
+        image: "/assets/img/characters/tk7/alisa-2",
 
         age: "Unknown",
         country: "Russia",
@@ -83,7 +83,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/ireland.svg",
-        image: "/assets/img/characters/tk7/anna.png",
+        image: "/assets/img/characters/tk7/anna",
 
         age: "41 (physically 22 thanks to cryosleep)",
         country: "Republic of Ireland",
@@ -119,7 +119,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/armor-king.png",
+        image: "/assets/img/characters/tk7/armor-king",
 
         age: "Unknown",
         country: "Unknown",
@@ -173,7 +173,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/asuka-2.png",
+        image: "/assets/img/characters/tk7/asuka-2",
 
         age: 17,
         country: "Japan",
@@ -212,7 +212,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/bob.png",
+        image: "/assets/img/characters/tk7/bob",
 
         age: 27,
         country: "United States",
@@ -251,7 +251,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/bryan-2.png",
+        image: "/assets/img/characters/tk7/bryan-2",
 
         age: "31 (cyborg)",
         country: "United States",
@@ -293,7 +293,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/italy.svg",
-        image: "/assets/img/characters/tk7/claudio.png",
+        image: "/assets/img/characters/tk7/claudio",
 
         age: 27,
         country: "Italy",
@@ -329,7 +329,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/devil-jin-2.png",
+        image: "/assets/img/characters/tk7/devil-jin-2",
 
         age: 21,
         country: "Unknown",
@@ -371,7 +371,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/russia.svg",
-        image: "/assets/img/characters/tk7/dragunov-2.png",
+        image: "/assets/img/characters/tk7/dragunov-2",
 
         age: 26,
         country: "Russia",
@@ -413,7 +413,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/brazil.svg",
-        image: "/assets/img/characters/tk7/eddy.png",
+        image: "/assets/img/characters/tk7/eddy",
 
         age: 29,
         country: "Brazil",
@@ -449,7 +449,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/eliza.png",
+        image: "/assets/img/characters/tk7/eliza",
 
         age: "1,000+",
         country: "Unknown",
@@ -482,7 +482,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/thailand.svg",
-        image: "/assets/img/characters/tk7/fahkumram.png",
+        image: "/assets/img/characters/tk7/fahkumram",
 
         age: 28,
         country: "Thailand",
@@ -518,7 +518,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/china.svg",
-        image: "/assets/img/characters/tk7/feng-2.png",
+        image: "/assets/img/characters/tk7/feng-2",
 
         age: 26,
         country: "China",
@@ -554,7 +554,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/ganryu.png",
+        image: "/assets/img/characters/tk7/ganryu",
 
         age: 55,
         country: "Japan",
@@ -587,7 +587,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/geese.png",
+        image: "/assets/img/characters/tk7/geese",
 
         age: 43,
         country: "United States",
@@ -623,7 +623,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/gigas.png",
+        image: "/assets/img/characters/tk7/gigas",
 
         age: "Data deleted",
         country: "Data deleted",
@@ -656,7 +656,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/heihachi-2.png",
+        image: "/assets/img/characters/tk7/heihachi-2",
 
         age: 75,
         country: "Japan (citizenship denied by government)",
@@ -695,7 +695,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/south-korea.svg",
-        image: "/assets/img/characters/tk7/hwoarang-2.png",
+        image: "/assets/img/characters/tk7/hwoarang-2",
 
         age: 21,
         country: "South Korea",
@@ -734,7 +734,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/russia.svg",
-        image: "/assets/img/characters/tk7/jack-7.png",
+        image: "/assets/img/characters/tk7/jack-7",
 
         age: "N/A",
         country: "Russia",
@@ -776,7 +776,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/jin.png",
+        image: "/assets/img/characters/tk7/jin",
 
         age: 21,
         country: "Japan",
@@ -815,7 +815,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/philippines.svg",
-        image: "/assets/img/characters/tk7/josie.png",
+        image: "/assets/img/characters/tk7/josie",
 
         age: 18,
         country: "Philippines",
@@ -851,7 +851,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/julia.png",
+        image: "/assets/img/characters/tk7/julia",
 
         age: 20,
         country: "United States",
@@ -887,7 +887,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/brazil.svg",
-        image: "/assets/img/characters/tk7/katarina.png",
+        image: "/assets/img/characters/tk7/katarina",
 
         age: 22,
         country: "Brazil",
@@ -926,7 +926,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/kazumi.png",
+        image: "/assets/img/characters/tk7/kazumi",
 
         age: "Unknown (deceased)",
         country: "Japan",
@@ -965,7 +965,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/kazuya.png",
+        image: "/assets/img/characters/tk7/kazuya",
 
         age: 49,
         country: "Japan (revoked his nationality)",
@@ -1004,7 +1004,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/mexico.svg",
-        image: "/assets/img/characters/tk7/king-2.png",
+        image: "/assets/img/characters/tk7/king-2",
 
         age: 30,
         country: "Mexico",
@@ -1037,7 +1037,7 @@ const characters = {
         sex: "male and female",
 
         flag: "/assets/img/flagicons/japan-china-kuma-panda.svg",
-        image: "/assets/img/characters/tk7/kuma-panda-2.png",
+        image: "/assets/img/characters/tk7/kuma-panda-2",
 
         age: "10 (Kuma), 9 (Panda)",
         country: "Japan (Kuma), China (Panda)",
@@ -1112,7 +1112,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/kunimitsu.png",
+        image: "/assets/img/characters/tk7/kunimitsu",
 
         age: "Unknown",
         country: "Japan",
@@ -1148,7 +1148,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/sweden.svg",
-        image: "/assets/img/characters/tk7/lars.png",
+        image: "/assets/img/characters/tk7/lars",
 
         age: 28,
         country: "Sweden",
@@ -1184,7 +1184,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/law.png",
+        image: "/assets/img/characters/tk7/law",
 
         age: 48,
         country: "United States",
@@ -1220,7 +1220,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/china.svg",
-        image: "/assets/img/characters/tk7/lee.png",
+        image: "/assets/img/characters/tk7/lee",
 
         age: 48,
         country: "China",
@@ -1259,7 +1259,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/hong-kong.svg",
-        image: "/assets/img/characters/tk7/lei.png",
+        image: "/assets/img/characters/tk7/lei",
 
         age: 47,
         country: "Hong Kong",
@@ -1295,7 +1295,7 @@ const characters = {
         sex: "ambiguous",
 
         flag: "/assets/img/flagicons/germany.svg",
-        image: "/assets/img/characters/tk7/leo-2.png",
+        image: "/assets/img/characters/tk7/leo-2",
 
         age: 19,
         country: "Germany",
@@ -1331,7 +1331,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/leroy.png",
+        image: "/assets/img/characters/tk7/leroy",
 
         age: "Unknown (50+)",
         country: "United States",
@@ -1367,7 +1367,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/poland.svg",
-        image: "/assets/img/characters/tk7/lidia.png",
+        image: "/assets/img/characters/tk7/lidia",
 
         age: 29,
         country: "Poland",
@@ -1403,7 +1403,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/monaco.svg",
-        image: "/assets/img/characters/tk7/lili-2.png",
+        image: "/assets/img/characters/tk7/lili-2",
 
         age: 16,
         country: "Monaco",
@@ -1445,7 +1445,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/lucky-chloe.png",
+        image: "/assets/img/characters/tk7/lucky-chloe",
 
         age: 17,
         country: "Unknown (secret)",
@@ -1487,7 +1487,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/australia.svg",
-        image: "/assets/img/characters/tk7/marduk.png",
+        image: "/assets/img/characters/tk7/marduk",
 
         age: 28,
         country: "Australia",
@@ -1526,7 +1526,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/master-raven.png",
+        image: "/assets/img/characters/tk7/master-raven",
 
         age: "Unknown",
         country: "Unknown",
@@ -1571,7 +1571,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/spain.svg",
-        image: "/assets/img/characters/tk7/miguel.png",
+        image: "/assets/img/characters/tk7/miguel",
 
         age: 26,
         country: "Spain",
@@ -1613,7 +1613,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/negan.png",
+        image: "/assets/img/characters/tk7/negan",
 
         age: "Unknown (early to mid-50s)",
         country: "United States",
@@ -1646,7 +1646,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/ireland.svg",
-        image: "/assets/img/characters/tk7/nina.png",
+        image: "/assets/img/characters/tk7/nina",
 
         age: "43 (physically 24 thanks to cryosleep)",
         country: "Republic of Ireland",
@@ -1682,7 +1682,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/unknown.svg",
-        image: "/assets/img/characters/tk7/noctis.png",
+        image: "/assets/img/characters/tk7/noctis",
 
         age: 20,
         country: "Kingdom of Lucis",
@@ -1724,7 +1724,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-states.svg",
-        image: "/assets/img/characters/tk7/paul-2.png",
+        image: "/assets/img/characters/tk7/paul-2",
 
         age: 48,
         country: "United States",
@@ -1760,7 +1760,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/saudi-arabia.svg",
-        image: "/assets/img/characters/tk7/shaheen.png",
+        image: "/assets/img/characters/tk7/shaheen",
 
         age: 32,
         country: "Saudi Arabia",
@@ -1793,7 +1793,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/united-kingdom.svg",
-        image: "/assets/img/characters/tk7/steve-2.png",
+        image: "/assets/img/characters/tk7/steve-2",
 
         age: 21,
         country: "United Kingdom",
@@ -1829,7 +1829,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/china.svg",
-        image: "/assets/img/characters/tk7/xiaoyu-2.png",
+        image: "/assets/img/characters/tk7/xiaoyu-2",
 
         age: 18,
         country: "China",
@@ -1871,7 +1871,7 @@ const characters = {
         sex: "male",
 
         flag: "/assets/img/flagicons/japan.svg",
-        image: "/assets/img/characters/tk7/yoshimitsu.png",
+        image: "/assets/img/characters/tk7/yoshimitsu",
 
         age: "Unknown",
         country: "Japan",
@@ -1907,7 +1907,7 @@ const characters = {
         sex: "female",
 
         flag: "/assets/img/flagicons/egypt.svg",
-        image: "/assets/img/characters/tk7/zafina.png",
+        image: "/assets/img/characters/tk7/zafina",
 
         age: 23,
         country: "Egypt",
@@ -1940,7 +1940,7 @@ const characters = {
         sex: "male/female/ambiguous",
 
         flag: "/assets/img/flagicons/.svg",
-        image: "/assets/img/characters/tk7/.png",
+        image: "/assets/img/characters/tk7/",
 
         age: ,
         country: "",

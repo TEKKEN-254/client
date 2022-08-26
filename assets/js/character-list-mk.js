@@ -5,7 +5,7 @@ const characters = {
         // Profile
         name: "Baraka",
         sex: "male",
-        image: "/assets/img/characters/mk11/baraka.png",
+        image: "/assets/img/characters/mk11/baraka",
     },
 
     // Cassie Cage
@@ -13,7 +13,7 @@ const characters = {
         // Profile
         name: "Cassie Cage",
         sex: "female",
-        image: "/assets/img/characters/mk11/cassie.png",
+        image: "/assets/img/characters/mk11/cassie",
     },
     get cassieCage() {
         return this.cassie;
@@ -30,7 +30,7 @@ const characters = {
         // Profile
         name: "Cetrion",
         sex: "female",
-        image: "/assets/img/characters/mk11/cetrion.png",
+        image: "/assets/img/characters/mk11/cetrion",
     },
 
     // D'Vorah
@@ -38,7 +38,7 @@ const characters = {
         // Profile
         name: "D'Vorah",
         sex: "female",
-        image: "/assets/img/characters/mk11/dvorah.png",
+        image: "/assets/img/characters/mk11/dvorah",
     },
     get "d'vorah" () {
         return this.dvorah;
@@ -49,7 +49,7 @@ const characters = {
         // Profile
         name: "Erron Black",
         sex: "male",
-        image: "/assets/img/characters/mk11/erron-black.png",
+        image: "/assets/img/characters/mk11/erron-black",
     },
     get erron() {
         return this.erronBlack;
@@ -66,7 +66,7 @@ const characters = {
         // Profile
         name: "Frost",
         sex: "female",
-        image: "/assets/img/characters/mk11/frost.png",
+        image: "/assets/img/characters/mk11/frost",
     },
 
     // Fujin
@@ -74,7 +74,7 @@ const characters = {
         // Profile
         name: "Fujin",
         sex: "male",
-        image: "/assets/img/characters/mk11/fujin.png",
+        image: "/assets/img/characters/mk11/fujin",
     },
 
     // Geras
@@ -82,7 +82,7 @@ const characters = {
         // Profile
         name: "Geras",
         sex: "male",
-        image: "/assets/img/characters/mk11/geras.png",
+        image: "/assets/img/characters/mk11/geras",
     },
 
     // Jacqui Briggs
@@ -90,7 +90,7 @@ const characters = {
         // Profile
         name: "Jacqui Briggs",
         sex: "male/female/ambiguous",
-        image: "/assets/img/characters/mk11/.png",
+        image: "/assets/img/characters/mk11/",
     },
     get jacquiBriggs() {
         return this.jacqui;
@@ -107,7 +107,7 @@ const characters = {
         // Profile
         name: "Jade",
         sex: "female",
-        image: "/assets/img/characters/mk11/jade.png",
+        image: "/assets/img/characters/mk11/jade",
     },
 
     // Jax Briggs
@@ -115,7 +115,7 @@ const characters = {
         // Profile
         name: "Jax Briggs",
         sex: "male",
-        image: "/assets/img/characters/mk11/jax.png",
+        image: "/assets/img/characters/mk11/jax",
     },
     get jaxBriggs() {
         return this.jax;
@@ -132,7 +132,7 @@ const characters = {
         // Profile
         name: "Johnny Cage",
         sex: "male",
-        image: "/assets/img/characters/mk11/johnny.png",
+        image: "/assets/img/characters/mk11/johnny",
     },
     get johnnyCage() {
         return this.johnny;
@@ -149,7 +149,7 @@ const characters = {
         // Profile
         name: "The Joker",
         sex: "male",
-        image: "/assets/img/characters/mk11/joker.png",
+        image: "/assets/img/characters/mk11/joker",
     },
     get theJoker() {
         return this.joker;
@@ -166,7 +166,7 @@ const characters = {
         // Profile
         name: "Kabal",
         sex: "male",
-        image: "/assets/img/characters/mk11/kabal.png",
+        image: "/assets/img/characters/mk11/kabal",
     },
 
     // Kano
@@ -174,7 +174,7 @@ const characters = {
         // Profile
         name: "Kano",
         sex: "male",
-        image: "/assets/img/characters/mk11/kano.png",
+        image: "/assets/img/characters/mk11/kano",
     },
 
     // Kitana
@@ -182,7 +182,7 @@ const characters = {
         // Profile
         name: "Kitana",
         sex: "female",
-        image: "/assets/img/characters/mk11/kitana.png",
+        image: "/assets/img/characters/mk11/kitana",
     },
 
     // Kollector
@@ -190,7 +190,7 @@ const characters = {
         // Profile
         name: "Kollector",
         sex: "male",
-        image: "/assets/img/characters/mk11/kollector.png",
+        image: "/assets/img/characters/mk11/kollector",
     },
 
     // Kotal Kahn
@@ -198,7 +198,7 @@ const characters = {
         // Profile
         name: "Kotal Kahn",
         sex: "male",
-        image: "/assets/img/characters/mk11/kotal-kahn.png",
+        image: "/assets/img/characters/mk11/kotal-kahn",
     },
     get kotal() {
         return this.kotalKahn;
@@ -215,7 +215,7 @@ const characters = {
         // Profile
         name: "Kung Lao",
         sex: "male",
-        image: "/assets/img/characters/mk11/kung-lao.png",
+        image: "/assets/img/characters/mk11/kung-lao",
     },
     get "kung-lao" () {
         return this.kungLao;
@@ -229,7 +229,7 @@ const characters = {
         // Profile
         name: "Liu Kang",
         sex: "male",
-        image: "/assets/img/characters/mk11/liu-kang.png",
+        image: "/assets/img/characters/mk11/liu-kang",
     },
     get "liu-kang" () {
         return this.liuKang;
@@ -243,7 +243,7 @@ const characters = {
         // Profile
         name: "Mileena",
         sex: "female",
-        image: "/assets/img/characters/mk11/mileena.png",
+        image: "/assets/img/characters/mk11/mileena",
     },
 
     // Nightwolf
@@ -251,7 +251,7 @@ const characters = {
         // Profile
         name: "Nightwolf",
         sex: "male",
-        image: "/assets/img/characters/mk11/nightwolf.png",
+        image: "/assets/img/characters/mk11/nightwolf",
     },
 
     // Noob Saibot
@@ -259,7 +259,7 @@ const characters = {
         // Profile
         name: "Noob Saibot",
         sex: "male",
-        image: "/assets/img/characters/mk11/noob-saibot.png",
+        image: "/assets/img/characters/mk11/noob-saibot",
     },
     get noob() {
         return this.noobSaibot;
@@ -276,7 +276,7 @@ const characters = {
         // Profile
         name: "Raiden",
         sex: "male",
-        image: "/assets/img/characters/mk11/raiden.png",
+        image: "/assets/img/characters/mk11/raiden",
     },
 
     // Rain
@@ -284,7 +284,7 @@ const characters = {
         // Profile
         name: "Rain",
         sex: "male",
-        image: "/assets/img/characters/mk11/rain.png",
+        image: "/assets/img/characters/mk11/rain",
     },
 
     // John Rambo
@@ -292,7 +292,7 @@ const characters = {
         // Profile
         name: "John Rambo",
         sex: "male",
-        image: "/assets/img/characters/mk11/rambo.png",
+        image: "/assets/img/characters/mk11/rambo",
     },
     get johnRambo() {
         return this.rambo;
@@ -309,7 +309,7 @@ const characters = {
         // Profile
         name: "RoboCop",
         sex: "male",
-        image: "/assets/img/characters/mk11/robocop.png",
+        image: "/assets/img/characters/mk11/robocop",
     },
     get "robo-cop" () {
         return this.robocop;
@@ -320,7 +320,7 @@ const characters = {
         // Profile
         name: "Scorpion",
         sex: "male",
-        image: "/assets/img/characters/mk11/scorpion.png",
+        image: "/assets/img/characters/mk11/scorpion",
     },
 
     // Shang Tsung
@@ -328,7 +328,7 @@ const characters = {
         // Profile
         name: "Shang Tsung",
         sex: "male",
-        image: "/assets/img/characters/mk11/shang-tsung.png",
+        image: "/assets/img/characters/mk11/shang-tsung",
     },
     get "shang-tsung" () {
         return this.shangTsung;
@@ -342,7 +342,7 @@ const characters = {
         // Profile
         name: "Shao Kahn",
         sex: "male",
-        image: "/assets/img/characters/mk11/shao-kahn.png",
+        image: "/assets/img/characters/mk11/shao-kahn",
     },
     get "shao-kahn" () {
         return this.shaoKahn;
@@ -356,7 +356,7 @@ const characters = {
         // Profile
         name: "Sheeva",
         sex: "female",
-        image: "/assets/img/characters/mk11/sheeva.png",
+        image: "/assets/img/characters/mk11/sheeva",
     },
 
     // Sindel
@@ -364,7 +364,7 @@ const characters = {
         // Profile
         name: "Sindel",
         sex: "female",
-        image: "/assets/img/characters/mk11/sindel.png",
+        image: "/assets/img/characters/mk11/sindel",
     },
 
     // Skarlet
@@ -372,7 +372,7 @@ const characters = {
         // Profile
         name: "Skarlet",
         sex: "female",
-        image: "/assets/img/characters/mk11/skarlet.png",
+        image: "/assets/img/characters/mk11/skarlet",
     },
 
     // Sonya Blade
@@ -380,7 +380,7 @@ const characters = {
         // Profile
         name: "Sonya Blade",
         sex: "female",
-        image: "/assets/img/characters/mk11/sonya.png",
+        image: "/assets/img/characters/mk11/sonya",
     },
     get sonyaBlade() {
         return this.sonya;
@@ -397,7 +397,7 @@ const characters = {
         // Profile
         name: "Sub-Zero",
         sex: "male",
-        image: "/assets/img/characters/mk11/sub-zero.png",
+        image: "/assets/img/characters/mk11/sub-zero",
     },
     get "sub-zero" () {
         return this.subZero;
@@ -411,7 +411,7 @@ const characters = {
         // Profile
         name: "The Terminator",
         sex: "male",
-        image: "/assets/img/characters/mk11/terminator.png",
+        image: "/assets/img/characters/mk11/terminator",
     },
     get theTerminator() {
         return this.terminator;
@@ -434,7 +434,7 @@ const characters = {
         // Profile
         name: "",
         sex: "male/female/ambiguous",
-        image: "/assets/img/characters/mk11/.png",
+        image: "/assets/img/characters/mk11/",
     },
     */
 }
