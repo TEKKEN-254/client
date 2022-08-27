@@ -44,20 +44,20 @@
 </script>
 
 <!-- JAVASCRIPT / Local -->
-<script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/main.js" async></script>
 {% if page.alias == "character" %}
-<script type="module" src="/assets/js/character.js"></script>
+<script type="module" src="/assets/js/character.js" async></script>
 {% elsif page.alias contains "-profile" %}
-<script type="module" src="/assets/js/profiles.js"></script>
+<script type="module" src="/assets/js/profiles.js" async></script>
     {% if page.alias contains "circuit-profile" %}
-    <script type="module" src="/assets/js/stats-circuit.js"></script>
+    <script type="module" src="/assets/js/stats-circuit.js" async></script>
     {% elsif page.alias contains "sfn-profile" %}
-    <script type="module" src="/assets/js/stats-sfn.js"></script>
+    <script type="module" src="/assets/js/stats-sfn.js" async></script>
     {% endif %}
 {% endif %}{% if page.name == "contact.html" %}
 
 <!-- JAVASCRIPT / Contact Form -->
-<script>
+<script defer>
     const form = document.getElementById("contact-form");
 
     const handleSubmit = async(event) => {
