@@ -1,5 +1,5 @@
 /* IMPORTING CHARACTERS */
-import { characters } from './character-list-tk.js';
+import { characters } from "./character-list.js";
 import { players } from "./player-list-tk.js";
 
 /* DECLARATIONS */
