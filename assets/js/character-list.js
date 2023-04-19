@@ -69,7 +69,7 @@ const characters = {
         introduction: "<p>Fairly well-rounded character who excels in defence with great options from the mid-range and great poking, as well as dangerous offensive tools in her Destructive Form (DES). However, her moves from her unique stances, for the most part, are pretty linear and weak under pressure.</p>",
 
         // Notable players 
-        notablePlayers: ["Mickey", "Nixx Fury"],
+        notablePlayers: ["Mickey"],
     },
     get "alisa bosconovitch" () {
         return this.alisa;
@@ -85,7 +85,7 @@ const characters = {
         flag: "/assets/img/flagicons/ireland.svg",
         image: "/assets/img/characters/tk7/anna",
 
-        age: "41 (physically 22 thanks to cryosleep)",
+        age: "41 (physically 22 due to cryosleep)",
         country: "Republic of Ireland",
         fightingStyle: "Assassination arts (based on Aikido and Koppojutsu)",
         debut: "<em>Tekken</em>",
@@ -273,7 +273,7 @@ const characters = {
         introduction: "<p>Versatile character who excels in controlling space, with great options at both close and mid-range to keep the opponent honest. However, he tends to struggle under pressure as he lacks any great “panic moves,” while his back sway and taunt set-ups make it difficult to realise his full potential at higher levels of play.</p>",
 
         // Notable players 
-        notablePlayers: ["Frost", "Tiz"],
+        notablePlayers: ["Frost"],
     },
     get brian() {
         return this.bryan;
@@ -351,7 +351,7 @@ const characters = {
         introduction: "<p>Extremely versatile character with answers to pretty much any situation he finds himself in; great options on both offense and defence at close and mid-range, excellent punishment, great counter hit tools, great damage output and variety in his throws. As a Mishima character, he does however require good execution to succeed at higher levels of play.</p>",
 
         // Notable players 
-        notablePlayers: ["Poker Face", "Tony"],
+        notablePlayers: ["Tony Claessen", "Frost"],
     },
     get deviljin() {
         return this.devilJin;
@@ -435,7 +435,7 @@ const characters = {
         introduction: "<p>Elusive character with stances that go low to the ground and crush a lot of high and some mid attacks, greatly limiting the opponent's options, with good poking from his stances and some good keep-out tools. Despite also having great while standing punishment, his standing punishment is mediocre, and a lot of his best moves are unsafe on block, frequently leaving him fighting at a disadvantage.</p>",
 
         // Notable players 
-        notablePlayers: ["Furious Monkey", "Mickey"],
+        notablePlayers: ["Furious Monkey"],
     },
     get "eddy gordo" () {
         return this.eddy;
@@ -540,7 +540,7 @@ const characters = {
         introduction: "<p>Well-rounded character who does well in both offense and defence, with great poking, dangerous mix-ups, good range, great whiff punishment and some elusive stances. He does, however, lack range on a number of key punishers.</p>",
 
         // Notable players 
-        notablePlayers: ["Ghost", "PR1EST", "Frost"],
+        notablePlayers: ["Frost", "Ghost", "PR1EST"],
     },
     get "feng wei" () {
         return this.feng;
@@ -645,7 +645,7 @@ const characters = {
         introduction: "<p>Somewhat versatile character, with good poking, good punishment, great range and good damage output. However, he lacks good defensive options, partially due to his large frame, while much of his move set is fairly situational, making him a tough character to succeed with at any level.</p>",
 
         // Notable players 
-        notablePlayers: ["Mickey"],
+        notablePlayers: ["Nixx Fury"],
     },
 
     // Heihachi Mishima
@@ -798,7 +798,7 @@ const characters = {
         introduction: "<p>Versatile character who performs at his best in the mid-range, armed with good poking, great counter hit tools, great damage output, variety in his throws and a unique parry that deals with all highs and mids except projectiles (fireballs). While his Mishima-style tools are not quite as effective as those of the out-and-out Mishima characters, he makes up for it with other situational moves that plug those weaknesses. He does, however, lack range on a few key punishers.</p>",
 
         // Notable players 
-        notablePlayers: ["DVK", "Ace"],
+        notablePlayers: ["Ace", "DVK"],
     },
     get "jin kazama" () {
         return this.jin;
@@ -987,7 +987,7 @@ const characters = {
         introduction: "<p>Defensive Mishima character that relies on spacing to set up his excellent whiff punishment, coupled with great damage output, good mix-ups, excellent block punishment and great counter hit tools. However, his poking could be better, while he requires a high level of execution to bring the best out of him at higher levels of play.</p>",
 
         // Notable players 
-        notablePlayers: ["Proto-G", "Chuma Mzee", "Frost"],
+        notablePlayers: ["Proto-G", "Chuma Mzee"],
     },
     get "kazuya mishima" () {
         return this.kazuya;
@@ -1026,7 +1026,7 @@ const characters = {
         introduction: "<p>Versatile character with by far the widest selection of throws in the game, making him a beast at close range, coupled with great punishment, good poking, great counter hit tools and good range. However, his lows, the best of which are very unsafe on block, are lacklustre in general.</p>",
 
         // Notable players 
-        notablePlayers: ["Xstar", "Stanley Styler"],
+        notablePlayers: ["Xstar"],
     },
 
     // Kuma and Panda
@@ -1134,7 +1134,7 @@ const characters = {
         introduction: "<p>Character overview coming soon.</p>",
 
         // Notable players 
-        notablePlayers: [],
+        notablePlayers: ["Mickey", "Harem Shoryu"],
     },
     get kuni() {
         return this.kunimitsu;
@@ -1206,7 +1206,7 @@ const characters = {
         introduction: "<p>Offensive character with great mix-ups, great pressure tools and good damage output, as well as effective defensive tools such as his unique attack reversal and some evasive crushing tools to snake his way past the opponent. However, maximising his damage and enforcing a lot of his offense at higher levels of play relies on his Dragon Sign Stance (DSS), which requires very good execution.</p>",
 
         // Notable players 
-        notablePlayers: ["RobbyM$", "Chuma Mzee", "Stanley Styler"],
+        notablePlayers: ["RobbyM$", "Chuma Mzee"],
     },
     get "marshall law" () {
         return this.law;
@@ -1281,7 +1281,7 @@ const characters = {
         introduction: "<p>Versatile character with excellent evasive tools from his stances, which also give him great situational moves, great mix-ups, good counter hit tools, good damage output and variety on his throws. However, his standing punishment is lacklustre, while mastering the character demands the player to memorise his extremely vast moveset, which makes for a steep learning curve.</p>",
 
         // Notable players 
-        notablePlayers: ["Tony", "Proto-G"],
+        notablePlayers: ["Tony Claessen", "Proto-G"],
     },
     get "lei wulong" () {
         return this.lei;
@@ -1389,7 +1389,7 @@ const characters = {
         introduction: "<p>Character overview coming soon.</p>",
 
         // Notable players 
-        notablePlayers: [],
+        notablePlayers: ["Frost", "Mickey"],
     },
     get "lidia sobieska" () {
         return this.lidia;
@@ -1425,7 +1425,7 @@ const characters = {
         introduction: "<p>Fairly versatile character focused on offense with some good poking, great mix-ups, great punishment, some evasive crushing moves and the best sidestep in the game. However, a lot of her offense tends to be quite linear, while she has to resort to taking big risks to open up very defensive opponents.</p>",
 
         // Notable players 
-        notablePlayers: ["Frost", "Mickey", "Battousai"],
+        notablePlayers: ["Mickey", "Frost", "Battousai"],
     },
     get emilie() {
         return this.lili;
@@ -1635,7 +1635,7 @@ const characters = {
         introduction: "<p>Guest character from AMC's <em>The Walking Dead</em> series who excels in offense with good poking and mix-ups, including from his Intimidation stance which also auto-launches lows, as well as great counter hit tools, good damage output and good punishment. However, most of his best lows have poor range and, besides his f+1+2 (a launching power crush), his defensive options are rather limited.</p>",
 
         // Notable players 
-        notablePlayers: ["Frost", "DVK"],
+        notablePlayers: ["Frost"],
     },
 
     // Nina Williams
@@ -1648,7 +1648,7 @@ const characters = {
         flag: "/assets/img/flagicons/ireland.svg",
         image: "/assets/img/characters/tk7/nina",
 
-        age: "43 (physically 24 thanks to cryosleep)",
+        age: "43 (physically 24 due to cryosleep)",
         country: "Republic of Ireland",
         fightingStyle: "Assassination arts (based on Aikido and Koppojutsu)",
         debut: "<em>Tekken</em>",
@@ -1668,7 +1668,7 @@ const characters = {
         introduction: "<p>Versatile character who excels in offense, bullying the opponent with some great pressure tools, great poking and the widest selection of throws in the game after King, while also possessing some effective defensive tools. However, many of her best tools, as well as her movement, require good execution to utilise effectively, while she struggles to impose herself away from close range.</p>",
 
         // Notable players 
-        notablePlayers: ["Tiz", "Yaz"],
+        notablePlayers: ["Vega"],
     },
     get "nina williams" () {
         return this.nina;
@@ -1704,7 +1704,7 @@ const characters = {
         introduction: "<p>Guest character from Square Enix's <em>Final Fantasy</em> series, possessing the best range in the game which is exemplified by his great keep-out tools and excellent whiff punishment, as well as good evasive crushing moves and good damage output. However, his poking is mediocre, his best lows are all quite unsafe on block and he has by far the most unsafe rage art in the game.</p>",
 
         // Notable players 
-        notablePlayers: ["Defiant", "Harem Shoryu", "Hattori"],
+        notablePlayers: ["Defiant"],
     },
     get "noctis lucis" () {
         return this.noctis;
@@ -1746,7 +1746,7 @@ const characters = {
         introduction: "<p>Extremely versatile character with great mix-ups, excellent punishment, great counter hit tools, variety in his throws, powerful options from ultimate tackle and probably the highest damage output in the game after the 2D-style characters. However, his rushdown tools are quite limited, his most powerful moves are very unsafe on block and his back sway makes for increased difficulty in creating distance with the opponent at higher levels of play.</p>",
 
         // Notable players
-        notablePlayers: ["Poker Face", "Tiz", "Stanley Styler"],
+        notablePlayers: ["Battousai", "Poker Face"],
     },
     get "paul phoenix" () {
         return this.paul;
@@ -1815,7 +1815,7 @@ const characters = {
         introduction: "<p>Offensive character with a powerful set of counter hit tools, as well as some great poking, great damage output and evasive stances to induce whiffs. However, his lows in general are very tame, a lot of his offense consists of highs which can be ducked and punished, while he also has slow standing and crouching launchers.</p>",
 
         // Notable players 
-        notablePlayers: ["Proto-G"],
+        notablePlayers: ["Ace", "Frost", "Proto-G"],
     },
     get "steve fox" () {
         return this.steve;
@@ -1929,7 +1929,7 @@ const characters = {
         introduction: "<p>Elusive, set-up heavy character with good mix-ups, especially from her Scarecrow stance, good damage output and great counter hit tools. However, her ability to impose herself at range is limited, while her punishment (especially while rising/crouching) could be better.</p>",
 
         // Notable players 
-        notablePlayers: ["Harem Shoryu", "Yaz", "Nixx Fury"],
+        notablePlayers: ["Harem Shoryu", "Vega"],
     },
 
     /*
