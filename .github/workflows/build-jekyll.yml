@@ -22,6 +22,6 @@ jobs:
             # Use GitHub Deploy Action to build and deploy to Github
             - uses: jeffreytse/jekyll-deploy-action@v0.4.0
               with:
-                  provider: "github"
+                  provider: 'github'
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: "jekyll"
+                  branch: 'jekyll'
