@@ -1,0 +1,245 @@
+.player-bio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.player-profile,
+.stats-overview {
+    width: 25%;
+    min-width: 230px;
+}
+
+.circuit-bio {
+    border-bottom: 1px solid white;
+    margin-bottom: 0.875rem;
+}
+
+.bio-img {
+    margin: 0;
+}
+
+.bio-img figcaption {
+    position: absolute;
+    width: 200px;
+    margin-top: -203px;
+    margin-left: 160px;
+    opacity: 0.5;
+}
+
+img.player-img {
+    width: 200px;
+    border: 2px solid white;
+    margin-bottom: -7px;
+}
+
+.player-pseudo,
+.player-name,
+.bio-info {
+    white-space: nowrap;
+}
+
+.player-pseudo {
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.player-name {
+    font-size: 95% !important;
+    font-weight: 600;
+    color: #166734;
+    margin: 0 !important;
+}
+
+#team-name {
+    color: #ba2025;
+}
+
+#team-name[data-toggle="tooltip"] {
+    border-bottom: none;
+}
+
+.bio-info {
+    line-height: 0.4;
+}
+
+.bio-info:first-of-type {
+    margin-top: 1.5625rem !important;
+}
+
+.bio-header,
+.stat-header {
+    font-weight: 600;
+    margin-top: 1.875rem !important;
+}
+
+.bio-header {
+    margin-bottom: -0.75rem !important;
+}
+
+.stat-header:first-child {
+    margin-top: 0 !important;
+}
+
+.stat-header {
+    margin-bottom: -5px !important;
+}
+
+#bio-main {
+    display: flex;
+    background: transparent no-repeat center;
+    background-image: url('/assets/img/characters/placeholder.png');
+    background-size: contain;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #bio-main {
+    position: relative;
+    max-height: 430px;
+} */
+
+.player-socials {
+    position: absolute;
+    table-layout: fixed;
+    left: 253px;
+    margin-top: -168px;
+    vertical-align: middle;
+    border: none;
+    z-index: 10;
+}
+
+.player-socials table {
+    width: 200px;
+    table-layout: fixed;
+}
+
+.player-socials table td {
+    width: initial;
+    padding: 0 7px;
+}
+
+.player-socials img {
+    height: 30px;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.player-socials img:hover,
+.player-socials img:focus {
+    opacity: 0.75;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#is-facebook,
+#is-twitter,
+#is-instagram,
+#is-youtube,
+#is-twitch {
+    display: none;
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stats-box {
+    display: none;
+    min-height: 190px;
+    flex-basis: 30%;
+    white-space: nowrap;
+}
+
+#current-finalist,
+#season-1-finalist,
+#season-2-finalist,
+#season-3-finalist,
+#season-4-finalist {
+    display: none;
+}
+
+.player-stat {
+    font-size: 1.125rem;
+    line-height: 0.5;
+}
+
+@media only screen and (min-width: 992px) {
+    #season-2-stats,
+    #season-3-stats,
+    .stats-box:not(:last-child):not(:nth-last-child(2)):not(:nth-last-child(3)) {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .player-bio,
+    .stats {
+        flex-direction: column;
+    }
+    .bio-img {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bio-img figcaption {
+        position: relative;
+        text-align: center;
+        margin: 0.25rem auto;
+    }
+    .player-socials {
+        position: static;
+        display: flex;
+        width: 100%;
+        left: 0;
+        margin: 0.25rem auto 1rem auto;
+        justify-content: center;
+    }
+    .player-socials table {
+        display: flex;
+        justify-content: center;
+    }
+    .player-socials table td {
+        height: 30px;
+    }
+    .player-profile,
+    .stats-overview {
+        width: 100%;
+    }
+    .player-pseudo {
+        margin-top: 0 !important;
+    }
+    .bio-info {
+        line-height: 0.75;
+        margin: 5px auto;
+    }
+    .stats-overview {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    /* .stats-overview::before {
+        content: ' ';
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.25;
+    } */
+    .stats-box:not(:last-child) {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

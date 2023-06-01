@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://tekken254.co.ke
+
+publish_mode: editorial_workflow
+media_folder: '/assets/netlify-cms/uploads'
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: 'news'
+    label: 'Posts'
+    folder: '_posts/'
+    create: true
+    sortable_fields: ['date', 'title', 'author']
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+    preview_path: '/news/{{year}}/{{month}}/{{day}}/{{fields.slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          display_fields: [display_name],
+          search_fields: [display_name],
+          value_field: 'alias',
+          multiple: true,
+        }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          date_format: "DD-MM-YYYY",
+          time_format: "HH:mm",
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'select',
+          options: [ { label: "Competitive", value: "competitive" }, { label: "Reports", value: "reports" }, { label: "Interviews", value: "interviews" }, { label: "Guides", value: "guides" } ] # { label: "Statements", value: "statements" }
+        }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Meta Image', name: 'metaImage', widget: 'image', choose_url: false, required: false }
+      - { label: 'Meta Image Caption', name: 'caption', widget: 'string', required: false }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - label: "Advanced"
+        name: "advanced"
+        widget: "object"
+        collapsed: true
+        summary: 'Advanced options'
+        fields:
+          - { label: 'Meta Image Extension', name: 'metaImageExt', widget: 'string', required: false }
+          - { label: 'Meta Image Position', name: 'metaImagePosition', widget: 'string', default: "center", required: false }
+          - { label: 'Meta Image Size', name: 'metaImageSize', widget: 'string', default: "cover", required: false }
+          # - { label: 'Top Story', name: 'top', widget: 'boolean', default: false, required: false }
+  - name: 'authors'
+    label: 'Authors'
+    folder: '_authors/'
+    create: false
+    slug: '{{fields.alias}}'
+    # editor:
+    #   preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Alias', name: 'alias', widget: 'string' }
+      - { label: 'Name', name: 'display_name', widget: 'string' }
+      - { label: 'Image', name: 'img', widget: 'image' }
+      - { label: 'Image extension', name: 'imgExt', widget: 'string', default: "jpg", required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

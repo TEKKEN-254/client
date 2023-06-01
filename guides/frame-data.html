@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PMGK68F');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>TEKKEN 254 | Guides - Frame Data</title>
+    <link rel="icon" type="image/png" href="/assets/img/logos/icon.png" />
+    <link type="application/atom+xml" rel="alternate" href="https://tekken254.co.ke/feed.xml" title="TEKKEN 254" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Get started on learning how to interpret frame data and apply it when playing Tekken.">
+
+    <!-- SOCIAL / OpenGraph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tekken254.co.ke/guides/frame-data.html">
+    <meta property="og:title" content='TEKKEN 254 | Guides - Frame Data'>
+    <meta property="og:description" content="Get started on learning how to interpret frame data and apply it when playing Tekken.">
+    <meta property="og:image" content="https://tekken254.co.ke/assets/img/backgrounds/meta-banner.png">
+    
+
+    <!-- SOCIAL / Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@itstekken254">
+    <meta name="twitter:url" content="https://tekken254.co.ke/guides/frame-data.html">
+    <meta name="twitter:title" content='TEKKEN 254 | Guides - Frame Data'>
+    <meta name="twitter:description" content="Get started on learning how to interpret frame data and apply it when playing Tekken.">
+    <meta name="twitter:image" content="https://tekken254.co.ke/assets/img/backgrounds/meta-banner.png">
+
+    <!-- STYLESHEETS / Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
+
+    <!-- STYLESHEETS / Local -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/guides.css" />
+
+    <!-- STYLESHEETS / Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- JAVASCRIPT / Netlify CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMGK68F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header role="banner" id="top">
+        <div class="row top-row mx-auto align-items-center">
+            <div class="col-auto p-0 socials d-none d-lg-block">
+                <div class="follow-us uppercase">Follow us</div>
+                <a href="https://youtube.com/@tekken254community" target="_blank"><img src="/assets/img/socials/youtube.svg" alt="TEKKEN 254 YouTube channel" /></a>
+                <a href="https://linktr.ee/tekken254" target="_blank"><img src="/assets/img/socials/linktree.svg" alt="TEKKEN 254 Linktree" /></a>
+            </div>
+            <div class="col-auto p-0 header-img">
+                <a class="header-img" href="/"><img src="/assets/img/logos/t254-logo.svg" alt="TEKKEN 254 logo" /></a>
+            </div>
+            <div class="col-3 p-0 search-bar d-none d-lg-block">
+                <form class="top-search">
+    <label class="sr-only" for="site-top-search">Search the TEKKEN 254 website</label>
+    <input type="search" id="site-top-search" name="q" placeholder="Search&#8230;">
+</form>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg p-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-menu" aria-controls="top-menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><img src="/assets/img/icons/menu.svg" alt="" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="top-menu">
+                <ul class="navbar-nav justify-content-around mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="/news/">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="/galleries/">Galleries</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-0 dropdown-toggle" id="dropdown-guides" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides</a>
+                        <div class="dropdown-menu dm-override" aria-labelledby="dropdown-guides">
+                            <a class="dropdown-item" href="/guides/">Introduction</a>
+                            <a class="dropdown-item" href="/guides/movement.html">Movement</a>
+                            <a class="dropdown-item" href="/guides/att-def.html">Attack & Defence</a>
+                            <a class="dropdown-item" href="/guides/characters.html">Characters</a>
+                            <a class="dropdown-item active" href="/guides/frame-data.html">Frame Data</a>
+                            <a class="dropdown-item" href="/guides/notations.html">Notations</a>
+                            <a class="dropdown-item" href="/guides/glossary.html">Glossary</a>
+                        </div>
+                    </li>
+                    <div class="mobile-search">
+                        <form class="top-search">
+    <label class="sr-only" for="site-mobile-search">Search the TEKKEN 254 website</label>
+    <input type="search" id="site-mobile-search" name="q" placeholder="Search&#8230;">
+</form>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <noscript>
+            <div class="js-notice">
+                For full functionality of this website, it is necessary to enable JavaScript. For instructions on how to enable JavaScript in your web browser, <a class="medium" href="https://www.enable-javascript.com/" target="_blank">click here</a>.
+            </div>
+        </noscript>
+    </header>
+    <main>
+<h1 class="page-title uppercase" id="introduction">Introduction to Frame Data</h1>
+<p>Frames are a measure of time. Most fighting games in recent years, including <em>Tekken 7</em>, run at 60 frames per second. Frame data tells us the speed of moves in the game in various aspects: <strong>how long they take to hit the opponent</strong>,
+    <strong>how much of an advantage/disadvantage​ the player gets</strong> after the move successfully connects/is blocked and much more.</p>
+<p>When two players in a match are both moving around without using any attacks, they are in <strong>neutral frames</strong>, meaning neither player is at a frame advantage or disadvantage. When a move is used, the attacker will then be at <strong>plus (+) frames</strong>,
+    <strong>neutral frames (0)</strong> or <strong>minus (-) frames</strong> depending on the move's properties.</p>
+<div class="nb">
+    <p><strong>Note:</strong> This guide was created during Season 1 of <em>Tekken 7</em>, so some frame data on this page may be outdated. However, info on <strong>general punishment guidelines</strong> has been updated for Season 4.</p>
+</div>
+<div class="gif-toggler">
+    <a onclick="toggleGifs()"><button class="guide-button">Toggle GIFs</button></a>
+</div>
+<ul class="guides-tabs nav nav-pills" id="frame-data-tabs" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="frame-advantage-tab" data-toggle="pill" href="#frame-advantage" role="tab" aria-controls="frame-advantage" aria-selected="true">Frame advantage</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="start-up-tab" data-toggle="pill" href="#start-up" role="tab" aria-controls="start-up" aria-selected="false">Calculating start-up during frame advantage</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="block-punishment-tab" data-toggle="pill" href="#block-punishment" role="tab" aria-controls="block-punishment" aria-selected="false">Block punishment</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="general-guidelines-tab" data-toggle="pill" href="#general-guidelines" role="tab" aria-controls="general-guidelines" aria-selected="false">General punishment guidelines</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="resources-tab" data-toggle="tab" href="#resources" role="pill" aria-controls="resources" aria-selected="false">Frame data resources</a>
+    </li>
+</ul>
+<div class="tab-content" id="frame-data-tabs-content">
+    <section class="tab-pane fade show active" id="frame-advantage" role="tabpanel" aria-labelledby="frame-advantage-tab">
+        <h2 class="page-title">Frame advantage</h2>
+        <p>Every move in Tekken gives the player or their opponent an advantage <strong>on block</strong>, <strong>on hit</strong> and <strong>on counter hit</strong> (hitting the opponent while they are also attacking). These situations can be broken
+            down into three forms: <strong>plus frames</strong> (frame advantage), <strong>neutral frames</strong> or <strong>minus frames</strong> (frame disadvantage).</p>
+        <p>A move that is <strong>plus on block</strong> means that after the move is blocked, the attacker will be at a frame advantage, meaning that any follow-up attacks will come out before the opponent's. Conversely, a move that is <strong>minus on block</strong>            means that the opponent's follow-ups will come out before the attacker's, while a move that is <strong>neutral (or 0) on block</strong> means the attacker and opponent's follow-ups will come out at the same time. The same principles, further explained below,
+            also apply to moves on hit and on counter hit.</p>
+        <p>Before illustrating these situations, it is worth knowing that in most cases, a character's fastest move is <strong>10 frames (i10)</strong>, meaning the move takes 10 frames (or one sixth of a second) to connect with the opponent. In
+            <em>Tekken 7</em>, the exceptions to this rule are <a href="./character.html?view=master-raven">Master Raven</a> and <a href="./character.html?view=xiaoyu">Ling Xiaoyu</a>, whose fastest moves are i8, as well as <a href="./character.html?view=geese">Geese</a>            (i9) and
+            <a href="./character.html?view=yoshimitsu">Yoshimitsu</a> (i6).</p>
+        <p>To illustrate plus, minus and neutral frames on block, we will use the three attacks below from <a href="./character.html?view=heihachi">Heihachi Mishima</a>'s move list against his wife <a href="./character.html?view=kazumi">Kazumi</a>.</p>
+        <table class="table notations table-responsive-lg">
+            <thead>
+                <tr>
+                    <th>Command <em>(Heihachi)</em></th>
+                    <th>Hit level</th>
+                    <th>Start-up (speed)</th>
+                    <th><em>On block</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>h</td>
+                    <td>i10</td>
+                    <td><em>+1</em></td>
+                </tr>
+                <tr>
+                    <td>1, 2</td>
+                    <td>h, h</td>
+                    <td>i10</td>
+                    <td><em>-1</em></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>h</td>
+                    <td>i10</td>
+                    <td><em>0</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row gif-info">
+                    <ul class="col-12">
+                        <li>Heihachi's 1 is <strong>+1 on block</strong>. This means that if blocked, <strong>any follow-up will come out 1 frame before Kazumi's</strong> (in this and the next 2 cases, both are following up with i10 jabs).</li>
+                    </ul>
+                    <figure class="col-5 inline-fig" role="complementary">
+                        <picture>
+    <source srcset="/assets/img/guides/frame-data-plus-on-block.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-plus-on-block.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-plus-on-block.gif" alt="Kazumi Mishima blocking Heihachi Mishima's 1, after which both attempt to follow up with a 1. Heihachi's 1 hits Kazumi.">
+</picture>
+                    </figure>
+                </div>
+                <div class="row gif-info">
+                    <ul class="col-12">
+                        <li>Heihachi's 1, 2 is <strong>-1 on block</strong>. This means that if blocked, <strong>any follow-up will come out 1 frame after Kazumi's</strong>.</li>
+                    </ul>
+                    <figure class="col-5 inline-fig" role="complementary">
+                        <picture>
+    <source srcset="/assets/img/guides/frame-data-minus-on-block.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-minus-on-block.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-minus-on-block.gif" alt="Kazumi Mishima blocking Heihachi Mishima's 1, 2, after which both attempt to follow up with a 1. Kazumi's 1 hits Heihachi.">
+</picture>
+                    </figure>
+                </div>
+                <div class="row gif-info">
+                    <ul class="col-12">
+                        <li>Heihachi's 2 is <strong>0 on block</strong>. This means that if blocked, <strong>any follow-up will trade with Kazumi's</strong>, so long as both moves have the same start-up (are as fast as each other).</li>
+                    </ul>
+                    <figure class="col-5 inline-fig" role="complementary">
+                        <picture>
+    <source srcset="/assets/img/guides/frame-data-neutral-on-block.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-neutral-on-block.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-neutral-on-block.gif" alt="Kazumi Mishima blocking Heihachi Mishima's 2, after which both attempt to follow up with a 1. The two characters trade hits.">
+</picture>
+                    </figure>
+                </div>
+            </section>
+            <section class="tab-pane fade" id="start-up" role="tabpanel" aria-labelledby="start-up-tab">
+                <h2 class="page-title">Calculating start-up during frame advantage</h2>
+                <p>Being plus does not guarantee that your follow-ups will connect before your opponent's, and being minus does not guarantee that your opponent's follow-ups will connect before yours. While your moves will come out sooner in plus frames and
+                    later in minus frames, the <strong>start-up</strong> (speed) of the moves ultimately determines who will get hit (if both you and your opponent attack).</p>
+                <p>To illustrate this, <a href="./character.html?view=josie">Josie Rizal</a> will block
+                    <a href="./character.html?view=law">Marshall Law</a>'s 1 and follow-up with 1, 2, 2 (i10) to counter Law's 4 and 3, 4.</p>
+                <table class="table notations table-responsive-lg">
+                    <thead>
+                        <tr>
+                            <th>Command <em>(Law)</em></th>
+                        <th>Hit level</th>
+                        <th><em>Start-up (speed)</em></th>
+                        <th>On block</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>h</td>
+                        <td><em>i10</em></td>
+                        <td>+1</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>h</td>
+                        <td><em>i12</em></td>
+                        <td>-9</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>h</td>
+                        <td><em>i11</em></td>
+                        <td>-9</td>
+                    </tr>
+                </tbody>
+        </table>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>The start-up of <strong>Law's 4 is i11</strong>. Josie blocks his 1, leaving him at +1; <strong>his 4 will come out 1 frame sooner than Josie's 1</strong> (i10), which means <strong>they will trade hits</strong>.<br /><br />Summary:
+                    <ul class="sub-list">
+                        <li>The start-up of Law's 4 at +1 = <strong>i11 - 1 = i10</strong>.</li>
+                        <li>At +1, Law's 4 trades with Josie's 1.</li>
+                    </ul>
+                </li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-plus-one-trade.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-plus-one-trade.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-plus-one-trade.gif" alt="Josie Rizal blocking Marshall Law's 1. Josie attempts to follow up with a 1, while Law attempts to follow up with a 4. The two characters trade hits.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>The start-up of <strong>Law's 3 is i12</strong>. Josie blocks his 1, leaving him at +1; <strong>his 3 will come out 1 frame sooner than Josie's 1, 2, 2</strong> (i10), but <strong>Josie will still hit Law</strong>.<br /><br />Summary:
+                    <ul class="sub-list">
+                        <li>The start-up of Law's 3 at +1 = <strong>i12 - 1 = i11</strong>.</li>
+                        <li>At +1, Law's 3 is still beaten by Josie's 1, 2, 2.</li>
+                    </ul>
+                </li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-plus-one-i10-beats-i12.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-plus-one-i10-beats-i12.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-plus-one-i10-beats-i12.gif" alt="Josie Rizal blocking Marshall Law's 1. Josie attempts to follow up with a 1, while Law attempts to follow up with a 3. Josie hits Law.">
+</picture>
+            </figure>
+        </div>
+    </section>
+    <section class="tab-pane fade" id="block-punishment" role="tabpanel" aria-labelledby="block-punishment-tab">
+        <h2 class="page-title">Block punishment</h2>
+        <p>Earlier, we pointed out that for most characters, their fastest move is i10 (usually jabs and jab strings). This means that in most cases, a move that is <strong>-10 or less on block</strong> is <strong>unsafe</strong>, while a move that is
+            <strong>-9 or more on block</strong> is <strong>safe</strong> (keep the aforementioned exceptions in the <strong>frame advantage</strong> section in mind as you continue to play the game).</p>
+        <p>All characters have moves that act as <strong>punishers</strong> at different frames on block; punishers that are <strong>i12 or slower</strong> generally <strong>deal a good chunk of damage</strong>, while most <strong>i15 and i16 punishers</strong>            are usually <strong>launchers</strong> that can be followed up with a combo.</p>
+        <p>All characters also have <strong>while standing (WS)</strong> and <strong>full crouch (FC) punishers</strong> to punish low attacks. Most lows are punishable by <strong>i11 WS/FC punishers</strong>, while <strong>stagger lows</strong> are always
+            <strong>launch punishable</strong> (WS/FC launchers vary in speed between characters, but generally come out at i14 to i18). Be sure to note the advantages and disadvantages of each character's punishers as you continue to play the game; some
+            have better punishment than others, both at different frames and in general.</p>
+        <p>We will use <a href="./character.html?view=leo">Leo Kliesen</a> and <a href="./character.html?view=lili">Lili De Rochefort</a> to illustrate these various situations.</p>
+        <table class="table notations table-responsive-lg">
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Hit level</th>
+                    <th><em>Start-up (speed)</em></th>
+                    <th><em>On block</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="char-title">
+                    <td colspan="4">Leo Kliesen</td>
+                </tr>
+                <tr>
+                    <td>1+2</td>
+                    <td>m</td>
+                    <td>i25</td>
+                    <td><em>-12</em></td>
+                </tr>
+                <tr>
+                    <td>d+4</td>
+                    <td>l</td>
+                    <td>i16</td>
+                    <td><em>-11</em></td>
+                </tr>
+                <tr>
+                    <td>d/b+4</td>
+                    <td>l</td>
+                    <td>i20</td>
+                    <td><em>-31</em></td>
+                </tr>
+                <tr>
+                    <td>u/f+3</td>
+                    <td>m</td>
+                    <td>i17</td>
+                    <td><em>-9</em></td>
+                </tr>
+                <tr>
+                    <td>b, f+1+2, 1+2, 2</td>
+                    <td>m, m, m</td>
+                    <td>i17</td>
+                    <td><em>-15</em></td>
+                </tr>
+                <tr>
+                    <td>SS 1+2</td>
+                    <td>m</td>
+                    <td>i19</td>
+                    <td><em>-10</em></td>
+                </tr>
+                <tr class="char-title">
+                    <td colspan="4">Lili de Rochefort</td>
+                </tr>
+                <tr>
+                    <td>1, 2</td>
+                    <td>h, h</td>
+                    <td><em>i10</em></td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>1+2</td>
+                    <td>m</td>
+                    <td><em>i12</em></td>
+                    <td>-12</td>
+                </tr>
+                <tr>
+                    <td>u/f+3</td>
+                    <td>m</td>
+                    <td><em>i15</em></td>
+                    <td>-13</td>
+                </tr>
+                <tr>
+                    <td>WS 2</td>
+                    <td>m</td>
+                    <td><em>i16</em></td>
+                    <td>-12</td>
+                </tr>
+                <tr>
+                    <td>WS 4</td>
+                    <td>m</td>
+                    <td><em>i11</em></td>
+                    <td>-8</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -9 on block, Leo's u/f+3 is safe against Lili. Leo cannot be punished after the move is blocked.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-safe-on-block.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-safe-on-block.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-safe-on-block.gif" alt="Lili De Rochefort blocks Leo Kliesen's up-forward 3 and attempts to punish with 1, 2, but Leo blocks.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -10 on block, Leo's SS 1+2 is unsafe and can be punished afterwards by an i10 move such as Lili's 1, 2.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-i10-punish.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-i10-punish.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-i10-punish.gif" alt="Lili De Rochefort blocks Leo Kliesen's sidestep 1+2, and punishes with 1, 2.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -12 on block, Leo's 1+2 is unsafe and can be punished afterwards by any move i12 or quicker, such as Lili's 1+2.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-i12-punish.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-i12-punish.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-i12-punish.gif" alt="Lili De Rochefort blocks Leo Kliesen's 1+2, and punishes with 1+2.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -15 on block, Leo's b, f+1+2, 1+2, 2 is launch punishable. They can be punished afterwards by an i15 launcher, such as a hopkick like Lili's u/f+3.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-i15-punish.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-i15-punish.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-i15-punish.gif" alt="Lili De Rochefort blocks Leo Kliesen's back forward 1+2, 1+2, 2, and punishes with up-forward 3.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -11 on block, Leo's d+4 is an unsafe low that can be punished by an i11 WS move, such as Lili's WS 4.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-i11-WS-punish.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-i11-WS-punish.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-i11-WS-punish.gif" alt="Lili De Rochefort blocks Leo Kliesen's down 4, and punishes with while standing 4.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li>At -31 on block, Leo's d/b+4 is a <strong>stagger low</strong> (blocking the move staggers Leo) that is extremely unsafe. They can be punished by a WS launcher, such as Lili's WS 2.</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-i16-WS-punish.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-i16-WS-punish.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-i16-WS-punish.gif" alt="Lili De Rochefort blocks Leo Kliesen's down back 4, and punishes with while standing 2.">
+</picture>
+            </figure>
+        </div>
+    </section>
+    <section class="tab-pane fade" id="general-guidelines" role="tabpanel" aria-labelledby="general-guidelines-tab">
+        <h2 class="page-title">General punishment guidelines</h2>
+        <p>In Tekken, there are multiple characters each with a vast number of moves, each one with their own unique properties, so one must be patient and inquisitive in learning how to deal with each individual character. However, there are certain general
+            situations one will come across that can be dealt with in the same way, regardless of the opposing character. It is useful to familiarise yourself with these as you expand your knowledge on each character's frame data.</p>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li><strong>Most lows in the game are -11 or less on block</strong>. Be sure to learn your character's i11 WS punish at the very least (WS 4 for most characters) and get that extra bit of damage whenever you block a low.</li>
+                <li class="desktop-tip">In the example to the right, <a href="./character.html?view=master-raven">Master Raven</a> uses her WS 4 to punish <a href="./character.html?view=paul">Paul</a>'s SS 3. However, that low is -13 on block; are there any other punishers she
+                    could've used in this situation? <span data-toggle="tooltip" data-html="true" title="Find out whether Master Raven has another WS punish with a start-up of i13 or quicker. (More damaging? More plus frames? Some characters can even launch this low!)">(Hover here for a hint)</span>
+                </li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-punish-low.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-punish-low.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-punish-low.gif" alt="Master Raven blocks Paul Phoenix's sidestep 3, and punishes with while standing 4.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li><strong>All stagger lows are launch punishable</strong>. If you happen to block a stagger low, make your opponent pay dearly by launching them and following up with a damaging combo; such lows are so unsafe they can even be punished by
+                    rage arts (all of which are i20, with <a href="#rage-arts">some exceptions</a>).</li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-punish-stagger-low.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-punish-stagger-low.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-punish-stagger-low.gif" alt="Hwoarang blocks Devil Jin's crouch dash 4, punishes with back 3, and follows up with a combo.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info">
+            <ul class="col-12">
+                <li><strong>Most hopkicks in the game are -13 on block</strong>. Don't let your opponent get away with them; find out your character's i10&ndash;13 punishers and take advantage of a blocked hopkick for some extra damage.</li>
+                <li class="desktop-tip">In the example to the right, <a href="./character.html?view=miguel">Miguel</a> uses his 2, 1 to punish <a href="./character.html?view=claudio">Claudio</a>'s hopkick (u/f+4). However, that punish has a start-up of i11; are there any other
+                    punishers he could've used in this situation? <span data-toggle="tooltip" data-html="true" title="Find out whether Miguel has another punish with a start-up of i13 or quicker. (More damaging? More plus frames? Does it knock down? Does it wall splat?)">(Hover here for a hint)</span></li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-punish-hopkick.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-punish-hopkick.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-punish-hopkick.gif" alt="Miguel Caballero Rojo blocks Claudio Serafino's up forward 4, and punishes with 2, 1.">
+</picture>
+            </figure>
+        </div>
+        <div class="row gif-info" id="rage-arts">
+            <ul class="col-12">
+                <li><strong>Most rage arts in the game are launch punishable mids that come out at i20</strong>. If you're not caught pressing buttons, block the rage art and finish off your opponent with a launcher followed by a combo.</li>
+                <li><strong>Eight characters</strong> in the game have rage arts with properties different to the usual:
+                    <ul class="sub-list">
+                        <li><strong><a href="./character.html?view=hwoarang">Hwoarang</a></strong>'s rage art is a <strong>safe mid</strong> that cannot be punished. However, <a href="https://www.youtube.com/watch?v=BhQ_tPrp3Rg" target="_blank">it can still be evaded</a>.</li>
+                        <li><strong><a href="/character.html?view=lucky-chloe">Lucky Chloe</a></strong>'s rage art is a <strong>launch punishable low</strong>. Be sure to <a href="https://www.youtube.com/watch?v=mdHqQBd4QaQ" target="_blank">duck and float or jump and punish</a>                            when you see it coming.</li>
+                        <li><strong><a href="./character.html?view=alisa">Alisa</a></strong>, <strong><a href="./character.html?view=anna">Anna</a></strong>, <strong><a href="./character.html?view=jin">Jin</a></strong> and <strong><a href="./character.html?view=steve">Steve</a></strong>'s
+                            rage arts are
+                            <strong>safe highs that come out at i13</strong>. Be sure to duck and punish when you see them coming.</li>
+                        <li><strong><a href="./character.html?view=geese">Geese</a></strong> has 2 rage arts: the first (Rashomon) is an <strong>unblockable high</strong> that must be ducked and punished, while the second (Deadly Rave) is a <strong>launch punishable mid</strong>                            like most rage arts.</li>
+                        <li><strong><a href="./character.html?view=akuma">Akuma</a></strong>'s rage art <strong>comes out at i16</strong> and consists of <strong>several unblockable mids</strong>. Be sure to jump (and punish) when you see it coming.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <figure class="col-5 inline-fig" role="complementary">
+                <picture>
+    <source srcset="/assets/img/guides/frame-data-punish-rage-art.webp" type="image/webp">
+    <source srcset="/assets/img/guides/frame-data-punish-rage-art.gif" type="image/gif">
+    <img src="/assets/img/guides/frame-data-punish-rage-art.gif" alt="Noctis Lucis Caelum blocks Jack-7's rage art, punishes with down forward 2, and follows up with a combo.">
+</picture>
+            </figure>
+        </div>
+    </section>
+    <section class="tab-pane fade" id="resources" role="tabpanel" aria-labelledby="resources-tab">
+        <h2 class="page-title">Frame data resources</h2>
+        <p>If you would like to check out the frame data for a particular character, the feature was made available in-game as paid downloadable content for Season 3 of <em>Tekken 7</em>. However, if you'd prefer to look up frame data externally for free,
+            we recommend visiting
+            <strong><a href="https://www.rbnorway.org/">RBNorway.org</a></strong>, which has frame data for every character in <em>Tekken 7</em> and <em>Tekken Tag Tournament 2</em>. If you'd like frame data on your phone, there are a number of apps available
+            for Android and iOS: try looking up "tekken 7 frame data" on your favourite app store.
+        </p>
+    </section>
+    <p class="top-link font-header">
+        <a href="#frame-data-tabs">Back to Sections</a>
+    </p>
+</div>
+</main>
+<footer role="contentinfo">
+    <div class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/guides/glossary.html">Glossary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sitemap.html">Sitemap</a>
+            </li>
+        </ul>
+        <p>TEKKEN 254 is not affiliated with Bandai Namco Entertainment, Inc. Tekken and its related content are copyright/registered
+            trademarks of Bandai Namco Entertainment, Inc.</p>
+        
+    </div>
+</footer>
+<!-- JAVASCRIPT / Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- JAVASCRIPT / Netlify CMS -->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<!-- JAVASCRIPT / Local -->
+<script type="text/javascript" src="/assets/js/main.js" async></script>
+
+</body>
+
+</html>

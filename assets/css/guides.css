@@ -1,0 +1,333 @@
+/* General */
+
+p.break {
+    margin-top: 2.5rem;
+}
+
+.sub-list {
+    margin-top: 0.5rem;
+}
+
+.gif-row {
+    display: none;
+    width: 100%;
+    margin: 0 auto !important;
+    justify-content: space-between;
+}
+
+.gif-info {
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin: 25px auto;
+    padding: 0 30px;
+}
+
+.gif-info:last-child {
+    margin-bottom: 0;
+}
+
+.gif-info>p,
+.gif-info>ul {
+    width: 65%;
+    padding-right: 5%;
+}
+
+.inline-fig {
+    display: none;
+    flex-direction: column;
+    width: auto;
+    margin: 20px auto;
+}
+
+.inline-fig picture {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.inline-fig.smaller picture {
+    max-width: 300px;
+}
+
+.inline-fig img {
+    width: inherit;
+    max-width: inherit;
+}
+
+.inline-fig figcaption#plain {
+    margin-bottom: initial;
+}
+
+
+/* Guides Intro */
+
+.guide-buttons {
+    width: 80% !important;
+    margin-top: 20px;
+}
+
+.guide-buttons .row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.guide-button {
+    min-width: 175px;
+    background-color: #ba2025;
+    color: white;
+    border: 1px solid #ba2025;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-property: background, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.guide-button:hover,
+.guide-button:focus {
+    background-color: #166734;
+    border: 1px solid #166734;
+    transition-property: background, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.guide-button.aside {
+    margin: 20px auto;
+}
+
+
+/* Attack and Defence */
+
+.high {
+    color: #FF00C8;
+}
+
+.mid {
+    color: #EDD23B;
+}
+
+.low {
+    color: #0048FF;
+}
+
+.special-mid {
+    color: #00FF00;
+}
+
+.unblockable {
+    color: #AA00FF;
+}
+
+
+/* Frame data and Notations */
+
+section h3 {
+    margin-bottom: 10px;
+}
+
+.notations {
+    background-color: rgba(51, 51, 51, 0.6);
+    border: 1px solid #f8f8ff;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 1rem auto;
+    color: white !important;
+}
+
+.notations thead,
+.notations tr.char-title {
+    border-bottom: 1px solid #f8f8ff;
+}
+
+.notations th {
+    background-color: #ccc;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    padding: 10px;
+}
+
+.notations td {
+    height: 36px;
+    padding: 10px;
+    border: none !important;
+}
+
+.notations tr.char-title {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-style: italic;
+    text-align: center;
+}
+
+.notations tr.char-title:not(:first-child) {
+    border-top: 1px solid #f8f8ff;
+}
+
+.commands td:first-child,
+.commands td:nth-child(3),
+.grounded td:first-child,
+.stances td:nth-child(2) {
+    width: 80px;
+}
+
+.stances td:first-child {
+    width: 25%;
+}
+
+.grounded td,
+.stances td {
+    width: auto;
+}
+
+.stances td {
+    vertical-align: top;
+}
+
+.stances {
+    padding-top: 14px;
+    padding-bottom: initial;
+}
+
+
+/* Characters */
+
+.characters-search {
+    width: 35%;
+}
+
+.character-list {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.character-list li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.character-list li:not(:last-child)::after {
+    content: " \2013";
+}
+
+#tier-list-tabs-content section {
+    margin: 0.625rem auto;
+}
+
+
+/* Glossary */
+
+p {
+    font-weight: normal;
+}
+
+.glossary.glossary-main {
+    border-top: 1px dotted rgba(128, 128, 128, 0.5);
+    padding-top: 0.875rem;
+}
+
+.glossary dt {
+    font-weight: 600 !important;
+}
+
+.glossary dd p:first-child {
+    margin-top: 0 !important;
+}
+
+.glossary dd p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.glossary dd li {
+    line-height: 1.25;
+}
+
+#mishima li {
+    margin-left: -22px;
+}
+
+#mishima li:last-child {
+    margin-bottom: 20px;
+}
+
+
+/* Custom */
+
+.parries-reversals-sabakis th,
+.parries-reversals-sabakis tr td:first-child {
+    font-weight: 600;
+}
+
+.parries-reversals-sabakis th:first-child {
+    width: calc(100% / 10);
+}
+
+.parries-reversals-sabakis th:not(:first-child) {
+    width: calc(100% / 3);
+}
+
+.parries-reversals-sabakis th [data-toggle="tooltip"] {
+    border-bottom: 1px dotted #166734;
+}
+
+.parries-reversals-sabakis tr th:not(:first-child),
+.parries-reversals-sabakis tr td:not(:first-child) {
+    text-align: center;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 992px) {
+    .gif-text {
+        color: #ad383c !important;
+    }
+    .gif-text-open {
+        color: #5e9a74 !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* General */
+    figure,
+    .inline-fig,
+    .inline-fig picture,
+    .inline-fig figcaption,
+    .gif-row,
+    .desktop-tip {
+        display: none;
+    }
+    .gif-info {
+        margin: 0 auto;
+    }
+    /* Guides Intro */
+    .guide-buttons {
+        width: 100% !important;
+    }
+    /* Characters */
+    .characters-search {
+        width: 60%;
+    }
+    /* Glossary */
+    .glossary dt:not(:first-child) {
+        margin-top: calc(5/3 * 2vw);
+    }
+    #mishima,
+    #mishima li:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    /* Characters */
+    .characters-search {
+        width: 100%;
+    }
+}

@@ -1,0 +1,129 @@
+/* Story elements */
+
+#story {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+}
+
+#story hr {
+    border-top: 1px dotted rgba(128, 128, 128, 0.5);
+}
+
+.post-top {
+    margin: 1.25rem 0 !important;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.post-top li {
+    display: inline-block;
+}
+
+.post-top li:not(:first-child):before {
+    content: " \00A0";
+}
+
+.post-top li:not(:last-child):after {
+    content: " \00A0 \00B7";
+}
+
+.post-top #categories a {
+    color: #ba2025 !important;
+    text-decoration: none !important;
+    transition: color 0.15s ease-in-out;
+}
+
+.post-top #categories a:hover,
+.post-top #categories a:focus {
+    color: #166734 !important;
+    transition: color 0.15s ease-in-out;
+}
+
+.post-author,
+#tags {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0.25rem 0.5rem !important;
+}
+
+.post-author {
+    border: 1px dotted rgba(186, 32, 37, 0.5);
+}
+
+#tags {
+    border: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+.post-meta-img,
+.post-img {
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.post-meta-img {
+    width: 100%;
+    height: 425px;
+}
+
+.post-img {
+    width: 100%;
+    height: 325px;
+}
+
+.post-table {
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: white !important;
+    margin: 1rem auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.post-table thead {
+    border-bottom: 1px solid #f8f8ff;
+}
+
+.post-table th {
+    background-color: #ccc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border: none !important;
+    text-align: left;
+    font-weight: 600;
+}
+
+.post-table tr:hover {
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+.post-table td {
+    padding: 10px;
+}
+
+.post-share {
+    margin-bottom: 0.875rem;
+}
+
+#related-posts {
+    border-top: 1px solid #166734;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 991px) {
+    #story {
+        width: 100%;
+    }
+    .post-meta-img,
+    .post-img {
+        height: 45vw;
+    }
+    .post-share {
+        margin-bottom: 4vw;
+    }
+}
