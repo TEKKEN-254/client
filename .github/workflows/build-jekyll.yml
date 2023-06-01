@@ -6,22 +6,19 @@ on:
             - main
 
 jobs:
-    build_and_deploy:
+    jekyll:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v2
 
-            # Use GitHub Actions' cache to cache dependencies on servers
-            - uses: actions/cache@v3
+            - uses: actions/cache@v2
               with:
                   path: vendor/bundle
-                  key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+                  key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
                   restore-keys: |
                       ${{ runner.os }}-gems-
 
-            # Use GitHub Deploy Action to build and deploy to Github
-            - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+            - uses: helaili/jekyll-action@v2
               with:
-                  provider: 'github'
-                  token: ${{ secrets.GH_TOKEN }}
-                  branch: 'jekyll'
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  target_branch: "jekyll"
