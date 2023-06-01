@@ -5,20 +5,30 @@ on:
         branches:
             - main
 
+permissions:
+    actions: write
+    checks: write
+    contents: read
+    deployments: write
+    pages: write
+
 jobs:
     jekyll:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v3
 
-            - uses: actions/cache@v2
+            # Use GitHub Actions' cache to cache dependencies on servers
+            - uses: actions/cache@v3
               with:
                   path: vendor/bundle
-                  key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+                  key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
                   restore-keys: |
                       ${{ runner.os }}-gems-
 
-            - uses: helaili/jekyll-action@v2
+            # Use GitHub Deploy Action to build and deploy to Github
+            - uses: jeffreytse/jekyll-deploy-action@v0.4.0
               with:
+                  provider: "github"
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  target_branch: "jekyll"
+                  branch: "jekyll"
